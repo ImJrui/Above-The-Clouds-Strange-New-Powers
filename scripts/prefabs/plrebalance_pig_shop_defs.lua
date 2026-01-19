@@ -31,32 +31,32 @@ local SHOPTYPES = {
 
         --others
         { "red_cap",                         "oinc", 1   },
-        { "moon_cap",                        "oinc", 5   },
+        { "moon_cap",                        "oinc", 10  },
         { "tentaclespots",                   "oinc", 5   },
         { "bee",                             "oinc", 5   },
-        { "beebox_blueprint",                "oinc", 50  },
-        { "saltbox_blueprint",               "oinc", 50  },
+        { "beebox_blueprint",                "oinc", 100 },
+        { "saltbox_blueprint",               "oinc", 100 },
         { "soil_amender",                    "oinc", 10  },
         { "premiumwateringcan",              "oinc", 50  },
         { "glasscutter_blueprint",           "oinc", 200 },
         { "nightstick_blueprint",            "oinc", 100 },
-        { "dragonflyfurnace_blueprint",      "oinc", 100 },
+        { "dragonflyfurnace_blueprint",      "oinc", 200 },
         
     },
 	skyworthy_shop_2 = { --TODO: split into multiple rooms
 		
 		--ruins
-        --[[{ "skeletonhat",        "oinc", 100  },
-        { "armorskeleton",        "oinc", 100  },
-        { "thurible",        "oinc", 100  },]]--
-		
-        { "yellowamulet",           "pedestal_key", 1    },
-        { "greenamulet",            "pedestal_key", 1    },
-        { "orangeamulet",           "pedestal_key", 1    },
-        { "yellowstaff",            "pedestal_key", 1    },
-        { "greenstaff",             "pedestal_key", 1    },
-        { "orangestaff",            "pedestal_key", 1    },
-        { "opalstaff",              "waterdrop"   , 1    },
+        --[[{ "skeletonhat",            "oinc", 100  },
+        { "armorskeleton",              "oinc", 100  },
+        { "thurible",                   "oinc", 100  },]]--
+        
+        { "yellowamulet",				"relic_1", 1  },
+        { "greenamulet",				"relic_2", 1  },
+        { "orangeamulet",				"relic_3", 1  },
+        { "yellowstaff",				"relic_1", 1  },
+        { "greenstaff", 				"relic_2", 1  },
+        { "orangestaff",				"relic_3", 1  },
+        { "opalstaff",					"relic_1", 1  },
     },
 	skyworthy_shop_3 = { --TODO: split into multiple rooms
 		

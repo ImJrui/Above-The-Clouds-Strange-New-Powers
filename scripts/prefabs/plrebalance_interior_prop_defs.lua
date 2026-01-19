@@ -73,13 +73,13 @@ local pool_skyworthy_shop_2 = {
 }
 		
 local pool_skyworthy_shop_2_items = {
-	{ "yellowamulet",        "relic_1", 1  },
-	{ "greenamulet",        "relic_2", 1  },
-	{ "orangeamulet",        "relic_3", 1  },
-	{ "yellowstaff",        "relic_1", 1  },
-	{ "greenstaff",        "relic_2", 1  },
-	{ "orangestaff",        "relic_3", 1  },
-	{ "opalstaff",        "relic_1", 1  },
+	{ "yellowamulet",           "pedestal_key", 1    },
+	{ "greenamulet",            "pedestal_key", 1    },
+	{ "orangeamulet",           "pedestal_key", 1    },
+	{ "yellowstaff",            "pedestal_key", 1    },
+	{ "greenstaff",             "pedestal_key", 1    },
+	{ "orangestaff",            "pedestal_key", 1    },
+	{ "opalstaff",              "waterdrop"   , 1    },
 }
 		
 local pool_skyworthy_shop_3 = {
@@ -102,26 +102,26 @@ local pool_skyworthy_shop_3 = {
 local pool_skyworthy_shop_3_items = {
 		
 	--moonquay
-	{ "dug_bananabush",        "oinc", 10  },
-	{ "palmcone_seed",        "oinc", 5  },
-	-- { "dock_kit",        "oinc", 5  },
-	{ "dock_woodposts_item",        "oinc", 5  },
-	{ "boat_cannon_kit",        "oinc", 20  },
-	{ "cannonball_rock_item",        "oinc", 3  },
-	{ "turf_monkey_ground",        "oinc", 2  },
+	{ "dug_bananabush",				"oinc", 20 },
+	{ "palmcone_seed",				"oinc", 10 },
+	{ "dock_kit",					"oinc", 20 },
+	{ "dock_woodposts_item",		"oinc", 5  },
+	{ "boat_cannon_kit",			"oinc", 50 },
+	{ "cannonball_rock_item",		"oinc", 10 },
+	{ "turf_monkey_ground",			"oinc", 5  },
 	
 	--lunar
-	{ "dug_rock_avocado_bush",        "oinc", 10  },
-	{ "bullkelp_root",        "oinc", 5  },
+	{ "dug_rock_avocado_bush", 		"oinc", 20 },
+	{ "bullkelp_root",				"oinc", 20 },
 	
 	--toad
-	{ "shroom_skin",        "oinc", 20  },
-	{ "mushroom_light_blueprint",        "oinc", 30  },
-	{ "mushroom_light2_blueprint",        "oinc", 30  },
+	{ "shroom_skin",				"oinc", 50 },
+	{ "mushroom_light_blueprint", 	"oinc", 400},
+	{ "mushroom_light2_blueprint",	"oinc", 500},
 	
 	--pearl
-	{ "hermit_bundle_shells",        "oinc", 10  },
-	{ "turf_shellbeach",        "oinc", 2  },
+	{ "hermit_bundle_shells",		"oinc", 20 },
+	{ "turf_shellbeach",			"oinc", 5  },
 }
 
 PROP_DEFS.skyworthy_shop = function (depth, width, exterior_door_def, exterior_door_def_2, exterior_door_def_3)
