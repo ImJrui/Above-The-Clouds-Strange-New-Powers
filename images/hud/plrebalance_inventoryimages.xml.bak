@@ -1,0 +1,38 @@
+<Atlas>
+    <Texture filename="plrebalance_inventoryimages.tex"/>
+    <Elements>
+        <Element name="wx78module_porklandrebalance_fan.tex" u1="0" u2="0.03125" v1="0.96875" v2="1"/>
+        <Element name="wx78module_porklandrebalance_filter.tex" u1="0.03125" u2="0.0625" v1="0.96875" v2="1"/>
+        <Element name="draftsman_tools.tex" u1="0.0625" u2="0.09375" v1="0.96875" v2="1"/>
+        <Element name="seedofruin.tex" u1="0.09375" u2="0.125" v1="0.96875" v2="1"/>
+        <Element name="slingshotammo_infused.tex" u1="0.125" u2="0.15625" v1="0.96875" v2="1"/>
+        <Element name="slingshotammo_shadow.tex" u1="0.15625" u2="0.1875" v1="0.96875" v2="1"/>
+        <Element name="slingshotammo_alloy.tex" u1="0.1875" u2="0.21875" v1="0.96875" v2="1"/>
+        <Element name="spice_lotus.tex" u1="0.21875" u2="0.25" v1="0.96875" v2="1"/>
+        <Element name="spice_lotus_over.tex" u1="0.25" u2="0.28125" v1="0.96875" v2="1"/>
+        <Element name="sweetandsourcarp.tex" u1="0.28125" u2="0.3125" v1="0.96875" v2="1"/>
+        <Element name="frogfishbowl_hamlet.tex" u1="0.3125" u2="0.34375" v1="0.96875" v2="1"/>
+        <Element name="radish_oversized.tex" u1="0.34375" u2="0.375" v1="0.96875" v2="1"/>
+        <Element name="radish_oversized_rotten.tex" u1="0.375" u2="0.40625" v1="0.96875" v2="1"/>
+        <Element name="radish_oversized_waxed.tex" u1="0.40625" u2="0.4375" v1="0.96875" v2="1"/>
+        <Element name="aloe_oversized.tex" u1="0.4375" u2="0.46875" v1="0.96875" v2="1"/>
+        <Element name="aloe_oversized_rotten.tex" u1="0.46875" u2="0.5" v1="0.96875" v2="1"/>
+        <Element name="aloe_oversized_waxed.tex" u1="0.5" u2="0.53125" v1="0.96875" v2="1"/>
+        <Element name="season_autumn.tex" u1="0.53125" u2="0.5625" v1="0.96875" v2="1"/>
+        <Element name="season_winter.tex" u1="0.5625" u2="0.59375" v1="0.96875" v2="1"/>
+        <Element name="season_spring.tex" u1="0.59375" u2="0.625" v1="0.96875" v2="1"/>
+        <Element name="season_summer.tex" u1="0.625" u2="0.65625" v1="0.96875" v2="1"/>
+        <Element name="season_temperate.tex" u1="0.65625" u2="0.6875" v1="0.96875" v2="1"/>
+        <Element name="season_humid.tex" u1="0.6875" u2="0.71875" v1="0.96875" v2="1"/>
+        <Element name="season_lush.tex" u1="0.71875" u2="0.75" v1="0.96875" v2="1"/>
+        <Element name="skyworthy_kit.tex" u1="0.75" u2="0.78125" v1="0.96875" v2="1"/>
+        <Element name="shoplocker.tex" u1="0.78125" u2="0.8125" v1="0.96875" v2="1"/>
+        <Element name="shoplocker2.tex" u1="0.8125" u2="0.84375" v1="0.96875" v2="1"/>
+        <Element name="shoplocker3.tex" u1="0.84375" u2="0.875" v1="0.96875" v2="1"/>
+        <Element name="shoplocker4.tex" u1="0.875" u2="0.90625" v1="0.96875" v2="1"/>
+        <Element name="dumbbell_iron.tex" u1="0.90625" u2="0.9375" v1="0.96875" v2="1"/>
+        <Element name="slingshotammo_scrapfeather_hamlet.tex" u1="0.9375" u2="0.96875" v1="0.96875" v2="1"/>
+        <Element name="tuber_tree_sapling.tex" u1="0.96875" u2="1" v1="0.96875" v2="1"/>
+        <Element name="nettle_sapling_item.tex" u1="0" u2="0.03125" v1="0.9375" v2="0.96875"/>
+    </Elements>
+</Atlas>
