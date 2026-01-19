@@ -263,6 +263,13 @@ local function PorklandChangeRecipes()
 		description="transmute_chitin"},
 		{"CHARACTER"})
 	SortAfter("transmute_chitin", "transmute_weevole_carapace", "CHARACTER")
+	AddRecipe2("transmute_gears", {Ingredient("alloy", 4), Ingredient("goldnugget", 2)}, TECH.SCIENCE_TWO,
+		{product="gears",
+		image="gears.tex",
+		builder_skill="wilson_alchemy_8",
+		description="transmute_gears"},
+		{"CHARACTER"})
+	SortAfter("transmute_gears", "transmute_chitin", "CHARACTER")
 	
 	--farm items
 	AddRecipe2("nutrientsgoggleshat",{Ingredient("plantregistryhat", 1), Ingredient("iron", 4), Ingredient("purplegem", 1)},TECH.SCIENCE_TWO,{}, {"GARDENING"})

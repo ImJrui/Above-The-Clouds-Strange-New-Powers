@@ -50,13 +50,13 @@ local SHOPTYPES = {
         { "armorskeleton",        "oinc", 100  },
         { "thurible",        "oinc", 100  },]]--
 		
-        { "yellowamulet",           "relic_1", 1    },
-        { "greenamulet",            "relic_2", 1    },
-        { "orangeamulet",           "relic_3", 1    },
-        { "yellowstaff",            "relic_1", 1    },
-        { "greenstaff",             "relic_2", 1    },
-        { "orangestaff",            "relic_3", 1    },
-        { "opalstaff",              "relic_1", 1    },
+        { "yellowamulet",           "pedestal_key", 1    },
+        { "greenamulet",            "pedestal_key", 1    },
+        { "orangeamulet",           "pedestal_key", 1    },
+        { "yellowstaff",            "pedestal_key", 1    },
+        { "greenstaff",             "pedestal_key", 1    },
+        { "orangestaff",            "pedestal_key", 1    },
+        { "opalstaff",              "waterdrop"   , 1    },
     },
 	skyworthy_shop_3 = { --TODO: split into multiple rooms
 		
