@@ -64,6 +64,7 @@ return {
 		TRANSMUTE_CHITIN= _Translator({EN = "Transmute Weevole Carapace into Chitin", CN = "将象鼻鼠虫壳转换为甲壳质"}),
 		TRANSMUTE_BEARDHAIR = _Translator({EN = "Transmute Spider Silk into Beard Hair", CN = "将蜘蛛丝转换为胡须"}),
 		TRANSMUTE_SILK = _Translator({EN = "Transmute Beard Hair into Spider Silk", CN = "将胡须转换为蜘蛛丝"}),
+		TRANSMUTE_GEARS = _Translator({EN = "Transmute Alloy and Goldnugget into Gears", CN = "将合金和金块转换为齿轮"}),
 
 		TUBER_TREE_SAPLING_ITEM = _Translator({EN = "Cultivate a tuber tree", CN = "培育一颗块茎树"}),
 	},
