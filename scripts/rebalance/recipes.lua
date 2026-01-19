@@ -1,5 +1,3 @@
-local EnableSkyworthy = GetModConfigData("EnableSkyworthy")
-
 local AddDeconstructRecipe = AddDeconstructRecipe
 local AddRecipe2 = AddRecipe2
 local AddRecipeFilter = AddRecipeFilter
@@ -293,7 +291,7 @@ AddPrefabPostInit("porkland", PorklandChangeRecipes) --load after world loads, b
 ---------------------------------------------------------------------
 AddSimPostInit(function()
 	-- 对所有世界生效
-	if EnableSkyworthy then
+	if PL_CONFIG["ENABLE_SKYWORTHY"] then
 		AddRecipe2("skyworthy_kit", {Ingredient("nightmarefuel", 4), Ingredient("livinglog", 4), Ingredient("trinket_giftshop_4", 1)}, TECH.MAGIC_TWO, nil, {"MAGIC","STRUCTURES"})
 		AddDeconstructRecipe("skyworthy", {Ingredient("nightmarefuel", 4), Ingredient("livinglog", 4), Ingredient("trinket_giftshop_4", 1)})
 	end

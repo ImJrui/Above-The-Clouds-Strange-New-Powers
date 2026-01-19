@@ -1,9 +1,14 @@
+local AddPrefabPostInit = AddPrefabPostInit
+local AddSimPostInit = AddSimPostInit
+GLOBAL.setfenv(1, GLOBAL)
+------------------------------------------------------------
+
 local cofig = {
-    ["ancient_hulk"] = GetModConfigData("rate_ancient_hulk_health"),
-    ["pugalisk"] = GetModConfigData("rate_pugalisk_health"),
-    ["pugalisk_segment"] = GetModConfigData("rate_pugalisk_health"),
-    ["ancient_herald_base"] = GetModConfigData("rate_ancient_herald_health"),
-    ["antqueen"] = GetModConfigData("rate_antqueen_health"),
+    ["ancient_hulk"] = PL_CONFIG["ANCIENT_HULK_HP_MULTIPLIER"],
+    ["pugalisk"] = PL_CONFIG["PUGALISK_HP_MULTIPLIER"],
+    ["pugalisk_segment"] = PL_CONFIG["PUGALISK_HP_MULTIPLIER"],
+    ["ancient_herald_base"] = PL_CONFIG["ANCIENT_HERALD_HP_MULTIPLIER"],
+    ["antqueen"] = PL_CONFIG["ANTQUEEN_HP_MULTIPLIER"],
 }
 
 TUNING.ANTQUEEN_HEALTH = TUNING.ANTQUEEN_HEALTH * cofig["antqueen"]
@@ -11,17 +16,6 @@ TUNING.ANCIENT_HULK_HEALTH = TUNING.ANCIENT_HULK_HEALTH * cofig["ancient_hulk"]
 TUNING.PUGALISK_HEALTH = TUNING.PUGALISK_HEALTH * cofig["pugalisk"]
 TUNING.ANCIENT_HERALD_HEALTH = TUNING.ANCIENT_HERALD_HEALTH * cofig["ancient_herald_base"]
 
-GLOBAL.setmetatable(env, {
-    __index = function(t, k)
-        return GLOBAL.rawget(GLOBAL, k)
-    end,
-})
-
-local AddPrefabPostInit = AddPrefabPostInit
-local SetSharedLootTable = SetSharedLootTable
-local AddSimPostInit = AddSimPostInit
-
-------------------------------------------------------------
 local extra_loot = {
     ["ancient_hulk"] = {"ruinshat", "armorruins"},
     ["pugalisk"] = {"orangeamulet", "yellowamulet", "greenamulet"},

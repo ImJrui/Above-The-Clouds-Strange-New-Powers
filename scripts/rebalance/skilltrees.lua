@@ -1,8 +1,7 @@
-local EnableSkilltree = GetModConfigData("EnableSkilltree")
-if not EnableSkilltree then return end
-
 local AddSimPostInit = AddSimPostInit
 GLOBAL.setfenv(1, GLOBAL)
+
+if not PL_CONFIG["ENABLE_SKYWORTHY"] then return end
 
 local skilltreedefs = require("prefabs/skilltree_defs")
 local DEBUG_REBUILD = skilltreedefs.DEBUG_REBUILD

@@ -1,8 +1,8 @@
 --level世界 -- task分支 -- room地块/彩蛋等
 
-local Terrarium = GetModConfigData("Terrarium")
-local TouchStone = GetModConfigData("TouchStone")
-local Critterlab = GetModConfigData("Critterlab")
+local ENABLE_TERRARIUM = GetModConfigData("ENABLE_TERRARIUM")
+local ENABLE_TOUCHSTONE = GetModConfigData("ENABLE_TOUCHSTONE")
+local ENABLE_CRITTERLAB = GetModConfigData("ENABLE_CRITTERLAB")
 local Teleportato_Base = true -- 默认添加
 
 
@@ -22,13 +22,13 @@ Layouts["plrebalance_Teleportato_Base"] = StaticLayout.Get("map/static_layouts/p
 -- 3. 创建配置映射表（清晰定义任务点与布局关系）
 local TASK_CONFIG = {
     -- Terrarium = {
-	-- 	enable = Terrarium,
+	-- 	enable = ENABLE_TERRARIUM,
     --     count = 1,
     --     tasks = { "Deep_lost_ruins4" },
     --     layout = "plrebalance_Terrarium"
     -- },
     TouchStone = {
-		enable = TouchStone,
+		enable = ENABLE_TOUCHSTONE,
         count = 4,
         tasks = { 
             "rainforest_ruins",
@@ -39,7 +39,7 @@ local TASK_CONFIG = {
         layout = "plrebalance_ResurrectionStone"
     },
     Critterlab = {
-		enable = Critterlab,
+		enable = ENABLE_CRITTERLAB,
         count = 1,
         tasks = { "pincale" },
         layout = "plrebalance_Critterlab"
@@ -55,7 +55,7 @@ local TASK_CONFIG = {
             "Deep_wild_ruins4",
             "wild_ancient_ruins",
         },
-        layout = Terrarium and "plrebalance_Terrarium" or "plrebalance_Teleportato_Base"
+        layout = ENABLE_TERRARIUM and "plrebalance_Terrarium" or "plrebalance_Teleportato_Base"
     }
 }
 

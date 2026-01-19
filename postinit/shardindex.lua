@@ -1,9 +1,8 @@
 local modname = modname
 local AddSimPostInit = AddSimPostInit
-local GetModConfigData = GetModConfigData
 GLOBAL.setfenv(1, GLOBAL)
 
-if not GetModConfigData("EnableSkyworthy") then
+if not PL_CONFIG["ENABLE_SKYWORTHY"] then
     return
 end
 

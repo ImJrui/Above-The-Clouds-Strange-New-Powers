@@ -1,5 +1,3 @@
-local EnableSkyworthy = GetModConfigData("EnableSkyworthy")
-
 local modimport = modimport
 GLOBAL.setfenv(1, GLOBAL)
 
@@ -103,7 +101,7 @@ local module_posts_skyworthy = {
 }
 
 
-if EnableSkyworthy then
+if PL_CONFIG["ENABLE_SKYWORTHY"] then
     for i = 1,#component_posts_skyworthy do
         table.insert(component_posts, component_posts_skyworthy[i])
     end
