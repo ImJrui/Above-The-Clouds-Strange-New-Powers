@@ -83,7 +83,8 @@ local LOST_RECIPES_FOREST = {
     "poisonbalm",
     "sprinkler",
     "slow_farmplot",
-    "fast_farmplot"
+    "fast_farmplot",
+    "tuber_tree_sapling_item",
 }
 
 local PIGSHOPLIST = {
