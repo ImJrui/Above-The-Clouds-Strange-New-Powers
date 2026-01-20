@@ -5,6 +5,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT Version: 2.0"
 
+#. STRINGS.CITY_PIG_SOW_ACCEPT_SEEDS
+msgctxt "STRINGS.CITY_PIG_SOW_ACCEPT_SEEDS"
+msgid "YON SEED REQUIRE'TH CULTIVATION?"
+msgstr "你的种子需要栽培吗？"
+
+#. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE
+msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE"
+msgid "Hmm... this is a bit past its prime. I'll still take it, but for a reduced price."
+msgstr "嗯...这有点不新鲜了。我仍然会收下，但价格会低一些。"
+
+#. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_SPOILED
+msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_SPOILED"
+msgid "Eww! This is spoiled! Well, I'll give you one oinc for it, but don't tell anyone!"
+msgstr "噫！这东西坏了！好吧，我给你一个呼噜币，但别告诉别人！"
+
 #. STRINGS.CITY_PIG_SOW_ALREADY_HAVE_SEEDS
 msgctxt "STRINGS.CITY_PIG_SOW_ALREADY_HAVE_SEEDS"
 msgid "YE STRAIN IS ALREADY CULTIVATED"
@@ -15,90 +30,75 @@ msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM"
 msgid "Ah, excellent produce! The quality is superb. Here's your payment, my friend."
 msgstr "哇，上等的农产品！品质极佳。这是给你的报酬，朋友。"
 
-#. STRINGS.CITY_PIG_SOW_ACCEPT_SEEDS
-msgctxt "STRINGS.CITY_PIG_SOW_ACCEPT_SEEDS"
-msgid "YON SEED REQUIRE'TH CULTIVATION?"
-msgstr "你的种子需要栽培吗？"
-
-#. STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK
-msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK"
-msgid "Reincarnate"
-msgstr "重选"
-
-#. STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOPREFRESH
-msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOPREFRESH"
-msgid "Refresh Commission"
-msgstr "刷新佣金"
-
-#. STRINGS.ACTIONS.PORKLANDREBALANCE_WALTERAIMEDSHOT
-msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_WALTERAIMEDSHOT"
-msgid "Aim At"
-msgstr "瞄准"
-
-#. STRINGS.ACTIONS.PORKLANDREBALANCE_REGENERATERUINS
-msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_REGENERATERUINS"
-msgid "Regenerate"
-msgstr "重置"
-
-#. STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOP
-msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOP"
-msgid "Commission {item}"
-msgstr "佣金 {item}"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC"
-msgid "Ah, a nettle sprout. Best not to touch it barehanded."
-msgstr "啊，是荨麻的幼苗。最好别空手去碰它。"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
-msgid "Ah, perhaps it's not yet the season for blooming."
-msgstr "啊，或许还没到开花的季节。"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "I need to plant this in the right place."
+msgstr "我得把它种在对的地方。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "The soil is too dry, it needs more moisture to grow."
 msgstr "这土壤太干燥了，需要更多水分才能生长。"
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
-msgid "I need to plant this in the right place."
-msgstr "我得把它种在对的地方。"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
-msgid "A tiny tuber sprout,waiting to grow."
-msgstr "一株小小的块茎嫩芽，等待着生长。"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Ah, perhaps it's not yet the season for blooming."
 msgstr "啊，或许还没到开花的季节。"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Ah, a nettle sprout. Best not to touch it barehanded."
+msgstr "啊，是荨麻的幼苗。最好别空手去碰它。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "I need to plant this in the right place."
 msgstr "我得把它种在对的地方。"
 
-#. STRINGS.RECIPE_DESC.SEEDOFRUIN
-msgctxt "STRINGS.RECIPE_DESC.SEEDOFRUIN"
-msgid "It all started with a small seed..."
-msgstr "好久以前，一切都像这只小混沌"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Ah, perhaps it's not yet the season for blooming."
+msgstr "啊，或许还没到开花的季节。"
 
-#. STRINGS.RECIPE_DESC.SHOPLOCKER
-msgctxt "STRINGS.RECIPE_DESC.SHOPLOCKER"
-msgid "Install it on the store's shelves,always keep it in stock!"
-msgstr "安装在商店货架之上，确保货品永不断供！"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "A tiny tuber sprout,waiting to grow."
+msgstr "一株小小的块茎嫩芽，等待着生长。"
+
+#. STRINGS.RECIPE_DESC.TRANSMUTE_MOSQUITOSACK
+msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_MOSQUITOSACK"
+msgid "Transmute Spider Gland into Mosquito Sack"
+msgstr "将蜘蛛腺转换为蚊子血囊"
+
+#. STRINGS.RECIPE_DESC.SPICE_LOTUS
+msgctxt "STRINGS.RECIPE_DESC.SPICE_LOTUS"
+msgid "A kind of traditional Chinese medicine, it can be immune to the hayfever and venom."
+msgstr "一味中药，它可以免疫花粉过敏和中毒。"
+
+#. STRINGS.RECIPE_DESC.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.RECIPE_DESC.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Blow that fog away!"
+msgstr "把雾吹散！"
+
+#. STRINGS.RECIPE_DESC.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.RECIPE_DESC.TUBER_TREE_SAPLING_ITEM"
+msgid "Cultivate a tuber tree"
+msgstr "培育一颗块茎树"
 
 #. STRINGS.RECIPE_DESC.TRANSMUTE_GEARS
 msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_GEARS"
 msgid "Transmute Alloy and Goldnugget into Gears"
 msgstr "将合金和金块转换为齿轮"
 
-#. STRINGS.RECIPE_DESC.TUBER_TREE_SAPLING_ITEM
-msgctxt "STRINGS.RECIPE_DESC.TUBER_TREE_SAPLING_ITEM"
-msgid "Cultivate a tuber tree"
-msgstr "培育一颗块茎树"
+#. STRINGS.RECIPE_DESC.SHOPLOCKER
+msgctxt "STRINGS.RECIPE_DESC.SHOPLOCKER"
+msgid "Install it on the store's shelves,always keep it in stock!"
+msgstr "安装在商店货架之上，确保货品永不断供！"
+
+#. STRINGS.RECIPE_DESC.SEEDOFRUIN
+msgctxt "STRINGS.RECIPE_DESC.SEEDOFRUIN"
+msgid "It all started with a small seed..."
+msgstr "好久以前，一切都像这只小混沌"
 
 #. STRINGS.RECIPE_DESC.TRANSMUTE_SPIDERGLAND
 msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_SPIDERGLAND"
@@ -110,13 +110,8 @@ msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_CHITIN"
 msgid "Transmute Weevole Carapace into Chitin"
 msgstr "将象鼻鼠虫壳转换为甲壳质"
 
-#. STRINGS.RECIPE_DESC.WX78MODULE_PORKLANDREBALANCE_FAN
-msgctxt "STRINGS.RECIPE_DESC.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "Blow that fog away!"
-msgstr "把雾吹散！"
-
-#. STRINGS.RECIPE_DESC.PIG_SHOP_SKYWORTHY
-msgctxt "STRINGS.RECIPE_DESC.PIG_SHOP_SKYWORTHY"
+#. STRINGS.RECIPE_DESC.SKYWORTHY_SHOP
+msgctxt "STRINGS.RECIPE_DESC.SKYWORTHY_SHOP"
 msgid "A Walmart-like supermarket"
 msgstr "一座像沃尔玛一样的超市"
 
@@ -130,20 +125,25 @@ msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_BEARDHAIR"
 msgid "Transmute Spider Silk into Beard Hair"
 msgstr "将蜘蛛丝转换为胡须"
 
+#. STRINGS.RECIPE_DESC.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.RECIPE_DESC.PIG_SHOP_SKYWORTHY"
+msgid "A Walmart-like supermarket"
+msgstr "一座像沃尔玛一样的超市"
+
 #. STRINGS.RECIPE_DESC.TRANSMUTE_WEEVOLE_CARAPACE
 msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_WEEVOLE_CARAPACE"
 msgid "Transmute Chitin into Weevole Carapace"
 msgstr "将甲壳质转换为象鼻鼠虫壳"
 
+#. STRINGS.RECIPE_DESC.DUMBBELL_IRON
+msgctxt "STRINGS.RECIPE_DESC.DUMBBELL_IRON"
+msgid "A weight as steely as your muscles."
+msgstr "锻炼你的肌肉，让它像钢铁一样坚强"
+
 #. STRINGS.RECIPE_DESC.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.RECIPE_DESC.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "Even a soulless automaton requires a filter."
 msgstr "即使是没有灵魂的机器也需要过滤器。"
-
-#. STRINGS.RECIPE_DESC.TRANSMUTE_MOSQUITOSACK
-msgctxt "STRINGS.RECIPE_DESC.TRANSMUTE_MOSQUITOSACK"
-msgid "Transmute Spider Gland into Mosquito Sack"
-msgstr "将蜘蛛腺转换为蚊子血囊"
 
 #. STRINGS.RECIPE_DESC.SKYWORTHY_KIT
 msgctxt "STRINGS.RECIPE_DESC.SKYWORTHY_KIT"
@@ -155,310 +155,70 @@ msgctxt "STRINGS.RECIPE_DESC.SLINGSHOTAMMO_ALLOY"
 msgid "It is made of the highest quality alloy."
 msgstr "它是由最优质的合金制成的"
 
-#. STRINGS.RECIPE_DESC.DUMBBELL_IRON
-msgctxt "STRINGS.RECIPE_DESC.DUMBBELL_IRON"
-msgid "A weight as steely as your muscles."
-msgstr "锻炼你的肌肉，让它像钢铁一样坚强"
-
 #. STRINGS.RECIPE_DESC.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.RECIPE_DESC.SLINGSHOTAMMO_SHADOW"
 msgid "Summon tentacles from the ancient past."
 msgstr "召唤远古时代的触手"
-
-#. STRINGS.RECIPE_DESC.SPICE_LOTUS
-msgctxt "STRINGS.RECIPE_DESC.SPICE_LOTUS"
-msgid "A kind of traditional Chinese medicine, it can be immune to the hayfever and venom."
-msgstr "一味中药，它可以免疫花粉过敏和中毒。"
 
 #. STRINGS.RECIPE_DESC.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.RECIPE_DESC.SLINGSHOTAMMO_INFUSED"
 msgid "Contains a mysterious energy that explodes when it hits."
 msgstr "里面蕴含某种神秘的力量，当击中目标时会产生爆炸。"
 
-#. STRINGS.RECIPE_DESC.SKYWORTHY_SHOP
-msgctxt "STRINGS.RECIPE_DESC.SKYWORTHY_SHOP"
-msgid "A Walmart-like supermarket"
-msgstr "一座像沃尔玛一样的超市"
+#. STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOPREFRESH
+msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOPREFRESH"
+msgid "Refresh Commission"
+msgstr "刷新佣金"
 
-#. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_SPOILED
-msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_SPOILED"
-msgid "Eww! This is spoiled! Well, I'll give you one oinc for it, but don't tell anyone!"
-msgstr "噫！这东西坏了！好吧，我给你一个呼噜币，但别告诉别人！"
+#. STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK
+msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK"
+msgid "Reincarnate"
+msgstr "重选"
 
-#. STRINGS.NAMES.SEEDOFRUIN
-msgctxt "STRINGS.NAMES.SEEDOFRUIN"
-msgid "Seed of Ruin"
-msgstr "遗迹种子"
+#. STRINGS.ACTIONS.PORKLANDREBALANCE_REGENERATERUINS
+msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_REGENERATERUINS"
+msgid "Regenerate"
+msgstr "重置"
 
-#. STRINGS.NAMES.ALOE_OVERSIZED_ROTTEN
-msgctxt "STRINGS.NAMES.ALOE_OVERSIZED_ROTTEN"
-msgid "Rotting Giant Aloe Plant"
-msgstr "巨型腐烂芦荟"
+#. STRINGS.ACTIONS.PORKLANDREBALANCE_WALTERAIMEDSHOT
+msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_WALTERAIMEDSHOT"
+msgid "Aim At"
+msgstr "瞄准"
 
-#. STRINGS.NAMES.NETTLE_SAPLING
-msgctxt "STRINGS.NAMES.NETTLE_SAPLING"
-msgid "Nettle Sapling"
-msgstr "荨麻苗"
+#. STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOP
+msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_LOCKSHOP"
+msgid "Commission {item}"
+msgstr "佣金 {item}"
 
-#. STRINGS.NAMES.RADISH_OVERSIZED_ROTTEN
-msgctxt "STRINGS.NAMES.RADISH_OVERSIZED_ROTTEN"
-msgid "Giant Rotting Radish Plant"
-msgstr "巨型腐烂水萝卜"
-
-#. STRINGS.NAMES.TUBER_TREE_SAPLING
-msgctxt "STRINGS.NAMES.TUBER_TREE_SAPLING"
-msgid "Tuber Sapling"
-msgstr "块茎树苗"
-
-#. STRINGS.NAMES.SPICE_LOTUS
-msgctxt "STRINGS.NAMES.SPICE_LOTUS"
-msgid "Lotus Herb"
-msgstr "半边莲"
-
-#. STRINGS.NAMES.SWEETANDSOURCARP
-msgctxt "STRINGS.NAMES.SWEETANDSOURCARP"
-msgid "Sweet and Sour Carp"
-msgstr "糖醋鲤鱼"
-
-#. STRINGS.NAMES.NETTLE_SAPLING_ITEM
-msgctxt "STRINGS.NAMES.NETTLE_SAPLING_ITEM"
-msgid "Nettle Seeds"
-msgstr "荨麻籽"
-
-#. STRINGS.NAMES.SPICE_LOTUS_FOOD
-msgctxt "STRINGS.NAMES.SPICE_LOTUS_FOOD"
-msgid "Bitter {food}"
-msgstr "苦味{food}"
-
-#. STRINGS.NAMES.TUBER_TREE_SAPLING_ITEM
-msgctxt "STRINGS.NAMES.TUBER_TREE_SAPLING_ITEM"
-msgid "Tuber Sapling"
-msgstr "块茎树苗"
-
-#. STRINGS.NAMES.SKYWORTHY
-msgctxt "STRINGS.NAMES.SKYWORTHY"
-msgid "Skyworthy"
-msgstr "天空之椅"
-
-#. STRINGS.NAMES.SUNKEN_BOAT_TRINKET_2
-msgctxt "STRINGS.NAMES.SUNKEN_BOAT_TRINKET_2"
-msgid "Toy Boat"
-msgstr "玩具船"
-
-#. STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FAN
-msgctxt "STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "Convection Circuit"
-msgstr "对流电路"
-
-#. STRINGS.NAMES.SKYWORTHY_SHOP_RECIPE
-msgctxt "STRINGS.NAMES.SKYWORTHY_SHOP_RECIPE"
-msgid "Skyworthy Shop"
-msgstr "天空之椅商店"
-
-#. STRINGS.NAMES.DUMBBELL_IRON
-msgctxt "STRINGS.NAMES.DUMBBELL_IRON"
-msgid "Iron Dumbbell"
-msgstr "钢铁哑铃"
-
-#. STRINGS.NAMES.SHOPLOCKER
-msgctxt "STRINGS.NAMES.SHOPLOCKER"
-msgid "Mayoral Mandate"
-msgstr "镇长命令"
-
-#. STRINGS.NAMES.PIG_SHOP_SKYWORTHY
-msgctxt "STRINGS.NAMES.PIG_SHOP_SKYWORTHY"
-msgid "Skyworthy Shop"
-msgstr "天空之椅商店"
-
-#. STRINGS.NAMES.PORTAL
-msgctxt "STRINGS.NAMES.PORTAL"
-msgid "Florid Postern"
-msgstr "绚丽之门"
-
-#. STRINGS.NAMES.RADISH_OVERSIZED
-msgctxt "STRINGS.NAMES.RADISH_OVERSIZED"
-msgid "Giant Radish Plant"
-msgstr "巨型水萝卜"
-
-#. STRINGS.NAMES.ALOE_OVERSIZED_WAXED
-msgctxt "STRINGS.NAMES.ALOE_OVERSIZED_WAXED"
-msgid "Waxed Giant Aloe Plant"
-msgstr "打过蜡的 巨型芦荟"
-
-#. STRINGS.NAMES.ALOE_OVERSIZED
-msgctxt "STRINGS.NAMES.ALOE_OVERSIZED"
-msgid "Giant Aloe Plant"
-msgstr "巨型芦荟"
-
-#. STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FILTER
-msgctxt "STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FILTER"
-msgid "Purifying Circuit"
-msgstr "净化电路"
-
-#. STRINGS.NAMES.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.NAMES.FROGFISHBOWL_HAMLET"
-msgid "Fish Cordon Bleu"
-msgstr "蓝带鱼排"
-
-#. STRINGS.NAMES.SKYWORTHY_KIT
-msgctxt "STRINGS.NAMES.SKYWORTHY_KIT"
-msgid "Skyworthy Kit"
-msgstr "天空之椅套装"
-
-#. STRINGS.NAMES.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.NAMES.SLINGSHOTAMMO_ALLOY"
-msgid "Alloy Rounds"
-msgstr "合金弹丸"
-
-#. STRINGS.NAMES.RADISH_OVERSIZED_WAXED
-msgctxt "STRINGS.NAMES.RADISH_OVERSIZED_WAXED"
-msgid "Waxed Giant Radish Plant"
-msgstr "打过蜡的 巨型水萝卜"
-
-#. STRINGS.NAMES.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.NAMES.SLINGSHOTAMMO_SHADOW"
-msgid "Shadow Rounds"
-msgstr "暗影弹丸"
-
-#. STRINGS.NAMES.PROP_DOOR_HAMPORTAL
-msgctxt "STRINGS.NAMES.PROP_DOOR_HAMPORTAL"
-msgid "Skyworthy Shop"
-msgstr "天空之椅商店"
-
-#. STRINGS.NAMES.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.NAMES.SLINGSHOTAMMO_INFUSED"
-msgid "Infused Rounds"
-msgstr "注能弹丸"
-
-#. STRINGS.NAMES.SKYWORTHY_SHOP
-msgctxt "STRINGS.NAMES.SKYWORTHY_SHOP"
-msgid "Skyworthy Shop"
-msgstr "天空之椅商店"
-
-#. STRINGS.UI.SAVEINTEGRATION.ISLAND
-msgctxt "STRINGS.UI.SAVEINTEGRATION.ISLAND"
-msgid "Shipwrecked"
-msgstr "海难"
-
-#. STRINGS.UI.SAVEINTEGRATION.NODESTINATIONS
-msgctxt "STRINGS.UI.SAVEINTEGRATION.NODESTINATIONS"
-msgid "There is no world for you to travel to."
-msgstr "没有世界可供前往。"
-
-#. STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_TITLE
-msgctxt "STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_TITLE"
-msgid "Travel to another world?"
-msgstr "要前往另一个世界吗？"
-
-#. STRINGS.UI.SAVEINTEGRATION.PORKLAND
-msgctxt "STRINGS.UI.SAVEINTEGRATION.PORKLAND"
-msgid "Hamlet"
-msgstr "猪镇"
-
-#. STRINGS.UI.SAVEINTEGRATION.UNKNOWN
-msgctxt "STRINGS.UI.SAVEINTEGRATION.UNKNOWN"
-msgid "Unknown"
-msgstr "未知"
-
-#. STRINGS.UI.SAVEINTEGRATION.VOLCANO
-msgctxt "STRINGS.UI.SAVEINTEGRATION.VOLCANO"
-msgid "Volcano"
-msgstr "火山"
-
-#. STRINGS.UI.SAVEINTEGRATION.CAVE
-msgctxt "STRINGS.UI.SAVEINTEGRATION.CAVE"
-msgid "Caves"
-msgstr "洞穴"
-
-#. STRINGS.UI.SAVEINTEGRATION.FOREST
-msgctxt "STRINGS.UI.SAVEINTEGRATION.FOREST"
-msgid "Forest"
-msgstr "森林"
-
-#. STRINGS.UI.SAVEINTEGRATION.OK
-msgctxt "STRINGS.UI.SAVEINTEGRATION.OK"
-msgid "OK"
-msgstr "好的"
-
-#. STRINGS.UI.SAVEINTEGRATION.CANCEL
-msgctxt "STRINGS.UI.SAVEINTEGRATION.CANCEL"
-msgid "Cancel"
-msgstr "取消"
-
-#. STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_BODY
-msgctxt "STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_BODY"
-msgid "Where would you like to travel to?"
-msgstr "你想要去哪里呢？"
-
-#. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE
-msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE"
-msgid "Hmm... this is a bit past its prime. I'll still take it, but for a reduced price."
-msgstr "嗯...这有点不新鲜了。我仍然会收下，但价格会低一些。"
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WOLFGANG_MIGHTINESS
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WOLFGANG_MIGHTINESS"
-msgid "Wolfgang is strongest again!"
-msgstr "沃尔夫冈又是最强壮的了！"
+#. STRINGS.CHARACTER_LINE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTER_LINE.SUNKEN_BOAT_TRINKET_2"
+msgid "In this junk pile, lies the treasure of the Pig King!"
+msgstr "在这堆垃圾里，竟藏着猪王的珍宝！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_BERNIE
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_BERNIE"
 msgid "Bernie's ready for action again!"
 msgstr "伯尼又可以陪我战斗了！"
 
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_GROGGINESS
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_GROGGINESS"
-msgid "This sleeplessness... it's draining me..."
-msgstr "这无眠之夜...正在耗尽我的精力..."
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WANDA
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WANDA"
-msgid "The temporal fracture is mended!"
-msgstr "时间裂隙被修复了"
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_HELMET
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_HELMET"
-msgid "A clear mind is a warrior's best armor."
-msgstr "清醒的头脑是战士最好的盔甲."
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.MAXWELL
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.MAXWELL"
-msgid "The ancient writings... they're glowing!"
-msgstr "古老的文字在发光..."
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_GHOST_HEAL
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_GHOST_HEAL"
-msgid "Rest now, dear sister..."
-msgstr "好好休息吧，我亲爱的妹妹..."
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_BONDLEVEL
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_BONDLEVEL"
-msgid "Our bond grows stronger, Abigail!"
-msgstr "阿比盖尔，我们的羁绊更深了！"
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_REMOTE
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_REMOTE"
-msgid "Signal's crystal clear! No more faulty connections."
-msgstr "信号清晰无比！再也不会连接故障了。"
-
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_LIGHTER
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_LIGHTER"
-msgid "No more cold nights. Let's light up the world!"
-msgstr "没有寒冷的夜了，让我们点燃世界吧！"
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WOLFGANG_MIGHTINESS
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WOLFGANG_MIGHTINESS"
+msgid "Wolfgang is strongest again!"
+msgstr "沃尔夫冈又是最强壮的了！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_TELEBRELLA
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_TELEBRELLA"
 msgid "Back in action! Gotta stay mobile for the job."
 msgstr "又能用了！工作需要随时保持机动性。"
 
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_INSPIRATION
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_INSPIRATION"
-msgid "My battle song resonates within!"
-msgstr "战斗之歌在我心中回响！"
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_BONDLEVEL
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_BONDLEVEL"
+msgid "Our bond grows stronger, Abigail!"
+msgstr "阿比盖尔，我们的羁绊更深了！"
 
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_KNOCKOUT
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_KNOCKOUT"
-msgid "Finally... sweet unconsciousness..."
-msgstr "终于...沉入了无意识的甜梦..."
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WANDA
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WANDA"
+msgid "The temporal fracture is mended!"
+msgstr "时间裂隙被修复了"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_DRY
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_DRY"
@@ -470,6 +230,51 @@ msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_CHARGE"
 msgid "POWER LEVELS MAXIMIZED"
 msgstr "能量水平达到最大值"
 
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_LIGHTER
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_LIGHTER"
+msgid "No more cold nights. Let's light up the world!"
+msgstr "没有寒冷的夜了，让我们点燃世界吧！"
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_KNOCKOUT
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_KNOCKOUT"
+msgid "Finally... sweet unconsciousness..."
+msgstr "终于...沉入了无意识的甜梦..."
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.MAXWELL
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.MAXWELL"
+msgid "The ancient writings... they're glowing!"
+msgstr "古老的文字在发光..."
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_GHOST_HEAL
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_GHOST_HEAL"
+msgid "Rest now, dear sister..."
+msgstr "好好休息吧，我亲爱的妹妹..."
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_STORAGE_ROBOT
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_STORAGE_ROBOT"
+msgid "My bot's purring like new! Efficiency restored."
+msgstr "我的机器人像新的一样！工作效率恢复了。"
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_INSPIRATION
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_INSPIRATION"
+msgid "My battle song resonates within!"
+msgstr "战斗之歌在我心中回响！"
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_GROGGINESS
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_GROGGINESS"
+msgid "This sleeplessness... it's draining me..."
+msgstr "这无眠之夜...正在耗尽我的精力..."
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_REMOTE
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_REMOTE"
+msgid "Signal's crystal clear! No more faulty connections."
+msgstr "信号清晰无比！再也不会连接故障了。"
+
+#. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_HELMET
+msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_HELMET"
+msgid "A clear mind is a warrior's best armor."
+msgstr "清醒的头脑是战士最好的盔甲."
+
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SHIELD
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SHIELD"
 msgid "My shield is my oath to stand unbroken!"
@@ -480,15 +285,220 @@ msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SPEAR"
 msgid "My spare thirsts for new battles!"
 msgstr "我的长矛渴望着新的战斗！"
 
-#. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_STORAGE_ROBOT
-msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_STORAGE_ROBOT"
-msgid "My bot's purring like new! Efficiency restored."
-msgstr "我的机器人像新的一样！工作效率恢复了。"
+#. STRINGS.NAMES.PROP_DOOR_HAMPORTAL
+msgctxt "STRINGS.NAMES.PROP_DOOR_HAMPORTAL"
+msgid "Skyworthy Shop"
+msgstr "天空之椅商店"
 
-#. STRINGS.CHARACTER_LINE.SUNKEN_BOAT_TRINKET_2
-msgctxt "STRINGS.CHARACTER_LINE.SUNKEN_BOAT_TRINKET_2"
-msgid "In this junk pile, lies the treasure of the Pig King!"
-msgstr "在这堆垃圾里，竟藏着猪王的珍宝！"
+#. STRINGS.NAMES.ALOE_OVERSIZED_WAXED
+msgctxt "STRINGS.NAMES.ALOE_OVERSIZED_WAXED"
+msgid "Waxed Giant Aloe Plant"
+msgstr "打过蜡的 巨型芦荟"
+
+#. STRINGS.NAMES.RADISH_OVERSIZED_WAXED
+msgctxt "STRINGS.NAMES.RADISH_OVERSIZED_WAXED"
+msgid "Waxed Giant Radish Plant"
+msgstr "打过蜡的 巨型水萝卜"
+
+#. STRINGS.NAMES.PORTAL
+msgctxt "STRINGS.NAMES.PORTAL"
+msgid "Florid Postern"
+msgstr "绚丽之门"
+
+#. STRINGS.NAMES.SKYWORTHY_SHOP_RECIPE
+msgctxt "STRINGS.NAMES.SKYWORTHY_SHOP_RECIPE"
+msgid "Skyworthy Shop"
+msgstr "天空之椅商店"
+
+#. STRINGS.NAMES.DUMBBELL_IRON
+msgctxt "STRINGS.NAMES.DUMBBELL_IRON"
+msgid "Iron Dumbbell"
+msgstr "钢铁哑铃"
+
+#. STRINGS.NAMES.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.NAMES.SLINGSHOTAMMO_SHADOW"
+msgid "Shadow Rounds"
+msgstr "暗影弹丸"
+
+#. STRINGS.NAMES.SPICE_LOTUS
+msgctxt "STRINGS.NAMES.SPICE_LOTUS"
+msgid "Lotus Herb"
+msgstr "半边莲"
+
+#. STRINGS.NAMES.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.NAMES.TUBER_TREE_SAPLING_ITEM"
+msgid "Tuber Sapling"
+msgstr "块茎树苗"
+
+#. STRINGS.NAMES.SPICE_LOTUS_FOOD
+msgctxt "STRINGS.NAMES.SPICE_LOTUS_FOOD"
+msgid "Bitter {food}"
+msgstr "苦味{food}"
+
+#. STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Convection Circuit"
+msgstr "对流电路"
+
+#. STRINGS.NAMES.TUBER_TREE_SAPLING
+msgctxt "STRINGS.NAMES.TUBER_TREE_SAPLING"
+msgid "Tuber Sapling"
+msgstr "块茎树苗"
+
+#. STRINGS.NAMES.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.NAMES.SUNKEN_BOAT_TRINKET_2"
+msgid "Toy Boat"
+msgstr "玩具船"
+
+#. STRINGS.NAMES.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.NAMES.NETTLE_SAPLING_ITEM"
+msgid "Nettle Seeds"
+msgstr "荨麻籽"
+
+#. STRINGS.NAMES.SHOPLOCKER
+msgctxt "STRINGS.NAMES.SHOPLOCKER"
+msgid "Mayoral Mandate"
+msgstr "镇长命令"
+
+#. STRINGS.NAMES.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.NAMES.RADISH_OVERSIZED_ROTTEN"
+msgid "Giant Rotting Radish Plant"
+msgstr "巨型腐烂水萝卜"
+
+#. STRINGS.NAMES.SEEDOFRUIN
+msgctxt "STRINGS.NAMES.SEEDOFRUIN"
+msgid "Seed of Ruin"
+msgstr "遗迹种子"
+
+#. STRINGS.NAMES.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.NAMES.FROGFISHBOWL_HAMLET"
+msgid "Fish Cordon Bleu"
+msgstr "蓝带鱼排"
+
+#. STRINGS.NAMES.RADISH_OVERSIZED
+msgctxt "STRINGS.NAMES.RADISH_OVERSIZED"
+msgid "Giant Radish Plant"
+msgstr "巨型水萝卜"
+
+#. STRINGS.NAMES.SKYWORTHY_SHOP
+msgctxt "STRINGS.NAMES.SKYWORTHY_SHOP"
+msgid "Skyworthy Shop"
+msgstr "天空之椅商店"
+
+#. STRINGS.NAMES.ALOE_OVERSIZED
+msgctxt "STRINGS.NAMES.ALOE_OVERSIZED"
+msgid "Giant Aloe Plant"
+msgstr "巨型芦荟"
+
+#. STRINGS.NAMES.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.NAMES.ALOE_OVERSIZED_ROTTEN"
+msgid "Rotting Giant Aloe Plant"
+msgstr "巨型腐烂芦荟"
+
+#. STRINGS.NAMES.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.NAMES.PIG_SHOP_SKYWORTHY"
+msgid "Skyworthy Shop"
+msgstr "天空之椅商店"
+
+#. STRINGS.NAMES.SWEETANDSOURCARP
+msgctxt "STRINGS.NAMES.SWEETANDSOURCARP"
+msgid "Sweet and Sour Carp"
+msgstr "糖醋鲤鱼"
+
+#. STRINGS.NAMES.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.NAMES.SLINGSHOTAMMO_ALLOY"
+msgid "Alloy Rounds"
+msgstr "合金弹丸"
+
+#. STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.NAMES.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Purifying Circuit"
+msgstr "净化电路"
+
+#. STRINGS.NAMES.SKYWORTHY_KIT
+msgctxt "STRINGS.NAMES.SKYWORTHY_KIT"
+msgid "Skyworthy Kit"
+msgstr "天空之椅套装"
+
+#. STRINGS.NAMES.NETTLE_SAPLING
+msgctxt "STRINGS.NAMES.NETTLE_SAPLING"
+msgid "Nettle Sapling"
+msgstr "荨麻苗"
+
+#. STRINGS.NAMES.SKYWORTHY
+msgctxt "STRINGS.NAMES.SKYWORTHY"
+msgid "Skyworthy"
+msgstr "天空之椅"
+
+#. STRINGS.NAMES.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.NAMES.SLINGSHOTAMMO_INFUSED"
+msgid "Infused Rounds"
+msgstr "注能弹丸"
+
+#. STRINGS.UI.SAVEINTEGRATION.OK
+msgctxt "STRINGS.UI.SAVEINTEGRATION.OK"
+msgid "OK"
+msgstr "好的"
+
+#. STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_BODY
+msgctxt "STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_BODY"
+msgid "Where would you like to travel to?"
+msgstr "你想要去哪里呢？"
+
+#. STRINGS.UI.SAVEINTEGRATION.UNKNOWN
+msgctxt "STRINGS.UI.SAVEINTEGRATION.UNKNOWN"
+msgid "Unknown"
+msgstr "未知"
+
+#. STRINGS.UI.SAVEINTEGRATION.PORKLAND
+msgctxt "STRINGS.UI.SAVEINTEGRATION.PORKLAND"
+msgid "Hamlet"
+msgstr "猪镇"
+
+#. STRINGS.UI.SAVEINTEGRATION.FOREST
+msgctxt "STRINGS.UI.SAVEINTEGRATION.FOREST"
+msgid "Forest"
+msgstr "森林"
+
+#. STRINGS.UI.SAVEINTEGRATION.CANCEL
+msgctxt "STRINGS.UI.SAVEINTEGRATION.CANCEL"
+msgid "Cancel"
+msgstr "取消"
+
+#. STRINGS.UI.SAVEINTEGRATION.VOLCANO
+msgctxt "STRINGS.UI.SAVEINTEGRATION.VOLCANO"
+msgid "Volcano"
+msgstr "火山"
+
+#. STRINGS.UI.SAVEINTEGRATION.CAVE
+msgctxt "STRINGS.UI.SAVEINTEGRATION.CAVE"
+msgid "Caves"
+msgstr "洞穴"
+
+#. STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_TITLE
+msgctxt "STRINGS.UI.SAVEINTEGRATION.CHOOSE_DEST_TITLE"
+msgid "Travel to another world?"
+msgstr "要前往另一个世界吗？"
+
+#. STRINGS.UI.SAVEINTEGRATION.ISLAND
+msgctxt "STRINGS.UI.SAVEINTEGRATION.ISLAND"
+msgid "Shipwrecked"
+msgstr "海难"
+
+#. STRINGS.UI.SAVEINTEGRATION.NODESTINATIONS
+msgctxt "STRINGS.UI.SAVEINTEGRATION.NODESTINATIONS"
+msgid "There is no world for you to travel to."
+msgstr "没有世界可供前往。"
+
+#. STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC
+msgctxt "STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC"
+msgid "Transform 2 Beard Hair into Spider Silk.\nTransform 2 Spider Silk into Beard Hair."
+msgstr "将2个胡须转换为蜘蛛丝\n将2个蜘蛛丝转换为胡须"
+
+#. STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_8_DESC
+msgctxt "STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_8_DESC"
+msgid "Transform 2 Spider Glands into Mosquito Sack.\nTransform 2 Mosquito Sacks into Spider Gland.\nTransform 2 Chitin into Weevole Carapace.\nTransform 2 Weevole Carapace into Chitin."
+msgstr "将2个蜘蛛腺体转换为蚊子血囊。\n将2个蚊子血囊转换为蜘蛛腺体。\n将2个甲壳质转换为象鼻鼠虫壳。\n将2个象鼻鼠虫壳转换为甲壳质。"
 
 #. STRINGS.SKILLTREE.WURT.WURT_MERMKINGSHOULDERS_DESC
 msgctxt "STRINGS.SKILLTREE.WURT.WURT_MERMKINGSHOULDERS_DESC"
@@ -500,28 +510,68 @@ msgctxt "STRINGS.SKILLTREE.WURT.WURT_MERMKINGTRIDENT_DESC"
 msgid "Offer Trident or Pugalisk Wand, and your merms will attack with the deftness of three."
 msgstr "为国王献上翘鼻蛇怪权杖/三叉戟，你的鱼人将以三连拍的方式灵巧攻击。"
 
-#. STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_8_DESC
-msgctxt "STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_8_DESC"
-msgid "Transform 2 Spider Glands into Mosquito Sack.\nTransform 2 Mosquito Sacks into Spider Gland.\nTransform 2 Chitin into Weevole Carapace.\nTransform 2 Weevole Carapace into Chitin."
-msgstr "将2个蜘蛛腺体转换为蚊子血囊。\n将2个蚊子血囊转换为蜘蛛腺体。\n将2个甲壳质转换为象鼻鼠虫壳。\n将2个象鼻鼠虫壳转换为甲壳质。"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "The Queen gave this gift to the King."
+msgstr "这是女王献给国王的礼物."
 
-#. STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC
-msgctxt "STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC"
-msgid "Transform 2 Beard Hair into Spider Silk.\nTransform 2 Spider Silk into Beard Hair."
-msgstr "将2个胡须转换为蜘蛛丝\n将2个蜘蛛丝转换为胡须"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS"
+msgid "This smells bitter"
+msgstr "它闻起来很苦"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "A tiny tuber sprout,waiting to grow."
+msgstr "啊，是荨麻的幼苗。最好别空手去碰它。"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A tiny tuber sprout,waiting to grow."
+msgstr "一株小小的块茎嫩芽，等待着生长。"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "It's rotten."
+msgstr "它腐烂了."
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEEDOFRUIN"
 msgid "I'm sure this has a lot of science in it!"
 msgstr "我相信这里面有很多科学道理！"
 
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Is that just... frogs stuffed inside a fish?"
+msgstr "这是鱼里面塞了只青蛙吗？"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER"
+msgid "I'll pay them to never run out of stock!"
+msgstr "我会付钱给他们，保证他们永远不会缺货！"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Affordable and diverse in product range"
+msgstr "价格实惠，产品种类多样"
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED"
+msgid "Scientifical and nutritional."
+msgstr "科学和营养."
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED"
+msgid "It looks radishing."
+msgstr "它看起来像萝卜."
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Affordable and diverse in product range"
+msgstr "价格实惠，产品种类多样"
+
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
-msgid "It's rotten."
-msgstr "它腐烂了."
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "It's rotten."
 msgstr "它腐烂了."
 
@@ -530,45 +580,10 @@ msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP"
 msgid "Weeeeeeee T_T"
 msgstr "Weeeeeeee T_T"
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
-msgid "A tiny tuber sprout,waiting to grow."
-msgstr "一株小小的块茎嫩芽，等待着生长。"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY"
-msgid "Looks like an exit-ing ride!"
-msgstr "看起来像一个令人兴奋的旅程！"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP"
-msgid "Affordable and diverse in product range"
-msgstr "价格实惠，产品种类多样"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Is that just... frogs stuffed inside a fish?"
-msgstr "这是鱼里面塞了只青蛙吗？"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY"
-msgid "Affordable and diverse in product range"
-msgstr "价格实惠，产品种类多样"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM"
-msgid "A tiny tuber sprout,waiting to grow."
-msgstr "啊，是荨麻的幼苗。最好别空手去碰它。"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
-msgid "The Queen gave this gift to the King."
-msgstr "这是女王献给国王的礼物."
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER"
-msgid "I'll pay them to never run out of stock!"
-msgstr "我会付钱给他们，保证他们永远不会缺货！"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "There is a feeling of evil"
+msgstr "有一种邪恶的感觉"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT"
@@ -580,35 +595,15 @@ msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Its material originates from an advanced civilization."
 msgstr "它的材料来自于一个先进的文明"
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED"
-msgid "Scientifical and nutritional."
-msgstr "科学和营养."
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "There is a feeling of evil"
-msgstr "有一种邪恶的感觉"
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED"
-msgid "It looks radishing."
-msgstr "它看起来像萝卜."
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS"
-msgid "This smells bitter"
-msgstr "它闻起来很苦"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY"
+msgid "Looks like an exit-ing ride!"
+msgstr "看起来像一个令人兴奋的旅程！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "It was made by Stark Industries"
 msgstr "它是斯塔克工业制造的"
-
-#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN"
-msgid "A prehistorical recombinator!"
-msgstr "一个史前重组器！"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_KIT"
@@ -620,15 +615,15 @@ msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER"
 msgid "Never again will I have to scrounge through stock!"
 msgstr "我再也不用在库存里翻箱倒柜了！"
 
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN"
+msgid "A prehistorical recombinator!"
+msgstr "一个史前重组器！"
+
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY"
 msgid "Another innovation that runs on dark fuel!"
 msgstr "又一项利用暗燃料的创新！"
-
-#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN"
-msgid "Take a chill pill, like this seed chilling inside, ya know?"
-msgstr "吃一片冷静的药丸，就像这颗种子在里面冷却一样，你知道吗？"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_KIT"
@@ -640,20 +635,40 @@ msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER"
 msgid "I'm too lazy to riffle through shops, ya know?"
 msgstr "我实在懒得挨个翻找店铺啦，你懂吧？"
 
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN"
+msgid "Take a chill pill, like this seed chilling inside, ya know?"
+msgstr "吃一片冷静的药丸，就像这颗种子在里面冷却一样，你知道吗？"
+
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY"
 msgid "Sweet ride!"
 msgstr "甜蜜的旅程!"
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER"
+msgid "I'm the mayor! When I say stock this, you gotta stock this!"
+msgstr "我可是市长！我说要进这批货，你们就必须给我进！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SEEDOFRUIN"
 msgid "Spooky!"
 msgstr "令人毛骨悚然！"
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER"
-msgid "I'm the mayor! When I say stock this, you gotta stock this!"
-msgstr "我可是市长！我说要进这批货，你们就必须给我进！"
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Uh... Maybe Woby wants some"
+msgstr "呃…… 也许沃比想吃一点"
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED"
+msgid "Low cost medicine."
+msgstr "低成本药品."
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED"
+msgid "Little plant that came from the ground."
+msgstr "从地里长出来的小植物."
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -670,30 +685,20 @@ msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "I adore the metallic clang it makes upon impact."
 msgstr "我喜欢它撞击时发出的金属铿锵声"
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED"
-msgid "Low cost medicine."
-msgstr "低成本药品."
-
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY"
 msgid "A real haunted ride!"
 msgstr "一次真正的闹鬼之旅！"
-
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED"
-msgid "Little plant that came from the ground."
-msgstr "从地里长出来的小植物."
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "It was made by Stark Industries"
 msgstr "它是斯塔克工业制造的"
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Uh... Maybe Woby wants some"
-msgstr "呃…… 也许沃比想吃一点"
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER"
+msgid "I don't have time to search through your stock."
+msgstr "我可没工夫在你们仓库里翻来翻去。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SEEDOFRUIN"
@@ -705,40 +710,45 @@ msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_KIT"
 msgid "This is one of those gatekeeper-thingamajigs, isn't it?"
 msgstr "这是一个门卫的事情，不是吗？"
 
-#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY"
-msgid "This is one of those gatekeeper-thingamajigs, isn't it?"
-msgstr "这是一个门卫的事情，不是吗？"
-
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED"
 msgid "Radishing"
 msgstr "萝卜！"
 
-#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER"
-msgid "I don't have time to search through your stock."
-msgstr "我可没工夫在你们仓库里翻来翻去。"
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY"
+msgid "This is one of those gatekeeper-thingamajigs, isn't it?"
+msgstr "这是一个门卫的事情，不是吗？"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED"
 msgid "A-a-aloe, but giant."
 msgstr "芦荟，但是很大."
 
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER"
+msgid "Perchance they may finally stock what I need, non?"
+msgstr "兴许这次他们终于会备齐我要的货了，对吧？"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS"
+msgid "This is a kind of medicine"
+msgstr "这是一种药"
+
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SEEDOFRUIN"
 msgid "Ruins are a little like gourmet food, don't you think?"
 msgstr "废墟有点像美食，你不觉得吗？"
 
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED"
+msgid "I'm thinking a nice summer salad..."
+msgstr "我在想美味的夏季沙拉……"
+
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_KIT"
 msgid "Any good restaurants in there?"
 msgstr "那里有好餐馆吗？"
-
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER"
-msgid "Perchance they may finally stock what I need, non?"
-msgstr "兴许这次他们终于会备齐我要的货了，对吧？"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED"
@@ -750,25 +760,30 @@ msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY"
 msgid "Any good restaurants in there?"
 msgstr "那里有好餐馆吗？"
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED"
-msgid "I'm thinking a nice summer salad..."
-msgstr "我在想美味的夏季沙拉……"
-
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP"
 msgid "I learned to cook this dish in Jinan, China"
 msgstr "我在中国济南学会这道菜"
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS"
-msgid "This is a kind of medicine"
-msgstr "这是一种药"
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "My ally is a god among men."
+msgstr "我的盟友是人间的神."
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER"
+msgid "By Wotan's Decree!"
+msgstr "谨遵沃坦圣谕！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SEEDOFRUIN"
 msgid "The seed of Hoddmimir's Holt."
 msgstr "霍德米米尔的霍尔特的种子."
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "What fun is a battle without hand to hand combat?"
+msgstr "没有肉搏战的战斗还有什么好玩的？"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_KIT"
@@ -780,48 +795,33 @@ msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "What fun is a battle without hand to hand combat?"
 msgstr "没有肉搏战的战斗还有什么好玩的？"
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER"
-msgid "By Wotan's Decree!"
-msgstr "谨遵沃坦圣谕！"
-
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY"
 msgid "Outward to adventure!"
 msgstr "去冒险！"
-
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "What fun is a battle without hand to hand combat?"
-msgstr "没有肉搏战的战斗还有什么好玩的？"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "What fun is a battle without hand to hand combat?"
 msgstr "没有肉搏战的战斗还有什么好玩的？"
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "My ally is a god among men."
-msgstr "我的盟友是人间的神."
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER"
+msgid "Urgh. Maybe these cursed swine will finally sell what I need."
+msgstr "啧，这群该死的蠢货总该有我要的东西了吧。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SEEDOFRUIN"
 msgid "To think, it all started with this."
 msgstr "想想看，这一切都是从这里开始的."
 
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "At the end of the day, it's still frog."
+msgstr "说到底，它还是青蛙."
+
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_KIT"
-msgid "An exit but not a way out."
-msgstr "一个出口，但不是出路."
-
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER"
-msgid "Urgh. Maybe these cursed swine will finally sell what I need."
-msgstr "啧，这群该死的蠢货总该有我要的东西了吧。"
-
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY"
 msgid "An exit but not a way out."
 msgstr "一个出口，但不是出路."
 
@@ -830,33 +830,33 @@ msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED"
 msgid "A reddish radish."
 msgstr "红萝卜"
 
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY"
+msgid "An exit but not a way out."
+msgstr "一个出口，但不是出路."
+
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED"
 msgid "I should eat it."
 msgstr "我应该吃了它."
-
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "At the end of the day, it's still frog."
-msgstr "说到底，它还是青蛙."
-
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN"
-msgid "This seed is REALLY spooky."
-msgstr "这颗种子真的很可怕"
-
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_KIT"
-msgid "That leads somewhere else."
-msgstr "这条路通向别的地方"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER"
 msgid "Please sell more of these, pretty please?"
 msgstr "拜托多卖点这种货嘛，真的求求了！"
 
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY"
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN"
+msgid "This seed is REALLY spooky."
+msgstr "这颗种子真的很可怕"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Thanks Warly!"
+msgstr "谢谢沃利!"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_KIT"
 msgid "That leads somewhere else."
 msgstr "这条路通向别的地方"
 
@@ -865,43 +865,43 @@ msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED"
 msgid "These are kinda spicy."
 msgstr "这些有点辣"
 
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY"
+msgid "That leads somewhere else."
+msgstr "这条路通向别的地方"
+
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED"
 msgid "I bet this is good for us!"
 msgstr "我打赌这对我们有好处!"
-
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Thanks Warly!"
-msgstr "谢谢沃利!"
-
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN"
-msgid "Is this the seed of my demise?"
-msgstr "这是我死亡的种子吗?"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER"
 msgid "My kingdom for that in stock..."
 msgstr "宁可拿整个王国换这点现货..."
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP"
-msgid "Can sweetness make me happy?"
-msgstr "甜的能让我感到快乐吗？"
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN"
+msgid "Is this the seed of my demise?"
+msgstr "这是我死亡的种子吗?"
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT"
-msgid "Shall I leave this mortal coil?"
-msgstr "我该离开这个尘世吗？"
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "It's actually... really good..."
+msgstr "其实…真的很好……"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED"
 msgid "It dies so that others may live."
 msgstr "它死是为了让别人活下去"
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY"
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS"
+msgid "It's bitter, just like my heart..."
+msgstr "是苦的，就像我的心一样……"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT"
 msgid "Shall I leave this mortal coil?"
 msgstr "我该离开这个尘世吗？"
 
@@ -910,20 +910,15 @@ msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED"
 msgid "The color of my blood."
 msgstr "我血液的颜色"
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS"
-msgid "It's bitter, just like my heart..."
-msgstr "是苦的，就像我的心一样……"
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY"
+msgid "Shall I leave this mortal coil?"
+msgstr "我该离开这个尘世吗？"
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "It's actually... really good..."
-msgstr "其实…真的很好……"
-
-#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN"
-msgid "Is this what took out my wings?"
-msgstr "这就是把我翅膀弄掉的东西吗?"
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP"
+msgid "Can sweetness make me happy?"
+msgstr "甜的能让我感到快乐吗？"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_KIT"
@@ -935,38 +930,43 @@ msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER"
 msgid "I'll be needing that, like, more, really soon."
 msgstr "我绝对要拿到那批货，真的，要加量，马上立刻要你懂的！"
 
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN"
+msgid "Is this what took out my wings?"
+msgstr "这就是把我翅膀弄掉的东西吗?"
+
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY"
 msgid "Does it actually fly?!"
 msgstr "它真的会飞吗?!"
-
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN"
-msgid "The cycle is like a droplet, forming a ring, or perhaps a spiral, into a line. Or so the myths say."
-msgstr "这个循环就像一个液滴,形成一个环,或者一个螺旋,形成一条线.至少神话是这么说的."
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER"
 msgid "A decree to commission an item."
 msgstr "兹颁布法令，正式委托制造某货品，即日生效！"
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP"
-msgid "No, it's too sweet"
-msgstr "不，太甜了"
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN"
+msgid "The cycle is like a droplet, forming a ring, or perhaps a spiral, into a line. Or so the myths say."
+msgstr "这个循环就像一个液滴,形成一个环,或者一个螺旋,形成一条线.至少神话是这么说的."
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT"
-msgid "An egress."
-msgstr "一个出口."
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "I'll happily volunteer to taste-test."
+msgstr "我很乐意自愿试吃"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED"
 msgid "Aloe. A plant with many uses."
 msgstr "芦荟,有多种用途的植物"
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY"
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS"
+msgid "Be beneficial to physical health"
+msgstr "对身体健康有益"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT"
 msgid "An egress."
 msgstr "一个出口."
 
@@ -975,20 +975,15 @@ msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED"
 msgid "Of the Brassicaceae family, I believe."
 msgstr "我想是属于十字花科的"
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS"
-msgid "Be beneficial to physical health"
-msgstr "对身体健康有益"
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY"
+msgid "An egress."
+msgstr "一个出口."
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "I'll happily volunteer to taste-test."
-msgstr "我很乐意自愿试吃"
-
-#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN"
-msgid "WILBA BRINGE'TH BACK THE PAST!"
-msgstr "我将带你回到过去!"
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP"
+msgid "No, it's too sweet"
+msgstr "不，太甜了"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_KIT"
@@ -1000,20 +995,40 @@ msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER"
 msgid "STOCK THESE, WILBA BESEECHETH THEE!"
 msgstr "备齐此货，威尔巴恳请阁下！"
 
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN"
+msgid "WILBA BRINGE'TH BACK THE PAST!"
+msgstr "我将带你回到过去!"
+
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY"
 msgid "THAT WAY MADNESS LIES"
 msgstr "这样疯狂的谎言"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER"
+msgid "I need more of these! To step! Hurry up and stock more, you jerk!"
+msgstr "再多来点！赶紧！快补库存，你这蠢货！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SEEDOFRUIN"
 msgid "This seed makes me want to do a fiery step-dance!"
 msgstr "这颗种子让我想跳一段火热的踢踏舞!"
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER"
-msgid "I need more of these! To step! Hurry up and stock more, you jerk!"
-msgstr "再多来点！赶紧！快补库存，你这蠢货！"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Woah, that's a ton of frogs."
+msgstr "哇，好多青蛙啊"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED"
+msgid "Gross. It's all gooey inside."
+msgstr "恶心,里面都是黏糊糊的"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED"
+msgid "Like little balls of fire."
+msgstr "就像小火球"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -1030,35 +1045,35 @@ msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Ever considered making your ammo a little more flammable?"
 msgstr "有没有考虑过让你的弹药更易燃一点"
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED"
-msgid "Gross. It's all gooey inside."
-msgstr "恶心,里面都是黏糊糊的"
-
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY"
 msgid "I should step out of here."
 msgstr "我应该离开这里"
-
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED"
-msgid "Like little balls of fire."
-msgstr "就像小火球"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Ever considered making your ammo a little more flammable?"
 msgstr "有没有考虑过让你的弹药更易燃一点"
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Woah, that's a ton of frogs."
-msgstr "哇，好多青蛙啊"
+#. STRINGS.CHARACTERS.WILSON.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Is that just... frogs stuffed inside a fish?"
+msgstr "这是鱼里面塞了只青蛙吗？"
+
+#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SHOPLOCKER"
+msgid "I'll pay them to never run out of stock!"
+msgstr "我会付钱给他们，保证他们永远不会缺货！"
 
 #. STRINGS.CHARACTERS.WILSON.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SEEDOFRUIN"
 msgid "I'm sure this has a lot of science in it!"
 msgstr "我相信这里面有很多科学道理!"
+
+#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Shots to be slinged."
+msgstr "即将打出的弹药"
 
 #. STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY_KIT"
@@ -1070,45 +1085,45 @@ msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Shots to be slinged."
 msgstr "即将打出的弹药"
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SHOPLOCKER"
-msgid "I'll pay them to never run out of stock!"
-msgstr "我会付钱给他们，保证他们永远不会缺货！"
-
 #. STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY"
 msgid "Looks like an exit-ing ride!"
 msgstr "看起来像一个令人兴奋的旅程!"
-
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "Shots to be slinged."
-msgstr "即将打出的弹药"
 
 #. STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Shots to be slinged."
 msgstr "即将打出的弹药"
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Is that just... frogs stuffed inside a fish?"
-msgstr "这是鱼里面塞了只青蛙吗？"
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER"
+msgid "Those swine betta' be more efficient at givin' me what I want!"
+msgstr "这群蠢货最好识相点！赶紧满足我的要求，否则有你们好看！"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SEEDOFRUIN"
 msgid "Those eggheads ought to take a crack at it."
 msgstr "那些书呆子应该试一试."
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER"
-msgid "Those swine betta' be more efficient at givin' me what I want!"
-msgstr "这群蠢货最好识相点！赶紧满足我的要求，否则有你们好看！"
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Mmm! Love Warly's dishes."
+msgstr "嗯!我喜欢沃利的菜"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED"
+msgid "Aloe's good for everything."
+msgstr "芦荟对什么都有好处"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON"
 msgid "Awful fancy for something you just pick up and put down over and over."
 msgstr "就是个反复拿起和放下的东西，弄这么花哨干啥。"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED"
+msgid "Radish-ical!"
+msgstr "萝卜"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -1125,45 +1140,45 @@ msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Hem. Handmade, irregular shapes."
 msgstr "哼哼.手工制作的,形状都是不规则的."
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED"
-msgid "Aloe's good for everything."
-msgstr "芦荟对什么都有好处"
-
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY"
 msgid "The bossman would love this..."
 msgstr "老板会喜欢这个的……"
-
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED"
-msgid "Radish-ical!"
-msgstr "萝卜"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Hem. Handmade, irregular shapes."
 msgstr "哼哼.手工制作的,形状都是不规则的."
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Mmm! Love Warly's dishes."
-msgstr "嗯!我喜欢沃利的菜"
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER"
+msgid "Wolfgang wants more of that item, please."
+msgstr "沃尔夫冈要更多"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SEEDOFRUIN"
 msgid "Wolfgang does not like spooky seed."
 msgstr "沃尔夫冈不喜欢幽灵般的种子"
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER"
-msgid "Wolfgang wants more of that item, please."
-msgstr "沃尔夫冈要更多"
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Food will make Wolfgang very strong!"
+msgstr "食物会让沃尔夫冈变得非常强壮!"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED"
+msgid "Wolfgang eat everything."
+msgstr "沃尔夫冈什么都吃"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON"
 msgid "Is Iron! Like Wolfgang's Muscles."
 msgstr "是钢铁！ 象沃尔夫冈的肌肉！"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED"
+msgid "Is spicy."
+msgstr "辣的"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -1180,48 +1195,33 @@ msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Is little bits of junk"
 msgstr "是一些小垃圾"
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED"
-msgid "Wolfgang eat everything."
-msgstr "沃尔夫冈什么都吃"
-
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY"
 msgid "Is fun flying machines."
 msgstr "有趣的飞行机器"
-
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED"
-msgid "Is spicy."
-msgstr "辣的"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Is little bits of junk"
 msgstr "是一些小垃圾"
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Food will make Wolfgang very strong!"
-msgstr "食物会让沃尔夫冈变得非常强壮!"
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER"
+msgid "Will be needin' more of these soon, shopkeep."
+msgstr "老板，这些货赶紧多备点儿，很快就断供了！"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SEEDOFRUIN"
 msgid "Hey, Lucy, this looks like the beginning again?"
 msgstr "嘿，露西，这又像开始了吗?"
 
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "I'm not one to turn my nose up at a meal."
+msgstr "我不是一个对一顿饭嗤之以鼻的人"
+
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_KIT"
-msgid "It goes somewhere else."
-msgstr "它去了别的地方"
-
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER"
-msgid "Will be needin' more of these soon, shopkeep."
-msgstr "老板，这些货赶紧多备点儿，很快就断供了！"
-
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY"
 msgid "It goes somewhere else."
 msgstr "它去了别的地方"
 
@@ -1230,20 +1230,15 @@ msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED"
 msgid "Kinda tiny, aren't they?"
 msgstr "有点小，不是吗？"
 
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY"
+msgid "It goes somewhere else."
+msgstr "它去了别的地方"
+
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED"
 msgid "I hear aloe's good for you."
 msgstr "我听说芦荟对你有好处"
-
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "I'm not one to turn my nose up at a meal."
-msgstr "我不是一个对一顿饭嗤之以鼻的人"
-
-#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SEEDOFRUIN"
-msgid "Yarr! A mythic seed!"
-msgstr "哇!一颗神话中的种子!"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_KIT"
@@ -1255,28 +1250,33 @@ msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER"
 msgid "Yarr! I'll be plunderin' all your stock!"
 msgstr "给爷听好！你仓库里的货等着被搬空吧！"
 
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SEEDOFRUIN"
+msgid "Yarr! A mythic seed!"
+msgstr "哇!一颗神话中的种子!"
+
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY"
 msgid "'tis not a boat, but ye c'n sail it."
 msgstr "这不是船，但你可以驾驶它"
-
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN"
-msgid "Glowy seed"
-msgstr "有光泽的种子"
-
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT"
-msgid "Where to?"
-msgstr "去哪?"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER"
 msgid "Sell more."
 msgstr "多卖点这个东西！"
 
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY"
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN"
+msgid "Glowy seed"
+msgstr "有光泽的种子"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Yum yums!"
+msgstr "好吃!"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT"
 msgid "Where to?"
 msgstr "去哪?"
 
@@ -1285,33 +1285,33 @@ msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED"
 msgid "Red Balls For Belly"
 msgstr "肚子里的红球"
 
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY"
+msgid "Where to?"
+msgstr "去哪?"
+
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED"
 msgid "Clumpy Friend"
 msgstr "成块的朋友"
-
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Yum yums!"
-msgstr "好吃!"
-
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN"
-msgid "Hyuyuyu, time for the past to make a little hop here!"
-msgstr "嘿嘿嘿,过去的时光在这里跳跃!"
-
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT"
-msgid "Hyuyu, it's a hop, skip, and jump from here!"
-msgstr "嘿嘿,从这里跳,跳,跳!"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER"
 msgid "Hyuyu! These little piggies better sell what I want, or I'll blow their house down!"
 msgstr "嘿嘿！你们这群蠢蛋最好照单出货，不然分分钟拆了你这破店！"
 
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY"
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN"
+msgid "Hyuyuyu, time for the past to make a little hop here!"
+msgstr "嘿嘿嘿,过去的时光在这里跳跃!"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "I'd rather have a nice fresh soul."
+msgstr "我宁愿有一个新鲜的灵魂"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT"
 msgid "Hyuyu, it's a hop, skip, and jump from here!"
 msgstr "嘿嘿,从这里跳,跳,跳!"
 
@@ -1320,33 +1320,33 @@ msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED"
 msgid "Red! Like me!"
 msgstr "像我一样红!"
 
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY"
+msgid "Hyuyu, it's a hop, skip, and jump from here!"
+msgstr "嘿嘿,从这里跳,跳,跳!"
+
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED"
 msgid "Gooey."
 msgstr "黏糊糊的"
-
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "I'd rather have a nice fresh soul."
-msgstr "我宁愿有一个新鲜的灵魂"
-
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN"
-msgid "Wee-nowna lady knows what it do?"
-msgstr "薇诺娜女士知道它的作用吗？"
-
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_KIT"
-msgid "Machine to wee-folk land, florp!"
-msgstr "去到我们领土的机器,浮浪噗!"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SHOPLOCKER"
 msgid "Gimme more of that, piggie!"
 msgstr "猪头！赶紧给老子多上货！"
 
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN"
+msgid "Wee-nowna lady knows what it do?"
+msgstr "薇诺娜女士知道它的作用吗？"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "........."
+msgstr "........."
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_KIT"
 msgid "Machine to wee-folk land, florp!"
 msgstr "去到我们领土的机器,浮浪噗!"
 
@@ -1355,58 +1355,58 @@ msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED"
 msgid "Ball of num nums!"
 msgstr "无数个无数个的球!"
 
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY"
+msgid "Machine to wee-folk land, florp!"
+msgstr "去到我们领土的机器,浮浪噗!"
+
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED"
 msgid "Green plant, florp."
 msgstr "绿色植物,浮浪噗"
-
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "........."
-msgstr "........."
-
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN"
-msgid "PREHISTORICAL RECOMBINATOR"
-msgstr "史前重组器"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER"
 msgid "FUNCTION SELL_MORE_MEATSACK()"
 msgstr "启动函数：多卖点肉体()"
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
-msgid "PARTICULATE OBLITERATOR"
-msgstr "微粒阻断剂"
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN"
+msgid "PREHISTORICAL RECOMBINATOR"
+msgstr "史前重组器"
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT"
-msgid "EXIT PORT"
-msgstr "出口"
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "MY MINION IS VERY USEFUL"
+msgstr "我的仆从很有用"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED"
 msgid "GREEN ENERGY ACQUIRED"
 msgstr "获得绿色能源"
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY"
-msgid "EXIT PORT"
-msgstr "出口"
-
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED"
-msgid "RED SPHERICAL BALLS OF ENERGY"
-msgstr "红色的能量球"
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "PARTICULATE OBLITERATOR"
+msgstr "微粒阻断剂"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "EVEN THE WATER MIST CANNOT HARM ME"
 msgstr "即使是水雾也伤害不了我"
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "MY MINION IS VERY USEFUL"
-msgstr "我的仆从很有用"
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED"
+msgid "RED SPHERICAL BALLS OF ENERGY"
+msgstr "红色的能量球"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY"
+msgid "EXIT PORT"
+msgstr "出口"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT"
+msgid "EXIT PORT"
+msgstr "出口"
 
