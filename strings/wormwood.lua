@@ -1,16 +1,14 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Glowy seed", CN = "有光泽的种子"}),
-		SKYWORTHY = _Translator({EN = "Where to?", CN = "去哪?"}),
-		SKYWORTHY_KIT = _Translator({EN = "Where to?", CN = "去哪?"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "Yum yums!", CN = "好吃!"}),
-		ALOE_OVERSIZED = _Translator({EN = "Clumpy Friend", CN = "成块的朋友"}),
-		RADISH_OVERSIZED = _Translator({EN = "Red Balls For Belly", CN = "肚子里的红球"}),
-		SHOPLOCKER = _Translator({EN = "Sell more.", CN = "多卖点这个东西！"}),
+		SEEDOFRUIN = en_zh({EN = "Glowy seed", CN = "有光泽的种子"}),
+		SKYWORTHY = en_zh({EN = "Where to?", CN = "去哪?"}),
+		SKYWORTHY_KIT = en_zh({EN = "Where to?", CN = "去哪?"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "Yum yums!", CN = "好吃!"}),
+		ALOE_OVERSIZED = en_zh({EN = "Clumpy Friend", CN = "成块的朋友"}),
+		RADISH_OVERSIZED = en_zh({EN = "Red Balls For Belly", CN = "肚子里的红球"}),
+		SHOPLOCKER = en_zh({EN = "Sell more.", CN = "多卖点这个东西！"}),
 	},
 }
 --[[

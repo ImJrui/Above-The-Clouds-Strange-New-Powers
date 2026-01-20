@@ -1,16 +1,14 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Wee-nowna lady knows what it do?", CN = "薇诺娜女士知道它的作用吗？"}),
-		SKYWORTHY = _Translator({EN = "Machine to wee-folk land, florp!", CN = "去到我们领土的机器,浮浪噗!"}),
-		SKYWORTHY_KIT = _Translator({EN = "Machine to wee-folk land, florp!", CN = "去到我们领土的机器,浮浪噗!"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = ".........", CN = ".........",}),
-		ALOE_OVERSIZED = _Translator({EN = "Green plant, florp.", CN = "绿色植物,浮浪噗"}),
-		RADISH_OVERSIZED = _Translator({EN = "Ball of num nums!", CN = "无数个无数个的球!"}),
-		SHOPLOCKER = _Translator({EN = "Gimme more of that, piggie!", CN = "猪头！赶紧给老子多上货！"}),
+		SEEDOFRUIN = en_zh({EN = "Wee-nowna lady knows what it do?", CN = "薇诺娜女士知道它的作用吗？"}),
+		SKYWORTHY = en_zh({EN = "Machine to wee-folk land, florp!", CN = "去到我们领土的机器,浮浪噗!"}),
+		SKYWORTHY_KIT = en_zh({EN = "Machine to wee-folk land, florp!", CN = "去到我们领土的机器,浮浪噗!"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = ".........", CN = ".........",}),
+		ALOE_OVERSIZED = en_zh({EN = "Green plant, florp.", CN = "绿色植物,浮浪噗"}),
+		RADISH_OVERSIZED = en_zh({EN = "Ball of num nums!", CN = "无数个无数个的球!"}),
+		SHOPLOCKER = en_zh({EN = "Gimme more of that, piggie!", CN = "猪头！赶紧给老子多上货！"}),
 	},
 }
 --[[

@@ -61,6 +61,10 @@ local newspeech = {
 
 local print_data = ""
 
+function en_zh(str)
+    return str.EN
+end
+
 function ToPOFile(old, tab)
 	for k, v in pairs(tab) do
 		if type(v) == "table" then

@@ -1,17 +1,15 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Ruins are a little like gourmet food, don't you think?", CN = "废墟有点像美食，你不觉得吗？"}),
-		SKYWORTHY = _Translator({EN = "Any good restaurants in there?", CN = "那里有好餐馆吗？"}),
-		SKYWORTHY_KIT = _Translator({EN = "Any good restaurants in there?", CN = "那里有好餐馆吗？"}),
-		SPICE_LOTUS = _Translator({EN = "This is a kind of medicine", CN = "这是一种药"}),
-		SWEETANDSOURCARP = _Translator({EN = "I learned to cook this dish in Jinan, China", CN = "我在中国济南学会这道菜"}),
-		ALOE_OVERSIZED = _Translator({EN = "Perhaps there's a drink I put this into.", CN = "也许是我放进去的饮料."}),
-		RADISH_OVERSIZED = _Translator({EN = "I'm thinking a nice summer salad...", CN = "我在想美味的夏季沙拉……"}),
-		SHOPLOCKER = _Translator({EN = "Perchance they may finally stock what I need, non?", CN = "兴许这次他们终于会备齐我要的货了，对吧？"}),
+		SEEDOFRUIN = en_zh({EN = "Ruins are a little like gourmet food, don't you think?", CN = "废墟有点像美食，你不觉得吗？"}),
+		SKYWORTHY = en_zh({EN = "Any good restaurants in there?", CN = "那里有好餐馆吗？"}),
+		SKYWORTHY_KIT = en_zh({EN = "Any good restaurants in there?", CN = "那里有好餐馆吗？"}),
+		SPICE_LOTUS = en_zh({EN = "This is a kind of medicine", CN = "这是一种药"}),
+		SWEETANDSOURCARP = en_zh({EN = "I learned to cook this dish in Jinan, China", CN = "我在中国济南学会这道菜"}),
+		ALOE_OVERSIZED = en_zh({EN = "Perhaps there's a drink I put this into.", CN = "也许是我放进去的饮料."}),
+		RADISH_OVERSIZED = en_zh({EN = "I'm thinking a nice summer salad...", CN = "我在想美味的夏季沙拉……"}),
+		SHOPLOCKER = en_zh({EN = "Perchance they may finally stock what I need, non?", CN = "兴许这次他们终于会备齐我要的货了，对吧？"}),
 	},
 }
 --[[

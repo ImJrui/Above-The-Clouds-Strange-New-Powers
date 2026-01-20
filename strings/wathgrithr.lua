@@ -1,17 +1,15 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "The seed of Hoddmimir's Holt.", CN = "霍德米米尔的霍尔特的种子."}),
-		SKYWORTHY = _Translator({EN = "Outward to adventure!", CN = "去冒险！"}),
-		SKYWORTHY_KIT = _Translator({EN = "Outward to adventure!", CN = "去冒险！"}),
-		SLINGSHOTAMMO_SHADOW = _Translator({EN = "What fun is a battle without hand to hand combat?", CN = "没有肉搏战的战斗还有什么好玩的？"}),
-		SLINGSHOTAMMO_INFUSED = _Translator({EN = "What fun is a battle without hand to hand combat?", CN = "没有肉搏战的战斗还有什么好玩的？"}),
-		SLINGSHOTAMMO_ALLOY = _Translator({EN = "What fun is a battle without hand to hand combat?", CN = "没有肉搏战的战斗还有什么好玩的？"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "My ally is a god among men.", CN = "我的盟友是人间的神."}),
-		SHOPLOCKER = _Translator({EN = "By Wotan's Decree!", CN = "谨遵沃坦圣谕！"}),
+		SEEDOFRUIN = en_zh({EN = "The seed of Hoddmimir's Holt.", CN = "霍德米米尔的霍尔特的种子."}),
+		SKYWORTHY = en_zh({EN = "Outward to adventure!", CN = "去冒险！"}),
+		SKYWORTHY_KIT = en_zh({EN = "Outward to adventure!", CN = "去冒险！"}),
+		SLINGSHOTAMMO_SHADOW = en_zh({EN = "What fun is a battle without hand to hand combat?", CN = "没有肉搏战的战斗还有什么好玩的？"}),
+		SLINGSHOTAMMO_INFUSED = en_zh({EN = "What fun is a battle without hand to hand combat?", CN = "没有肉搏战的战斗还有什么好玩的？"}),
+		SLINGSHOTAMMO_ALLOY = en_zh({EN = "What fun is a battle without hand to hand combat?", CN = "没有肉搏战的战斗还有什么好玩的？"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "My ally is a god among men.", CN = "我的盟友是人间的神."}),
+		SHOPLOCKER = en_zh({EN = "By Wotan's Decree!", CN = "谨遵沃坦圣谕！"}),
 	},
 }
 --[[

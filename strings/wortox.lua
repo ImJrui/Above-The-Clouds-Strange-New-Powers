@@ -1,16 +1,14 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Hyuyuyu, time for the past to make a little hop here!", CN = "嘿嘿嘿,过去的时光在这里跳跃!"}),
-		SKYWORTHY = _Translator({EN = "Hyuyu, it's a hop, skip, and jump from here!", CN = "嘿嘿,从这里跳,跳,跳!"}),
-		SKYWORTHY_KIT = _Translator({EN = "Hyuyu, it's a hop, skip, and jump from here!", CN = "嘿嘿,从这里跳,跳,跳!"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "I'd rather have a nice fresh soul.", CN = "我宁愿有一个新鲜的灵魂"}),
-		ALOE_OVERSIZED = _Translator({EN = "Gooey.", CN = "黏糊糊的"}),
-		RADISH_OVERSIZED = _Translator({EN = "Red! Like me!", CN = "像我一样红!"}),
-		SHOPLOCKER = _Translator({EN = "Hyuyu! These little piggies better sell what I want, or I'll blow their house down!", CN = "嘿嘿！你们这群蠢蛋最好照单出货，不然分分钟拆了你这破店！"}),
+		SEEDOFRUIN = en_zh({EN = "Hyuyuyu, time for the past to make a little hop here!", CN = "嘿嘿嘿,过去的时光在这里跳跃!"}),
+		SKYWORTHY = en_zh({EN = "Hyuyu, it's a hop, skip, and jump from here!", CN = "嘿嘿,从这里跳,跳,跳!"}),
+		SKYWORTHY_KIT = en_zh({EN = "Hyuyu, it's a hop, skip, and jump from here!", CN = "嘿嘿,从这里跳,跳,跳!"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "I'd rather have a nice fresh soul.", CN = "我宁愿有一个新鲜的灵魂"}),
+		ALOE_OVERSIZED = en_zh({EN = "Gooey.", CN = "黏糊糊的"}),
+		RADISH_OVERSIZED = en_zh({EN = "Red! Like me!", CN = "像我一样红!"}),
+		SHOPLOCKER = en_zh({EN = "Hyuyu! These little piggies better sell what I want, or I'll blow their house down!", CN = "嘿嘿！你们这群蠢蛋最好照单出货，不然分分钟拆了你这破店！"}),
 	},
 }
 --[[

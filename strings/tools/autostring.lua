@@ -124,11 +124,15 @@ local function processPOFiles()
         local content = file_handle:read("*a")
         file_handle:close()
 
-        -- 修改 Translator 行为：return string["EN"] → return string
-        content = content:gsub('return%s*(%w+)%["EN"%]', 'return %1')
+        -- 1. 忽略 GLOBAL.setfenv
+        content = content:gsub("GLOBAL%.setfenv%(%s*1%s*,%s*GLOBAL%s*%)", "")
+
+        -- 2. 兼容旧 Translator（可留）
+        -- content = content:gsub('return%s*(%w+)%["EN"%]', 'return %1')
+
 
         local env = {
-            _Translator = function(t) return t end,
+            en_zh = function(t) return t end,
             land = "EN",
             GetModConfigData = function(key)
                 if key == "LANGUAGE" then return "EN" end

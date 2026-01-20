@@ -1,16 +1,14 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "This seed is REALLY spooky.", CN = "这颗种子真的很可怕"}),
-		SKYWORTHY = _Translator({EN = "That leads somewhere else.", CN = "这条路通向别的地方"}),
-		SKYWORTHY_KIT =_Translator({EN = "That leads somewhere else.", CN = "这条路通向别的地方"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "Thanks Warly!", CN = "谢谢沃利!"}),
-		ALOE_OVERSIZED = _Translator({EN = "I bet this is good for us!", CN = "我打赌这对我们有好处!"}),
-		RADISH_OVERSIZED = _Translator({EN = "These are kinda spicy.", CN = "这些有点辣"}),
-		SHOPLOCKER = _Translator({EN = "Please sell more of these, pretty please?", CN = "拜托多卖点这种货嘛，真的求求了！"}),
+		SEEDOFRUIN = en_zh({EN = "This seed is REALLY spooky.", CN = "这颗种子真的很可怕"}),
+		SKYWORTHY = en_zh({EN = "That leads somewhere else.", CN = "这条路通向别的地方"}),
+		SKYWORTHY_KIT =en_zh({EN = "That leads somewhere else.", CN = "这条路通向别的地方"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "Thanks Warly!", CN = "谢谢沃利!"}),
+		ALOE_OVERSIZED = en_zh({EN = "I bet this is good for us!", CN = "我打赌这对我们有好处!"}),
+		RADISH_OVERSIZED = en_zh({EN = "These are kinda spicy.", CN = "这些有点辣"}),
+		SHOPLOCKER = en_zh({EN = "Please sell more of these, pretty please?", CN = "拜托多卖点这种货嘛，真的求求了！"}),
 	},
 }
 --[[

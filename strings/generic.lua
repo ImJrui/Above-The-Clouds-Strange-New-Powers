@@ -1,30 +1,28 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "I'm sure this has a lot of science in it!", CN = "我相信这里面有很多科学道理！"}),
-		SKYWORTHY_SHOP = _Translator({EN = "Affordable and diverse in product range", CN = "价格实惠，产品种类多样"}),
-		PIG_SHOP_SKYWORTHY = _Translator({EN = "Affordable and diverse in product range", CN = "价格实惠，产品种类多样"}),
-		SKYWORTHY = _Translator({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程！"}),
-		SKYWORTHY_KIT = _Translator({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程！"}),
-		SLINGSHOTAMMO_SHADOW = _Translator({EN = "There is a feeling of evil", CN = "有一种邪恶的感觉"}),
-		SLINGSHOTAMMO_INFUSED = _Translator({EN = "It was made by Stark Industries", CN = "它是斯塔克工业制造的"}),
-		SLINGSHOTAMMO_ALLOY = _Translator({EN = "Its material originates from an advanced civilization.", CN = "它的材料来自于一个先进的文明"}),
-		SPICE_LOTUS = _Translator({EN = "This smells bitter", CN = "它闻起来很苦"}),
-		SWEETANDSOURCARP = _Translator({EN = "Weeeeeeee T_T", CN = "Weeeeeeee T_T"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "Is that just... frogs stuffed inside a fish?", CN = "这是鱼里面塞了只青蛙吗？"}),
-		ALOE_OVERSIZED = _Translator({EN = "Scientifical and nutritional.", CN = "科学和营养."}),
-		ALOE_OVERSIZED_ROTTEN = _Translator({EN = "It's rotten.", CN = "它腐烂了."}),
-		RADISH_OVERSIZED = _Translator({EN = "It looks radishing.", CN = "它看起来像萝卜."}),
-		RADISH_OVERSIZED_ROTTEN = _Translator({EN = "It's rotten.", CN = "它腐烂了."}),
+		SEEDOFRUIN = en_zh({EN = "I'm sure this has a lot of science in it!", CN = "我相信这里面有很多科学道理！"}),
+		SKYWORTHY_SHOP = en_zh({EN = "Affordable and diverse in product range", CN = "价格实惠，产品种类多样"}),
+		PIG_SHOP_SKYWORTHY = en_zh({EN = "Affordable and diverse in product range", CN = "价格实惠，产品种类多样"}),
+		SKYWORTHY = en_zh({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程！"}),
+		SKYWORTHY_KIT = en_zh({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程！"}),
+		SLINGSHOTAMMO_SHADOW = en_zh({EN = "There is a feeling of evil", CN = "有一种邪恶的感觉"}),
+		SLINGSHOTAMMO_INFUSED = en_zh({EN = "It was made by Stark Industries", CN = "它是斯塔克工业制造的"}),
+		SLINGSHOTAMMO_ALLOY = en_zh({EN = "Its material originates from an advanced civilization.", CN = "它的材料来自于一个先进的文明"}),
+		SPICE_LOTUS = en_zh({EN = "This smells bitter", CN = "它闻起来很苦"}),
+		SWEETANDSOURCARP = en_zh({EN = "Weeeeeeee T_T", CN = "Weeeeeeee T_T"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "Is that just... frogs stuffed inside a fish?", CN = "这是鱼里面塞了只青蛙吗？"}),
+		ALOE_OVERSIZED = en_zh({EN = "Scientifical and nutritional.", CN = "科学和营养."}),
+		ALOE_OVERSIZED_ROTTEN = en_zh({EN = "It's rotten.", CN = "它腐烂了."}),
+		RADISH_OVERSIZED = en_zh({EN = "It looks radishing.", CN = "它看起来像萝卜."}),
+		RADISH_OVERSIZED_ROTTEN = en_zh({EN = "It's rotten.", CN = "它腐烂了."}),
 		
-		SHOPLOCKER = _Translator({EN = "I'll pay them to never run out of stock!", CN = "我会付钱给他们，保证他们永远不会缺货！"}),
-		SUNKEN_BOAT_TRINKET_2 = _Translator({EN = "The Queen gave this gift to the King.", CN = "这是女王献给国王的礼物."}),
+		SHOPLOCKER = en_zh({EN = "I'll pay them to never run out of stock!", CN = "我会付钱给他们，保证他们永远不会缺货！"}),
+		SUNKEN_BOAT_TRINKET_2 = en_zh({EN = "The Queen gave this gift to the King.", CN = "这是女王献给国王的礼物."}),
 
-		TUBER_TREE_SAPLING_ITEM = _Translator({EN = "A tiny tuber sprout,waiting to grow.", CN = "一株小小的块茎嫩芽，等待着生长。"}),
-		NETTLE_SAPLING_ITEM = _Translator({EN = "A tiny tuber sprout,waiting to grow.", CN = "啊，是荨麻的幼苗。最好别空手去碰它。"}),
+		TUBER_TREE_SAPLING_ITEM = en_zh({EN = "A tiny tuber sprout,waiting to grow.", CN = "一株小小的块茎嫩芽，等待着生长。"}),
+		NETTLE_SAPLING_ITEM = en_zh({EN = "A tiny tuber sprout,waiting to grow.", CN = "啊，是荨麻的幼苗。最好别空手去碰它。"}),
 	},
 }
 --[[

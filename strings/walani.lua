@@ -1,13 +1,11 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Take a chill pill, like this seed chilling inside, ya know?", CN = "吃一片冷静的药丸，就像这颗种子在里面冷却一样，你知道吗？"}),
-		SKYWORTHY = _Translator({EN = "Sweet ride!", CN = "甜蜜的旅程!"}),
-		SKYWORTHY_KIT = _Translator({EN = "Sweet ride!", CN = "甜蜜的旅程!"}),
-		SHOPLOCKER = _Translator({EN = "I'm too lazy to riffle through shops, ya know?", CN = "我实在懒得挨个翻找店铺啦，你懂吧？"}),
+		SEEDOFRUIN = en_zh({EN = "Take a chill pill, like this seed chilling inside, ya know?", CN = "吃一片冷静的药丸，就像这颗种子在里面冷却一样，你知道吗？"}),
+		SKYWORTHY = en_zh({EN = "Sweet ride!", CN = "甜蜜的旅程!"}),
+		SKYWORTHY_KIT = en_zh({EN = "Sweet ride!", CN = "甜蜜的旅程!"}),
+		SHOPLOCKER = en_zh({EN = "I'm too lazy to riffle through shops, ya know?", CN = "我实在懒得挨个翻找店铺啦，你懂吧？"}),
 	},
 }
 --[[

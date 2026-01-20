@@ -1,17 +1,15 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "I'm sure this has a lot of science in it!", CN = "我相信这里面有很多科学道理!"}),
-		SKYWORTHY = _Translator({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程!"}),
-		SKYWORTHY_KIT = _Translator({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程!"}),
-		SLINGSHOTAMMO_SHADOW = _Translator({EN = 'Shots to be slinged.', CN = "即将打出的弹药"}),
-		SLINGSHOTAMMO_INFUSED = _Translator({EN = 'Shots to be slinged.', CN = "即将打出的弹药"}),
-		SLINGSHOTAMMO_ALLOY = _Translator({EN = 'Shots to be slinged.', CN = "即将打出的弹药"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "Is that just... frogs stuffed inside a fish?", CN = "这是鱼里面塞了只青蛙吗？"}),
-		SHOPLOCKER = _Translator({EN = "I'll pay them to never run out of stock!", CN = "我会付钱给他们，保证他们永远不会缺货！"}),
+		SEEDOFRUIN = en_zh({EN = "I'm sure this has a lot of science in it!", CN = "我相信这里面有很多科学道理!"}),
+		SKYWORTHY = en_zh({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程!"}),
+		SKYWORTHY_KIT = en_zh({EN = "Looks like an exit-ing ride!", CN = "看起来像一个令人兴奋的旅程!"}),
+		SLINGSHOTAMMO_SHADOW = en_zh({EN = 'Shots to be slinged.', CN = "即将打出的弹药"}),
+		SLINGSHOTAMMO_INFUSED = en_zh({EN = 'Shots to be slinged.', CN = "即将打出的弹药"}),
+		SLINGSHOTAMMO_ALLOY = en_zh({EN = 'Shots to be slinged.', CN = "即将打出的弹药"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "Is that just... frogs stuffed inside a fish?", CN = "这是鱼里面塞了只青蛙吗？"}),
+		SHOPLOCKER = en_zh({EN = "I'll pay them to never run out of stock!", CN = "我会付钱给他们，保证他们永远不会缺货！"}),
 	},
 }
 --[[

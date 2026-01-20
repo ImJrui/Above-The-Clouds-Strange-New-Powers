@@ -1,19 +1,17 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Spooky!", CN = "令人毛骨悚然！"}),
-		SKYWORTHY = _Translator({EN = "A real haunted ride!", CN = "一次真正的闹鬼之旅！"}),
-		SKYWORTHY_KIT = _Translator({EN = "A real haunted ride!", CN = "一次真正的闹鬼之旅！"}),
-		SLINGSHOTAMMO_SHADOW = _Translator({EN = "This is my best ammo", CN = "这是我最好的弹丸"}),
-		SLINGSHOTAMMO_INFUSED = _Translator({EN = "It was made by Stark Industries", CN = "它是斯塔克工业制造的"}),
-		SLINGSHOTAMMO_ALLOY = _Translator({EN = "I adore the metallic clang it makes upon impact.", CN = "我喜欢它撞击时发出的金属铿锵声"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "Uh... Maybe Woby wants some", CN = "呃…… 也许沃比想吃一点"}),
-		ALOE_OVERSIZED = _Translator({EN = "Low cost medicine.", CN = "低成本药品."}),
-		RADISH_OVERSIZED = _Translator({EN = "Little plant that came from the ground.", CN = "从地里长出来的小植物."}),
-		SHOPLOCKER = _Translator({EN = "I'm the mayor! When I say stock this, you gotta stock this!", CN = "我可是市长！我说要进这批货，你们就必须给我进！"}), --霸道
+		SEEDOFRUIN = en_zh({EN = "Spooky!", CN = "令人毛骨悚然！"}),
+		SKYWORTHY = en_zh({EN = "A real haunted ride!", CN = "一次真正的闹鬼之旅！"}),
+		SKYWORTHY_KIT = en_zh({EN = "A real haunted ride!", CN = "一次真正的闹鬼之旅！"}),
+		SLINGSHOTAMMO_SHADOW = en_zh({EN = "This is my best ammo", CN = "这是我最好的弹丸"}),
+		SLINGSHOTAMMO_INFUSED = en_zh({EN = "It was made by Stark Industries", CN = "它是斯塔克工业制造的"}),
+		SLINGSHOTAMMO_ALLOY = en_zh({EN = "I adore the metallic clang it makes upon impact.", CN = "我喜欢它撞击时发出的金属铿锵声"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "Uh... Maybe Woby wants some", CN = "呃…… 也许沃比想吃一点"}),
+		ALOE_OVERSIZED = en_zh({EN = "Low cost medicine.", CN = "低成本药品."}),
+		RADISH_OVERSIZED = en_zh({EN = "Little plant that came from the ground.", CN = "从地里长出来的小植物."}),
+		SHOPLOCKER = en_zh({EN = "I'm the mayor! When I say stock this, you gotta stock this!", CN = "我可是市长！我说要进这批货，你们就必须给我进！"}), --霸道
 	},
 }
 --[[

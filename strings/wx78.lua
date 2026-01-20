@@ -1,18 +1,16 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		WX78MODULE_PORKLANDREBALANCE_FAN = _Translator({EN = "EVEN THE WATER MIST CANNOT HARM ME", CN = "即使是水雾也伤害不了我"}),
-		WX78MODULE_PORKLANDREBALANCE_FILTER = _Translator({EN = "PARTICULATE OBLITERATOR", CN = "微粒阻断剂"}),
-		SEEDOFRUIN = _Translator({EN = "PREHISTORICAL RECOMBINATOR", CN = "史前重组器"}),
-		SKYWORTHY = _Translator({EN = "EXIT PORT", CN = "出口"}),
-		SKYWORTHY_KIT = _Translator({EN = "EXIT PORT", CN = "出口"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "MY MINION IS VERY USEFUL", CN = "我的仆从很有用"}),
-		ALOE_OVERSIZED = _Translator({EN = "GREEN ENERGY ACQUIRED", CN = "获得绿色能源"}),
-		RADISH_OVERSIZED = _Translator({EN = "RED SPHERICAL BALLS OF ENERGY", CN = "红色的能量球"}),
-		SHOPLOCKER = _Translator({EN = "FUNCTION SELL_MORE_MEATSACK()", CN = "启动函数：多卖点肉体()"}),
+		WX78MODULE_PORKLANDREBALANCE_FAN = en_zh({EN = "EVEN THE WATER MIST CANNOT HARM ME", CN = "即使是水雾也伤害不了我"}),
+		WX78MODULE_PORKLANDREBALANCE_FILTER = en_zh({EN = "PARTICULATE OBLITERATOR", CN = "微粒阻断剂"}),
+		SEEDOFRUIN = en_zh({EN = "PREHISTORICAL RECOMBINATOR", CN = "史前重组器"}),
+		SKYWORTHY = en_zh({EN = "EXIT PORT", CN = "出口"}),
+		SKYWORTHY_KIT = en_zh({EN = "EXIT PORT", CN = "出口"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "MY MINION IS VERY USEFUL", CN = "我的仆从很有用"}),
+		ALOE_OVERSIZED = en_zh({EN = "GREEN ENERGY ACQUIRED", CN = "获得绿色能源"}),
+		RADISH_OVERSIZED = en_zh({EN = "RED SPHERICAL BALLS OF ENERGY", CN = "红色的能量球"}),
+		SHOPLOCKER = en_zh({EN = "FUNCTION SELL_MORE_MEATSACK()", CN = "启动函数：多卖点肉体()"}),
 	},
 }
 --[[

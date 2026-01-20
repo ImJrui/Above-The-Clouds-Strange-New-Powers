@@ -1,18 +1,16 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "Is this the seed of my demise?", CN = "这是我死亡的种子吗?"}),
-		SKYWORTHY = _Translator({EN = "Shall I leave this mortal coil?", CN = "我该离开这个尘世吗？"}),
-		SKYWORTHY_KIT = _Translator({EN = "Shall I leave this mortal coil?", CN = "我该离开这个尘世吗？"}),
-		SPICE_LOTUS = _Translator({EN = "It's bitter, just like my heart...", CN = "是苦的，就像我的心一样……"}),
-		SWEETANDSOURCARP = _Translator({EN = "Can sweetness make me happy?", CN = "甜的能让我感到快乐吗？"}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "It's actually... really good...", CN = "其实…真的很好……"}),
-		ALOE_OVERSIZED = _Translator({EN = "It dies so that others may live.", CN = "它死是为了让别人活下去"}),
-		RADISH_OVERSIZED = _Translator({EN = "The color of my blood.", CN = "我血液的颜色"}),
-		SHOPLOCKER = _Translator({EN = "My kingdom for that in stock...", CN = "宁可拿整个王国换这点现货..."}),
+		SEEDOFRUIN = en_zh({EN = "Is this the seed of my demise?", CN = "这是我死亡的种子吗?"}),
+		SKYWORTHY = en_zh({EN = "Shall I leave this mortal coil?", CN = "我该离开这个尘世吗？"}),
+		SKYWORTHY_KIT = en_zh({EN = "Shall I leave this mortal coil?", CN = "我该离开这个尘世吗？"}),
+		SPICE_LOTUS = en_zh({EN = "It's bitter, just like my heart...", CN = "是苦的，就像我的心一样……"}),
+		SWEETANDSOURCARP = en_zh({EN = "Can sweetness make me happy?", CN = "甜的能让我感到快乐吗？"}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "It's actually... really good...", CN = "其实…真的很好……"}),
+		ALOE_OVERSIZED = en_zh({EN = "It dies so that others may live.", CN = "它死是为了让别人活下去"}),
+		RADISH_OVERSIZED = en_zh({EN = "The color of my blood.", CN = "我血液的颜色"}),
+		SHOPLOCKER = en_zh({EN = "My kingdom for that in stock...", CN = "宁可拿整个王国换这点现货..."}),
 	},
 }
 --[[

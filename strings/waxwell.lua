@@ -1,16 +1,14 @@
-local function _Translator(string)
-	return string["EN"]
-end
+GLOBAL.setfenv(1, GLOBAL)
 
 return {
 	DESCRIBE = {
-		SEEDOFRUIN = _Translator({EN = "To think, it all started with this.", CN = "想想看，这一切都是从这里开始的."}),
-		SKYWORTHY = _Translator({EN = "An exit but not a way out.", CN = "一个出口，但不是出路."}),
-		SKYWORTHY_KIT = _Translator({EN = "An exit but not a way out.", CN = "一个出口，但不是出路."}),
-		FROGFISHBOWL_HAMLET = _Translator({EN = "At the end of the day, it's still frog.", CN = "说到底，它还是青蛙."}),
-		ALOE_OVERSIZED = _Translator({EN = "I should eat it.", CN = "我应该吃了它."}),
-		RADISH_OVERSIZED = _Translator({EN = "A reddish radish.", CN = "红萝卜"}),
-		SHOPLOCKER = _Translator({EN = "Urgh. Maybe these cursed swine will finally sell what I need.", CN = "啧，这群该死的蠢货总该有我要的东西了吧。"}),
+		SEEDOFRUIN = en_zh({EN = "To think, it all started with this.", CN = "想想看，这一切都是从这里开始的."}),
+		SKYWORTHY = en_zh({EN = "An exit but not a way out.", CN = "一个出口，但不是出路."}),
+		SKYWORTHY_KIT = en_zh({EN = "An exit but not a way out.", CN = "一个出口，但不是出路."}),
+		FROGFISHBOWL_HAMLET = en_zh({EN = "At the end of the day, it's still frog.", CN = "说到底，它还是青蛙."}),
+		ALOE_OVERSIZED = en_zh({EN = "I should eat it.", CN = "我应该吃了它."}),
+		RADISH_OVERSIZED = en_zh({EN = "A reddish radish.", CN = "红萝卜"}),
+		SHOPLOCKER = en_zh({EN = "Urgh. Maybe these cursed swine will finally sell what I need.", CN = "啧，这群该死的蠢货总该有我要的东西了吧。"}),
 	},
 }
 --[[
