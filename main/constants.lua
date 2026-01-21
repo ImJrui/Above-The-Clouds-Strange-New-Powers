@@ -1,17 +1,25 @@
 local GetModConfigData = GetModConfigData
 GLOBAL.setfenv(1, GLOBAL)
 
+local function GetCfg(newkey, oldkey)
+    local v = GetModConfigData(newkey)
+    if v ~= nil then
+        return v
+    end
+    return GetModConfigData(oldkey)
+end
+
 PL_CONFIG = {
-    PUGALISK_HP_MULTIPLIER = GetModConfigData("PUGALISK_HP_MULTIPLIER") or GetModConfigData("rate_pugalisk_health"),
-    ANCIENT_HERALD_HP_MULTIPLIER = GetModConfigData("ANCIENT_HERALD_HP_MULTIPLIER") or GetModConfigData("rate_ancient_herald_health"),
-    ANCIENT_HULK_HP_MULTIPLIER = GetModConfigData("ANCIENT_HULK_HP_MULTIPLIER") or GetModConfigData("rate_ancient_hulk_health"),
-    ANTQUEEN_HP_MULTIPLIER = GetModConfigData("ANTQUEEN_HP_MULTIPLIER") or GetModConfigData("rate_antqueen_health"),
-    ENABLE_SKILLTREE = GetModConfigData("ENABLE_SKILLTREE") or GetModConfigData("EnableSkilltree"),
-    ENABLE_TERRARIUM = GetModConfigData("ENABLE_TERRARIUM") or GetModConfigData("Terrarium"),
-    ENABLE_TOUCHSTONE = GetModConfigData("ENABLE_TOUCHSTONE") or GetModConfigData("TouchStone"),
-    ENABLE_CRITTERLAB = GetModConfigData("ENABLE_CRITTERLAB") or GetModConfigData("Critterlab"),
-    APORKALYPSE_PERIOD_LENGTH = GetModConfigData("APORKALYPSE_PERIOD_LENGTH" or GetModConfigData("APORKALYPSE_PERIOD_LENGTH")),
-    ENABLE_SKYWORTHY = GetModConfigData("ENABLE_SKYWORTHY" or GetModConfigData("EnableSkyworthy")),
+    PUGALISK_HP_MULTIPLIER = GetCfg("PUGALISK_HP_MULTIPLIER", "rate_pugalisk_health"),
+    ANCIENT_HERALD_HP_MULTIPLIER = GetCfg("ANCIENT_HERALD_HP_MULTIPLIER", "rate_ancient_herald_health"),
+    ANCIENT_HULK_HP_MULTIPLIER = GetCfg("ANCIENT_HULK_HP_MULTIPLIER", "rate_ancient_hulk_health"),
+    ANTQUEEN_HP_MULTIPLIER = GetCfg("ANTQUEEN_HP_MULTIPLIER", "rate_antqueen_health"),
+    ENABLE_SKILLTREE = GetCfg("ENABLE_SKILLTREE", "EnableSkilltree"),
+    ENABLE_TERRARIUM = GetCfg("ENABLE_TERRARIUM", "Terrarium"),
+    ENABLE_TOUCHSTONE = GetCfg("ENABLE_TOUCHSTONE", "TouchStone"),
+    ENABLE_CRITTERLAB = GetCfg("ENABLE_CRITTERLAB", "Critterlab"),
+    APORKALYPSE_PERIOD_LENGTH = GetCfg("APORKALYPSE_PERIOD_LENGTH", "AporkalypsePeriod"),
+    ENABLE_SKYWORTHY = GetCfg("ENABLE_SKYWORTHY", "EnableSkyworthy"),
 }
 
 PL_WORLDTYPE = { -- 键对应它们的levels.location的大写，值对应世界tag的大写
@@ -22,3 +30,4 @@ PL_WORLDTYPE = { -- 键对应它们的levels.location的大写，值对应世界
     PORKLAND = "PORKLAND",
     UNKNOWN = "UNKNOWN",
 }
+
