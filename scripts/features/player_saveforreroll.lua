@@ -2,47 +2,6 @@ local AddPlayerPostInit = AddPlayerPostInit
 
 GLOBAL.setfenv(1, GLOBAL)
 
-local CHECK_INTERVAL = 0.1
-local MAX_RUNS = 50
-
-local function LoadForDisguiseHat(player)
-    if not player:IsValid() then
-        return
-    end
-
-    -- ① 先检查是否还戴着面具，不是就直接停
-    local inv = player.components.inventory
-    local headitem = inv and inv:GetEquippedItem(EQUIPSLOTS.HEAD)
-
-    if not (headitem and headitem.prefab == "disguisehat") then
-        return
-    end
-
-    local had_monster = player:HasTag("monster")
-
-    -- ③ 只在第一次记录原始状态
-    if headitem.monster == nil then
-        headitem.monster = had_monster
-    end
-
-    -- ④ 如果发现 monster，被修正后立刻停止
-    if had_monster then
-        headitem.monster = true
-        player:RemoveTag("monster")
-        player:RemoveTag("playermonster")
-
-        print("disguisehat fixed")
-        return
-    end
-
-    player._disguisehat_runs = player._disguisehat_runs - 1
-    if player._disguisehat_runs <= 0 then
-        return
-    end
-
-    player:DoTaskInTime(CHECK_INTERVAL, LoadForDisguiseHat)
-end
-
 local function SaveForInteriorMap(inst, data)
     if inst.components.interiorvisitor then
 
@@ -133,9 +92,6 @@ local function player_postinit(player)
         end
 
         LoadForInteriorMap(inst, data)
-
-        inst._disguisehat_runs = MAX_RUNS
-        inst:DoTaskInTime(0, LoadForDisguiseHat)
     end
 end
 

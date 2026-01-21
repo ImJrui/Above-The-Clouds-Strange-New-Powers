@@ -11,6 +11,8 @@ local AddClassPostConstruct = AddClassPostConstruct
 local PLENV = env
 GLOBAL.setfenv(1, GLOBAL)
 
+
+--[[
 local SILVICULTURE_ONEOF_TAGS = { "leif", "silviculture", "tree", "winter_tree" }
 local SILVICULTURE_CANT_TAGS = { "magicgrowth", "player", "FX", "pickable", "stump", "withered", "barren", "INLIMBO", "ancienttree" }
 
@@ -32,7 +34,8 @@ local function trygrowth(inst, maximize, reader)
 end
 
 local function silviculture_fn(inst, reader)
-
+	inst.PLREBALANCE_silvionread(inst, reader)
+	
 	local x, y, z = reader.Transform:GetWorldPosition()
 	local range = 30
 	local _ents = TheSim:FindEntities(x, y, z, range, nil, SILVICULTURE_CANT_TAGS, SILVICULTURE_ONEOF_TAGS)
@@ -66,7 +69,5 @@ AddPrefabPostInit("book_silviculture", function(inst)
 	inst.PLREBALANCE_silvionread = inst.components.book.onread
 	inst.components.book:SetOnRead(silviculture_fn)
 end)
+]]
 
-AddPrefabPostInit("grass_tall", function(inst)
-	inst:AddTag("silviculture")
-end)

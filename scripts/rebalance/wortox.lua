@@ -10,6 +10,18 @@ local AddClassPostConstruct = AddClassPostConstruct
 
 GLOBAL.setfenv(1, GLOBAL)
 
+AddPrefabPostInit("wortox", function(inst)
+	inst._AddTag = inst.AddTag
+	function inst:AddTag(tag, ...)
+		if tag == "monster" or tag == "playermonster" then
+            if inst:HasTag("indisguise") then
+                return
+            end
+        end
+		return inst:_AddTag(tag, ...)
+	end
+end)
+
 --[[
 local function SpellFn(inst, target, pos, caster)
     -- inst.components.rider ~= nil and inst.components.rider:IsRiding() kick off of mount before calling this state
