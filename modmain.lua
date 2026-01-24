@@ -10,6 +10,9 @@ modimport("main/shardnetworking")
 modimport("main/popups")
 modimport("main/postinit")
 
+modimport("scripts/prefabs/new_farm_plant_defs")
+modimport("scripts/prefabs/newslingshotammo_hitfx")
+
 modimport("scripts/features/ruins_regeneration")
 modimport("scripts/features/pigshopexpander")
 modimport("scripts/features/player_saveforreroll")
@@ -18,9 +21,6 @@ modimport("scripts/features/newspicedfoods")
 modimport("scripts/features/cooking")
 modimport("scripts/features/farmplantwidgets")
 modimport("scripts/features/trawlnet_loot")
-
-modimport("scripts/prefabs/new_farm_plant_defs")
-modimport("scripts/prefabs/newslingshotammo_hitfx")
 
 modimport("scripts/rebalance/wendy")
 modimport("scripts/rebalance/wurt")
