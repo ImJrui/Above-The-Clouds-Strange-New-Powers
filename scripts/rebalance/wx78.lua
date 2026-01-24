@@ -171,7 +171,9 @@ end
 AddPlayerPostInit(function(inst)
 	inst.HasTag_Old = inst.HasTag
 	function inst:HasTag(tag, ...)
-		if tag == "has_gasmask" and inst:HasTag_Old("PorklandRebalance_WX_GasMask") then return true end
+		if tag == "has_gasmask" and inst:HasTag_Old("PorklandRebalance_WX_GasMask") then
+			return true
+		end
 		return inst:HasTag_Old(tag, ...)
 	end
 end)

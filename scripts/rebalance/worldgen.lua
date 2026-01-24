@@ -3,7 +3,7 @@
 local ENABLE_TERRARIUM = GetModConfigData("ENABLE_TERRARIUM")
 local ENABLE_TOUCHSTONE = GetModConfigData("ENABLE_TOUCHSTONE")
 local ENABLE_CRITTERLAB = GetModConfigData("ENABLE_CRITTERLAB")
-local Teleportato_Base = true -- 默认添加
+local ENABLE_TELEPORTATO_BASE = true -- 默认添加
 
 
 -- GLOBAL.setfenv(1, GLOBAL)
@@ -45,7 +45,7 @@ local TASK_CONFIG = {
         layout = "plrebalance_Critterlab"
     },
     Teleportato_Base = {
-        enable = Teleportato_Base,
+        enable = ENABLE_TELEPORTATO_BASE,
         count = 1,
         tasks = {
             "Deep_rainforest",
@@ -61,7 +61,9 @@ local TASK_CONFIG = {
 
 -- 重构关卡初始化逻辑
 AddLevelPreInitAny(function(level)
-    if level.location ~= "porkland" then return end
+    if level.location ~= "porkland" then
+        return
+    end
 
     -- 构建任务点配置聚合表
     local taskConfigurations = {}
