@@ -31,3 +31,10 @@ PL_WORLDTYPE = { -- 键对应它们的levels.location的大写，值对应世界
     UNKNOWN = "UNKNOWN",
 }
 
+PL_WORLD_SEASONS = {
+    temperate = "autumn",
+    humid = "spring",
+    lush = "summer",
+}
+
+
