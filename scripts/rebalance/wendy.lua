@@ -11,46 +11,32 @@ GLOBAL.setfenv(1, GLOBAL)
 
 --Wendy
 
+-- Ghosts on a quest (following someone) shouldn't block other ghost spawns!
 local CANTHAVE_GHOST_TAGS = {"questing"}
 local MUSTHAVE_GHOST_TAGS = {"ghostkid"}
-
-local NEW_GRAVESTONE_CHANCE = 0.3
-
 local function on_day_change(inst)
-	local MaxSpooks = 0
-    if #AllPlayers > 0 then
-		for _, v in ipairs(AllPlayers) do
-			if v:HasTag("ghostlyfriend") then
-				MaxSpooks = MaxSpooks == 0 and 2 or MaxSpooks + 1
-			end
-		end
-    end
-	local nearby_ghosts = nil
-	local gx, gy, gz = inst.Transform:GetWorldPosition()
-	for i=1, MaxSpooks do
-		local ghost_spawn_chance = NEW_GRAVESTONE_CHANCE
+    if #AllPlayers > 0 and (not inst.ghost or not inst.ghost:IsValid()) then
+        local ghost_spawn_chance = TUNING.GHOST_GRAVESTONE_CHANCE
+        for _, v in ipairs(AllPlayers) do
+            if v:HasTag("ghostlyfriend") then
+                ghost_spawn_chance = ghost_spawn_chance + TUNING.GHOST_GRAVESTONE_CHANCE
 
-		if math.random() < ghost_spawn_chance then
-			if nearby_ghosts == nil then
-				nearby_ghosts = nearby_ghosts or #(TheSim:FindEntities(gx, gy, gz, TUNING.UNIQUE_SMALLGHOST_DISTANCE, MUSTHAVE_GHOST_TAGS, CANTHAVE_GHOST_TAGS))
-			end
-			
-			if nearby_ghosts < MaxSpooks then
-				inst.ghost = SpawnPrefab("smallghost")
-				
-				local disp_ang = math.random() * 2 * math.pi
-				local dispX = math.cos(disp_ang) * 5
-				local dispY = math.sin(disp_ang) * 5
-				
-				inst.ghost.Transform:SetPosition(gx + dispX + 0.3, gy, gz + dispY + 0.3)
-				inst.ghost:LinkToHome(inst)
-				
-				nearby_ghosts = nearby_ghosts + 1
-			else
-				break
-			end
-		end
-	end
+                if v.components.skilltreeupdater and v.components.skilltreeupdater:IsActivated("wendy_smallghost_1") then
+                    ghost_spawn_chance = ghost_spawn_chance + TUNING.WENDYSKILL_SMALLGHOST_EXTRACHANCE
+                end
+            end
+        end
+
+        if math.random() < ghost_spawn_chance then
+            local gx, gy, gz = inst.Transform:GetWorldPosition()
+            local nearby_ghosts = TheSim:FindEntities(gx, gy, gz, TUNING.UNIQUE_SMALLGHOST_DISTANCE, MUSTHAVE_GHOST_TAGS, CANTHAVE_GHOST_TAGS)
+            if #nearby_ghosts == 0 then
+                inst.ghost = SpawnPrefab("smallghost")
+                inst.ghost.Transform:SetPosition(gx + 0.3, gy, gz + 0.3)
+                inst.ghost:LinkToHome(inst)
+            end
+        end
+    end
 end
 
 function PigRuinsChange(inst)
