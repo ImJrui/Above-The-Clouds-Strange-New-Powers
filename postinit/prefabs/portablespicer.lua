@@ -1,3 +1,7 @@
+local AddPrefabPostInit = AddPrefabPostInit
+
+GLOBAL.setfenv(1, GLOBAL)
+
 require "prefabutil"
 
 local cooking = require("cooking")
@@ -94,6 +98,7 @@ AddPrefabPostInit("portablespicer",function(inst)
     if not inst.components.stewer then
         inst:AddComponent("stewer")
     end
-        inst.components.stewer.oncontinuedone = portablespicer_continuedonefn
-        inst.components.stewer.ondonecooking = portablespicer_donecookfn
+
+    inst.components.stewer.oncontinuedone = portablespicer_continuedonefn
+    inst.components.stewer.ondonecooking = portablespicer_donecookfn
 end)
