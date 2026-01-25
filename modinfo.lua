@@ -10,15 +10,15 @@ name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A description of the mod.
 description = translate({
-	en = "v3.3.3 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
-	zh = "v3.3.3 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
+	en = "v3.3.4 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
+	zh = "v3.3.4 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
 })
 
 --Who wrote this awesome mod?
 author = "TUTU"
 
 --A version number so you can ask people if they are running an old version of your mod.
-version = "3.3.3"
+version = "3.3.4"
 
 --This lets other players know if your mod is out of date. This typically needs to be updated every time there's a new game update.
 api_version = 10
