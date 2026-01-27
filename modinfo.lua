@@ -10,15 +10,15 @@ name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A description of the mod.
 description = translate({
-	en = "v3.3.4 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
-	zh = "v3.3.4 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
+	en = "v3.3.5 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
+	zh = "v3.3.5 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
 })
 
 --Who wrote this awesome mod?
 author = "TUTU"
 
 --A version number so you can ask people if they are running an old version of your mod.
-version = "3.3.4"
+version = "3.3.5"
 
 --This lets other players know if your mod is out of date. This typically needs to be updated every time there's a new game update.
 api_version = 10
@@ -32,7 +32,7 @@ all_clients_require_mod = true
 client_only_mod = false
 
 --This lets people search for servers with this mod by these tags
-server_filter_tags = {"Hamlet Rebalance", "Hamlet Strange New Powers", "云霄国度补丁", "above the clouds" }
+server_filter_tags = {"Hamlet Rebalance", "Hamlet Strange New Powers", "云霄国度补丁", "Above The Clouds" }
 
 
 priority = -20  --模组优先级0-10 mod 加载的顺序   0最后载入  覆盖大值

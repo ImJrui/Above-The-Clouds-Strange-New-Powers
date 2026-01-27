@@ -67,6 +67,7 @@ local prefab_posts = {
     "birdcage",
     "grass_tall",
     "disguisehat",
+    "wheeler_tracker",
 }
 
 local prefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
