@@ -141,6 +141,10 @@ local function sapling_fn(build, anim, growprefab, tag, fireproof, overrideloot,
         inst.AnimState:SetBank(build)
         inst.AnimState:SetBuild(build)
         inst.AnimState:PlayAnimation(anim)
+        if build == "nettle_sapling" then
+            inst.entity:AddMiniMapEntity()
+            inst.MiniMapEntity:SetIcon("nettle.tex")
+        end
 
         if not fireproof then
             inst:AddTag("plant")
