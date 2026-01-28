@@ -3,7 +3,7 @@ local AddComponentPostInit = AddComponentPostInit
 
 GLOBAL.setfenv(1, GLOBAL)
 
-local wanteditems = {
+local wantitem = {
     ["pigman_storeowner_shopkeep"] = {
         ["radish"] = 1,
         ["aloe"] = 1,
@@ -29,7 +29,7 @@ local function ShouldAcceptItem(inst, item)
         return false
     end
     
-    if wanteditems[inst.prefab] and wanteditems[inst.prefab][item.prefab]then
+    if wantitem[inst.prefab] and wantitem[inst.prefab][item.prefab]then
         return true
     end
 
@@ -37,7 +37,7 @@ local function ShouldAcceptItem(inst, item)
 end
 
 local function OnGetItemFromPlayer(inst, giver, item)
-    local num = wanteditems[inst.prefab] and wanteditems[inst.prefab][item.prefab] or 1
+    local num = wantitem[inst.prefab] and wantitem[inst.prefab][item.prefab] or 1
     if item:HasTag("stale") then
         num = math.max(math.floor(num/2), 1)
         inst.components.talker:Say(STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE)
@@ -48,8 +48,10 @@ local function OnGetItemFromPlayer(inst, giver, item)
         inst.components.talker:Say(STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM)
     end
 
-    for i = 1, num do
-        giver.components.inventory:GiveItem(SpawnPrefab("oinc"))
+    while num > 0 do
+        num = num -1
+        local oinc = SpawnPrefab("oinc")
+        giver.components.inventory:GiveItem(oinc)
     end
 end
 
@@ -74,7 +76,7 @@ local function TradeExtraItems(inst)
 
         local _onaccept = inst.components.trader.onaccept
         inst.components.trader.onaccept = function(inst, giver, item)
-            if wanteditems[inst.prefab] and wanteditems[inst.prefab][item.prefab] then
+            if wantitem[inst.prefab] and wantitem[inst.prefab][item.prefab] then
                 return OnGetItemFromPlayer(inst, giver, item)
             end
             

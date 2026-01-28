@@ -29,7 +29,6 @@ ModuleDefs.AddCreatureScanDataDefinition("pigbandit", "movespeed2", 3)
 ModuleDefs.AddCreatureScanDataDefinition("pugalisk", "cold", 6)
 ModuleDefs.AddCreatureScanDataDefinition("pugalisk_body", "cold", 6)
 ModuleDefs.AddCreatureScanDataDefinition("pugalisk_tail", "cold", 6)
-ModuleDefs.AddCreatureScanDataDefinition("pugalisk_segment", "cold", 6)
 
 ModuleDefs.AddCreatureScanDataDefinition("glowfly", "light", 2)
 ModuleDefs.AddCreatureScanDataDefinition("glowfly_cocoon", "light", 2)

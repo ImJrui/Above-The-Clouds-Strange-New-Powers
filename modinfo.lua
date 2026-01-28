@@ -1,5 +1,5 @@
 local lang = locale
-local function translate(String)  -- use this fn can be automatically translated according to the language in the table
+local function en_zh(String)  -- use this fn can be automatically translated according to the language in the table
 	String.zhr = String.zh
 	String.zht = String.zht or String.zh
 	return String[lang] or String.en
@@ -9,7 +9,7 @@ end
 name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A description of the mod.
-description = translate({
+description = en_zh({
 	en = "v3.3.6 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
 	zh = "v3.3.6 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
 })
@@ -40,8 +40,8 @@ priority = -20  --模组优先级0-10 mod 加载的顺序   0最后载入  覆�
 configuration_options={ --模组变量配置
 	{
 		name = "PUGALISK_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = translate({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
-		label = translate({en = "Pugalisk HP", zh = "大蛇血量"}),--游戏里显示的名字
+		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		label = en_zh({en = "Pugalisk HP", zh = "大蛇血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
 					{description = "1.5X", data = 1.5},
@@ -54,8 +54,8 @@ configuration_options={ --模组变量配置
 
     {
 		name = "ANCIENT_HERALD_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = translate({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
-		label = translate({en = "Ancient Herald HP", zh = "远古先驱血量"}),--游戏里显示的名字
+		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		label = en_zh({en = "Ancient Herald HP", zh = "远古先驱血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
 					{description = "1.5X", data = 1.5},
@@ -68,8 +68,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ANTQUEEN_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = translate({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
-		label = translate({en = "Antqueen HP", zh = "蚁后血量"}),--游戏里显示的名字
+		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		label = en_zh({en = "Antqueen HP", zh = "蚁后血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
 					{description = "1.5X", data = 1.5},
@@ -82,8 +82,8 @@ configuration_options={ --模组变量配置
 
     {
 		name = "ANCIENT_HULK_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = translate({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
-		label = translate({en = "Ancient Hulk HP", zh = "废铁机器人血量"}),--游戏里显示的名字
+		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		label = en_zh({en = "Ancient Hulk HP", zh = "废铁机器人血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
 					{description = "1.5X", data = 1.5},
@@ -96,8 +96,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_SKILLTREE",--modmain脚本里调用变量
-		hover = translate({en = "Enable or Disable skill tree", zh = "启用或者禁用技能树"}),
-		label = translate({en = "Enable Skilltree", zh = "启用技能树"}),--游戏里显示的名字
+		hover = en_zh({en = "Enable or Disable skill tree", zh = "启用或者禁用技能树"}),
+		label = en_zh({en = "Enable Skilltree", zh = "启用技能树"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
 					{description = "NO", data = false},
@@ -107,8 +107,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_TERRARIUM",--modmain脚本里调用变量
-		hover = translate({en = "Terrarium will become obtainable among a random deep rainforest", zh = "盒中泰拉将在随机的深雨林中生成"}),
-		label = translate({en = "Spawn Terrarium", zh = "生成盒中泰拉"}),--游戏里显示的名字
+		hover = en_zh({en = "Terrarium will become obtainable among a random deep rainforest", zh = "盒中泰拉将在随机的深雨林中生成"}),
+		label = en_zh({en = "Spawn Terrarium", zh = "生成盒中泰拉"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
 					{description = "NO", data = false},
@@ -118,8 +118,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_TOUCHSTONE",--modmain脚本里调用变量
-		hover = translate({en = "Touch stones will spawn on Island 1, Island 2, Island 3, and Island 5", zh = "试金石将会生成在1岛、2岛、3岛、5岛"}),
-		label = translate({en = "Spawn TouchStone", zh = "生成试金石"}),--游戏里显示的名字
+		hover = en_zh({en = "Touch stones will spawn on Island 1, Island 2, Island 3, and Island 5", zh = "试金石将会生成在1岛、2岛、3岛、5岛"}),
+		label = en_zh({en = "Spawn TouchStone", zh = "生成试金石"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
 					{description = "NO", data = false},
@@ -129,8 +129,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_CRITTERLAB",--modmain脚本里调用变量
-		hover = translate({en = "Rock Den will spawn on BFB Island", zh = "岩石巢穴将出现在大鹏岛"}),
-		label = translate({en = "Spawn Rock Den", zh = "生成岩石巢穴"}),--游戏里显示的名字
+		hover = en_zh({en = "Rock Den will spawn on BFB Island", zh = "岩石巢穴将出现在大鹏岛"}),
+		label = en_zh({en = "Spawn Rock Den", zh = "生成岩石巢穴"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
 					{description = "NO", data = false},
@@ -140,8 +140,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "APORKALYPSE_PERIOD_LENGTH",--modmain脚本里调用变量
-		hover = translate({en = "Aporkalypse Period", zh = "毁灭季周期"}),
-		label = translate({en = "Aporkalypse Period", zh = "毁灭季周期"}),--游戏里显示的名字
+		hover = en_zh({en = "Aporkalypse Period", zh = "毁灭季周期"}),
+		label = en_zh({en = "Aporkalypse Period", zh = "毁灭季周期"}),--游戏里显示的名字
 		options ={	
 					{description = "30 days", data = 30},
 					{description = "60 days", data = 60},
@@ -154,8 +154,8 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_SKYWORTHY",--modmain脚本里调用变量
-		hover = translate({en = "​You can travel to the Forest World by running a three-shard server", zh = "搭建3层世界服务器后可以穿越到森林世界"}),
-		label = translate({en = "Three-Shard Mode Beta", zh = "双穿模式Beta"}),--游戏里显示的名字
+		hover = en_zh({en = "​You can travel to the Forest World by running a three-shard server", zh = "搭建3层世界服务器后可以穿越到森林世界"}),
+		label = en_zh({en = "Three-Shard Mode Beta", zh = "双穿模式Beta"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
 					{description = "NO", data = false},

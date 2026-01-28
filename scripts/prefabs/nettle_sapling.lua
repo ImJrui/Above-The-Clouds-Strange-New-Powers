@@ -38,6 +38,8 @@ local function fn()
     inst.AnimState:SetBuild("nettle_sapling_item")
     inst.AnimState:PlayAnimation("idle")
 
+    inst.MiniMapEntity:SetIcon("nettle.tex")
+
     inst:AddTag("deployedplant")
 
     inst.entity:SetPristine()

@@ -56,6 +56,7 @@ local prefab_posts = {
     "pigman_city",
     "portablespicer",
     "porkland",
+    "world",
     "relics",
     "resurrectionstone",
     "wishingwell",
@@ -73,7 +74,6 @@ local prefab_posts = {
 local prefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
     "junk_pile",
     "pigking",
-    "world",
     "interiorworkblank",
     "multiplayer_portal",
     "voidcloth_scythe",
