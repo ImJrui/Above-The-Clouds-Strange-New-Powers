@@ -73,7 +73,8 @@ WX-78:
 => Shopkeep can be scanned for Music Box (4)
 => Pig Queen can be scanned for Music Box (6)
 => Piko and orange Piko can be scanned for Speed 1 (2)
-=> Bandit Pig and any part of Pugalisk can be scanned for Speed 2 (3)
+=> Bandit Pig Speed 2 (3)
+=> any part of Pugalisk can be scanned for ice (6)
 => Glowfly in all forms can be scanned for Light (2)
 => Weevoles and Vipers can be scanned for Health 1 (2)
 => Spider Gorilla can be scanned for Health 2 (4)
@@ -96,10 +97,10 @@ Maxwell:
 => Shadow workers can now shear shearable objects. Shadow workers will prioritize this over hacking.
 
 Willow:
-=> Bernie now requires 2 Beard Hair, 1 Orange Piko, and 2 Silk to craft
+=> Bernie now requires 2 Beard Hair, 4 Clippings, and 2 Silks to craft
 
 Wendy:
-=> Pipspooks now spawn at Ruins Entrances with a 30% chance per day rolled (number of wendies + 1) times, with the same Pipspook cap per Ruins Entrance
+=> Pipspooks now spawn at Ruins Entrances
 
 Wigfrid:
 => Bel Canto of Courage now requires a Dark Tatter

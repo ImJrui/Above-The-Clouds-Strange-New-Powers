@@ -118,7 +118,7 @@ local function PorklandChangeRecipes()
 	end
 
 	--willow
-	AllRecipes["bernie_inactive"].ingredients = {Ingredient("beardhair", 2), Ingredient("piko_orange", 1), Ingredient("silk", 2)}
+	AllRecipes["bernie_inactive"].ingredients = {Ingredient("beardhair", 2), Ingredient("clippings", 4), Ingredient("silk", 2)}
 
 	--wanda
 	AllRecipes["pocketwatch_parts"].ingredients = {Ingredient("pocketwatch_dismantler", 0), Ingredient("alloy", 2), Ingredient("nightmarefuel", 2)}

@@ -307,9 +307,10 @@ local function deco_ruins_fountain_postinit(inst)
     inst:AddComponent("watersource")
     inst.components.watersource.available = true
 
-	if not inst.components.trader then return end
-	inst.components.trader.plrebalance_oldonaccept = inst.components.trader.onaccept
-	inst.components.trader.onaccept = OnGetItemFromPlayer_Wishing
+	if inst.components.trader then
+		inst.components.trader.plrebalance_oldonaccept = inst.components.trader.onaccept
+		inst.components.trader.onaccept = OnGetItemFromPlayer_Wishing
+	end
 end
 
 AddPrefabPostInit("deco_ruins_fountain", deco_ruins_fountain_postinit)
