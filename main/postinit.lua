@@ -85,6 +85,7 @@ local multipleprefab_posts = {
     "deployable",
     "seeds",
     "watersource",
+    "trees",
 }
 
 local multipleprefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
