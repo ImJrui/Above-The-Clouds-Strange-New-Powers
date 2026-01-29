@@ -20,9 +20,9 @@ local trees = {
     "teatree_short",
     "teatree_normal",
     "teatree_tall",
-    -- "tubertree",
-    -- "tubertree_tall",
-    -- "tubertree_short",
+    "tubertree",
+    "tubertree_tall",
+    "tubertree_short",
 }
 
 for _,tree in pairs(trees) do
