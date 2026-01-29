@@ -63,12 +63,13 @@ AddComponentPostInit("simplemagicgrower", function(self)
         if _Grow then
             _Grow(self)
         end
-        if self.inst.prefab:find("tubertree") then
-            self.inst.AnimState:PlayAnimation("grow_short_to_tall")
-            self.inst.SoundEmitter:PlaySound("dontstarve_DLC002/creatures/volcano_cactus/grow_pre")
-            self.inst.tubers = self.inst.maxtubers
-            UpdateTubers(self.inst, self.inst.tubers)
-            PushSway(self.inst)
+        local inst = self.inst
+        if inst.prefab == "tubertree" and inst.tubers < inst.maxtubers then
+            inst.tubers = inst.maxtubers
+            inst.AnimState:PlayAnimation("grow_short_to_tall")
+            inst.SoundEmitter:PlaySound("dontstarve_DLC002/creatures/volcano_cactus/grow_pre")
+            UpdateTubers(inst, inst.tubers)
+            PushSway(inst)
         end
     end
 end)
