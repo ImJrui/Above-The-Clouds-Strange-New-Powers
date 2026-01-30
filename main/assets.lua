@@ -39,6 +39,7 @@ Assets = {
 	Asset("ANIM", "anim/tuber_tree_sapling.zip"),
 	Asset("ANIM", "anim/nettle_sapling.zip"),
 	Asset("ANIM", "anim/nettle_sapling_item.zip"),
+	Asset("ANIM", "anim/pl_swap_items.zip"),
 }
 
 GLOBAL.setfenv(1, GLOBAL)
