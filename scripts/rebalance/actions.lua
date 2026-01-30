@@ -74,6 +74,10 @@ ACTIONS.PORKLANDREBALANCE_LOCKSHOP.stroverridefn = function(act)
 	return ""
 end
 
+if ACTIONS.USEDOOR then
+    ACTIONS.USEDOOR.mount_valid = true
+end
+
 local PL_COMPONENT_ACTIONS =
 {
 	EQUIPPED = {
