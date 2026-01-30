@@ -96,6 +96,10 @@ local function ShouldTeleportFollower(follower)
         return false
     end
 
+    if follower.components.rideable and follower.components.rideable:IsBeingRidden() then
+        return false
+    end
+
     for _, tag in ipairs(CANT_TAGS) do
         if follower:HasTag(tag) then
             return false
