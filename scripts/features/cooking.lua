@@ -1,5 +1,6 @@
 local AddCookerRecipe = AddCookerRecipe
 local AddIngredientValues = AddIngredientValues
+local AddSimPostInit= AddSimPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 local newfoods_warly = require("features/newpreparedfoods_warly")
@@ -12,22 +13,40 @@ for k, recipe in pairs(newspicedfoods) do
     AddCookerRecipe("portablespicer", recipe)
 end
 
---[[
-local cooking = require("cooking")
+local smelter_recipes =
+{
+    messagebottleempty =
+    {
+        name = "messagebottleempty",
+        weight = 1,
+        priority = 10,
+        cooktime = 0.3,
+        test = function(cooker, names, tags)
+            return cooker == "smelter" and names.moonglass and names.moonglass == 4
+        end,
+        no_cookbook = true
+    },
 
-if cooking.recipes and cooking.recipes.frogfishbowl then
-    local _test = cooking.recipes.frogfishbowl.test
+    ash =
+    {
+        name = "ash",
+        weight = 10,
+        priority = 10,
+        cooktime = 0.1,
+        test = function(cooker, names, tags)
+            local moonglass = names.moonglass or 0
+            local iron = names.iron or 0
+            return cooker == "smelter" and moonglass ~= 4 and iron ~= 4
+        end,
+        no_cookbook = true
+    },
+}
 
-    cooking.recipes.frogfishbowl.test = function(cooker, names, tags)
-        if ((names.drumstick and names.drumstick >= 2)
-            or (names.drumstick_cooked and names.drumstick_cooked >= 2 )
-            or (names.drumstick and names.drumstick_cooked))
-            and tags.fish and tags.fish >= 1 and not tags.inedible
-        then
-            return true
-        end
 
-        return _test(cooker, names, tags)
-    end
+for _, recipe in pairs(smelter_recipes) do
+    AddCookerRecipe("smelter", recipe)
+
+    AddCookerRecipe("cookpot", recipe) -- 与初版智能锅mod SmartCrockpot进行兼容(workshop-365119238)
+    AddCookerRecipe("portablecookpot", recipe)
+    AddCookerRecipe("archive_cookpot", recipe)
 end
-]]

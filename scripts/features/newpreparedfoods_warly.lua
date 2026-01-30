@@ -48,7 +48,7 @@ local foods =
     frogfishbowl_hamlet =
     {
         test = function(cooker, names, tags) return ((names.drumstick and names.drumstick >= 2) or (names.drumstick_cooked and names.drumstick_cooked >= 2 ) or (names.drumstick and names.drumstick_cooked) or (names.froglegs and names.froglegs >= 2) or (names.froglegs_cooked and names.froglegs_cooked >= 2 ) or (names.froglegs and names.froglegs_cooked) or (names.froglegs and names.drumstick) or (names.froglegs and names.drumstick_cooked) or (names.froglegs_cooked and names.drumstick) or (names.froglegs_cooked and names.drumstick_cooked)) and tags.fish and tags.fish >= 0.5 and not tags.inedible end,
-        priority = 31,
+        priority = 0,
         foodtype = FOODTYPE.MEAT,
         health = 20,
         hunger = 75/2,

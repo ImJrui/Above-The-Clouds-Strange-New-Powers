@@ -75,3 +75,21 @@ AddPrefabPostInit("pigman_florist_shopkeep", function(inst)
 	
 	PigShopExpander.ExtraGoods_PostInit(inst, extra_data_florist)
 end)
+------------------------------------------------
+local foods = require("preparedfoods_warly")
+
+if foods.frogfishbowl ~= nil then
+    local _test = foods.frogfishbowl.test
+
+    foods.frogfishbowl.test = function(cooker, names, tags)
+        local drumstick = names.drumstick or 0
+        local drumstick_cooked = names.drumstick_cooked or 0
+        local froglegs = names.froglegs or 0
+        local froglegs_cooked = names.froglegs_cooked or 0
+        if (drumstick + drumstick_cooked + froglegs + froglegs_cooked) >= 2 and tags.fish and tags.fish >= 1 and not tags.inedible then
+            return true
+        end
+
+        return _test(cooker, names, tags)
+    end
+end
