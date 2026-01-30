@@ -10,15 +10,15 @@ name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A description of the mod.
 description = en_zh({
-	en = "v3.3.6 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
-	zh = "v3.3.6 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
+	en = "v3.3.7 \n original author：齐天大圣 \n Integrate DST-compatible content into Above the Cloud mod", 
+	zh = "v3.3.7 \n 原作者：齐天大圣 \n 为云霄国度模组增加饥荒联机版适配内容"
 })
 
 --Who wrote this awesome mod?
 author = "TUTU"
 
 --A version number so you can ask people if they are running an old version of your mod.
-version = "3.3.6"
+version = "3.3.7"
 
 --This lets other players know if your mod is out of date. This typically needs to be updated every time there's a new game update.
 api_version = 10
@@ -37,10 +37,14 @@ server_filter_tags = {"Hamlet Rebalance", "Hamlet Strange New Powers", "云霄�
 
 priority = -20  --模组优先级0-10 mod 加载的顺序   0最后载入  覆盖大值
 
+local function Title(title_en, title_zh)
+    return {name = en_zh({en = title_en, zh = title_zh}), options = {{description = "", data = false}}, default = false}
+end
+
 configuration_options={ --模组变量配置
 	{
 		name = "PUGALISK_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		hover = en_zh({en = "Increase boss HP to get more loots", zh = "提高boss血量将获得更多战利品"}),
 		label = en_zh({en = "Pugalisk HP", zh = "大蛇血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
@@ -54,7 +58,7 @@ configuration_options={ --模组变量配置
 
     {
 		name = "ANCIENT_HERALD_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		hover = en_zh({en = "Increase boss HP to get more loots", zh = "提高boss血量将获得更多战利品"}),
 		label = en_zh({en = "Ancient Herald HP", zh = "远古先驱血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
@@ -68,7 +72,7 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ANTQUEEN_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		hover = en_zh({en = "Increase boss HP to get more loots", zh = "提高boss血量将获得更多战利品"}),
 		label = en_zh({en = "Antqueen HP", zh = "蚁后血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
@@ -82,7 +86,7 @@ configuration_options={ --模组变量配置
 
     {
 		name = "ANCIENT_HULK_HP_MULTIPLIER",--modmain脚本里调用变量
-		hover = en_zh({en = "Increase boss HP to get more loot", zh = "提高boss血量将获得更多战利品"}),
+		hover = en_zh({en = "Increase boss HP to get more loots", zh = "提高boss血量将获得更多战利品"}),
 		label = en_zh({en = "Ancient Hulk HP", zh = "废铁机器人血量"}),--游戏里显示的名字
 		options ={	
 					{description = "1X", data = 1},
@@ -154,7 +158,7 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_SKYWORTHY",--modmain脚本里调用变量
-		hover = en_zh({en = "​You can travel to the Forest World by running a three-shard server", zh = "搭建3层世界服务器后可以穿越到森林世界"}),
+		hover = en_zh({en = "You can travel to the Forest World by running a three-shard server", zh = "搭建3层世界服务器后可以穿越到森林世界"}),
 		label = en_zh({en = "Three-Shard Mode Beta", zh = "双穿模式Beta"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
