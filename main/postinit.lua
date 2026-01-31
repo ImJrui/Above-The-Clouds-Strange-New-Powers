@@ -72,6 +72,7 @@ local prefab_posts = {
     "wheeler_tracker",
     "moonglass",
     "smelter",
+    "slingshotparts",
 }
 
 local prefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
