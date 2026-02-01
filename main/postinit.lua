@@ -31,6 +31,7 @@ local component_posts = {
     "door",
     "worldmigrator",
     "simplemagicgrower",
+    "batted",
 }
 
 local component_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
@@ -106,6 +107,9 @@ local module_posts_skyworthy = {
     ["components/map"] = "map",
 }
 
+local stategraph_posts = {
+    "wilson",
+}
 
 if PL_CONFIG["ENABLE_SKYWORTHY"] then
     for i = 1,#component_posts_skyworthy do
@@ -155,3 +159,6 @@ for _, file_name in ipairs(screens_posts) do
     modimport("postinit/screens/" .. file_name)
 end
 
+for _, file_name in ipairs(stategraph_posts) do
+    modimport("postinit/stategraphs/SG" .. file_name)
+end
