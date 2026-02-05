@@ -36,7 +36,7 @@ local smelter_recipes =
         test = function(cooker, names, tags)
             local moonglass = names.moonglass or 0
             local iron = names.iron or 0
-            return cooker == "smelter" and moonglass ~= 4 and iron ~= 4
+            return cooker == "smelter" and moonglass > 0 and moonglass < 4 -- 包含但不全是玻璃
         end,
         no_cookbook = true
     },
