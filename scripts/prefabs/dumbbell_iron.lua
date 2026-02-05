@@ -17,6 +17,8 @@ local function fn()
 	inst.swap_dumbbell = "swap_" .. "dumbbell_iron"
     inst.swap_dumbbell_symbol = "swap_" .. "dumbbell_iron"
     inst.impact_sound = "wolfgang1/dumbbell/gold_impact"
+
+    inst:AddTag("smeltable") -- Smelter
     return inst
 end
 

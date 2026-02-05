@@ -132,6 +132,7 @@ local function PorklandChangeRecipes()
 	AllRecipes["battlesong_instant_taunt"].ingredients = {Ingredient("papyrus", 1), Ingredient("featherpencil", 1), Ingredient("poop", 1)}
 	AllRecipes["spear_wathgrithr_lightning"].ingredients = {Ingredient("twigs", 2), Ingredient("lightninggoathorn", 2), Ingredient("alloy", 1)}
 	AllRecipes["wathgrithr_improvedhat"].ingredients = {Ingredient("goldnugget", 2), Ingredient("clippings", 4), Ingredient("snake_bone", 1)}
+	AllRecipes["wathgrithr_shield"].ingredients = {Ingredient("goldnugget", 4), Ingredient("clippings", 6)}
 
 	-- wolfgang
 	AllRecipes["dumbbell_gem"].ingredients = {Ingredient("purplegem", 1), Ingredient("snake_bone", 4), Ingredient("twigs", 1)}

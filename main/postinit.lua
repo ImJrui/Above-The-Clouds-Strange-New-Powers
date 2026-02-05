@@ -109,6 +109,7 @@ local module_posts_skyworthy = {
 
 local stategraph_posts = {
     "wilson",
+    "pig_city",
 }
 
 if PL_CONFIG["ENABLE_SKYWORTHY"] then
