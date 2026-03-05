@@ -4,3 +4,6 @@ TUNING.SEASONAL_STARTING_ITEMS.temperate = TUNING.SEASONAL_STARTING_ITEMS.temper
 TUNING.SEASONAL_STARTING_ITEMS.humid = TUNING.SEASONAL_STARTING_ITEMS.humid or {"armor_weevole"}
 TUNING.SEASONAL_STARTING_ITEMS.lush = TUNING.SEASONAL_STARTING_ITEMS.lush or {"teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked"}
 TUNING.SEASONAL_STARTING_ITEMS.aporkalypse = TUNING.SEASONAL_STARTING_ITEMS.aporkalypse or {"thunderhat", "halberd", "blue_cap"} --good luck
+
+table.insert(TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WORTOX, "disguisehat")
+table.insert(TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WEBBER, "disguisehat")

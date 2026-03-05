@@ -27,11 +27,11 @@ local item_prefabs = {
 		{"mutator_spitter",				2 ,		0.50},
 		{"mutator_moon",				2 ,		0.50},
 		{"mutator_water",				2 ,		0.50},
-		{"disguisehat",					1 ,		0.50},
+		-- {"disguisehat",					1 ,		0.50},
 		{"spidereggsack",				1 ,		0.50},
 	},
 	["wortox"] = {
-		{"disguisehat",					1 ,		0.30},
+		-- {"disguisehat",					1 ,		0.30},
 		{"messagebottleempty",			1 ,		0.40},
 		-- {"snake_bone",					2 ,		0.50},
 	},
