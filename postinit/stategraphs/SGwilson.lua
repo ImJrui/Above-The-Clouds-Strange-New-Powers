@@ -53,7 +53,7 @@ AddStategraphPostInit("wilson", function(sg)
     end
     -- 修复在虚空坠落的bug
     local _abyss_fall_onenter = sg.states["abyss_fall"].onenter
-    sg.states["abyss_fall"].onenter = function(inst, ...)
+    sg.states["abyss_fall"].onenter = function(inst, teleport_pt, ...)
         if not TheWorld.has_pl_ocean then
 			ForceStopHeavyLifting(inst)
 			inst.components.rider:ActualDismount()
@@ -76,8 +76,8 @@ AddStategraphPostInit("wilson", function(sg)
 				inst.components.playercontroller:Enable(false)
 			end
 			inst.components.health:SetInvincible(true)
-            return 
+            return
         end
-        return _abyss_fall_onenter(inst, ...)
+        return _abyss_fall_onenter(inst, teleport_pt, ...)
     end
 end)
