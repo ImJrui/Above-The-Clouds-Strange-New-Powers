@@ -60,25 +60,25 @@ end
 local _nightvision_activate = NIGHTVISION.activatefn
 local _nightvision_deactivate = NIGHTVISION.deactivatefn
 
-local _nightvision_onworldstateupdate = ToolUtil.GetUpvalue(_nightvision_activate, "nightvision_onworldstateupdate")
+local _nightvision_onworldstateupdate = ToolUtil.GetUpvalue(_nightvision_activate, "OnNightVisionUpdate")
 
 local function nightvision_onworldstateupdate(wx)
     if wx:HasTag("inside_interior") then
-		wx:SetForcedNightVision(true)
-		local x, _, z = wx.Transform:GetWorldPosition()
-		for _, v in ipairs(TheSim:FindEntities(x, 0, z, TUNING.ROOM_FINDENTITIES_RADIUS, {"safelight"})) do --find safelight
-			wx:SetForcedNightVision(false)
-			return
-		end
-		return
-	end
-	_nightvision_onworldstateupdate(wx)
+        wx.components.playervision:PushForcedNightVision(wx)
+        local x, _, z = wx.Transform:GetWorldPosition()
+        for _, v in ipairs(TheSim:FindEntities(x, 0, z, TUNING.ROOM_FINDENTITIES_RADIUS, {"safelight"})) do --find safelight
+            wx.components.playervision:PopForcedNightVision(wx)
+            return
+        end
+        return
+    end
+    _nightvision_onworldstateupdate(wx)
 end
 
 function NIGHTVISION.activatefn(inst, wx)
 	_nightvision_activate(inst, wx)
 
-    if wx._nightvision_modcount > 0 and TheWorld ~= nil and wx.SetForcedNightVision ~= nil then
+    if wx._nightvision_modcount > 0 and TheWorld ~= nil and wx.components.playervision ~= nil then
         inst:ListenForEvent("enterinterior", nightvision_onworldstateupdate, wx)
         inst:ListenForEvent("leaveinterior", nightvision_onworldstateupdate, wx)
     end
@@ -87,13 +87,13 @@ end
 function NIGHTVISION.deactivatefn(inst, wx)
 	_nightvision_deactivate(inst, wx)
 
-    if wx._nightvision_modcount == 0 and TheWorld ~= nil and wx.SetForcedNightVision ~= nil then
+    if wx._nightvision_modcount == 0 and TheWorld ~= nil and wx.components.playervision ~= nil then
         inst:RemoveEventCallback("enterinterior", nightvision_onworldstateupdate, wx)
         inst:RemoveEventCallback("leaveinterior", nightvision_onworldstateupdate, wx)
     end
 end
 
-ToolUtil.SetUpvalue(_nightvision_activate, "nightvision_onworldstateupdate", nightvision_onworldstateupdate)
+ToolUtil.SetUpvalue(_nightvision_activate, "OnNightVisionUpdate", nightvision_onworldstateupdate)
 
 --womant tag missing，now moved to bosshp.lua
 

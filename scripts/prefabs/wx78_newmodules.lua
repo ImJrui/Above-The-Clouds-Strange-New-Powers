@@ -45,6 +45,7 @@ local function MakeModule(data)
         -- For client-side access to information that should not be mutated
         inst._netid = data.module_netid
         inst._slots = data.slots
+        inst._type = data.type
 
         inst.entity:SetPristine()
         if not TheWorld.ismastersim then
@@ -60,6 +61,7 @@ local function MakeModule(data)
         --------------------------------------------------------------------------
         inst:AddComponent("upgrademodule")
         inst.components.upgrademodule:SetRequiredSlots(data.slots)
+        inst.components.upgrademodule:SetType(data.type)
         inst.components.upgrademodule.onactivatedfn = data.activatefn
         inst.components.upgrademodule.ondeactivatedfn = data.deactivatefn
         inst.components.upgrademodule.onremovedfromownerfn = on_module_removed
