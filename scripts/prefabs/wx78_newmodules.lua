@@ -164,6 +164,7 @@ end
 local FAN_MODULE_DATA =
 {
     name = "porklandrebalance_fan",
+    type = CIRCUIT_BARS.BETA,
     slots = 3,
     activatefn = fan_activate,
     deactivatefn = fan_deactivate,
@@ -191,6 +192,7 @@ end
 local FILTER_MODULE_DATA =
 {
     name = "porklandrebalance_filter",
+    type = CIRCUIT_BARS.BETA,
     slots = 3,
     activatefn = filter_activate,
     deactivatefn = filter_deactivate,
