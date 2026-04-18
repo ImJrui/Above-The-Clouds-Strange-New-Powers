@@ -171,6 +171,7 @@ local FAN_MODULE_DATA =
     activatefn = fan_activate,
     deactivatefn = fan_deactivate,
     overrideuibuild = "wx_circuits_porkland",
+    overrideminiuibuild = "pl_status_wx"
 }
 
 ModuleDefs.AddCreatureScanDataDefinition("gnat", "porklandrebalance_fan", 1)
@@ -200,6 +201,7 @@ local FILTER_MODULE_DATA =
     activatefn = filter_activate,
     deactivatefn = filter_deactivate,
     overrideuibuild = "wx_circuits_porkland",
+    overrideminiuibuild = "pl_status_wx"
 }
 
 ModuleDefs.AddCreatureScanDataDefinition("pangolden", "porklandrebalance_filter", 6)

@@ -182,6 +182,7 @@ AddPlayerPostInit(function(inst)
 	end
 end)
 
+--[[
 --module graphics
 local modmodule={"porklandrebalance_fan","porklandrebalance_filter",}--以后可以加新的
 
@@ -203,3 +204,4 @@ AddClassPostConstruct( "widgets/upgrademodulesdisplay", function(self)--右边�
 		end
 	end
 end)
+]]
