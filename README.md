@@ -1,3 +1,4 @@
+```text
 Above The Cloud Strange New Powers/
 ├── main/                 --这个文件夹里的文件需要使用modimport导入到modmain
 │    ├──assets.lua        --文件系统，包括载入预制件、动画、图标
@@ -18,3 +19,4 @@ Above The Cloud Strange New Powers/
 │         └── xx.lua
 ├── modinfo.lua
 └── modmain.lua
+```
