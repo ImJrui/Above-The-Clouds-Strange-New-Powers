@@ -149,6 +149,11 @@ local function PorklandChangeRecipes()
 	AllRecipes["wx78module_maxhunger"].ingredients = {Ingredient("scandata", 3), Ingredient("venus_stalk", 1), Ingredient("wx78module_maxhunger1", 1)}
 	AllRecipes["wx78module_movespeed"].ingredients = {Ingredient("scandata", 2), Ingredient("piko", 1)}
 	AllRecipes["wx78module_taser"].ingredients = {Ingredient("scandata", 5), Ingredient("feather_thunder", 1)}
+	AllRecipes["wx78module_stacksize"].ingredients = {Ingredient("scandata", 8), Ingredient("infused_iron", 1)}
+	AllRecipes["wx78module_screech"].ingredients = {Ingredient("scandata", 4), Ingredient("batwing", 1)}
+	AllRecipes["wx78module_shielding"].ingredients = {Ingredient("scandata", 4), Ingredient("armor_weevole", 1)}
+	AllRecipes["wx78_drone_zap_remote"].ingredients = {Ingredient("scandata", 10), Ingredient("transistor", 1), Ingredient("iron", 8)}
+	AllRecipes["wx78_gestalttrapper"].ingredients = {Ingredient("scandata", 12), Ingredient("iron", 2)}
 
 	-- walter
 	AllRecipes["slingshotammo_marble"].ingredients = {Ingredient("snake_bone", 1)}

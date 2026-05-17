@@ -204,7 +204,7 @@ local FILTER_MODULE_DATA =
     overrideminiuibuild = "pl_status_wx"
 }
 
-ModuleDefs.AddCreatureScanDataDefinition("pangolden", "porklandrebalance_filter", 6)
+ModuleDefs.AddCreatureScanDataDefinition("peagawk", "porklandrebalance_filter", 4)
 new_modules[#new_modules + 1] = FILTER_MODULE_DATA
 
 for _, def in ipairs(new_modules) do

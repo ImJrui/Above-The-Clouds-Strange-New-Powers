@@ -30,9 +30,9 @@ ModuleDefs.AddCreatureScanDataDefinition("pugalisk", "cold", 6)
 ModuleDefs.AddCreatureScanDataDefinition("pugalisk_body", "cold", 6)
 ModuleDefs.AddCreatureScanDataDefinition("pugalisk_tail", "cold", 6)
 
-ModuleDefs.AddCreatureScanDataDefinition("glowfly", "light", 2)
-ModuleDefs.AddCreatureScanDataDefinition("glowfly_cocoon", "light", 2)
-ModuleDefs.AddCreatureScanDataDefinition("rabid_beetle", "light", 2)
+ModuleDefs.AddCreatureScanDataDefinition("glowfly", "light2", 2)
+ModuleDefs.AddCreatureScanDataDefinition("glowfly_cocoon", "light2", 2)
+ModuleDefs.AddCreatureScanDataDefinition("rabid_beetle", "light2", 2)
 
 ModuleDefs.AddCreatureScanDataDefinition("weevole", "maxhealth", 2)
 ModuleDefs.AddCreatureScanDataDefinition("snake_amphibious", "maxhealth", 2)
@@ -45,6 +45,16 @@ ModuleDefs.AddCreatureScanDataDefinition("adult_flytrap", "maxhunger", 4)
 ModuleDefs.AddCreatureScanDataDefinition("thunderbird", "taser", 3)
 
 ModuleDefs.AddCreatureScanDataDefinition("antqueen", "bee", 6)
+
+ModuleDefs.AddCreatureScanDataDefinition("pangolden", "shielding", 4)
+
+ModuleDefs.AddCreatureScanDataDefinition("ancient_herald", "heat", 10)
+
+ModuleDefs.AddCreatureScanDataDefinition("vampirebat", "screech", 4)
+
+-- ModuleDefs.AddCreatureScanDataDefinition("catcoon", "digestion", 2)
+
+ModuleDefs.AddCreatureScanDataDefinition("bill", "spin", 3)
 
 --nightvision fix
 
