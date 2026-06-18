@@ -74,6 +74,7 @@ local prefab_posts = {
     "moonglass",
     "smelter",
     "ipecacsyrup_buff",
+    "wx78_moduledefs",
 }
 
 local prefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled

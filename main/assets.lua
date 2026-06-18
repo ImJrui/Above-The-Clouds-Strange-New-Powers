@@ -1,6 +1,6 @@
 PrefabFiles = {
 	"vortexeye",
-	"wx78_newmodules",
+	-- "wx78_newmodules",
 	"seedofruin",
 	"plrebalance_ruinsresetfx",
 	"pondcoi",
@@ -28,6 +28,7 @@ Assets = {
     Asset("ATLAS_BUILD", "images/hud/plrebalance_inventoryimages.xml", 256),
 	
     Asset("ANIM", "anim/wx_circuits_porkland.zip"),
+    Asset("ANIM", "anim/wx_newmodules.zip"),
     Asset("ANIM", "anim/pl_status_wx.zip"),
     --Asset("ANIM", "anim/seedofruin.zip"),
     Asset("ANIM", "anim/plrebalance_ruinsresetfx.zip"),
