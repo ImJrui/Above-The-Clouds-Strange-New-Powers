@@ -32,6 +32,7 @@ local component_posts = {
     "worldmigrator",
     "simplemagicgrower",
     "batted",
+    "grogginess",
 }
 
 local component_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled

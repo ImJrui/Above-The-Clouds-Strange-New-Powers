@@ -1,30 +1,6 @@
 -------------------------------------------------------------------------
 ---------------------- Attach and dettach functions ---------------------
 -------------------------------------------------------------------------
-local Grogginess = require("components/grogginess")
-
-local OldFogProofChange = Grogginess.OnFogProofChange
-
-function Grogginess.OnFogProofChange(inst, data)
-	if inst:HasTag("onfogproof") then
-		local self = inst.components.grogginess
-
-		if not self then
-			return
-		end
-		
-		if self.foggygroggy then
-			if inst.components.talker then
-				inst.components.talker:Say(GetString(inst, "ANNOUNCE_DEHUMID"))
-			end
-		end
-		
-		self.foggygroggy = false
-		return
-	end
-	OldFogProofChange(inst, data)
-end
-
 local function fogproof_attach(inst, target)
     if target:HasTag("player") then
         target:AddTag("onfogproof")
@@ -40,11 +16,10 @@ local function fogproof_detach(inst, target)
 end
 -------------------------------------------------------------------------
 local function antivenom_attach(inst, target)
-    if not target:HasTag("poisonable") then
-        target:AddComponent("poisonable")
+    if target.components.poisonable then
+        target.components.poisonable:Cure(target)
+        target.components.poisonable.immune = true
     end
-    target.components.poisonable:Cure(target)
-    target.components.poisonable.immune = true
 end
 
 local function antivenom_detach(inst, target)

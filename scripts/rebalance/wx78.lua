@@ -105,36 +105,6 @@ end
 
 ToolUtil.SetUpvalue(_nightvision_activate, "OnNightVisionUpdate", nightvision_onworldstateupdate)
 
---womant tag missing，now moved to bosshp.lua
-
--- AddPrefabPostInit("antqueen", function(inst)
--- 	inst:AddTag("largecreature")
--- end)
-
---humid module
-
-local OldFogProofChange = Grogginess.OnFogProofChange
-
-function Grogginess.OnFogProofChange(inst, data)
-	if (inst:HasTag("PorklandRebalance_WX_FogImmune") or inst:HasTag("PorklandRebalance_WX_FogImmune_Ally")) then
-		local self = inst.components.grogginess
-
-		if not self then
-			return
-		end
-		
-		if self.foggygroggy then
-			if inst.components.talker then
-				inst.components.talker:Say(GetString(inst, "ANNOUNCE_DEHUMID"))
-			end
-		end
-		
-		self.foggygroggy = false
-		return
-	end
-	OldFogProofChange(inst, data)
-end
-
 local _GetDryingRate = Moisture.GetDryingRate
 
 function Moisture:GetDryingRate(...)
