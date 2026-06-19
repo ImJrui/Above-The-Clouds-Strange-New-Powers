@@ -26,18 +26,24 @@ local function fan_activate(inst, wx)
         radius = ATTACH_RADIUS[wx._fan_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
         number = wx._fan_modules,
         onattachedfn = function(player)
-            if not player:HasTag("porklandrebalance_fan_buff") then
-                player:AddTag("porklandrebalance_fan_buff")
+            if not player:HasTag("fan_module_buff") then
+                player:AddTag("fan_module_buff")
+            end
+            if player.components.grogginess then
+                player.components.grogginess.OnFogProofChange(player)
             end
         end,
         ondetachedfn = function(player)
-            if player:HasTag("porklandrebalance_fan_buff") then
-                player:RemoveTag("porklandrebalance_fan_buff")
+            if player:HasTag("fan_module_buff") then
+                player:RemoveTag("fan_module_buff")
+            end
+            if player.components.grogginess then
+                player.components.grogginess.OnFogProofChange(player)
             end
         end
     }
 
-    wx.components.upgrademodulebuff:SetBuffer("porklandrebalance_fan_buff", data)
+    wx.components.upgrademodulebuff:SetBuffer("fan_module_buff", data)
 end
 
 local function fan_deactivate(inst, wx)
@@ -52,9 +58,9 @@ local function fan_deactivate(inst, wx)
                 radius = ATTACH_RADIUS[wx._fan_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
                 number = wx._fan_modules,
             }
-            wx.components.upgrademodulebuff:UpdateBuffer("porklandrebalance_fan_buff", data)
+            wx.components.upgrademodulebuff:UpdateBuffer("fan_module_buff", data)
         else
-            wx.components.upgrademodulebuff:RemoveBuffer("porklandrebalance_fan_buff")
+            wx.components.upgrademodulebuff:RemoveBuffer("fan_module_buff")
         end
     end
 end
