@@ -82,7 +82,7 @@ function UpgradeModuleBuff:Attach(buffname, data)
 	self.buffs[buffname] = {
 		timeleft = duration,
 		onattachedfn = data.onattachedfn,
-		ondetachfn = data.ondetachfn,
+		ondetachedfn = data.ondetachedfn,
 	}
 	if data.onattachedfn then
 		data.onattachedfn(self.inst)
@@ -96,7 +96,7 @@ end
 
 function UpgradeModuleBuff:OnDetach(buffname)
 	if self.buffs[buffname] then
-		self.buffs[buffname].ondetachfn(self.inst)
+		self.buffs[buffname].ondetachedfn(self.inst)
 	end
 	self.buffs[buffname] = nil
 end
