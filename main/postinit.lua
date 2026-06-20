@@ -33,6 +33,8 @@ local component_posts = {
     "simplemagicgrower",
     "batted",
     "grogginess",
+    "moisture",
+    "hayfever",
 }
 
 local component_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled

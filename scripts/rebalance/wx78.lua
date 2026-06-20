@@ -105,27 +105,16 @@ end
 
 ToolUtil.SetUpvalue(_nightvision_activate, "OnNightVisionUpdate", nightvision_onworldstateupdate)
 
-local _GetDryingRate = Moisture.GetDryingRate
-
-function Moisture:GetDryingRate(...)
-    local rate = _GetDryingRate(self, ...)
-
-    if (self.inst:HasTag("PorklandRebalance_WX_FogImmune") or self.inst:HasTag("PorklandRebalance_WX_FogImmune_Ally")) and TheWorld.state.fullfog then
-        rate = rate + TUNING.HYDRO_BONUS_COOL_RATE
-    end
-    return rate
-end
-
 local _UpdateAlpha = FogOver.UpdateAlpha
 
-local activated_alpha = 0.3
+local activated_alpha = 0.5
 
 function FogOver:UpdateAlpha(dt, ...)
     _UpdateAlpha(self, dt, ...)
-	
+
 	self.PorklandRebalance_WX_FogImmune_AlphaTarget = self.PorklandRebalance_WX_FogImmune_AlphaTarget or 1
 	self.PorklandRebalance_WX_FogImmune_time = self.PorklandRebalance_WX_FogImmune_time or 0
-	if self.owner:HasTag("PorklandRebalance_WX_FogImmune") or self.owner:HasTag("PorklandRebalance_WX_FogImmune_Ally") then
+	if self.owner:HasTag("immunefog") then
 		if not self.PorklandRebalance_WX_FogImmune then
 			self.PorklandRebalance_WX_FogImmune_AlphaGoal = activated_alpha
 			self.PorklandRebalance_WX_FogImmune = true
@@ -146,12 +135,14 @@ function FogOver:UpdateAlpha(dt, ...)
 			self.PorklandRebalance_WX_FogImmune_AlphaTarget = Remap(self.PorklandRebalance_WX_FogImmune_time, 2, 0, activated_alpha, 1)
 		end
 	end
-	if self.time == 0 then self.alpha = self.alphagoal end
+	if self.time == 0 then
+		self.alpha = self.alphagoal
+	end
 	self.alpha = self.alpha * self.PorklandRebalance_WX_FogImmune_AlphaTarget
 end
 
+--[[
 --lush module
-
 AddPlayerPostInit(function(inst)
 	inst.HasTag_Old = inst.HasTag
 	function inst:HasTag(tag, ...)
@@ -162,7 +153,6 @@ AddPlayerPostInit(function(inst)
 	end
 end)
 
---[[
 --module graphics
 local modmodule={"porklandrebalance_fan","porklandrebalance_filter",}--以后可以加新的
 

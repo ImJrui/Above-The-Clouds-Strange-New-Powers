@@ -8,7 +8,7 @@ function Grogginess.OnFogProofChange(inst, ...)
 	if inst:HasTag("PorklandRebalance_WX_FogImmune")
         or inst:HasTag("PorklandRebalance_WX_FogImmune_Ally")
         or inst:HasTag("onfogproof")
-		or inst:HasTag("fan_module_buff")
+		or inst:HasTag("immunefog")
     then
 		local self = inst.components.grogginess
 

@@ -8,8 +8,6 @@ local AddCreatureScanDataDefinition = wx78_moduledefs.AddCreatureScanDataDefinit
 local GetCreatureScanDataDefinition = wx78_moduledefs.GetCreatureScanDataDefinition
 local AddSpecialCreatureScanDataDefinition = wx78_moduledefs.AddSpecialCreatureScanDataDefinition
 
-local EXTRA_DRYRATE = 2
-
 local ATTACH_RADIUS = {
     [1] = 4,
     [2] = 6,
@@ -26,16 +24,16 @@ local function fan_activate(inst, wx)
         radius = ATTACH_RADIUS[wx._fan_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
         number = wx._fan_modules,
         onattachedfn = function(player)
-            if not player:HasTag("fan_module_buff") then
-                player:AddTag("fan_module_buff")
+            if not player:HasTag("immunefog") then
+                player:AddTag("immunefog")
             end
             if player.components.grogginess then
                 player.components.grogginess.OnFogProofChange(player)
             end
         end,
         ondetachedfn = function(player)
-            if player:HasTag("fan_module_buff") then
-                player:RemoveTag("fan_module_buff")
+            if player:HasTag("immunefog") then
+                player:RemoveTag("immunefog")
             end
             if player.components.grogginess then
                 player.components.grogginess.OnFogProofChange(player)
@@ -81,14 +79,51 @@ table.insert(module_definitions, FAN_MODULE_DATA)
 
 AddCreatureScanDataDefinition("gnat", "porklandrebalance_fan", 1)
 
+AddNewModuleDefinition(FAN_MODULE_DATA)
 ---------------------------------------------------------------
 
 local function filter_activate(inst, wx)
-    wx:AddTag("wx78_filter_module")
+    wx._filter_modules = (wx._filter_modules or 0) + 1
+
+    if not wx.components.upgrademodulebuff then
+        wx:AddComponent("upgrademodulebuff")
+    end
+
+    local data = {
+        radius = ATTACH_RADIUS[wx._filter_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
+        number = wx._filter_modules,
+        onattachedfn = function(player)
+            if not player:HasTag("immunehayfever") then
+                player:AddTag("immunehayfever")
+            end
+        end,
+        ondetachedfn = function(player)
+            if player:HasTag("immunehayfever") then
+                player:RemoveTag("immunehayfever")
+            end
+        end
+    }
+
+    wx.components.upgrademodulebuff:SetBuffer("filter_module_buff", data)
 end
 
 local function filter_deactivate(inst, wx)
-    wx:RemoveTag("wx78_filter_module")
+    wx._filter_modules = (wx._filter_modules or 1) - 1
+    if wx._filter_modules <= 0 then
+        wx._filter_modules = nil
+    end
+
+    if wx.components.upgrademodulebuff then
+        if wx._filter_modules and wx._filter_modules > 0 then
+            local data = {
+                radius = ATTACH_RADIUS[wx._filter_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
+                number = wx._filter_modules,
+            }
+            wx.components.upgrademodulebuff:UpdateBuffer("filter_module_buff", data)
+        else
+            wx.components.upgrademodulebuff:RemoveBuffer("filter_module_buff")
+        end
+    end
 end
 
 local FILTER_MODULE_DATA =
@@ -106,3 +141,5 @@ local FILTER_MODULE_DATA =
 table.insert(module_definitions, FILTER_MODULE_DATA)
 
 AddCreatureScanDataDefinition("peagawk", "porklandrebalance_filter", 4)
+
+AddNewModuleDefinition(FILTER_MODULE_DATA)
