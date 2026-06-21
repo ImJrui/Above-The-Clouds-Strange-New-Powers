@@ -1,6 +1,5 @@
 PrefabFiles = {
 	"vortexeye",
-	-- "wx78_newmodules",
 	"seedofruin",
 	"plrebalance_ruinsresetfx",
 	"pondcoi",
