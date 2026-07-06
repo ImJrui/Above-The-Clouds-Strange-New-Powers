@@ -56,6 +56,7 @@ ModuleDefs.AddCreatureScanDataDefinition("vampirebat", "screech", 4)
 
 ModuleDefs.AddCreatureScanDataDefinition("bill", "spin", 3)
 
+----------------------------------
 --nightvision fix
 
 local NIGHTVISION = nil
@@ -70,41 +71,57 @@ end
 local _nightvision_activate = NIGHTVISION.activatefn
 local _nightvision_deactivate = NIGHTVISION.deactivatefn
 
-local _nightvision_onworldstateupdate = ToolUtil.GetUpvalue(_nightvision_activate, "OnNightVisionUpdate")
+local _OnNightVisionUpdate = ToolUtil.GetUpvalue(_nightvision_activate, "OnNightVisionUpdate")
 
-local function nightvision_onworldstateupdate(wx)
+local function OnNightVisionUpdate(wx)
     if wx:HasTag("inside_interior") then
-        wx.components.playervision:PushForcedNightVision(wx)
-        local x, _, z = wx.Transform:GetWorldPosition()
-        for _, v in ipairs(TheSim:FindEntities(x, 0, z, TUNING.ROOM_FINDENTITIES_RADIUS, {"safelight"})) do --find safelight
-            wx.components.playervision:PopForcedNightVision(wx)
-            return
-        end
-        return
+		local playervision = wx.components.playervision
+		if playervision then
+			local nonightvisioncc = wx.components.skilltreeupdater:IsActivated("wx78_circuitry_betabuffs_1")
+			playervision:PushForcedNightVision(wx, 0, nil, nil, nil, nonightvisioncc)
+		end
+		return
     end
-    _nightvision_onworldstateupdate(wx)
+    _OnNightVisionUpdate(wx)
 end
 
-function NIGHTVISION.activatefn(inst, wx)
-	_nightvision_activate(inst, wx)
+local function nightvision_common_activate(inst, wx)
+    _nightvision_activate(inst, wx)
 
-    if wx._nightvision_modcount > 0 and TheWorld ~= nil and wx.components.playervision ~= nil then
-        inst:ListenForEvent("enterinterior", nightvision_onworldstateupdate, wx)
-        inst:ListenForEvent("leaveinterior", nightvision_onworldstateupdate, wx)
+    if wx._nightvision_modcount == 1 then
+		if TheWorld.ismastersim then
+			wx:ListenForEvent("enterinterior", OnNightVisionUpdate)
+			wx:ListenForEvent("leaveinterior", OnNightVisionUpdate)
+		else
+			wx:ListenForEvent("enterinterior_client", OnNightVisionUpdate)
+			wx:ListenForEvent("leaveinterior_client", OnNightVisionUpdate)
+		end
+	end
+end
+
+local function nightvision_common_deactivate(inst, wx)
+    _nightvision_deactivate(inst, wx)
+
+    if wx._nightvision_modcount == 0 then
+		if TheWorld.ismastersim then
+			wx:RemoveEventCallback("enterinterior", OnNightVisionUpdate)
+			wx:RemoveEventCallback("leaveinterior", OnNightVisionUpdate)
+		else
+			wx:RemoveEventCallback("enterinterior_client", OnNightVisionUpdate)
+			wx:RemoveEventCallback("leaveinterior_client", OnNightVisionUpdate)
+		end
     end
 end
 
-function NIGHTVISION.deactivatefn(inst, wx)
-	_nightvision_deactivate(inst, wx)
+NIGHTVISION.activatefn = nightvision_common_activate
+NIGHTVISION.deactivatefn = nightvision_common_deactivate
 
-    if wx._nightvision_modcount == 0 and TheWorld ~= nil and wx.components.playervision ~= nil then
-        inst:RemoveEventCallback("enterinterior", nightvision_onworldstateupdate, wx)
-        inst:RemoveEventCallback("leaveinterior", nightvision_onworldstateupdate, wx)
-    end
-end
+NIGHTVISION.client_activatefn = nightvision_common_activate
+NIGHTVISION.client_deactivatefn = nightvision_common_deactivate
 
-ToolUtil.SetUpvalue(_nightvision_activate, "OnNightVisionUpdate", nightvision_onworldstateupdate)
+ToolUtil.SetUpvalue(_nightvision_activate, "OnNightVisionUpdate", OnNightVisionUpdate)
 
+----------------------------------
 local _UpdateAlpha = FogOver.UpdateAlpha
 
 local activated_alpha = 0.5
