@@ -9,8 +9,15 @@ local GetCreatureScanDataDefinition = wx78_moduledefs.GetCreatureScanDataDefinit
 local AddSpecialCreatureScanDataDefinition = wx78_moduledefs.AddSpecialCreatureScanDataDefinition
 
 local ATTACH_RADIUS = {
+    [0] = 0,
     [1] = 4,
     [2] = 6,
+}
+
+local ATTACH_BONUS = {
+    [0] = 1.0,
+    [1] = 0.6,
+    [2] = 0.3,
 }
 
 local function fan_activate(inst, wx)
@@ -22,7 +29,7 @@ local function fan_activate(inst, wx)
 
     local data = {
         radius = ATTACH_RADIUS[wx._fan_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
-        number = wx._fan_modules,
+        bonus = wx._fan_modules,
         onattachedfn = function(player)
             if not player:HasTag("immunefog") then
                 player:AddTag("immunefog")
@@ -38,10 +45,13 @@ local function fan_activate(inst, wx)
             if player.components.grogginess then
                 player.components.grogginess.OnFogProofChange(player)
             end
-        end
+        end,
+        onupdatedfn = function(player, bonus)
+            player.fogover_alpha = ATTACH_BONUS[bonus] or ATTACH_BONUS[#ATTACH_BONUS]
+        end,
     }
 
-    wx.components.upgrademodulebuff:SetBuffer("fan_module_buff", data)
+    wx.components.upgrademodulebuff:AddAuraSource("fan_module_buff", data)
 end
 
 local function fan_deactivate(inst, wx)
@@ -54,11 +64,11 @@ local function fan_deactivate(inst, wx)
         if wx._fan_modules and wx._fan_modules > 0 then
             local data = {
                 radius = ATTACH_RADIUS[wx._fan_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
-                number = wx._fan_modules,
+                bonus = wx._fan_modules,
             }
-            wx.components.upgrademodulebuff:UpdateBuffer("fan_module_buff", data)
+            wx.components.upgrademodulebuff:UpdateAura("fan_module_buff", data)
         else
-            wx.components.upgrademodulebuff:RemoveBuffer("fan_module_buff")
+            wx.components.upgrademodulebuff:RemoveAura("fan_module_buff")
         end
     end
 end
@@ -91,7 +101,7 @@ local function filter_activate(inst, wx)
 
     local data = {
         radius = ATTACH_RADIUS[wx._filter_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
-        number = wx._filter_modules,
+        bonus = wx._filter_modules,
         onattachedfn = function(player)
             if not player:HasTag("immunehayfever") then
                 player:AddTag("immunehayfever")
@@ -104,7 +114,7 @@ local function filter_activate(inst, wx)
         end
     }
 
-    wx.components.upgrademodulebuff:SetBuffer("filter_module_buff", data)
+    wx.components.upgrademodulebuff:AddAuraSource("filter_module_buff", data)
 end
 
 local function filter_deactivate(inst, wx)
@@ -117,11 +127,11 @@ local function filter_deactivate(inst, wx)
         if wx._filter_modules and wx._filter_modules > 0 then
             local data = {
                 radius = ATTACH_RADIUS[wx._filter_modules] or ATTACH_RADIUS[#ATTACH_RADIUS],
-                number = wx._filter_modules,
+                bonus = wx._filter_modules,
             }
-            wx.components.upgrademodulebuff:UpdateBuffer("filter_module_buff", data)
+            wx.components.upgrademodulebuff:UpdateAura("filter_module_buff", data)
         else
-            wx.components.upgrademodulebuff:RemoveBuffer("filter_module_buff")
+            wx.components.upgrademodulebuff:RemoveAura("filter_module_buff")
         end
     end
 end

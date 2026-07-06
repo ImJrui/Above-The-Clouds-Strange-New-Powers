@@ -3,126 +3,245 @@ local duration = 1
 local UpgradeModuleBuff = Class(function(self, inst)
     self.inst = inst
 
-	self.buffers = {}
-	self.buffs = {}
+    self.auras = {}
+    self.buffs = {}
 
-	self.task = nil
-	self.freq = 0.5
+    self.task = nil
+    self.freq = 0.5
 
-	self.inst:ListenForEvent("death", function() self:Disable() end)
-	self.inst:ListenForEvent("onremove", function() self:Disable() end)
+    self.inst:ListenForEvent("death", function() self:Disable() end)
+    self.inst:ListenForEvent("onremove", function() self:Disable() end)
 end)
 
+--------------------------------------------------
+-- update loop
+--------------------------------------------------
+
 function UpgradeModuleBuff:OnUpdate()
-	for buffname, data in pairs(self.buffers) do
-		self:AttachToTargets(buffname, data)
-	end
 
-	for buffname, data in pairs(self.buffs) do
-		self:DoDelta(buffname, self.freq)
-	end
+    -- aura tick
+    for aura, data in pairs(self.auras) do
+        self:AttachToTargets(aura, data)
+    end
 
-	if next(self.buffers) == nil and next(self.buffs) == nil then
-		self:Disable()
-		self.inst:RemoveComponent("upgrademodulebuff")
-	end
+    -- decay tick
+    for buffname in pairs(self.buffs) do
+        self:DoDelta(buffname, self.freq)
+    end
+
+    -- 1. bonus update（每 tick 最多一次）
+    for buffname, buff in pairs(self.buffs) do
+        if buff._bonusdirty then
+            buff._bonusdirty = false
+            self:OnBonusUpdate(buffname)
+        end
+    end
+
+    -- 2. detach（tick 末统一处理）
+    for buffname, buff in pairs(self.buffs) do
+        if next(buff.sources) == nil then
+            self:OnDetach(buffname)
+        end
+    end
+
+    -- auto disable
+    if next(self.auras) == nil and next(self.buffs) == nil then
+        self:Disable()
+        self.inst:RemoveComponent("upgrademodulebuff")
+    end
 end
 
-function UpgradeModuleBuff:SetBuffer(buffname, data)
-	self.buffers[buffname] = data
-	self:Enable()
+--------------------------------------------------
+-- aura management
+--------------------------------------------------
+
+function UpgradeModuleBuff:AddAuraSource(key, data)
+    self.auras[key] = data
+    self:Enable()
 end
 
-function UpgradeModuleBuff:UpdateBuffer(buffname, data)
-	for k, v in pairs(data) do
-		if self.buffers[buffname] then
-			self.buffers[buffname][k] = v
-		end
-	end
+function UpgradeModuleBuff:UpdateAura(key, data)
+    if not self.auras[key] then return end
+    for k, v in pairs(data) do
+        self.auras[key][k] = v
+    end
 end
 
-function UpgradeModuleBuff:RemoveBuffer(buffname)
-	self.buffers[buffname] = nil
+function UpgradeModuleBuff:RemoveAura(key)
+    self.auras[key] = nil
 end
 
-function UpgradeModuleBuff:RemoveAllBuffers()
-	for buffname in pairs(self.buffers) do
-		self.buffers[buffname] = nil
-	end
+function UpgradeModuleBuff:RemoveAllAuras()
+    self.auras = {}
 end
+
+--------------------------------------------------
+-- apply aura to targets
+--------------------------------------------------
 
 function UpgradeModuleBuff:AttachToTargets(buffname, data)
-	local x, y, z = self.inst.Transform:GetWorldPosition()
-	local players = not TheNet:GetPVPEnabled() and FindPlayersInRange(x, y, z, data.radius, true) or {}
-	for i = 1, #players do
-		local player = players[i]
-		if player and player:IsValid() and not player:HasTag("playerghost") then
-			if not player.components.upgrademodulebuff then
-				player:AddComponent("upgrademodulebuff")
-			end
-			if player.components.upgrademodulebuff.buffs[buffname] == nil then
-				player.components.upgrademodulebuff:Attach(buffname, data)
-			else
-				player.components.upgrademodulebuff:Extend(buffname)
-			end
-		end
-	end
+    local x, y, z = self.inst.Transform:GetWorldPosition()
+
+    local players = {}
+    if not TheNet:GetPVPEnabled() then
+        players = FindPlayersInRange(x, y, z, data.radius, true)
+    end
+
+    for i = 1, #players do
+        local player = players[i]
+
+        if player and player:IsValid() and not player:HasTag("playerghost") then
+            local comp = player.components.upgrademodulebuff
+            if not comp then
+                comp = player:AddComponent("upgrademodulebuff")
+            end
+
+            if comp.buffs[buffname] == nil then
+                comp:Attach(buffname, data)
+            else
+                comp:Extend(buffname, data)
+            end
+        end
+    end
 end
+
+--------------------------------------------------
+-- tick decay（只负责标记变化）
+--------------------------------------------------
 
 function UpgradeModuleBuff:DoDelta(buffname, delta)
-	if self.buffs[buffname] then
-		self.buffs[buffname].timeleft = self.buffs[buffname].timeleft - delta
-		if self.buffs[buffname].timeleft <= 0 then
-			self:OnDetach(buffname)
-		end
-	end
+    local buff = self.buffs[buffname]
+    if not buff then return end
+
+    local changed = false
+
+    for bonus, v in pairs(buff.sources) do
+        v.timeleft = v.timeleft - delta
+
+        if v.timeleft <= 0 then
+            buff.sources[bonus] = nil
+            changed = true
+        end
+    end
+
+    if changed then
+        buff._bonusdirty = true
+    end
 end
+
+--------------------------------------------------
+-- attach / extend
+--------------------------------------------------
 
 function UpgradeModuleBuff:Attach(buffname, data)
-	self.buffs[buffname] = {
-		timeleft = duration,
-		onattachedfn = data.onattachedfn,
-		ondetachedfn = data.ondetachedfn,
-	}
-	if data.onattachedfn then
-		data.onattachedfn(self.inst)
-	end
-	self:Enable()
+    self.buffs[buffname] = {
+        sources = {
+            [data.bonus] = {
+                timeleft = duration,
+            }
+        },
+
+        onattachedfn = data.onattachedfn,
+        ondetachedfn = data.ondetachedfn,
+        onupdatedfn = data.onupdatedfn,
+
+        current_bonus = nil,
+
+        _bonusdirty = true
+    }
+
+    if data.onattachedfn then
+        data.onattachedfn(self.inst)
+    end
 end
 
-function UpgradeModuleBuff:Extend(buffname)
-	self.buffs[buffname]["timeleft"] = duration
+function UpgradeModuleBuff:Extend(buffname, data)
+    local buff = self.buffs[buffname]
+    if not buff then return end
+
+    local existed = (buff.sources[data.bonus] ~= nil)
+
+    buff.sources[data.bonus] = {
+        timeleft = duration,
+    }
+
+    -- 只有“新增 bonus”才影响结构
+    if not existed then
+        buff._bonusdirty = true
+    end
 end
+
+--------------------------------------------------
+-- recompute bonus（每 tick 最多一次）
+--------------------------------------------------
+
+function UpgradeModuleBuff:OnBonusUpdate(buffname)
+    local buff = self.buffs[buffname]
+    if not buff then return end
+
+    local max_bonus = nil
+
+    for bonus in pairs(buff.sources) do
+        if max_bonus == nil or bonus > max_bonus then
+            max_bonus = bonus
+        end
+    end
+
+    local changed = (buff.current_bonus ~= max_bonus)
+    buff.current_bonus = max_bonus
+
+    if changed and buff.onupdatedfn then
+        buff.onupdatedfn(self.inst, buff.current_bonus or 0)
+    end
+end
+
+--------------------------------------------------
+-- detach
+--------------------------------------------------
 
 function UpgradeModuleBuff:OnDetach(buffname)
-	if self.buffs[buffname] then
-		self.buffs[buffname].ondetachedfn(self.inst)
-	end
-	self.buffs[buffname] = nil
+    local buff = self.buffs[buffname]
+    if not buff then return end
+
+    if buff.ondetachedfn then
+        buff.ondetachedfn(self.inst)
+    end
+
+    self.buffs[buffname] = nil
 end
 
 function UpgradeModuleBuff:RemoveAllBuffs()
-	for buffname in pairs(self.buffs) do
-		self:OnDetach(buffname)
-	end
-	self.buffs = {}
+    for buffname in pairs(self.buffs) do
+        self:OnDetach(buffname)
+    end
+    self.buffs = {}
 end
 
+--------------------------------------------------
+-- lifecycle
+--------------------------------------------------
+
 function UpgradeModuleBuff:Enable()
-	if self.task == nil then
-		self.task = self.inst:DoPeriodicTask(self.freq, function() self:OnUpdate() end)
-	end
+    if not self.task then
+        self.task = self.inst:DoPeriodicTask(self.freq, function()
+            self:OnUpdate()
+        end)
+    end
 end
 
 function UpgradeModuleBuff:Disable()
-	if self.task ~= nil then
-		self.task:Cancel()
-		self.task = nil
-	end
+    if self.task then
+        self.task:Cancel()
+        self.task = nil
+    end
 
-	self:RemoveAllBuffers()
-	self:RemoveAllBuffs()
+    self:RemoveAllAuras()
+    self:RemoveAllBuffs()
 end
+
+--------------------------------------------------
+-- save/load
+--------------------------------------------------
 
 function UpgradeModuleBuff:OnSave()
     return nil
