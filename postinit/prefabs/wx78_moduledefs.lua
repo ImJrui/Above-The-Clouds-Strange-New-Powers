@@ -47,8 +47,8 @@ local function fan_activate(inst, wx)
             end
         end,
         onupdatedfn = function(player, bonus)
-            if player.fogover_alpha then
-                player.fogover_alpha:set(ATTACH_BONUS[bonus] or ATTACH_BONUS[2])
+            if player._fogoveralpha then
+                player._fogoveralpha:set(ATTACH_BONUS[bonus] or ATTACH_BONUS[2])
             end
         end,
     }
