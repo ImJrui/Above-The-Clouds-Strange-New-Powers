@@ -82,7 +82,7 @@ end
 function UpgradeModuleBuff:AttachToTargets(buffname, data)
     local x, y, z = self.inst.Transform:GetWorldPosition()
 
-    local players = {}
+    local players = {self.inst}
     if not TheNet:GetPVPEnabled() then
         players = FindPlayersInRange(x, y, z, data.radius, true)
     end
@@ -153,6 +153,8 @@ function UpgradeModuleBuff:Attach(buffname, data)
     if data.onattachedfn then
         data.onattachedfn(self.inst)
     end
+
+	self:Enable()
 end
 
 function UpgradeModuleBuff:Extend(buffname, data)
@@ -211,10 +213,14 @@ function UpgradeModuleBuff:OnDetach(buffname)
 end
 
 function UpgradeModuleBuff:RemoveAllBuffs()
-    for buffname in pairs(self.buffs) do
+    for buffname, buff in pairs(self.buffs) do
+		if buff.current_bonus ~= nil then
+			if buff.onupdatedfn then
+				buff.onupdatedfn(self.inst, 0)
+			end
+		end
         self:OnDetach(buffname)
     end
-    self.buffs = {}
 end
 
 --------------------------------------------------
@@ -248,6 +254,61 @@ function UpgradeModuleBuff:OnSave()
 end
 
 function UpgradeModuleBuff:OnLoad(data)
+end
+
+--------------------------------------------------
+--[[ Debug ]]
+--------------------------------------------------
+
+function UpgradeModuleBuff:Dump()
+    print(string.format("===== UpgradeModuleBuff [%s] =====", self.inst.prefab))
+    print("Component Enabled:", self.task ~= nil)
+
+    -- Auras
+    print("--- Auras ---")
+    if next(self.auras) == nil then
+        print("  (none)")
+    else
+        for name, data in pairs(self.auras) do
+            print(string.format("  [%s] radius=%s, bonus=%s", tostring(name), tostring(data.radius), tostring(data.bonus)))
+        end
+    end
+
+    -- Buffs
+    print("--- Buffs ---")
+    if next(self.buffs) == nil then
+        print("  (none)")
+    else
+        for name, buff in pairs(self.buffs) do
+            print(string.format("  Buff: %s", tostring(name)))
+            print(string.format("    current_bonus = %s", tostring(buff.current_bonus)))
+            print(string.format("    callbacks: onattached=%s, ondetached=%s, onupdated=%s",
+                tostring(buff.onattachedfn ~= nil),
+                tostring(buff.ondetachedfn ~= nil),
+                tostring(buff.onupdatedfn ~= nil)))
+            if next(buff.sources) == nil then
+                print("    (no sources - should be detached this tick)")
+            else
+                for bonus, src in pairs(buff.sources) do
+                    print(string.format("    source bonus=%s, timeleft=%.2f", tostring(bonus), src.timeleft))
+                end
+            end
+        end
+    end
+    print("=========================================")
+end
+
+function UpgradeModuleBuff:GetDebugString()
+    local auras_count = 0
+    for _ in pairs(self.auras) do
+		auras_count = auras_count + 1
+	end
+    local buffs_count = 0
+    for _ in pairs(self.buffs) do
+		buffs_count = buffs_count + 1
+	end
+    local active = self.task ~= nil and "ON" or "OFF"
+    return string.format("UpgradeModuleBuff[%s] Auras:%d Buffs:%d %s", self.inst.prefab, auras_count, buffs_count, active)
 end
 
 return UpgradeModuleBuff

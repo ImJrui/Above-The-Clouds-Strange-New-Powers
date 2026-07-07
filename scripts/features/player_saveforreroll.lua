@@ -54,6 +54,11 @@ end
 
 local function player_postinit(player)
 
+    player.fogover_alpha = net_float(player.GUID, "fogover_alpha", "fogover_alphadirty")
+    if TheWorld.ismastersim then
+        player.fogover_alpha:set(1)
+    end
+
 	player.plrebalance_oldSaveForReroll = player.SaveForReroll
 	player.plrebalance_oldLoadForReroll = player.LoadForReroll
 
