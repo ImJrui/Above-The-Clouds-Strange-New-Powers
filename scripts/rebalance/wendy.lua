@@ -55,85 +55,65 @@ AddPrefabPostInit("pig_ruins_entrance3", PigRuinsChange)
 AddPrefabPostInit("pig_ruins_entrance4", PigRuinsChange)
 AddPrefabPostInit("pig_ruins_exit4", PigRuinsChange)
 
---[[ Although I really like the animations of Abigail entering and exiting the room, now the follower teleportation uses a unified logic.
---- Wendy Door Fix ---
-local function NoHoles(pt)
-    return not TheWorld.Map:IsPointNearHole(pt)
-end
+---------------------------------------------------
+-- Wendy's Abigail damage is increased when inside an interior region.
 
-function MoveAbigail3(inst)
-	inst.sg:GoToState("appear")
-	
-	local leader = inst.components.follower.leader
-	local leader_pos = leader:GetPosition()
-	local x, y, z = leader_pos:Get()
-	
-	local rand = math.random() * math.pi * 2
-	local offset = FindWalkableOffset(leader_pos, rand, 2, 10, false, true, NoHoles)
-	if offset ~= nil then
-		x = x + offset.x
-		z = z + offset.z
-	end
-	inst.Physics:Teleport(x, 0, z)
-end
+local AbigailUpdateDamage = nil
 
-local function MoveAbigail2(inst)
-	if not inst.sg:HasStateTag("plrebalance_abiteleport") then return end
-	
-    MoveAbigail3(inst)
-end
+AddPrefabRegisterPostInit("abigail", function(prefab)
+    local constructor = prefab.fn
+    local _UpdateDamage = ToolUtil.GetUpvalue(constructor, "UpdateDamage")
 
-local state_plrebalance_abiteleport = State{
-	name = "plrebalance_abiteleport",
-	tags = { "busy", "noattack", "nointerrupt", "dissipate", "plrebalance_abiteleport" },
-
-	onenter = function(inst)
-		inst.Physics:Stop()
-		inst.AnimState:PlayAnimation("dissipate")
-		-- inst.SoundEmitter:PlaySound("dontstarve/characters/wendy/abigail/howl_one_shot")
-
-		inst.components.health:SetInvincible(true)
-		inst.components.aura:Enable(false)
-	end,
-
-	events =
-	{
-		EventHandler("animover", function(inst)
-			if inst.AnimState:AnimDone() then
-				MoveAbigail3(inst)
-			end
-		end)
-	},
-}
-
-AddStategraphState("abigail", state_plrebalance_abiteleport)
-
-local function MoveAbigail(inst)
-	local abigail = inst.components.ghostlybond.ghost
-    if abigail ~= nil and abigail.sg ~= nil and not abigail.inlimbo then
-		if not abigail.sg:HasStateTag("dissipate") then
-			abigail.sg:GoToState("plrebalance_abiteleport")
-		end
-        --abigail.PLREBALANCE_abiporttask = abigail:DoTaskInTime(25 * FRAMES, MoveAbigail3)
+    if _UpdateDamage == nil then
+        return
     end
-end
 
-function WendyPostInit(inst)
+    local function UpdateDamage(inst, ...)
+        _UpdateDamage(inst, ...)
+
+        local x, _, z = inst.Transform:GetWorldPosition()
+        if TheWorld.components.interiorspawner and TheWorld.components.interiorspawner:IsInInteriorRegion(x, z) then
+            inst.components.combat.defaultdamage = TUNING.ABIGAIL_DAMAGE["night"]
+            inst.attack_level = 3
+
+            local level_str = tostring(inst.attack_level)
+            if inst.attack_fx and not inst.attack_fx.AnimState:IsCurrentAnimation("attack" .. level_str .. "_loop") then
+                inst.attack_fx.AnimState:PlayAnimation("attack" .. level_str .. "_loop", true)
+            end
+        end
+        -- print("tutu: Abigail damage updated to " .. inst.components.combat.defaultdamage .. " in interior region.")
+    end
+
+    AbigailUpdateDamage = UpdateDamage
+
+    ToolUtil.SetUpvalue(constructor, "UpdateDamage", UpdateDamage)
+end)
+
+AddPrefabPostInit("abigail", function(inst)
     if not TheWorld.ismastersim then
         return
     end
-	
-	inst:ListenForEvent("used_door", MoveAbigail)
+
+    if AbigailUpdateDamage == nil then
+        return
+    end
+
+    inst.UpdateDamage = AbigailUpdateDamage
+end)
+
+local function UpdateAbigailDamage(inst)
+    local abigail = inst.components.ghostlybond and inst.components.ghostlybond.ghost
+
+    if abigail and abigail.UpdateDamage then
+        abigail:UpdateDamage()
+    end
 end
 
-function AbigailPostInit(inst)
+AddPrefabPostInit("wendy", function(inst)
     if not TheWorld.ismastersim then
         return
     end
-	
-    inst:ListenForEvent("entitywake", MoveAbigail2)
-end
 
-AddPrefabPostInit("wendy", WendyPostInit)
-AddPrefabPostInit("abigail", AbigailPostInit)
-]]
+    inst:ListenForEvent("enterinterior", UpdateAbigailDamage)
+    inst:ListenForEvent("leaveinterior", UpdateAbigailDamage)
+end)
