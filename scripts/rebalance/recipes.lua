@@ -40,8 +40,12 @@ local function NotInInterior(pt)
     return not TheWorld.components.interiorspawner:IsInInteriorRegion(pt.x, pt.z)
 end
 
-local function IsInPorkland(pt)
-	return TheWorld:HasTag("porkland")
+local function NotInPorkland(pt)
+	return not TheWorld:HasTag("porkland")
+end
+
+local function NotInForest(pt)
+	return not TheWorld:HasTag("forest")
 end
 
 local function CanNotBuildOnTile(pt)
@@ -60,6 +64,11 @@ local function CanNotBuildOnTile(pt)
         end
     end
     return false
+end
+
+local function IsPaintedTile(pt)
+	local ground_tile = TheWorld.Map:GetTileAtPoint(pt.x, pt.y, pt.z)
+	return ground_tile == WORLD_TILES.PAINTED
 end
 
 local function IsOnBoat(pt)
@@ -301,10 +310,11 @@ AddSimPostInit(function()
 		AddRecipe2("skyworthy_kit", {Ingredient("nightmarefuel", 4), Ingredient("livinglog", 4), Ingredient("trinket_giftshop_4", 1)}, TECH.MAGIC_TWO, nil, {"MAGIC","STRUCTURES"})
 		AddDeconstructRecipe("skyworthy", {Ingredient("nightmarefuel", 4), Ingredient("livinglog", 4), Ingredient("trinket_giftshop_4", 1)})
 	end
-	
+
 	--warly
 	AddRecipe2("spice_lotus",{Ingredient("lotus_flower", 2),Ingredient("nectar_pod", 1)},TECH.FOODPROCESSING_ONE,{builder_tag="professionalchef", numtogive=2, nounlock=true})
 	SortAfter("spice_lotus", "spice_chili", "CHARACTER")
+
 	--Wolfgang
 	AddRecipe2("dumbbell_iron",{Ingredient("alloy", 4), Ingredient("twigs", 1)},TECH.NONE, {builder_tag="strongman"},{"CHARACTER"})
 	SortAfter("dumbbell_iron", "dumbbell_marble", "CHARACTER")
@@ -324,39 +334,39 @@ AddSimPostInit(function()
 	-- shoplocker
 	AddRecipe2("shoplocker",{Ingredient("oinc", 20)}, TECH.CITY, {nounlock = true})
 
-	AddRecipe2("tuber_tree_sapling_item", {Ingredient("tuber_bloom_crop", 1), Ingredient("fertilizer", 1)}, TECH.SCIENCE_ONE, {no_deconstruction = true, image = "tuber_tree_sapling.tex"}, {"REFINE"})
+	AddRecipe2("tuber_tree_sapling_item", {Ingredient("tuber_bloom_crop", 1), Ingredient("fertilizer", 1)}, TECH.SCIENCE_ONE, {testfn = IsPaintedTile, no_deconstruction = true, image = "tuber_tree_sapling.tex"}, {"REFINE"})
 
-	if TheWorld:HasTag("porkland") then
-		return
-	end
-	
-	-- 对porkland之外的世界生效
-
-	AddRecipe2("molehat", {Ingredient("mole", 2), Ingredient("transistor", 2), Ingredient("wormlight", 1)}, TECH.SCIENCE_TWO, nil, {"LIGHT", "CLOTHING"})
-	AddRecipe2("beargervest", {Ingredient("bearger_fur", 1), Ingredient("sweatervest", 1), Ingredient("rope", 2)}, TECH.SCIENCE_TWO, nil, {"CLOTHING"})
-	AddRecipe2("armordragonfly", {Ingredient("dragon_scales", 1), Ingredient("armorwood", 1), Ingredient("pigskin", 3)}, TECH.SCIENCE_TWO, nil, {"ARMOUR"})
-	AddRecipe2("eyebrellahat", {Ingredient("deerclops_eyeball", 1), Ingredient("twigs", 15), Ingredient("boneshard", 4)}, TECH.SCIENCE_TWO, nil, {"CLOTHING", "RAIN"})
-	AddRecipe2("cane", {Ingredient("goldnugget", 2), Ingredient("walrus_tusk", 1), Ingredient("twigs", 4)}, TECH.SCIENCE_TWO, nil, {"TOOLS"})
-	AddRecipe2("icepack", {Ingredient("bearger_fur", 1), Ingredient("gears", 1), Ingredient("transistor", 1)}, TECH.SCIENCE_TWO, nil, {"CONTAINERS"})
-	AddRecipe2("staff_tornado", {Ingredient("goose_feather", 10), Ingredient("lightninggoathorn", 1), Ingredient("gears", 1)}, TECH.SCIENCE_TWO, nil, {"WEAPONS", "MAGIC"})
-	AddRecipe2("dragonflychest", {Ingredient("dragon_scales", 1), Ingredient("boards", 4), Ingredient("goldnugget", 10)}, TECH.SCIENCE_TWO, {placer="dragonflychest_placer", min_spacing=1.5}, {"CONTAINERS"})
-	
 	-- boats
-	AllRecipes["boat_lograft"].testfn = IsInPorkland
-	AllRecipes["boat_row"].testfn = IsInPorkland
-	AllRecipes["boat_cargo"].testfn = IsInPorkland
-	AllRecipes["boat_cork"].testfn = IsInPorkland
+	AllRecipes["boat_lograft"].testfn = NotInForest
+	AllRecipes["boat_row"].testfn = NotInForest
+	AllRecipes["boat_cargo"].testfn = NotInForest
+	AllRecipes["boat_cork"].testfn = NotInForest
+	AllRecipes["boat_item"].testfn = NotInPorkland
+	AllRecipes["boat_grass_item"].testfn = NotInPorkland
 
+	--pigshops
 	for _, i in ipairs(PIGSHOPLIST) do
 		if AllRecipes[i] then
 			AllRecipes[i].testfn = function(pt) return NotInInterior(pt) and not CanNotBuildOnTile(pt) and not IsOnBoat(pt) end
 		end
 	end
 
-	for i, recipe_name in ipairs(LOST_RECIPES_FOREST) do
-		AddRecipePostInit(recipe_name, function(recipe)
-			recipe.level = TechTree.Create(TECH.LOST)
-		end)
+	-- 对porkland之外的世界生效
+	if not TheWorld:HasTag("porkland") then
+		AddRecipe2("molehat", {Ingredient("mole", 2), Ingredient("transistor", 2), Ingredient("wormlight", 1)}, TECH.SCIENCE_TWO, nil, {"LIGHT", "CLOTHING"})
+		AddRecipe2("beargervest", {Ingredient("bearger_fur", 1), Ingredient("sweatervest", 1), Ingredient("rope", 2)}, TECH.SCIENCE_TWO, nil, {"CLOTHING"})
+		AddRecipe2("armordragonfly", {Ingredient("dragon_scales", 1), Ingredient("armorwood", 1), Ingredient("pigskin", 3)}, TECH.SCIENCE_TWO, nil, {"ARMOUR"})
+		AddRecipe2("eyebrellahat", {Ingredient("deerclops_eyeball", 1), Ingredient("twigs", 15), Ingredient("boneshard", 4)}, TECH.SCIENCE_TWO, nil, {"CLOTHING", "RAIN"})
+		AddRecipe2("cane", {Ingredient("goldnugget", 2), Ingredient("walrus_tusk", 1), Ingredient("twigs", 4)}, TECH.SCIENCE_TWO, nil, {"TOOLS"})
+		AddRecipe2("icepack", {Ingredient("bearger_fur", 1), Ingredient("gears", 1), Ingredient("transistor", 1)}, TECH.SCIENCE_TWO, nil, {"CONTAINERS"})
+		AddRecipe2("staff_tornado", {Ingredient("goose_feather", 10), Ingredient("lightninggoathorn", 1), Ingredient("gears", 1)}, TECH.SCIENCE_TWO, nil, {"WEAPONS", "MAGIC"})
+		AddRecipe2("dragonflychest", {Ingredient("dragon_scales", 1), Ingredient("boards", 4), Ingredient("goldnugget", 10)}, TECH.SCIENCE_TWO, {placer="dragonflychest_placer", min_spacing=1.5}, {"CONTAINERS"})
+
+		for i, recipe_name in ipairs(LOST_RECIPES_FOREST) do
+			AddRecipePostInit(recipe_name, function(recipe)
+				recipe.level = TechTree.Create(TECH.LOST)
+			end)
+		end
 	end
 end)
 

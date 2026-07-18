@@ -73,32 +73,5 @@ local function CanNotDeployInWorld(boat, world)
     end)
 end
 
-CanNotDeployInWorld("boat_item", "porkland")
 CanNotDeployInWorld("boat_ancient_item", "porkland")
-CanNotDeployInWorld("boat_grass_item", "porkland")
 CanNotDeployInWorld("boat_cork_item", "forest")
-
-local valid_tiles = {
-    [WORLD_TILES.PAINTED] = true,
-}
-
-local function MustDeployAtTile(inst)
-    if not TheWorld.ismastersim then
-        return
-    end
-
-    if inst.components.deployable then
-        local _CanDeploy = inst.components.deployable.CanDeploy
-        inst.components.deployable.CanDeploy = function(src, pt, mouseover, deployer, rot)
-            local tile = TheWorld.Map:GetTileAtPoint(pt.x, pt.y, pt.z)
-            if not valid_tiles[tile] then
-                return false
-            end
-            if _CanDeploy then
-                return _CanDeploy(src, pt, mouseover, deployer, rot)
-            end
-        end
-    end
-end
-
-AddPrefabPostInit("tuber_tree_sapling_item", MustDeployAtTile)
