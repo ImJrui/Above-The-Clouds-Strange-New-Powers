@@ -61,13 +61,14 @@ WEIGHTED_VINE_LOOT["PIGTOPIA"] = {
     ["flint"]              = 20,    -- 20.20%
 }
 
--- 城市外围 (总权重 97)
+-- 城市外围 (总权重 100)
 WEIGHTED_VINE_LOOT["EDGE_OF_PIGTOPIA"] = {
-    ["pigskin"]            = 2,     --  2.06%
-    ["poop"]               = 30,    -- 30.93%
-    ["rocks"]              = 30,    -- 30.93%
-    ["flint"]              = 30,    -- 30.93%
-    ["boneshard"]          = 5,     --  5.15%
+    ["oinc"]               = 10,    -- 10.00%
+    ["pigskin"]            = 2,     --  2.00%
+    ["poop"]               = 35,    -- 35.00%
+    ["rocks"]              = 30,    -- 30.00%
+    ["flint"]              = 30,    -- 30.00%
+    ["boneshard"]          = 5,     --  5.00%
 }
 
 -- 混合地形 （起始出生地，有平原、浅雨林、彩绘沙等） (总权重 138)
@@ -93,15 +94,15 @@ WEIGHTED_VINE_LOOT["PINCALE"] = {
     ["purplegem"]          = 1.75,  --  2.33%
 }
 
--- 不老泉 (总权重 71)
+-- 不老泉 (总权重 76)
 WEIGHTED_VINE_LOOT["PUGALISK_FOUNTAIN"] = {
-    ["weevole_carapace"]   = 15,    -- 21.13%
-    ["rocks"]              = 15,    -- 21.13%
-    ["flint"]              = 15,    -- 21.13%
-    ["poop"]               = 10,    -- 14.08%
-    ["boneshard"]          = 10,    -- 14.08%
-    ["redgem"]             = 3,     --  4.23%
-    ["bluegem"]            = 3,     --  4.23%
+    ["weevole_carapace"]   = 15,    -- 19.74%
+    ["rocks"]              = 15,    -- 19.74%
+    ["flint"]              = 15,    -- 19.74%
+    ["boneshard"]          = 15,    -- 19.74%
+    ["poop"]               = 10,    -- 13.16%
+    ["redgem"]             = 3,     --  3.95%
+    ["bluegem"]            = 3,     --  3.95%
 }
 
 local TASKS = {
@@ -116,9 +117,9 @@ local TASKS = {
     ["Edge_of_civilization"]        = "EDGE_OF_PIGTOPIA",            -- → 耕地群系 ✓
     ["Pigtopia"]                    = "PIGTOPIA",                    -- → 猪伯利镇 ✓(对应 wiki 一项)
     ["Pigtopia_capital"]            = "PIGTOPIA",                    -- ✗ wiki 未列(一岛首都,锁 CIVILIZATION_2)
-    ["Deep_rainforest"]             = "WILD_RAINFOREST",             -- ✗ wiki 未列(茂密雨林群系,与 Edge_of_civilization 同锁)
-    ["Deep_rainforest_2"]           = "WILD_RAINFOREST",             -- → 茂密雨林二群系 ✓
-    ["Deep_lost_ruins_gas"]         = "WILD_RAINFOREST",             -- → 毒气雨林群系 ✓
+    ["Deep_rainforest"]             = "DEEP_RAINFOREST",             -- ✗ wiki 未列(茂密雨林群系,与 Edge_of_civilization 同锁)
+    ["Deep_rainforest_2"]           = "DEEP_RAINFOREST",             -- → 茂密雨林二群系 ✓
+    ["Deep_lost_ruins_gas"]         = "DEEP_RAINFOREST",             -- → 毒气雨林群系 ✓
     ["Lost_Ruins_1"]                = "DEEP_RAINFOREST",             -- → 失落遗迹群系 ✓
     ["this_is_how_you_get_ants"]    = "DEEP_RAINFOREST",             -- → 蚁人雨林群系 ✓
     -- ["Lilypond_land"]            = "",                            -- → 莲花池群系 ✓
@@ -151,7 +152,7 @@ local TASKS = {
 
 local override_symbols = {"oinc", "oinc10", "oinc100", "iron", "pigskin", "charcoal", "venus_stalk", "weevole_carapace"}
 for i = 1, #override_symbols do
-    VINE_LOOT_DATA[override_symbols[i]] = {build = "pl_tree_rock_swaps", symbols = {"swap_" .. override_symbols[i]}}
+    VINE_LOOT_DATA[override_symbols[i]] = {build = "pl_swap_items", symbols = {"swap_" .. override_symbols[i]}}
 end
 
 local ROOMS = {
