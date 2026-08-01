@@ -17,7 +17,7 @@ local function postinit_fn(inst)
 				if not inst:HasTag("burnt") then
 					local product = inst.components.stewer.product
                     if product and product == "messagebottleempty" or product == "ash" then
-                        inst.AnimState:OverrideSymbol("swap_item", "pl_swap_items", product)
+                        inst.AnimState:OverrideSymbol("swap_item", "pl_swap_items", "swap_" .. product)
                     end
 				end
             end
