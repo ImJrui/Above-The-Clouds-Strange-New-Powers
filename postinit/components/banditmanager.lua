@@ -24,27 +24,19 @@ AddComponentPostInit("banditmanager", function(self)
         end
 
         -- spawn Orb
-        if not self.HasOrb and math.random() < (self.SpawnOrbChance + day/100) then
-            local new_loot = {}
-            for k, v in pairs(loot) do
-                new_loot[k] = v
-            end
-            new_loot.moonrockseed = 1
+        if not self.HasOrb and math.random() < math.max(self.SpawnOrbChance, day/100) then
+            loot.moonrockseed = 1
             self.HasOrb = true
             self.SpawnOrbChance = 0
             -- print("tutu:Spawn Orb")
-            return new_loot
+            return loot
         end
 
         -- spawn moon shards
         if math.random() < 0.34 then
-            local new_loot = {}
-            for k, v in pairs(loot) do
-                new_loot[k] = v
-            end
-            new_loot.moonglass = math.random(1, 15)
+            loot.moonglass = math.random(1, 15)
             -- print("tutu:Spawn Moon shards")
-            return new_loot
+            return loot
         end
 
         return loot
