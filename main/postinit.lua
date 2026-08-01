@@ -77,6 +77,7 @@ local prefab_posts = {
     "smelter",
     "ipecacsyrup_buff",
     "wx78_moduledefs",
+    -- "tree_rock_data",
 }
 
 local prefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
