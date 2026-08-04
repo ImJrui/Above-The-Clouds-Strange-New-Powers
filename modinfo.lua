@@ -9,7 +9,7 @@ end
 name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A version number so you can ask people if they are running an old version of your mod.
-version = "3.4.7"
+version = "3.4.8"
 
 --A description of the mod.
 description = en_zh({
