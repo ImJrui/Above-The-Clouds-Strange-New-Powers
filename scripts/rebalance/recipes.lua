@@ -212,10 +212,10 @@ local function PorklandChangeRecipes()
 	--items
 	AddRecipe2("ruinsrelic_chair", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_chair_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石椅子
 	AddRecipe2("ruinsrelic_table", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_table_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石桌子
-	AddRecipe2("ruinsrelic_vase", {Ingredient("cutstone", 2), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_vase_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石花瓶
-	AddRecipe2("ruinsrelic_plate", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_plate_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石板
-	AddRecipe2("ruinsrelic_bowl", {Ingredient("cutstone", 2), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_bowl_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石碗
-	AddRecipe2("ruinsrelic_chipbowl", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_chipbowl_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石菜肴
+	AddRecipe2("ruinsrelic_vase", {Ingredient("cutstone", 2), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, nil, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石花瓶
+	AddRecipe2("ruinsrelic_plate", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, nil, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石板
+	AddRecipe2("ruinsrelic_bowl", {Ingredient("cutstone", 2), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, nil, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石碗
+	AddRecipe2("ruinsrelic_chipbowl", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, nil, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石菜肴
 	AddRecipe2("endtable", {Ingredient("boards", 2), Ingredient("cutstone", 2), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "endtable_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --茶几
 	AddRecipe2("succulent_potted", {Ingredient("cutstone", 1), Ingredient("clippings", 2), Ingredient("oinc", 10)}, TECH.CARPENTRY_TWO, {placer = "succulent_potted_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --多肉盆栽
 	AddRecipe2("pottedfern", {Ingredient("cutstone", 1), Ingredient("foliage", 2), Ingredient("oinc", 10)}, TECH.CARPENTRY_TWO, {placer = "pottedfern_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --蕨类盆栽
