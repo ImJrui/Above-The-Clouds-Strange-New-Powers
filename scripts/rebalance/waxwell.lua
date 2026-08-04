@@ -59,7 +59,7 @@ local function PickValidActionFrom(target, ...)
         return SHEAR_ACTION
     end
 	
-    if target.components.hackable ~= nil and (target.components.workable == nil or target.components.hackable:CanBeWorked()) then
+    if target.components.hackable ~= nil and (target.components.workable == nil or target.components.hackable:CanBeWorked()) and can_hack(target) then
         return HACK_ACTION
     end
 
@@ -79,16 +79,14 @@ local function FilterAnyWorkableTargets(targets, ignorethese, leader, worker, ..
             if sometarget:HasTag("HACK_workable") then
 				if not can_hack(sometarget) then
                     IgnoreThis(sometarget, ignorethese, leader, nil) --nil here so this worker also ignores this
-				else
-					return sometarget --if cannot hack, don't even return once
                 end
+				return sometarget --if cannot hack, don't even return once
             end
             if sometarget:HasTag("DISLODGE_workable") then
 				if not sometarget.prefab:find("ruins_statue") then
                     IgnoreThis(sometarget, ignorethese, leader, nil) --nil here so this worker also ignores this
-				else
-					return sometarget --if cannot hack, don't even return once
                 end
+				return sometarget --if cannot hack, don't even return once
             end
         end
     end
@@ -130,10 +128,6 @@ local function FindAnyEntityToWorkActionsOn(inst, ignorethese, ...)
 
     return _FindAnyEntityToWorkActionsOn(inst, ignorethese, ...)
 end
-
--- ToolUtil.SetUpvalue(_FindAnyEntityToWorkActionsOn, PickValidActionFrom, "PickValidActionFrom")
--- ToolUtil.SetUpvalue(_FindAnyEntityToWorkActionsOn, FilterAnyWorkableTargets, "FilterAnyWorkableTargets")
--- ToolUtil.SetUpvalue(ShadowWaxwellBrain.OnStart, FindAnyEntityToWorkActionsOn, "FindAnyEntityToWorkActionsOn")
 
 ToolUtil.SetUpvalue(_FindAnyEntityToWorkActionsOn, "PickValidActionFrom", PickValidActionFrom)
 ToolUtil.SetUpvalue(_FindAnyEntityToWorkActionsOn, "FilterAnyWorkableTargets", FilterAnyWorkableTargets)
