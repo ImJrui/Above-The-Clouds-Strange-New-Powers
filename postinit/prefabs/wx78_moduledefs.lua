@@ -260,3 +260,22 @@ AddCreatureScanDataDefinition("vampirebat", "screech", 4)
 -- AddCreatureScanDataDefinition("catcoon", "digestion", 2)
 
 AddCreatureScanDataDefinition("bill", "spin", 3)
+
+local function GetIsBirdFn(cage_or_trap, scanid)
+    local birdprefab
+    if cage_or_trap.components.occupiable ~= nil then
+        local bird = cage_or_trap.components.occupiable:GetOccupant()
+        birdprefab = bird ~= nil and bird.prefab or nil
+    elseif cage_or_trap.components.trap ~= nil and cage_or_trap.components.trap.lootprefabs ~= nil then
+        birdprefab = cage_or_trap.components.trap.lootprefabs[1]
+    end
+
+    return birdprefab == scanid
+end
+
+AddSpecialCreatureScanDataDefinition("toucan", GetIsBirdFn, "radar", 2)
+AddSpecialCreatureScanDataDefinition("pigeon", GetIsBirdFn, "radar", 2)
+AddSpecialCreatureScanDataDefinition("parrot_blue", GetIsBirdFn, "radar", 2)
+AddSpecialCreatureScanDataDefinition("kingfisher", GetIsBirdFn, "radar", 2)
+AddSpecialCreatureScanDataDefinition("pl_crow", GetIsBirdFn, "radar", 2)
+AddSpecialCreatureScanDataDefinition("pl_robin", GetIsBirdFn, "radar", 2)
