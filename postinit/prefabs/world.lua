@@ -1,14 +1,34 @@
 local AddPrefabPostInit = AddPrefabPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
-AddPrefabPostInit("world", function(inst)
-    if not TheWorld.components.interiorspawner then
-        inst:AddComponent("interiorspawner")
-    end
+local cmp = {
+    "interiorspawner",
+    "worldpathfindermanager"
+}
 
+local ms_cmp = {
+    "worldtimetracker",
+    "decoratedgrave_ghostmanager",
+    "linkeditemmanager",
+    "interiorquaker",
+    "worldsoundmanager",
+    "clientundertile",
+    "interiormaprevealer",
+    "skyworthymanager",
+    "interiorpathfinder",
+    "pigtaxmanager",
+}
+
+AddPrefabPostInit("world", function(inst)
     if not TheNet:IsDedicated() then
         if not TheWorld.components.interiorhudindicatablemanager then
             inst:AddComponent("interiorhudindicatablemanager")
+        end
+    end
+
+    for _, v in ipairs(cmp) do
+        if not inst.components[v] then
+            inst:AddComponent(v)
         end
     end
 
@@ -16,38 +36,15 @@ AddPrefabPostInit("world", function(inst)
         return
     end
 
-    if not TheWorld.components.worldtimetracker then
-        inst:AddComponent("worldtimetracker")
+    for _, v2 in ipairs(ms_cmp) do
+        if not inst.components[v2] then
+            inst:AddComponent(v2)
+        end
     end
 
-    inst:DoTaskInTime(0, function()
-        if TheWorld:HasTag("porkland") then return end
-    
-        if not inst.components.interiorspawner then
-            inst:AddComponent("interiorspawner")
-        end
-
-        local bsp = inst.components.birdspawner
-        if not bsp or bsp._interior_patch then
-            return
-        end
-        bsp._interior_patch = true
-
-        local function IsInterior(x, z)
-            local isp = inst.components.interiorspawner
-            return isp and isp:IsInInteriorRegion(x, z) and isp:IsInInteriorRoom(x, z)
-        end
-
-        local _SpawnBird = bsp.SpawnBird
-        function bsp:SpawnBird(spawnpoint, ignorebait)
-            if spawnpoint then
-                local x, _, z = spawnpoint:Get()
-                if IsInterior(x, z) then
-                    return nil
-                end
-            end
-            return _SpawnBird(self, spawnpoint, ignorebait)
-        end
-    end)
+    -- 室内不会落鸟
+    if inst.components.birdspawner ~= nil then
+        inst.components.birdspawner:SetBirdTypesForTile("INTERIOR", {})
+    end
 end)
 
