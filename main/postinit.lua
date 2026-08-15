@@ -42,7 +42,7 @@ local component_posts_skyworthy = { -- it takes effect when the 3 shards mode is
     "acidinfusible",
     "acidlevel",
     "ambientsound",
-    "birdspawner",
+    -- "birdspawner",
     "brightmarespawner",
     "frograin",
     "lunarhailbuildup",
