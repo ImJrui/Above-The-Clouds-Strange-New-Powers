@@ -2,8 +2,10 @@ local AddComponentPostInit = AddComponentPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 AddComponentPostInit("birdspawner", function(self, inst)
-    if TheWorld:HasTag("porkland") then return end
-    
+    if TheWorld:HasTag("porkland") then
+        return
+    end
+
     if not TheWorld.ismastersim then
         return
     end
@@ -19,7 +21,7 @@ AddComponentPostInit("birdspawner", function(self, inst)
         end
         debug.setupvalue(scope_fn_event, i_event, OnLunarBirdEvent_New)
     end
-    
+
     local ScheduleSpawn, scope_fn_spawn, i_spawn = ToolUtil.GetUpvalue(self.OnPostInit, "ScheduleSpawn")
     if ScheduleSpawn then
         local SpawnCorpseForPlayer, scope_fn_corpse, i_corpse = ToolUtil.GetUpvalue(ScheduleSpawn, "SpawnCorpseForPlayer")
@@ -38,14 +40,14 @@ AddComponentPostInit("birdspawner", function(self, inst)
             debug.setupvalue(scope_fn_corpse, i_corpse, SpawnCorpseForPlayer_New)
         end
     end
-    
+
     local _SendMutatedBirdOnPlayer = self.SendMutatedBirdOnPlayer
     self.SendMutatedBirdOnPlayer = function(self_ptr, player, ...)
         if not player:GetIsInInterior() then
             return _SendMutatedBirdOnPlayer(self_ptr, player, ...)
         end
     end
-    
+
     local _SendMutatedBirdOnLunarHailBuildUp = self.SendMutatedBirdOnLunarHailBuildUp
     self.SendMutatedBirdOnLunarHailBuildUp = function(self_ptr, target, ...)
         local x, _, z = target.Transform:GetWorldPosition()
@@ -53,4 +55,15 @@ AddComponentPostInit("birdspawner", function(self, inst)
              return _SendMutatedBirdOnLunarHailBuildUp(self_ptr, target, ...)
         end
     end
-end) 
+
+    local _SpawnBird = self.SpawnBird
+    function self:SpawnBird(spawnpoint, ignorebait)
+        if spawnpoint then
+            local x, _, z = spawnpoint:Get()
+            if TheWorld.components.interiorspawner:IsInInterior(x, z) then
+                return nil
+            end
+        end
+        return _SpawnBird(self, spawnpoint, ignorebait)
+    end
+end)
