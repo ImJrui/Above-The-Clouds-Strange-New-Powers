@@ -46,9 +46,9 @@ local function ArrayUnion(...)
 	return ret
 end
 
-function GenerateSpicedFoods(foods,foodstype)
+function GenerateSpicedFoods(foods, is_porkland_food)
     --如果是Hamlet的食物，则与所有的调味料生成新的调味食物
-    if foodstype == "hamletfoods" then
+    if is_porkland_food then
         SPICES =
         {
             SPICE_GARLIC = { oneatenfn = oneaten_garlic, prefabs = { "buff_playerabsorption" } },
@@ -58,7 +58,7 @@ function GenerateSpicedFoods(foods,foodstype)
             SPICE_LOTUS   = { oneatenfn = oneaten_bitter, prefabs = { "buff_antivenom" } },
         }
     --如果是原版的食物，则只与新的调味料生成调味食物   
-    elseif foodstype == "originalfoods" then
+    else
         SPICES =
         {
             SPICE_LOTUS   = { oneatenfn = oneaten_bitter, prefabs = { "buff_antivenom" } },
@@ -129,9 +129,9 @@ function GenerateSpicedFoods(foods,foodstype)
     end
 end
 
-GenerateSpicedFoods(require("main/preparedfoods"),"hamletfoods")
-GenerateSpicedFoods(require("features/newpreparedfoods_warly"),"hamletfoods")
-GenerateSpicedFoods(require("preparedfoods"),"originalfoods")
-GenerateSpicedFoods(require("preparedfoods_warly"),"originalfoods")
+GenerateSpicedFoods(require("main/preparedfoods"), true)
+GenerateSpicedFoods(require("features/newpreparedfoods_warly"), true)
+GenerateSpicedFoods(require("preparedfoods"))
+GenerateSpicedFoods(require("preparedfoods_warly"))
 
 return spicedfoods
