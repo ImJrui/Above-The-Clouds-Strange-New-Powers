@@ -21,9 +21,6 @@ AddPrefabRegisterPostInit("terrarium", function(terrarium_prefab)
     if not _TurnOff then return end
 
     debug.setupvalue(scope_fn_SEOT, idx_SEOT, function(inst, ...)
-
-        local _AllPlayers = AllPlayers
-
         local can_target_players = {}
         for i, player in ipairs(AllPlayers or {}) do
             if NotInInterior(player:GetPosition()) then
@@ -32,6 +29,7 @@ AddPrefabRegisterPostInit("terrarium", function(terrarium_prefab)
         end
 
         if #can_target_players > 0 then
+            local _AllPlayers = AllPlayers
             AllPlayers = can_target_players
 
             _SpawnEyeOfTerror(inst, ...)
