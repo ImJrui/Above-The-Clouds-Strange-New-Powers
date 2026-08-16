@@ -1,7 +1,7 @@
 local SkyworthyManager = Class(function(self, inst)
     self.inst = inst
-	self.has_cityhammer = false
-	self.has_citykey = false
+	-- self.has_cityhammer = false
+	-- self.has_citykey = false
 	self.has_sillystring = false
 	self.trinket_pigking = "sunken_boat_trinket_2"
 	self.basket_tasks = {
@@ -23,13 +23,6 @@ local SkyworthyManager = Class(function(self, inst)
 		end
     end)
 end)
-
-function SkyworthyManager:GetLootFromPigking()
-	local loots = {"city_hammer", "key_to_city"}
-	self.has_cityhammer = true
-	self.has_citykey = true
-	return loots
-end
 
 function SkyworthyManager:GetLootFromJunk()
 	local loots = {}
@@ -83,8 +76,8 @@ end
 
 function SkyworthyManager:OnSave()
 	local data = {}
-	data.has_cityhammer = self.has_cityhammer
-	data.has_citykey = self.has_citykey
+	-- data.has_cityhammer = self.has_cityhammer
+	-- data.has_citykey = self.has_citykey
 	data.has_sillystring = self.has_sillystring
 	
 	return data
@@ -92,8 +85,8 @@ end
 
 function SkyworthyManager:OnLoad(data)
 	if data then
-		self.has_cityhammer = data.has_cityhammer
-		self.has_citykey = data.has_citykey
+		-- self.has_cityhammer = data.has_cityhammer
+		-- self.has_citykey = data.has_citykey
 		self.has_sillystring = data.has_sillystring
 	end
 end

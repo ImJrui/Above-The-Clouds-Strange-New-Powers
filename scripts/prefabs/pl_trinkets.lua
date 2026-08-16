@@ -4,10 +4,12 @@ local assets =
     Asset("ANIM", "anim/sea_trinkets.zip"),
 }
 
-local TRADEFOR = {}
+local TRADEFOR = {
+    [2] = {"city_hammer", "key_to_city"}
+}
 
 local function MakeTrinket(num, prefix)
-    local prefabs = TRADEFOR[num]
+    local prefabs = TRADEFOR[num] or {}
 
     local function fn()
         local inst = CreateEntity()
@@ -46,9 +48,9 @@ local function MakeTrinket(num, prefix)
         inst.components.stackable.maxsize = TUNING.STACK_SIZE_SMALLITEM
 
         inst:AddComponent("tradable")
-        inst.components.tradable.goldvalue = 5
+        inst.components.tradable.goldvalue = TRADEFOR[num] == nil and 5 or 0
         inst.components.tradable.dubloonvalue = 5
-        -- inst.components.tradable.tradefor = TRADEFOR[num]
+        inst.components.tradable.tradefor = TRADEFOR[num]
 
         inst.components.tradable.rocktribute = math.ceil(inst.components.tradable.goldvalue / 3) -- for antlion
 
