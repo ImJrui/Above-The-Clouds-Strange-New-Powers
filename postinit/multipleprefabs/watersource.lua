@@ -24,7 +24,7 @@ AddPrefabPostInit("sprinkler", function(inst)
     local _UpdateSpray = inst.UpdateSpray
     inst.UpdateSpray = function(inst)
         _UpdateSpray(inst)
-        
+
         inst.SoilMoistureTask = inst.SoilMoistureTask + 1
         if inst.SoilMoistureTask > 10 then
             local x, y, z = inst.Transform:GetWorldPosition()
@@ -38,8 +38,7 @@ AddPrefabPostInit("sprinkler", function(inst)
                 end
             end
 
-            local ents = TheSim:FindEntities(x, y, z, size, nil, { "FX", "DECOR", "INLIMBO", "burnt" })
-            for i, v in ipairs(ents) do
+            for GUID, v in pairs(inst.moisture_targets) do
                 if v.components.burnable ~= nil and v.components.witherable ~= nil then
                     v.components.witherable:Protect(TUNING.WATERINGCAN_PROTECTION_TIME)
                 end
