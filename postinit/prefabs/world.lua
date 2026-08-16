@@ -21,7 +21,7 @@ local ms_cmp = {
 
 AddPrefabPostInit("world", function(inst)
     if not TheNet:IsDedicated() then
-        if not TheWorld.components.interiorhudindicatablemanager then
+        if not inst.components.interiorhudindicatablemanager then
             inst:AddComponent("interiorhudindicatablemanager")
         end
     end
