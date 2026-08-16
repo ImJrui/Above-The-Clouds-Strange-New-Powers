@@ -15,7 +15,7 @@ modimport("scripts/prefabs/newslingshotammo_hitfx")
 
 modimport("scripts/features/ruins_regeneration")
 modimport("scripts/features/pigshopexpander")
-modimport("scripts/features/player_saveforreroll")
+-- modimport("scripts/features/player_saveforreroll")
 modimport("scripts/features/newpreparedfoods_warly")
 modimport("scripts/features/newspicedfoods")
 modimport("scripts/features/cooking")
