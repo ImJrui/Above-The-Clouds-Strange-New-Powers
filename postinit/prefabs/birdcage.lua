@@ -1,6 +1,6 @@
 local AddPrefabPostInit = AddPrefabPostInit
 
-GLOBAL.SETFENV(1, GLOBAL)
+GLOBAL.setfenv(1, GLOBAL)
 
 local function GetBird(inst)
     return (inst.components.occupiable and inst.components.occupiable:GetOccupant()) or nil
