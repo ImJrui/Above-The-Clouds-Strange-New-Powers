@@ -48,7 +48,7 @@ local function MakeTrinket(num, prefix)
         inst.components.stackable.maxsize = TUNING.STACK_SIZE_SMALLITEM
 
         inst:AddComponent("tradable")
-        inst.components.tradable.goldvalue = TRADEFOR[num] == nil and 5 or 0
+        inst.components.tradable.goldvalue = TRADEFOR[num] and 3 or 5
         inst.components.tradable.dubloonvalue = 5
         inst.components.tradable.tradefor = TRADEFOR[num]
 
