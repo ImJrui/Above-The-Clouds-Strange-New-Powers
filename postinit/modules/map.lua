@@ -219,3 +219,11 @@ function Map:CanDeployAtPoint(pt, inst, mouseover)
         and self:IsPassableAtPointWithPlatformRadiusBias(x,y,z, false, false, TUNING.BOAT.NO_BUILD_BORDER_RADIUS, true)
         and self:IsDeployPointClear(pt, inst, inst.replica.inventoryitem ~= nil and inst.replica.inventoryitem:DeploySpacingRadius() or DEPLOYSPACING_RADIUS[DEPLOYSPACING.DEFAULT])
 end
+
+local _CanPointHaveAcidRain = Map.CanPointHaveAcidRain
+function Map:CanPointHaveAcidRain(x, y, z, ...)
+    if self:IsVisualInteriorAtPoint(x, y, z) then
+        return false
+    end
+    return _CanPointHaveAcidRain(self, x, y, z, ...)
+end
