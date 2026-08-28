@@ -6,7 +6,7 @@ local cmp = {
     "worldpathfindermanager"
 }
 
-local ms_cmp = {
+local sv_cmp = { -- server only
     "worldtimetracker",
     "decoratedgrave_ghostmanager",
     "linkeditemmanager",
@@ -36,15 +36,16 @@ AddPrefabPostInit("world", function(inst)
         return
     end
 
-    for _, v2 in ipairs(ms_cmp) do
+    for _, v2 in ipairs(sv_cmp) do
         if not inst.components[v2] then
             inst:AddComponent(v2)
         end
     end
 
     -- 室内不会落鸟
-    if inst.components.birdspawner ~= nil then
-        inst.components.birdspawner:SetBirdTypesForTile("INTERIOR", {})
+    local birdspawner = inst.components.birdspawner
+    if birdspawner and birdspawner.SetBirdTypesForTile then
+        birdspawner:SetBirdTypesForTile(WORLD_TILES.INTERIOR, {})
     end
 end)
 
