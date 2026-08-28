@@ -82,6 +82,32 @@ local function IsOnBoat(pt)
     return false
 end
 
+local function GetValidWaterPointNearby(pt)
+    local range = 20
+
+    for x = pt.x - range, pt.x + range, 4 do
+        for z = pt.z - range, pt.z + range, 4 do
+            local tx, ty = TheWorld.Map:GetTileCoordsAtPoint(x, 0, z)
+            local tile = TheWorld.Map:GetTile(tx, ty)
+			local IsVisualWater = TheWorld.Map:ReverseIsVisualWaterAtPoint(x, 0, z)
+
+            if TileGroupManager:IsOceanTile(tile) and IsVisualWater then
+                return true
+            end
+        end
+    end
+
+    return false
+end
+
+local function sprinkler_placetest(pt, rot)
+    return GetValidWaterPointNearby(pt)
+end
+
+local function sprinkler_canbuild(inst, builder, pt)
+    return sprinkler_placetest(pt)
+end
+
 local function calc_slingshotammo_numtogive(recipe, doer)
 	return doer.components.skilltreeupdater
 		and doer.components.skilltreeupdater:IsActivated("walter_ammo_efficiency")
@@ -367,6 +393,9 @@ AddSimPostInit(function()
 				recipe.level = TechTree.Create(TECH.LOST)
 			end)
 		end
+
+		AllRecipes["sprinkler"].testfn = sprinkler_placetest
+		AllRecipes["sprinkler"].canbuild = sprinkler_canbuild
 	end
 end)
 
