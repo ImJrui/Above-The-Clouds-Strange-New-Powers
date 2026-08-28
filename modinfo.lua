@@ -9,7 +9,18 @@ end
 name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A version number so you can ask people if they are running an old version of your mod.
-version = "3.5.0"
+version = "3.5.1"
+
+priority = -20  --模组优先级0-10 mod 加载的顺序   0最后载入  覆盖大值
+
+is_dev = false
+
+if not folder_name:find("workshop-") then
+    name = name .. " - Dev"
+    version = version .. "-dev"
+    priority = priority - 1
+    is_dev = true
+end
 
 --A description of the mod.
 description = en_zh({
@@ -33,9 +44,6 @@ client_only_mod = false
 
 --This lets people search for servers with this mod by these tags
 server_filter_tags = {"Hamlet Rebalance", "Hamlet Strange New Powers", "云霄国度补丁", "Above The Clouds" }
-
-
-priority = -20  --模组优先级0-10 mod 加载的顺序   0最后载入  覆盖大值
 
 local function Title(title_en, title_zh)
     return {name = en_zh({en = title_en, zh = title_zh}), options = {{description = "", data = false}}, default = false}
