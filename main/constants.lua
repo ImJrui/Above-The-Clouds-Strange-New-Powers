@@ -26,6 +26,8 @@ PL_CONFIG = {
     ENABLE_SKYWORTHY = GetCfg({"ENABLE_SKYWORTHY", "EnableSkyworthy"}, true),
 }
 
+IS_ATC_SKILLTREE_ENABLED = GetModConfigData("classical_skilltree", "workshop-3322803908")
+
 PL_WORLDTYPE = { -- 键对应它们的levels.location的大写，值对应世界tag的大写
     FOREST = "FOREST",
     CAVE = "CAVE",
