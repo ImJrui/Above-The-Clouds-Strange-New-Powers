@@ -50,6 +50,9 @@ local function Title(title_en, title_zh)
 end
 
 configuration_options={ --模组变量配置
+
+	Title("Creature Modification","生物改动"),
+
 	{
 		name = "PUGALISK_HP_MULTIPLIER",--modmain脚本里调用变量
 		hover = en_zh({en = "Increase boss HP to get more loots", zh = "提高boss血量将获得更多战利品"}),
@@ -107,15 +110,17 @@ configuration_options={ --模组变量配置
 	},
 
 	{
-		name = "ENABLE_SKILLTREE",--modmain脚本里调用变量
-		hover = en_zh({en = "Enable or Disable skill tree", zh = "启用或者禁用技能树"}),
-		label = en_zh({en = "Enable Skilltree", zh = "启用技能树"}),--游戏里显示的名字
-		options ={	
+		name = "ENABLE_BOSS_EXTRA_LOOT",--modmain脚本里调用变量
+		hover = en_zh({en = "Bosses with HP over 2X will have a chance to drop extra rare loots", zh = "血量超过2倍的Boss将有概率额外掉落稀有物品"}),
+		label = en_zh({en = "Boss Extra Loot", zh = "Boss额外奖励"}),--游戏里显示的名字
+		options ={
 					{description = "YES", data = true},
 					{description = "NO", data = false},
 				},
-		default = true
+		default = false
 	},
+
+	Title("Terrain modification","地形改动"),
 
 	{
 		name = "ENABLE_TERRARIUM",--modmain脚本里调用变量
@@ -150,6 +155,19 @@ configuration_options={ --模组变量配置
 		default = true
 	},
 
+	Title("Miscellaneous","杂项"),
+
+	{
+		name = "ENABLE_SKILLTREE",--modmain脚本里调用变量
+		hover = en_zh({en = "Enable or Disable skill tree", zh = "启用或者禁用技能树"}),
+		label = en_zh({en = "Enable Skilltree", zh = "启用技能树"}),--游戏里显示的名字
+		options ={	
+					{description = "YES", data = true},
+					{description = "NO", data = false},
+				},
+		default = true
+	},
+
 	{
 		name = "APORKALYPSE_PERIOD_LENGTH",--modmain脚本里调用变量
 		hover = en_zh({en = "Aporkalypse Period", zh = "毁灭季周期"}),
@@ -167,7 +185,7 @@ configuration_options={ --模组变量配置
 	{
 		name = "ENABLE_SKYWORTHY",--modmain脚本里调用变量
 		hover = en_zh({en = "You can travel to the Forest World by running a three-shard server", zh = "搭建3层世界服务器后可以穿越到森林世界"}),
-		label = en_zh({en = "Three-Shard Mode Beta", zh = "双穿模式Beta"}),--游戏里显示的名字
+		label = en_zh({en = "Three-Shard Mode", zh = "双穿模式"}),--游戏里显示的名字
 		options ={	
 					{description = "YES", data = true},
 					{description = "NO", data = false},

@@ -24,8 +24,12 @@ local extra_loot = {
 }
 
 local function CalculateExtraLoots(boss, multiplier)
+    -- 额外奖励受配置开关控制，血量超过2倍时每增加1倍获得25%概率
+    if not PL_CONFIG["ENABLE_BOSS_EXTRA_LOOT"] then
+        return nil
+    end
     local extra_loots = {}
-    local chance = (multiplier == 3 and 0.33) or (multiplier == 4 and 1.00) or nil
+    local chance = multiplier > 2 and (multiplier - 2) * 0.25 or nil
     if chance and extra_loot[boss] then
         for _, loot in ipairs(extra_loot[boss]) do
             table.insert(extra_loots, {loot, chance})

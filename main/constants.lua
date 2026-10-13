@@ -16,6 +16,7 @@ PL_CONFIG = {
     ANCIENT_HERALD_HP_MULTIPLIER = GetCfg({"ANCIENT_HERALD_HP_MULTIPLIER", "rate_ancient_herald_health"}, 1),
     ANCIENT_HULK_HP_MULTIPLIER = GetCfg({"ANCIENT_HULK_HP_MULTIPLIER", "rate_ancient_hulk_health"}, 1),
     ANTQUEEN_HP_MULTIPLIER = GetCfg({"ANTQUEEN_HP_MULTIPLIER", "rate_antqueen_health"}, 1),
+    ENABLE_BOSS_EXTRA_LOOT = GetCfg({"ENABLE_BOSS_EXTRA_LOOT"}, false),
     ENABLE_SKILLTREE = GetCfg({"ENABLE_SKILLTREE", "EnableSkilltree"}, true),
     ENABLE_TERRARIUM = GetCfg({"ENABLE_TERRARIUM", "Terrarium"}, false),
     ENABLE_TOUCHSTONE = GetCfg({"ENABLE_TOUCHSTONE", "TouchStone"}, true),
