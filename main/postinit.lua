@@ -76,6 +76,7 @@ local prefab_posts = {
     "moonglass",
     "smelter",
     "ipecacsyrup_buff",
+    "living_artifact",
     "wx78_moduledefs",
     "tree_rock_data",
     "player"
@@ -103,6 +104,10 @@ local multipleprefab_posts_skyworthy = { -- it takes effect when the 3 shards mo
 
 local screens_posts = {
     "playerhud",
+}
+
+local widget_posts = {
+    "gogglesover",
 }
 
 local module_posts = {
@@ -164,6 +169,10 @@ end
 
 for _, file_name in ipairs(screens_posts) do
     modimport("postinit/screens/" .. file_name)
+end
+
+for _, file_name in ipairs(widget_posts) do
+    modimport("postinit/widgets/" .. file_name)
 end
 
 for _, file_name in ipairs(stategraph_posts) do
