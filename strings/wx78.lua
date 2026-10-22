@@ -10,7 +10,7 @@ return {
 		FROGFISHBOWL_HAMLET = en_zh({EN = "MY MINION IS VERY USEFUL", CN = "我的仆从很有用"}),
 		ALOE_OVERSIZED = en_zh({EN = "GREEN ENERGY ACQUIRED", CN = "获得绿色能源"}),
 		RADISH_OVERSIZED = en_zh({EN = "RED SPHERICAL BALLS OF ENERGY", CN = "红色的能量球"}),
-		SHOPLOCKER = en_zh({EN = "FUNCTION SELL_MORE_MEATSACK()", CN = "启动函数：多卖点肉体()"}),
+		SHOPLOCKER = en_zh({EN = "FUNCTION SELL_MORE_MEATSACK()", CN = "推销程序启动：让这些肉袋多买点！"}),
 	},
 }
 --[[

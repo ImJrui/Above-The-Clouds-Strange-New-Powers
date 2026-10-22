@@ -2,14 +2,12 @@ local AddComponentPostInit = AddComponentPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 AddComponentPostInit("lunarhailbuildup", function(self, inst)
-    if TheWorld:HasTag("porkland") then return end
-    
-    if not TheWorld.ismastersim then
+    if not TheWorld.ismastersim or TheWorld:HasTag("porkland") then
         return
     end
 
     local _DoLunarHailTick = self.DoLunarHailTick
-    self.DoLunarHailTick = function(self, buildingup)
+    function self:DoLunarHailTick(buildingup)
         local x, _, z = self.inst.Transform:GetWorldPosition()
         if TheWorld.components.interiorspawner:IsInInterior(x, z) then
             return
@@ -20,4 +18,4 @@ AddComponentPostInit("lunarhailbuildup", function(self, inst)
         end
         return unpack(ret)
     end
-end) 
+end)

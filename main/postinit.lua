@@ -125,7 +125,7 @@ if PL_CONFIG["ENABLE_SKYWORTHY"] then
     for i = 1,#prefab_posts_skyworthy do
         table.insert(prefab_posts, prefab_posts_skyworthy[i])
     end
-    for i = 1,#multipleprefab_posts do
+    for i = 1,#multipleprefab_posts_skyworthy do
         table.insert(multipleprefab_posts, multipleprefab_posts_skyworthy[i])
     end
     for k, v in pairs(module_posts_skyworthy) do

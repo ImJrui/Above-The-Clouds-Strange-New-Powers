@@ -100,10 +100,8 @@ local function ShouldTeleportFollower(follower)
         return false
     end
 
-    for _, tag in ipairs(CANT_TAGS) do
-        if follower:HasTag(tag) then
-            return false
-        end
+    if follower:HasOneOfTags(CANT_TAGS) then
+        return false
     end
 
     return true

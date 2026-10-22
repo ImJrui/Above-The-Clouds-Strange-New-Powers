@@ -1,7 +1,6 @@
 local PlayerHud = require("screens/playerhud")
 local SkyworthyConfirmScreen = require("screens/redux/skyworthyconfirmscreen")
 
--- PlayerHud:OpenBalatroScreen(target, jokers, cards)
 function PlayerHud:OpenSkyworthyScreen(title, text, buttons)
     self:CloseSkyworthyScreen()
     self.skyworthyconfirmscreen = SkyworthyConfirmScreen(self.owner, title, text, buttons)

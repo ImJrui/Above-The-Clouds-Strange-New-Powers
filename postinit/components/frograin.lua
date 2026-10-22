@@ -2,12 +2,10 @@ local AddComponentPostInit = AddComponentPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 AddComponentPostInit("frograin", function(self, inst)
-    if TheWorld:HasTag("porkland") then return end
-    
-    if not TheWorld.ismastersim then
+    if not TheWorld.ismastersim or TheWorld:HasTag("porkland") then
         return
     end
-    
+
     local OnPlayerLeft = inst:GetEventCallbacks("ms_playerleft", TheWorld, "scripts/components/frograin.lua")
     if not OnPlayerLeft then return end
 
@@ -26,7 +24,7 @@ AddComponentPostInit("frograin", function(self, inst)
     local SpawnFrogForPlayer, scope_fn, i = ToolUtil.GetUpvalue(ScheduleSpawn, "SpawnFrogForPlayer")
     if not SpawnFrogForPlayer then return end
 
-    local function SpawnFrogForPlayer_New(player, reschedule)
+    local function _SpawnFrogForPlayer(player, reschedule)
         if player:GetIsInInterior() then
             _scheduledtasks[player] = nil
             reschedule(player)
@@ -35,5 +33,5 @@ AddComponentPostInit("frograin", function(self, inst)
         return SpawnFrogForPlayer(player, reschedule)
     end
 
-    debug.setupvalue(scope_fn, i, SpawnFrogForPlayer_New)
-end) 
+    debug.setupvalue(scope_fn, i, _SpawnFrogForPlayer)
+end)

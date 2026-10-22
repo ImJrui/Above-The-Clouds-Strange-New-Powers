@@ -2,22 +2,20 @@ local AddComponentPostInit = AddComponentPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 AddComponentPostInit("lunarhailmanager", function(self, inst)
-    if TheWorld:HasTag("porkland") then return end
-    
-    if not TheWorld.ismastersim then
+    if not TheWorld.ismastersim or TheWorld:HasTag("porkland") then
         return
     end
 
     local OnPlayerJoined = inst:GetEventCallbacks("ms_playerjoined", TheWorld, "scripts/components/lunarhailmanager.lua")
     if not OnPlayerJoined then return end
-    
+
     local ScheduleDrop = ToolUtil.GetUpvalue(OnPlayerJoined, "ScheduleDrop")
     if not ScheduleDrop then return end
 
     local DoDropForPlayer, scope_fn, i = ToolUtil.GetUpvalue(ScheduleDrop, "DoDropForPlayer")
     if not DoDropForPlayer then return end
 
-    local function DoDropForPlayer_New(player, reschedulefn)
+    local function _DoDropForPlayer(player, reschedulefn)
         if player:GetIsInInterior() then
             reschedulefn(player)
             return
@@ -25,6 +23,6 @@ AddComponentPostInit("lunarhailmanager", function(self, inst)
 
         return DoDropForPlayer(player, reschedulefn)
     end
-    
-    debug.setupvalue(scope_fn, i, DoDropForPlayer_New)
-end) 
+
+    debug.setupvalue(scope_fn, i, _DoDropForPlayer)
+end)
