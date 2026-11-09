@@ -43,6 +43,7 @@
 | `strings/` | 中英文文本源：公共名称、配方、动作、界面提示与角色台词。 |
 | `strings/tools/` | 文本提取和 PO/POT 生成工具，不属于游戏运行入口。 |
 | `art/nettle_seed/` | 荨麻籽美术源稿、透明贴图、动画预览及导出包；物品栏图标已并入公共图集，地面物品已接入单帧动画，说明见该目录 README。 |
+| `art/nettle_sapling/` | 荨麻苗原图分层、Spriter 工程、轻摆动画导出、回读预览及生长与随机相位的离线检查；接入说明见该目录 README。 |
 | `art/tubertree_sapling/` | 块茎树苗的分层美术源稿、Spriter 工程、原生动画导出、资源回读预览，以及随机起始帧和生长链路的离线检查；运行时资源已接入，说明见该目录 README。 |
 | `anim/` | Klei 动画资源 ZIP，内含动画、构建和纹理等二进制资源。 |
 | `images/hud/` | 物品与 HUD 图集纹理和 XML 的 UV 索引，块茎树苗与荨麻籽图标并入 `plrebalance_inventoryimages`；`.xml.bak` 是保留的备份文件。 |
