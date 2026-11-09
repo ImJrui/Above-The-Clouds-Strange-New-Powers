@@ -1,5 +1,5 @@
 local assets = {
-    -- Asset("ANIM", "anim/clawling.zip"),
+    Asset("ANIM", "anim/tuber_tree_sapling.zip"),
 }
 
 local prefabs = {}
@@ -31,7 +31,7 @@ local function fn()
 
     inst.AnimState:SetBank("tuber_tree_sapling")
     inst.AnimState:SetBuild("tuber_tree_sapling")
-    inst.AnimState:PlayAnimation("idle_planted")
+    inst.AnimState:PlayAnimation("idle")
     inst.AnimState:SetScale(0.7, 0.7, 0.7)
 
     inst:AddTag("deployedplant")
