@@ -160,6 +160,11 @@ local function sapling_fn(build, anim, growprefab, tag, fireproof, overrideloot,
             return inst
         end
 
+        if build == "tuber_tree_sapling" then
+            -- Match sapling/grass: start each server-owned loop at a different phase.
+            inst.AnimState:SetFrame(math.random(inst.AnimState:GetCurrentAnimationNumFrames()) - 1)
+        end
+
         inst.growprefab = growprefab
         inst.StartGrowing = start_growing
 
