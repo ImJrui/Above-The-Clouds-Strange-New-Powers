@@ -140,7 +140,7 @@ local function sapling_fn(build, anim, growprefab, tag, fireproof, overrideloot,
 
         inst.AnimState:SetBank(build)
         inst.AnimState:SetBuild(build)
-        inst.AnimState:PlayAnimation(anim)
+        inst.AnimState:PlayAnimation(anim, true)
         if build == "nettle_sapling" then
             inst.entity:AddMiniMapEntity()
             inst.MiniMapEntity:SetIcon("nettle.tex")
@@ -159,6 +159,9 @@ local function sapling_fn(build, anim, growprefab, tag, fireproof, overrideloot,
         if not TheWorld.ismastersim then
             return inst
         end
+
+        -- Match sapling/grass: start each server-owned loop at a different phase.
+        inst.AnimState:SetFrame(math.random(inst.AnimState:GetCurrentAnimationNumFrames()) - 1)
 
         inst.growprefab = growprefab
         inst.StartGrowing = start_growing
