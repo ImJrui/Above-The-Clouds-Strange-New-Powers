@@ -1,4 +1,5 @@
 local AddPrefabPostInit = AddPrefabPostInit
+local AddPrefabRegisterPostInit = AddPrefabRegisterPostInit
 
 GLOBAL.setfenv(1, GLOBAL)
 
@@ -70,9 +71,14 @@ local function OnseasonChange(inst, season)
         return
     end
 
-    if season == SEASONS.SUMMER and not bloomable:IsBlooming() then
+    local bloomseason = season == SEASONS.SUMMER or season == "dry"
+    if TheWorld:HasTag("porkland") then
+        bloomseason = season == SEASONS.LUSH
+    end
+
+    if bloomseason and not bloomable:IsBlooming() then
         bloomable:StartBloomTask()
-    elseif season ~= SEASONS.SUMMER and bloomable:IsBlooming() then
+    elseif not bloomseason and bloomable:IsBlooming() then
         bloomable:StartUnbloomTask()
     end
 end
@@ -84,13 +90,19 @@ local function postinit_fn(inst)
 
 	inst.growfromseed = GrowFromSeed
 
-    if not TheWorld:HasTag("porkland") then
-        inst:WatchWorldState("season", OnseasonChange)
-        OnseasonChange(inst, TheWorld.state.season)
-    end
 end
 
 local tubertrees = {"tubertree", "tubertree_tall", "tubertree_short", "tubertree_burnt", "tubertree_stump"}
 for i, prefab in ipairs(tubertrees) do
+    AddPrefabRegisterPostInit(prefab, function(def)
+        local original, scope_fn, index = ToolUtil.GetUpvalue(def.fn, "OnseasonChange")
+        if type(original) ~= "function" or not scope_fn or not index then
+            print("[Above The Clouds - Strange New Powers] Missing tubertree OnseasonChange; keeping current seasons.")
+            return
+        end
+
+        -- Replace the shared callback so the dependency cannot also schedule unblooming in dry/summer.
+        debug.setupvalue(scope_fn, index, OnseasonChange)
+    end)
     AddPrefabPostInit(prefab, postinit_fn)
 end

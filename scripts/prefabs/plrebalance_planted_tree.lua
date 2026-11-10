@@ -22,7 +22,7 @@ local valid_tiles = {
 
 local valid_season = {
     ["nettle_sapling"] = function() return not TheWorld.state.iswinter end,
-    ["tuber_tree_sapling"] = function() return TheWorld.state.issummer or TheWorld.state.islush end,
+    ["tuber_tree_sapling"] = function() return TheWorld.state.issummer or TheWorld.state.islush or TheWorld.state.season == "dry" end,
 }
 
 local valid_moisture = {

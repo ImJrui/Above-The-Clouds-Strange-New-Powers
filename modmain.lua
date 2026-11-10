@@ -33,7 +33,6 @@ modimport("scripts/rebalance/wortox")
 modimport("scripts/rebalance/walter")
 modimport("scripts/rebalance/wormwood")
 
-modimport("scripts/rebalance/startingitems")
 modimport("scripts/rebalance/recipes")
 modimport("scripts/rebalance/actions")
 modimport("scripts/rebalance/bosshp")

@@ -2,39 +2,33 @@ local AddComponentPostInit = AddComponentPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 AddComponentPostInit("ambientsound", function(self, inst)
-    if TheWorld:HasTag("porkland") then return end
-    
-    if TheNet:IsDedicated() then
+    if TheWorld:HasTag("porkland") or TheNet:IsDedicated() or not self.OnUpdate then
         return
     end
-    
-    inst:DoTaskInTime(0.1, function()
-        if not self.OnUpdate then
-            return
+
+    local OnUpdate = self.OnUpdate
+    local waves_enabled, _, enabled_index = ToolUtil.GetUpvalue(OnUpdate, "_wavesenabled")
+    local _, position_scope, position_index = ToolUtil.GetUpvalue(OnUpdate, "_lastplayerpos")
+    if not enabled_index or not position_scope or not position_index then
+        print("[Above The Clouds - Strange New Powers] Missing ambient wave state; keeping current sounds.")
+        return
+    end
+
+    local in_interior = false
+    local SetWavesEnabled = self.SetWavesEnabled
+    function self:SetWavesEnabled(enabled)
+        waves_enabled = enabled
+        -- The mixer caches the player's position; refresh even when the player has not moved.
+        debug.setupvalue(position_scope, position_index, nil)
+        return SetWavesEnabled(self, enabled and not in_interior)
+    end
+
+    function self:OnUpdate(...)
+        local inside = ThePlayer ~= nil and ThePlayer:GetIsInInterior()
+        if inside ~= in_interior then
+            in_interior = inside
+            self:SetWavesEnabled(waves_enabled)
         end
-        
-        local _OriginalOnUpdate = self.OnUpdate
-        
-        function self:OnUpdate(dt)
-            local is_in_interior = false
-            if ThePlayer and ThePlayer:IsValid() then
-                if ThePlayer.GetIsInInterior then
-                    is_in_interior = ThePlayer:GetIsInInterior()
-                elseif ThePlayer:HasTag("inside_interior") then
-                    is_in_interior = true
-                elseif TheWorld.components and TheWorld.components.interiorspawner then
-                    local x, _, z = ThePlayer.Transform:GetWorldPosition()
-                    is_in_interior = TheWorld.components.interiorspawner:IsInInteriorRegion(x, z)
-                end
-            end
-            
-            _OriginalOnUpdate(self, dt)
-            
-            if is_in_interior then
-                if inst.SoundEmitter then
-                    inst.SoundEmitter:KillSound("waves")
-                end
-            end
-        end
-    end)
-end) 
+        return OnUpdate(self, ...)
+    end
+end)

@@ -1,3 +1,4 @@
+local AddSimPostInit = AddSimPostInit
 GLOBAL.setfenv(1, GLOBAL)
 
 TUNING.SEASONAL_STARTING_ITEMS.temperate = TUNING.SEASONAL_STARTING_ITEMS.temperate or {}
@@ -5,5 +6,10 @@ TUNING.SEASONAL_STARTING_ITEMS.humid = TUNING.SEASONAL_STARTING_ITEMS.humid or {
 TUNING.SEASONAL_STARTING_ITEMS.lush = TUNING.SEASONAL_STARTING_ITEMS.lush or {"teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked","teatree_nut_cooked"}
 TUNING.SEASONAL_STARTING_ITEMS.aporkalypse = TUNING.SEASONAL_STARTING_ITEMS.aporkalypse or {"thunderhat", "halberd", "blue_cap"} --good luck
 
-table.insert(TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WORTOX, "disguisehat")
-table.insert(TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WEBBER, "disguisehat")
+AddSimPostInit(function()
+    -- TheWorld is unavailable while modmain loads; the character lists retain these table references.
+    if TheWorld:HasTag("porkland") then
+        table.insert(TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WORTOX, "disguisehat")
+        table.insert(TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.WEBBER, "disguisehat")
+    end
+end)

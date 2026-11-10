@@ -25,8 +25,8 @@
 | `main/` | 公共初始化和接线：配置、资源、语言、控制台命令、RPC、分片通信、弹窗与补丁注册。 |
 | `postinit/` | 按类型组织对游戏或依赖既有内容的补丁，统一从 `main/postinit.lua` 接入。 |
 | `postinit/components/` | 既有组件补丁，例如门与世界迁移、室内天气和刷怪兼容、雾和花粉效果。 |
-| `postinit/prefabs/` | 既有预制件、玩家和相关定义表补丁，例如世界组件、采集种植、交易奖励、WX78 模块定义。 |
-| `postinit/multipleprefabs/` | 多个预制件共享的修改，例如部署限制、种子、树木、水源和洒水器。 |
+| `postinit/prefabs/` | 既有预制件、玩家和相关定义表补丁，例如世界组件、采集种植、交易奖励、WX78 模块定义与出生物品。 |
+| `postinit/multipleprefabs/` | 多个预制件共享的修改，例如部署限制、种子、树木、水源、洒水器和室内积雪。 |
 | `postinit/stategraphs/` | 既有状态图扩展，涉及玩家和猪的行为状态。 |
 | `postinit/screens/` | 既有屏幕类补丁，目前用于玩家 HUD 与穿越弹窗接线。 |
 | `postinit/widgets/` | 既有界面部件补丁，目前用于护目镜显示。 |
@@ -36,7 +36,7 @@
 | `scripts/prefabs/` | 自定义实体及配套定义，例如弹药、调料、食物、树苗、商店、天空之椅和遗迹重置特效；也包含数据表和生成函数。 |
 | `scripts/components/` | 自定义组件，例如芯片光环、天空之椅进度、锁店及续锁、遗迹重置和沃尔特瞄准。 |
 | `scripts/features/` | 功能模块与工具，包括烹饪、调味食品、商店扩展、拖网掉落、农业界面、遗迹及蚁丘重建；部分文件包含既有对象补丁。 |
-| `scripts/rebalance/` | 历史上的平衡与兼容模块，包括角色、配方、动作、出生物品、Boss、技能树和世界生成。 |
+| `scripts/rebalance/` | 历史上的平衡与兼容模块，包括角色、配方、动作、Boss、技能树和世界生成。 |
 | `scripts/map/static_layouts/` | 猪镇世界生成使用的静态布局数据，由世界生成脚本选择并载入。 |
 | `scripts/screens/redux/` | 自定义界面类，目前是天空之椅目的地确认弹窗。 |
 | `scripts/languages/` | 运行时中文翻译 `plreb_chinese_s.po` 与翻译模板 `strings.pot`。 |

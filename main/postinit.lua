@@ -56,6 +56,7 @@ local component_posts_skyworthy = { -- it takes effect when the 3 shards mode is
 }
 
 local prefab_posts = {
+    "startingitems",
     "pigman_queen",
     "pigman_city",
     "portablespicer",
@@ -100,6 +101,7 @@ local multipleprefab_posts = {
 }
 
 local multipleprefab_posts_skyworthy = { -- it takes effect when the 3 shards mode is enabled
+    "snowcovered",
 }
 
 local screens_posts = {
