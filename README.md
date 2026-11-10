@@ -46,6 +46,7 @@
 | `art/nettle_seed/` | 荨麻籽美术源稿、透明贴图、动画预览及导出包；物品栏图标已并入公共图集，地面物品已接入单帧动画，说明见该目录 README。 |
 | `art/nettle_sapling/` | 荨麻苗原图分层、Spriter 工程、轻摆动画导出、回读预览及生长与随机相位的离线检查；接入说明见该目录 README。 |
 | `art/tubertree_sapling/` | 块茎树苗的分层美术源稿、Spriter 工程、原生动画导出、资源回读预览，以及随机起始帧和生长链路的离线检查；运行时资源已接入，说明见该目录 README。 |
+| `art/sweetandsourcarp_scallion/` | 糖醋鲤鱼原盘明暗、盘沿笔触与鱼腹酱汁接触细修、放大四成的自然散落葱花和不规则酱汁的分层源稿、Spriter 工程及原生资源回读预览；使用原单帧 idle，说明见该目录 README。 |
 | `anim/` | Klei 动画资源 ZIP，内含动画、构建和纹理等二进制资源。 |
 | `images/hud/` | 物品与 HUD 图集纹理和 XML 的 UV 索引，块茎树苗与荨麻籽图标并入 `plrebalance_inventoryimages`；`.xml.bak` 是保留的备份文件。 |
 | `preview.xml`、`preview.tex` | 模组列表图标的图集定义与纹理。 |
