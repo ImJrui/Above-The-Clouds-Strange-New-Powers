@@ -1,5 +1,5 @@
 local AddPrefabPostInit = AddPrefabPostInit
-local AddPrefabRegisterPostInit = AddPrefabRegisterPostInit
+-- local AddPrefabRegisterPostInit = AddPrefabRegisterPostInit
 
 GLOBAL.setfenv(1, GLOBAL)
 
