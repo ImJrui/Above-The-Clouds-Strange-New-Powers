@@ -9,7 +9,7 @@ end
 name = "云霄国度补丁(Original: Above The Clouds - Strange New Powers)"
 
 --A version number so you can ask people if they are running an old version of your mod.
-version = "3.5.1"
+version = "3.5.2"
 
 priority = -20  --模组优先级0-10 mod 加载的顺序   0最后载入  覆盖大值
 
