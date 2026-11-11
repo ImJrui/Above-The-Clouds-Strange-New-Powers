@@ -6,7 +6,7 @@ Thanks to the original author and Above The Clouds Development Team for their su
 
 [h1]PART 1 Added some recipes[/h1]
 Use Science Machine to crafting
-=>Tuber Sapling(Blooming Tuber*1, Bucket-o-poop*1). It can only grow on Painted Sandy Turf and only during the Lush or Summer.
+=>Tuber Sapling(Blooming Tuber*1, Bucket-o-poop*1). It can grow on Painted Sandy Turf, Desert Turf, and both Island Adventures volcano ground types, during the Lush, Summer, or Dry season.
 
 Use Alchemy to crafting
 => Sawhorse(flints *4,logs *4,Oinc *50)

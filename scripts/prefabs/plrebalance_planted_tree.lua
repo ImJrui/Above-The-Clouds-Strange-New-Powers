@@ -17,6 +17,7 @@ local valid_tiles = {
     },
     ["tuber_tree_sapling"] = {
         [WORLD_TILES.PAINTED] = true,
+        [WORLD_TILES.DESERT_DIRT] = true,
     }
 }
 
@@ -32,6 +33,12 @@ local valid_moisture = {
 local function is_on_valid_tile(inst)
     local x, y, z = inst.Transform:GetWorldPosition()
     local tile = TheWorld.Map:GetTileAtPoint(x, y, z)
+
+    -- Resolve optional Island Adventures tiles here so later registration is supported.
+    if inst.prefab == "tuber_tree_sapling" and tile ~= nil
+        and (tile == WORLD_TILES.VOLCANO or tile == WORLD_TILES.VOLCANO_ROCK) then
+        return true
+    end
 
     return valid_tiles[inst.prefab] and valid_tiles[inst.prefab][tile] or false
 end
