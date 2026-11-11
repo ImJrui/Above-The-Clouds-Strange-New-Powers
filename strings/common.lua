@@ -67,6 +67,12 @@ return {
 		TUBER_TREE_SAPLING_ITEM = en_zh({EN = "Cultivate a tuber tree", CN = "培育一颗块茎树"}),
 	},
 	UI = {
+		MODCONFIG = {
+			ENABLE_SKYWORTHY_SHOP = en_zh({EN = "Enable Skyworthy Shop", CN = "启用天空之椅商店"}),
+			ENABLE_SKYWORTHY_SHOP_HOVER = en_zh({EN = "Hide the Skyworthy Shop crafting recipe when disabled.", CN = "关闭时隐藏天空之椅商店的建造配方。"}),
+			ENABLE_ACQUIRE_VEGETABLES = en_zh({EN = "Food Shop Buys Crops", CN = "食品店老板收购作物"}),
+			ENABLE_ACQUIRE_VEGETABLES_HOVER = en_zh({EN = "Allow the food shopkeeper to buy crops for Oincs.", CN = "允许食品店老板收购作物并支付呼噜币，关闭时停用额外收购。"}),
+		},
 		SAVEINTEGRATION = {
 			CHOOSE_DEST_TITLE = en_zh({EN = "Travel to another world?", CN = "要前往另一个世界吗？"}), 
 			CHOOSE_DEST_BODY = en_zh({EN = "Where would you like to travel to?", CN = "你想要去哪里呢？"}),

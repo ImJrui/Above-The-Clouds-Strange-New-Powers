@@ -168,6 +168,29 @@ configuration_options={ --模组变量配置
 		default = true
 	},
 
+	-- Keep these labels and hovers in sync with STRINGS.UI.MODCONFIG in strings/common.lua.
+	{
+		name = "ENABLE_SKYWORTHY_SHOP",
+		hover = en_zh({en = "Hide the Skyworthy Shop crafting recipe when disabled.", zh = "关闭时隐藏天空之椅商店的建造配方。"}),
+		label = en_zh({en = "Enable Skyworthy Shop", zh = "启用天空之椅商店"}),
+		options = {
+			{description = "YES", data = true},
+			{description = "NO", data = false},
+		},
+		default = true
+	},
+
+	{
+		name = "ENABLE_ACQUIRE_VEGETABLES",
+		hover = en_zh({en = "Allow the food shopkeeper to buy crops for Oincs.", zh = "允许食品店老板收购作物并支付呼噜币，关闭时停用额外收购。"}),
+		label = en_zh({en = "Food Shop Buys Crops", zh = "食品店老板收购作物"}),
+		options = {
+			{description = "YES", data = true},
+			{description = "NO", data = false},
+		},
+		default = true
+	},
+
 	{
 		name = "APORKALYPSE_PERIOD_LENGTH",--modmain脚本里调用变量
 		hover = en_zh({en = "Aporkalypse Period", zh = "毁灭季周期"}),

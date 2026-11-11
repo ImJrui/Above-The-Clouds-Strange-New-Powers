@@ -223,17 +223,19 @@ local function PorklandChangeRecipes()
 	AddDeconstructRecipe("skyworthy_shop", {Ingredient("pigskin", 6), Ingredient("livinglog", 2)}) --is halved when using hammer
 	AddDeconstructRecipe("pig_shop_skyworthy", {Ingredient("pigskin", 6), Ingredient("livinglog", 2)})
 
-	AddRecipe2("skyworthy_shop_recipe",	{Ingredient("pigskin", 12), Ingredient("livinglog", 4), Ingredient("trinket_giftshop_4", 1)},	TECH.MAGIC_THREE,
-		{placer = "pig_shop_skyworthy_placer",
-		product = "pig_shop_skyworthy",
-		min_spacing = 3.5,
-		testfn = NotInInterior,
-		no_deconstruction = true,
-		atlas = "images/hud/pl_inventoryimages.xml",
-		image = "porkland_entrance.tex",}, {"MAGIC", "ARCHAEOLOGY", "STRUCTURES"})
-	SortAfter("skyworthy_shop_recipe", "seedofruin", "MAGIC")
-	SortAfter("skyworthy_shop_recipe", "nightlight", "STRUCTURES")
-	SortAfter("skyworthy_shop_recipe", "seedofruin", "ARCHAEOLOGY")
+	if PL_CONFIG.ENABLE_SKYWORTHY_SHOP then
+		AddRecipe2("skyworthy_shop_recipe",	{Ingredient("pigskin", 12), Ingredient("livinglog", 4), Ingredient("trinket_giftshop_4", 1)},	TECH.MAGIC_THREE,
+			{placer = "pig_shop_skyworthy_placer",
+			product = "pig_shop_skyworthy",
+			min_spacing = 3.5,
+			testfn = NotInInterior,
+			no_deconstruction = true,
+			atlas = "images/hud/pl_inventoryimages.xml",
+			image = "porkland_entrance.tex",}, {"MAGIC", "ARCHAEOLOGY", "STRUCTURES"})
+		SortAfter("skyworthy_shop_recipe", "seedofruin", "MAGIC")
+		SortAfter("skyworthy_shop_recipe", "nightlight", "STRUCTURES")
+		SortAfter("skyworthy_shop_recipe", "seedofruin", "ARCHAEOLOGY")
+	end
 
 	--items
 	AddRecipe2("ruinsrelic_chair", {Ingredient("cutstone", 1), Ingredient("oinc", 20)}, TECH.CARPENTRY_TWO, {placer = "ruinsrelic_chair_placer"}, {"DECOR","STRUCTURES","CRAFTING_STATION"}) --远古石椅子

@@ -5,6 +5,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT Version: 2.0"
 
+#. STRINGS.UI.MODCONFIG.ENABLE_SKYWORTHY_SHOP
+msgctxt "STRINGS.UI.MODCONFIG.ENABLE_SKYWORTHY_SHOP"
+msgid "Enable Skyworthy Shop"
+msgstr "启用天空之椅商店"
+
+#. STRINGS.UI.MODCONFIG.ENABLE_SKYWORTHY_SHOP_HOVER
+msgctxt "STRINGS.UI.MODCONFIG.ENABLE_SKYWORTHY_SHOP_HOVER"
+msgid "Hide the Skyworthy Shop crafting recipe when disabled."
+msgstr "关闭时隐藏天空之椅商店的建造配方。"
+
+#. STRINGS.UI.MODCONFIG.ENABLE_ACQUIRE_VEGETABLES
+msgctxt "STRINGS.UI.MODCONFIG.ENABLE_ACQUIRE_VEGETABLES"
+msgid "Food Shop Buys Crops"
+msgstr "食品店老板收购作物"
+
+#. STRINGS.UI.MODCONFIG.ENABLE_ACQUIRE_VEGETABLES_HOVER
+msgctxt "STRINGS.UI.MODCONFIG.ENABLE_ACQUIRE_VEGETABLES_HOVER"
+msgid "Allow the food shopkeeper to buy crops for Oincs."
+msgstr "允许食品店老板收购作物并支付呼噜币，关闭时停用额外收购。"
+
 #. STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC
 msgctxt "STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC"
 msgid "Transform 2 Beard Hair into Spider Silk.\nTransform 2 Spider Silk into Beard Hair."

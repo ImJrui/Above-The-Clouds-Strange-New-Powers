@@ -56,7 +56,7 @@ local function OnGetItemFromPlayer(inst, giver, item)
 end
 
 local function TradeExtraItems(inst)
-    if not TheWorld.ismastersim then
+    if not TheWorld.ismastersim or not PL_CONFIG.ENABLE_ACQUIRE_VEGETABLES then
         return inst
     end
 
