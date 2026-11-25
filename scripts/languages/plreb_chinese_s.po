@@ -23,7 +23,7 @@ msgstr "食品店老板收购作物"
 #. STRINGS.UI.MODCONFIG.ENABLE_ACQUIRE_VEGETABLES_HOVER
 msgctxt "STRINGS.UI.MODCONFIG.ENABLE_ACQUIRE_VEGETABLES_HOVER"
 msgid "Allow the food shopkeeper to buy crops for Oincs."
-msgstr "允许食品店老板收购作物并支付呼噜币，关闭时停用额外收购。"
+msgstr "开启后，食品店老板会用咕噜币收购作物。"
 
 #. STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC
 msgctxt "STRINGS.SKILLTREE.WILSON.WILSON_ALCHEMY_9_DESC"
@@ -48,17 +48,17 @@ msgstr "为国王献上翘鼻蛇怪权杖/三叉戟，你的鱼人将以三连�
 #. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_SPOILED
 msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_SPOILED"
 msgid "Eww! This is spoiled! Well, I'll give you one oinc for it, but don't tell anyone!"
-msgstr "噫！这东西坏了！好吧，我给你一个呼噜币，但别告诉别人！"
+msgstr "呸，都烂了！最多给你一枚咕噜币。可别跟别人说啊！"
 
 #. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM
 msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM"
-msgid "Ah, excellent produce! The quality is superb. Here's your payment, my friend."
-msgstr "哇，上等的农产品！品质极佳。这是给你的报酬，朋友。"
+msgid "Fine fresh produce! Here are your oincs, my friend."
+msgstr "多新鲜的菜！来，朋友，收好你的咕噜币。"
 
 #. STRINGS.CITY_PIG_SOW_ACCEPT_SEEDS
 msgctxt "STRINGS.CITY_PIG_SOW_ACCEPT_SEEDS"
 msgid "YON SEED REQUIRE'TH CULTIVATION?"
-msgstr "你的种子需要栽培吗？"
+msgstr "好种子！交给我种，如何？"
 
 #. STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK
 msgctxt "STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK"
@@ -88,107 +88,107 @@ msgstr "佣金 {item}"
 #. STRINGS.CITY_PIG_SOW_ALREADY_HAVE_SEEDS
 msgctxt "STRINGS.CITY_PIG_SOW_ALREADY_HAVE_SEEDS"
 msgid "YE STRAIN IS ALREADY CULTIVATED"
-msgstr "这个品种已经被培育出来了"
+msgstr "这个品种？我这儿已经种上了！"
 
 #. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE
 msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE"
 msgid "Hmm... this is a bit past its prime. I'll still take it, but for a reduced price."
-msgstr "嗯...这有点不新鲜了。我仍然会收下，但价格会低一些。"
+msgstr "这菜有点蔫了。我也收，不过得便宜些。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_TELEBRELLA
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_TELEBRELLA"
-msgid "Back in action! Gotta stay mobile for the job."
-msgstr "又能用了！工作需要随时保持机动性。"
+msgid "The telebrella's working again! On to the next job."
+msgstr "传送伞又能用了！走，赶下一趟活儿去。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_BERNIE
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_BERNIE"
 msgid "Bernie's ready for action again!"
-msgstr "伯尼又可以陪我战斗了！"
+msgstr "伯尼，你又能打啦！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_STORAGE_ROBOT
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_STORAGE_ROBOT"
-msgid "My bot's purring like new! Efficiency restored."
-msgstr "我的机器人像新的一样！工作效率恢复了。"
+msgid "Hear that motor purr? C'mon, pal, give me a hand with these crates."
+msgstr "听这动静，跟新的一样。来，搭把手搬东西！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_DRY
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_DRY"
-msgid "MOISTURE DETECTED: PURGING"
-msgstr "检测到水分：清除中"
+msgid "MOISTURE PURGED. FINALLY DRY"
+msgstr "水分已排干。终于干爽了"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_REMOTE
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WINONA_REMOTE"
-msgid "Signal's crystal clear! No more faulty connections."
-msgstr "信号清晰无比！再也不会连接故障了。"
+msgid "One click and it answers. That's my remote fixed!"
+msgstr "按一下就有反应。这遥控器修好了！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WANDA
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WANDA"
-msgid "The temporal fracture is mended!"
-msgstr "时间裂隙被修复了"
+msgid "There's the second hand! And for once it's going the right way."
+msgstr "秒针又走了！而且这回走的方向也对。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SPEAR
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SPEAR"
-msgid "My spare thirsts for new battles!"
-msgstr "我的长矛渴望着新的战斗！"
+msgid "My spear is ready! Who'll face me next?"
+msgstr "我的长矛又能上阵了！下一个谁来应战？"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.MAXWELL
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.MAXWELL"
 msgid "The ancient writings... they're glowing!"
-msgstr "古老的文字在发光..."
+msgstr "瞧，书上那些古老的字又亮起来了。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_GHOST_HEAL
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_GHOST_HEAL"
-msgid "Rest now, dear sister..."
-msgstr "好好休息吧，我亲爱的妹妹..."
+msgid "You look better, Abigail. Will you stay a little longer?"
+msgstr "你看着好多了，阿比盖尔。再陪我一会儿，好吗？"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WOLFGANG_MIGHTINESS
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WOLFGANG_MIGHTINESS"
 msgid "Wolfgang is strongest again!"
-msgstr "沃尔夫冈又是最强壮的了！"
+msgstr "沃尔夫冈的力气又回来了！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_LIGHTER
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WILLOW_LIGHTER"
-msgid "No more cold nights. Let's light up the world!"
-msgstr "没有寒冷的夜了，让我们点燃世界吧！"
+msgid "There's my flame! Guess who's keeping warm tonight?"
+msgstr "打火机又能点着啦！今晚可冻不着我了。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_GROGGINESS
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_GROGGINESS"
 msgid "This sleeplessness... it's draining me..."
-msgstr "这无眠之夜...正在耗尽我的精力..."
+msgstr "眼皮都快撑不住了……偏偏还是睡不着。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_KNOCKOUT
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WICKERBOTTOM_KNOCKOUT"
 msgid "Finally... sweet unconsciousness..."
-msgstr "终于...沉入了无意识的甜梦..."
+msgstr "总算能好好睡一觉了……"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SHIELD
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_SHIELD"
-msgid "My shield is my oath to stand unbroken!"
-msgstr "我的盾牌是我屹立不倒的誓言！"
+msgid "My shield is whole again! Stand behind me!"
+msgstr "盾牌修好了！都站到我身后来！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_CHARGE
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WX78_CHARGE"
-msgid "POWER LEVELS MAXIMIZED"
-msgstr "能量水平达到最大值"
+msgid "ONE UNIT OF CHARGE RESTORED"
+msgstr "已补充一格电量"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_INSPIRATION
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_INSPIRATION"
 msgid "My battle song resonates within!"
-msgstr "战斗之歌在我心中回响！"
+msgstr "我又想放声高歌了！听我的战歌！"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_BONDLEVEL
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WENDY_BONDLEVEL"
 msgid "Our bond grows stronger, Abigail!"
-msgstr "阿比盖尔，我们的羁绊更深了！"
+msgstr "阿比盖尔，我觉得你又离我近了一点。"
 
 #. STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_HELMET
 msgctxt "STRINGS.CHARACTER_LINE.WISHINGWELL.WATHGRITHR_HELMET"
-msgid "A clear mind is a warrior's best armor."
-msgstr "清醒的头脑是战士最好的盔甲."
+msgid "My helm is whole. Let the next blow fall!"
+msgstr "头盔修好了，再接一招也无妨！"
 
 #. STRINGS.CHARACTER_LINE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTER_LINE.SUNKEN_BOAT_TRINKET_2"
-msgid "In this junk pile, lies the treasure of the Pig King!"
-msgstr "在这堆垃圾里，竟藏着猪王的珍宝！"
+msgid "There's treasure in this pile of junk after all!"
+msgstr "这堆破烂里还真藏着宝贝！"
 
 #. STRINGS.UI.SAVEINTEGRATION.VOLCANO
 msgctxt "STRINGS.UI.SAVEINTEGRATION.VOLCANO"
@@ -503,7 +503,7 @@ msgstr "里面蕴含某种神秘的力量，当击中目标时会产生爆炸。
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.VORTEXEYE"
 msgid "I walked all the way around it. Now which of us was the observer?"
-msgstr "我绕着它走了一圈。等等，刚才到底是谁在观察谁？"
+msgstr "我绕着这只石眼走了一圈。奇怪，怎么觉得它也在观察我？"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEEDOFRUIN"
@@ -513,17 +513,17 @@ msgstr "普通种子找花盆。这颗倒好，得给它找个遗迹入口。"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP"
 msgid "My pockets held considerably more money on the way in."
-msgstr "据我观察，进门那会儿，我口袋里的钱要多得多。"
+msgstr "进店前钱袋还挺沉的。逛了一圈，怎么就瘪了？"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "My pockets held considerably more money on the way in."
-msgstr "据我观察，进门那会儿，我口袋里的钱要多得多。"
+msgstr "进店前钱袋还挺沉的。逛了一圈，怎么就瘪了？"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY"
 msgid "If I sit perfectly still, does the world do the traveling?"
-msgstr "要是我坐着一动不动，旅行的算不算是世界？"
+msgstr "我坐着没动，怎么就换了个世界？难道动的是世界？"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT"
@@ -548,7 +548,7 @@ msgstr "我的工作台凹了一块。这颗弹丸倒是好端端的。"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS"
 msgid "My nose says it's medicine. My tongue seconds the motion."
-msgstr "鼻子说这是药。舌头尝了一口，也没提反对意见。"
+msgstr "闻着像药。我尝尝……嗯，苦得很，猜对了。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP"
@@ -567,23 +567,23 @@ msgstr "光这一片叶子的汁，就能装满我最大的烧杯！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
-msgid "My biggest beaker couldn't hold that smell."
-msgstr "就算拿我最大的烧杯来，也罩不住这股味儿。"
+msgid "I was going to take a sample of the gel. Then I got close enough to smell it."
+msgstr "我本想取点芦荟汁。闻这味儿，还是算了！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED"
 msgid "I can see why it needed the WHOLE garden bed."
-msgstr "难怪它一个萝卜就占了一整畦地。"
+msgstr "难怪一个萝卜就占了一整块菜地。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "When the skin's the only solid part, I think I'll skip the taste test."
-msgstr "就剩萝卜皮是硬的了。这回就省了试吃吧。"
+msgstr "就剩一层萝卜皮还算硬。我就不尝了。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER"
 msgid "Same shelf, same goods. At last, a variable I can control!"
-msgstr "同一个货架，同一种货。总算有个变量归我管了！"
+msgstr "这货架以后总摆同一样东西。哈，这就叫控制变量！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -593,7 +593,7 @@ msgstr "它还浮得起来！接下来试试猪王肯出什么价。"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.DUMBBELL_IRON"
 msgid "Gravity seems to be in excellent working order."
-msgstr "从我的胳膊判断，重力运转良好。"
+msgstr "举得我胳膊都酸了。看来重力没出毛病！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
@@ -603,12 +603,12 @@ msgstr "这么小一只风扇，居然能赶跑这么大一团雾。"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "The pollen stays on that side, my nose stays on this side."
-msgstr "花粉留在那一头，我的鼻子留在这一头。"
+msgstr "这滤网能挡住花粉，我总算不用打喷嚏了！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "Roots below, shoot above. I think I know which end to plant."
-msgstr "这头是根，那头是芽。我知道哪头该朝下了。"
+msgstr "芽朝上，根朝下。嗯，这回肯定种不反！"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM"
@@ -623,7 +623,7 @@ msgstr "它扎下根了。我在这儿画道线，看看它长多快。"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
 msgid "No change since my last measurement. I'll try again in a warmer season."
-msgstr "和上回量的一样高。等季节暖和点再量一次。"
+msgstr "还是跟上回量的一样高。等天暖了，我再来量。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -633,12 +633,12 @@ msgstr "该做个土壤实验了。先换块沙地试试。"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Two new leaves! I can count them from here, thank you."
-msgstr "两片新叶！谢谢，我站这儿就数得清。"
+msgstr "又长了两片叶子！我站远点也数得清，省得扎手。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Winter seems to have put my nettle experiment on ice."
-msgstr "我的荨麻实验过冬了。等天暖再接着做吧。"
+msgstr "荨麻一到冬天就不长了。我的实验得等开春再做。"
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -648,137 +648,137 @@ msgstr "我在哪儿见过长成的荨麻来着？对，雨林里！"
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Crumbly soil, droopy leaves. Just add water!"
-msgstr "土都散了，叶子也耷拉了。加水！"
+msgstr "土干得一碰就散，叶子也蔫了。得浇水！"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.VORTEXEYE"
 msgid "An ocular instrument carved from moon rock! Where is its focal point?"
-msgstr "月岩雕成的光学仪器！它的焦点在哪儿？"
+msgstr "用月岩雕了只眼睛！光照进去，会聚在哪儿呢？"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN"
-msgid "The entire ruin, reproducible from a single specimen? I must see the second one."
-msgstr "一件样本就能复现整座遗迹？那我得去瞧瞧这第二座。"
+msgid "One seed can restore a whole ruin? I must see the process for myself!"
+msgstr "一粒种子就能让整座遗迹恢复原样？我得亲眼看看是怎么回事。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_SHOP"
 msgid "A pity they display the merchandise but give no tours of the factory."
-msgstr "货品倒是陈列得很齐。可惜他们不带人参观工厂。"
+msgstr "货架上的东西倒是齐全。真想去工厂看看是怎么做出来的。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "A pity they display the merchandise but give no tours of the factory."
-msgstr "货品倒是陈列得很齐。可惜他们不带人参观工厂。"
+msgstr "货架上的东西倒是齐全。真想去工厂看看是怎么做出来的。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY"
 msgid "A stationary vehicle! I should like to take a reading at both ends of the journey."
-msgstr "一辆静止的载具！我想在出发和抵达时各测一组读数。"
+msgstr "椅子一动不动，人却到了另一个世界！我得把出发和到达时的读数比一比。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_KIT"
 msgid "Excellent, it comes disassembled! I can examine the mechanism at my leisure."
-msgstr "好极，送来时就是散件！我可以慢慢研究它的构造了。"
+msgstr "太好了，送来时就是散件！正好看看里头的机关是怎么装的。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Does the pellet carry the appendage or merely summon it?"
-msgstr "这条腕足是藏在弹丸里，还是受它召唤而来？"
+msgstr "这条触手是藏在弹丸里的，还是打出去才召来的？"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "A percussion test! Quite prudent to observe this one through my goggles."
-msgstr "正好做个撞击试验！这回还是戴上护目镜观察为妙。"
+msgstr "正好拿来做撞击试验！容我先戴上护目镜。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "I should retrieve a spent specimen and examine the deformation."
-msgstr "我得找一颗打过的，看看这种合金受撞击后会变多少形。"
+msgstr "得捡一颗打过的回来，看看这合金撞扁了多少。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SPICE_LOTUS"
 msgid "If I could isolate the active ingredient, I might dispense with the bitterness."
-msgstr "要是能分离出有效成分，或许就能省掉这股苦味了。"
+msgstr "要是能单独提取起药效的成分，说不定就不用吃这份苦了。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SWEETANDSOURCARP"
 msgid "A remarkable glaze. If only it adhered less firmly to my notebook."
-msgstr "这层浇汁好极了。就是粘在实验笔记上也这么牢，麻烦得很。"
+msgstr "这鱼的浇汁真不错。可惜粘在笔记本上，就没那么讨人喜欢了。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "A transverse slice should establish precisely what the cook put inside."
-msgstr "只需横切一刀，就能弄清厨师究竟往里面塞了什么。"
+msgstr "横着切一刀，就知道厨师往鱼里塞了什么。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED"
 msgid "Remarkable fluid pressure. One incision ought to yield a generous sample."
-msgstr "叶片充盈得惊人。只消开个小口，就能取到相当多的汁液。"
+msgstr "瞧这叶子鼓的！开个小口，就够我取一瓶芦荟汁了。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "The tissue has liquefied. Luckily, I brought a specimen jar."
-msgstr "组织已经液化。幸好我带了样品瓶。"
+msgstr "叶肉都烂成水了。幸好我带了样品瓶。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED"
 msgid "How many ordinary radishes went into that much root? I'll need my scales."
-msgstr "这条根能抵多少个普通萝卜？我得拿秤来。"
+msgstr "这一个能顶多少个普通萝卜？得拿秤来。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "Even the core is soft. How quickly did the decay travel inward?"
-msgstr "连芯都软了。腐败向内扩散的速度究竟有多快？"
+msgstr "连萝卜芯都软了。从外皮烂到里头花了多久？"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER"
 msgid "Excellent. I can order the very same specimen again if anything happens to the first."
-msgstr "好极了。万一头一件样品在实验中出了什么意外，这下就能再订个一样的。"
+msgstr "太好了。头一个样品要是让我弄坏了，还能叫店家再进个一样的。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "An ideal scale model. I wonder if the Pig King would lend me a testing tank."
-msgstr "理想的船舶缩尺模型。不知猪王肯不肯借我一个试验水槽。"
+msgstr "这小船正适合做实验。不知猪王肯不肯借我个水槽？"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.DUMBBELL_IRON"
 msgid "With its mass established, this would make an admirable counterweight."
-msgstr "只要测出质量，这件铁器就能充作绝佳的配重。"
+msgstr "先称称这哑铃有多重。以后缺个配重，正好用得上。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Forced convection! Now, how far from the rotor does the fog close in again?"
-msgstr "强制对流！那么，离转子多远，雾气才会重新合拢呢？"
+msgstr "风扇把雾吹开了！我得量量，离开风扇多远，雾又会聚回来。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "I should inspect the pollen trapped in the filter under magnification."
-msgstr "我要用放大镜看看滤层截下了哪些花粉。"
+msgstr "我得用放大镜看看，这张滤网拦下了哪些花粉。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "A viable cutting, with its own compact reserve of starch."
-msgstr "一株能成活的小苗，连淀粉储备都随身带着。"
+msgstr "这苗能活。看，块茎里还存着淀粉呢。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Such minute seeds. I nearly polished them off my lenses!"
-msgstr "好细小的种子。我差点拿镜布把它们从镜片上擦掉！"
+msgstr "荨麻籽可真小！落在镜片上，我差点当灰擦了。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "New growth at the tip. My transplant appears to have taken."
-msgstr "顶端长出了新芽。这次移栽看来成功了。"
+msgstr "顶上冒新芽了。看来这棵树移栽活了。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
 msgid "Growth appears seasonal. I'll leave a marker and return when it's warm."
-msgstr "生长似乎有季节性。我先做个标记，等天暖和再回来。"
+msgstr "看来它得等天暖了才长。我先做个记号，到时候再来看看。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "An unsuitable substrate. Let's repeat the trial in sandy soil."
-msgstr "基质不合适。换到沙土上再做一组试验吧。"
+msgstr "这土不合适。换块沙地，再试一次。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.GENERIC"
@@ -787,18 +787,18 @@ msgstr "这么小就长出细毛了。我的放大镜呢？"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
-msgid "No measurable growth since winter set in. An intriguing pause."
-msgstr "入冬以来，测不出任何生长。耐人寻味的停顿。"
+msgid "No measurable growth all winter. I'll take another reading in spring."
+msgstr "从入冬到现在，一点儿也没长。等开春再量一量。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "I must have overlooked something in the rainforest soil. Back it goes."
-msgstr "我一定漏算了雨林土壤里的某种因素。还是移回去吧。"
+msgstr "雨林里的荨麻长得好。先把它移回去，再看看两边的土差在哪儿。"
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Wilted already? I'll increase the water supply and take fresh readings."
-msgstr "已经蔫了？那我就增加供水，重新测一组读数。"
+msgstr "这就蔫了？我得多浇点水，再量量它长了多少。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.VORTEXEYE"
@@ -807,18 +807,18 @@ msgstr "嘿，月岩。你这么盯着，我打个盹都怪别扭的。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN"
-msgid "This seed starts the whole anthill over? That's a lot of digging, dude."
-msgstr "这颗籽能让整个蚁丘重来？哇，那得挖多久啊。"
+msgid "One seed puts the whole anthill back? Take the afternoon off, little ants."
+msgstr "一颗种子就能让蚁丘恢复原样？小蚂蚁们，下午歇着吧。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_SHOP"
 msgid "There's gotta be somewhere to put my feet up in a shop this big."
-msgstr "这么大的店，总有个能让我把脚架起来歇会儿的地方吧。"
+msgstr "店这么大，总有个地方能让我坐下歇歇脚吧？"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "There's gotta be somewhere to put my feet up in a shop this big."
-msgstr "这么大的店，总有个能让我把脚架起来歇会儿的地方吧。"
+msgstr "店这么大，总有个地方能让我坐下歇歇脚吧？"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY"
@@ -833,12 +833,12 @@ msgstr "啊，我还指望椅子送来就能坐呢。"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Hey, little shadow arm. Personal space, okay?"
-msgstr "嘿，影子小触手。咱俩留点距离，好吗？"
+msgstr "嘿，影子里的小触手，咱俩别挨这么近，好吗？"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Pops when it hits. There goes my quiet afternoon."
-msgstr "一打中就炸响。哎，我那清静的下午啊。"
+msgstr "打中就炸啊。唉，这下睡不成午觉了。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -848,7 +848,7 @@ msgstr "滑溜溜的小金属弹，掂在手心还挺舒服。"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SPICE_LOTUS"
 msgid "One little pinch, buddy. I'd like to be able to taste the rest of my lunch."
-msgstr "伙计，一小撮就够啦。我还想尝出午饭里别的味儿呢。"
+msgstr "这调料苦，放一小撮就好。我还想尝出菜本来的味儿呢。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SWEETANDSOURCARP"
@@ -858,12 +858,12 @@ msgstr "帮我夹块鲤鱼呗，要那块挂着蜜的。"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "A leg tucked in my fish fillet. Sweet, I only need one fork."
-msgstr "鱼排里还裹了条腿。不错，一叉子全吃到。"
+msgstr "鱼排里还裹了块腿肉。一叉子下去，两样都吃得着。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED"
 msgid "I could paddle that aloe leaf right past the break."
-msgstr "趴在这片芦荟叶上，都够我划过浪头了。"
+msgstr "这片芦荟叶够大，我都能趴在上头划过浪头了。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -873,27 +873,27 @@ msgstr "哎，烂透了。一脚就把叶子踩穿了。"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED"
 msgid "I can roll this radish home, right? Rolling I can do."
-msgstr "这萝卜能一路滚回家吧？用滚的我行。"
+msgstr "这么大的萝卜，能一路推着滚回家吧？那可比扛着轻松多了。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "It rolled halfway home, then... splat. Poor radish."
-msgstr "滚到半路就……啪叽。可怜的萝卜。"
+msgstr "萝卜才滚到半路就……啪叽，烂成一摊了。真可惜。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER"
 msgid "Here's some oincs. Save me a trip and restock that same one?"
-msgstr "给你猪币。照样补货呗？省得我跑别家。"
+msgstr "给你咕噜币，下回还进这种货呗？省得我跑别家。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
-msgid "Let's give it one good wave before the big guy puts it on a shelf."
-msgstr "趁那个大家伙还没把小船摆上架子，先让它痛痛快快冲个浪吧。"
+msgid "One wave first, little boat. Then it's off to trade with the Pig King."
+msgstr "先让这艘小船冲个浪，再去找猪王换东西呗。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.DUMBBELL_IRON"
 msgid "Heavy. I liked it better when the ground was holding it."
-msgstr "好沉。还是让地面举着它比较好。"
+msgstr "这哑铃真沉。还是搁地上吧，地又不会手酸。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
@@ -908,7 +908,7 @@ msgstr "花粉交给滤网。我就负责闻花香。"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "Let's get those roots outta my hands and into some dirt, buddy."
-msgstr "小家伙，根别搁我手上啦，找块泥地给你住。"
+msgstr "小树苗，在我手里可扎不了根。给你找块地吧。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING_ITEM"
@@ -918,17 +918,17 @@ msgstr "嘿，小荨麻籽。你现在还不扎手吧？"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Your roots look comfy down there. Guess you're staying."
-msgstr "根扎得挺舒服嘛。看来你要住下了。"
+msgstr "根都扎下去了。看来你在这儿住得挺舒服嘛。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Missed your season? We can hang out till it comes around."
-msgstr "没赶上季节？咱就在这儿待到它来呗。"
+msgid "Grow when the warm season rolls in, little buddy. Neither of us is in a hurry."
+msgstr "等天暖了再长呗，小树。咱们都不急。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "Bet you'd dig the swirls in that painted sand."
-msgstr "彩绘沙地上那些花纹，你准喜欢。"
+msgstr "要不搬去彩绘沙地？那儿的花纹你准喜欢。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.GENERIC"
@@ -938,12 +938,12 @@ msgstr "哟，小绿叶。介意我坐你旁边吗？"
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Sleep right through winter, little dude. I'd do it too."
-msgstr "小家伙，安心睡过冬吧。换我也想这么过。"
+msgstr "小荨麻，睡过这个冬天再长吧。我也想这么过冬。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "Rainforest dirt. That's more your scene, huh?"
-msgstr "雨林那边的泥地。你喜欢那样的地方吧？"
+msgstr "换块雨林的土吧，小荨麻。你在那儿才长得好。"
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
@@ -952,28 +952,28 @@ msgstr "再来点水？行，给你浇上。"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.VORTEXEYE"
-msgid "And when the last camper looked away... Hey, who turned it to face me?"
-msgstr "等最后一个营员转过身去……哎，谁让它冲着我的？"
+msgid "When the last camper looked away, the stone eye... Hey! Who turned it to face me?"
+msgstr "最后一个队员一转身，那只石眼就……哎？谁把它转过来对着我了？"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SEEDOFRUIN"
 msgid "If this grows the ruins back, I'll have to draw my map in pencil."
-msgstr "要是这颗种子能让遗迹重新长出来，我可得用铅笔画地图了。"
+msgstr "要是这颗种子能让遗迹恢复原样，地图可得用铅笔画，方便改！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Woby sniffed out the shop. Now she wants to sniff all three rooms."
-msgstr "沃比闻着味儿找到了店。这下她要把三个屋都闻一遍了。"
+msgstr "沃比闻着味儿找到了这家店。现在她要把三间屋子挨个儿闻一遍！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Woby sniffed out the shop. Now she wants to sniff all three rooms."
-msgstr "沃比闻着味儿找到了店。这下她要把三个屋都闻一遍了。"
+msgstr "沃比闻着味儿找到了这家店。现在她要把三间屋子挨个儿闻一遍！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY"
 msgid "A whole new world and I don't even have to get up?"
-msgstr "坐着就能去另一个世界？连站都不用站起来？"
+msgstr "坐上这把椅子就能去另一个世界？一步路都不用走？"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_KIT"
@@ -997,13 +997,13 @@ msgstr "跟石子一样大，装进弹袋可沉多了。"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SPICE_LOTUS"
-msgid "I'd put it in the first aid tin. Bit of a surprise if you mistake it for cocoa."
-msgstr "我会把它装进急救盒。谁要是把这苦东西当可可粉冲了，可就有惊喜了。"
+msgid "This bitter stuff wards off poison! I'll keep it in the first aid tin, well away from the cocoa."
+msgstr "这苦调料能防毒，放急救盒正好。可别把它当成可可粉冲着喝！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SWEETANDSOURCARP"
 msgid "With this in my belly I bet I could beat Woby through the fog. Ready, girl?"
-msgstr "吃饱这条鱼，走雾路我说不定能跑赢沃比。准备好了吗，姑娘？"
+msgstr "吃完这条鱼，我在雾里没准能跑赢你呢。沃比，比一场？"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -1013,7 +1013,7 @@ msgstr "我正在数一条鱼有几条腿。今晚篝火边有故事讲了。"
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED"
 msgid "I could camp in the shade of that aloe leaf!"
-msgstr "光这一片芦荟叶底下就够我乘凉扎营了！"
+msgstr "这片芦荟叶底下够我搭帐篷了，还能遮太阳！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -1028,17 +1028,17 @@ msgstr "把这颗大萝卜挖空，它能当船吗？"
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "It looked solid. Then my boot went right through it."
-msgstr "看着还好好的。结果我一脚踩穿了。"
+msgstr "这萝卜看着还挺结实。结果我一脚就踩穿了。"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER"
-msgid "I'll mark this shelf on our supply list. Same stop on the way back, Woby!"
-msgstr "我把这个货架记在补给单上。沃比，回程咱们还来这一站！"
+msgid "The shopkeeper will restock this if we pay. Same supply stop on the way back, Woby!"
+msgstr "收了咕噜币，店家就会再进这种货。沃比，回程咱们还来这儿补给！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "You could practice all six knots on this! Well, maybe if you had smaller fingers."
-msgstr "能拿它练六种绳结呢！呃，手指头得再小点才行。"
+msgstr "能在这艘小船上练六种绳结呢！呃，手指头得再小点才行。"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.DUMBBELL_IRON"
@@ -1053,7 +1053,7 @@ msgstr "雾中行军演习！跟紧机器人，谁也不会掉队。"
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "It catches pollen! My sleeve was getting pretty gross."
-msgstr "它能滤花粉！我的袖口都快擦鼻涕擦硬了。"
+msgstr "这滤网能挡花粉！我总算不用拿袖子擦鼻涕啦！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -1068,12 +1068,12 @@ msgstr "一颗荨麻籽。还是单给它腾个兜吧。"
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Look, it stays upright even when I let go!"
-msgstr "看，我把手松开它也站得直直的！"
+msgstr "看，小树苗扎根啦！我松开手它都站得稳稳的！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Better mark the spot so we can check back in its growing season."
-msgstr "做个记号吧，等它到了生长的季节，咱们再回来看。"
+msgid "I'll mark it on my map! We can measure it in summer, or when the dry or lush season rolls around!"
+msgstr "我先在地图上做个记号。等夏天、旱季或繁茂季，再来量量树苗长高了多少！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -1088,37 +1088,37 @@ msgstr "这就冒绿叶了！我得赶在叶子长大前把它们画下来。"
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "It's taking the winter off. I wish we did that at school."
-msgstr "它整个冬天都放假。要是我们学校也这样就好了。"
+msgstr "荨麻苗整个冬天都放假。要是我们学校也放这么久就好了！"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
-msgid "I know where I've seen these! On the rainforest floor!"
-msgstr "我想起来在哪儿见过它们了！就在雨林的地上！"
+msgid "I've seen these nettles in the rainforest! Let's plant this one there."
+msgstr "我在雨林里见过这种荨麻！咱们把苗挪到那儿种吧。"
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Hang on, I packed water! Knew I'd need it."
-msgstr "等一下，我带水了！就知道会用得上。"
+msgstr "这棵荨麻该浇水啦。看，我就说带上水壶有用吧！"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.VORTEXEYE"
 msgid "I turned that stone eye to face the wall. Or was that the last one?"
-msgstr "我记得我把这石眼转过去朝着墙了。还是说，那是上一个？"
+msgstr "我明明把这只石眼转过去对着墙了。等等，难道转的是上一只？"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SEEDOFRUIN"
 msgid "Even that stair I broke on the way out? Oh, I do hope it remembers that stair."
-msgstr "连我出来时踩塌的那级台阶也能恢复？可千万别把它漏了。"
+msgstr "这粒种子能修好遗迹？希望我踩塌的那级台阶也能修好。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms. I've been through four. Oh, that's the entrance again."
-msgstr "一共三间，我逛了四间。哦，怎么又回到店门口了。"
+msgstr "才三间屋，我怎么逛了四间？噢，这间是我刚进来的那间。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms. I've been through four. Oh, that's the entrance again."
-msgstr "一共三间，我逛了四间。哦，怎么又回到店门口了。"
+msgstr "才三间屋，我怎么逛了四间？噢，这间是我刚进来的那间。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY"
@@ -1138,17 +1138,17 @@ msgstr "刚才那是我的影子？我的影子平时可没长触手。"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "It'll burst the instant it hits. I'll stand over here, then."
-msgstr "碰上的那一刻就会炸。那我还是站这边吧。"
+msgstr "一打中就炸。那我还是站远点吧。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Lovely alloy. A pity to sling it away when I could use it for parts."
-msgstr "多好的合金，拿来做零件多好。就这么打出去，真可惜。"
+msgstr "这么好的合金，做个表里的零件多合适。就这么打出去？可惜了。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SPICE_LOTUS"
 msgid "That stopped a sneeze just as I was setting the minute hand. I'll take two."
-msgstr "分针刚对准，它就帮我把喷嚏止住了。这个给我来两份。"
+msgstr "还好有这味药，刚才拨分针时才没打喷嚏。给我留两份。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SWEETANDSOURCARP"
@@ -1158,7 +1158,7 @@ msgstr "鲤鱼上有蜂蜜！趁醋的酸劲还没上来，让我先舔舔叉子
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "Two legs with my fish? I'm rather glad I met it after it was cooked."
-msgstr "我的鱼还配了两条腿？幸好我碰见它时，它已经熟了。"
+msgstr "这鱼还配了两条腿？幸好端到我面前的时候已经煮熟了。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED"
@@ -1168,7 +1168,7 @@ msgstr "早知道芦荟能长这么大，我昨天就该摘了。"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "Oh dear. I could smell that aloe long before I found it."
-msgstr "哎呀。还没找着这棵芦荟，我老远就闻见了。"
+msgstr "隔老远就闻见臭味了。原来是这棵芦荟！"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED"
@@ -1183,12 +1183,12 @@ msgstr "手指头都戳进萝卜里了。得，不用问新不新鲜了。"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER"
 msgid "I'll pay the oincs now. I'd like this same item on my next visit."
-msgstr "猪币我现在付。下回我来的时候，还想买到这件货。"
+msgstr "咕噜币我现在就付。下回过来，我还要买同样的货。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "The Pig King will take this little boat? And here I've been dusting it."
-msgstr "猪王肯收这条小船？亏我一直把它摆着擦灰。"
+msgstr "猪王肯收这艘小船？那我这些年不是白给它擦灰了？"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.DUMBBELL_IRON"
@@ -1198,7 +1198,7 @@ msgstr "昨天我还举得动这块钢呢。我昨天可比现在年轻。"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Walk beside WX and the fog won't delay us. I call the left side."
-msgstr "挨着 WX 走，雾就耽误不了咱们。我先占个左边。"
+msgstr "跟着机器人走，就不用在雾里耽误时间了。它左边的位置归我！"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -1208,22 +1208,22 @@ msgstr "花粉滤网！你试过打着喷嚏对表吗？"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "I should plant this little tuber tree while I remember why I'm carrying it."
-msgstr "趁我还记得为什么拿着这棵块茎树苗，赶紧种下去吧。"
+msgstr "趁我还记得自己为什么拿着这棵树苗，赶紧把它种了。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Nettle seeds. Which pocket did I promise myself I'd keep them in?"
-msgstr "荨麻籽。我跟自己说好要放哪个口袋来着？"
+msgstr "是荨麻籽。我打算装在哪个口袋来着？"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Good, it's taken root. That's one less thing to come back for."
-msgstr "好，扎根了。这下少一件要我折回来操心的事。"
+msgstr "好，扎根了。这下不用再专门跑回来一趟了。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
 msgid "I'm early. The little tree's waiting for the warm season."
-msgstr "我来早了。这小树还在等暖季呢。"
+msgstr "看来我来早了。得等天暖和些，小树才会长。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -1233,12 +1233,12 @@ msgstr "想起来了。我记得那些块茎树都长在彩绘沙地上。"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "New green leaves already? I must have been away longer than I thought."
-msgstr "都冒出新绿叶了？看来我离开的时间比我以为的长。"
+msgstr "这就长新叶了？我到底走了多久？"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "After winter, then. I wish all my appointments were this easy to move."
-msgstr "那就冬天过后再来。要是我所有的约会都这么好改期就好了。"
+msgstr "那就过了冬天再来。要是所有约会都能这么轻松地改期就好了。"
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -1248,7 +1248,7 @@ msgstr "雨林地皮！怎么每次都是种下去才想起来？"
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "I watered it tomorrow, didn't I? Where's the can?"
-msgstr "我是明天才给它浇的水，对吧？水壶呢？"
+msgstr "我不是浇过水了吗？哦，那是明天的事。水壶呢？"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.VORTEXEYE"
@@ -1258,17 +1258,17 @@ msgstr "刻在石头上我也认得这眼神。盐放多了？"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SEEDOFRUIN"
 msgid "A whole ruin from one seed? And I thought my sourdough starter was lively."
-msgstr "一粒种子能让整座遗迹重生？我还以为我的酵种就够有活力了。"
+msgstr "一粒种子就能让整座遗迹重现？我养的那罐酵种可没这么大本事。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms to shop in. Now, where did I smell cinnamon?"
-msgstr "有三间屋子好逛。刚才哪间飘出了肉桂香？"
+msgstr "这家店有三间屋子呢。刚才的肉桂香是从哪间飘来的？"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms to shop in. Now, where did I smell cinnamon?"
-msgstr "有三间屋子好逛。刚才哪间飘出了肉桂香？"
+msgstr "这家店有三间屋子呢。刚才的肉桂香是从哪间飘来的？"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY"
@@ -1288,7 +1288,7 @@ msgstr "那根触手可得离我的炸鱿鱼圈远一点。"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "It bursts on impact. Walter, shall I move the good china?"
-msgstr "一碰就炸。沃尔特，要我先收起好瓷盘吗？"
+msgstr "这弹丸打中东西会炸。沃尔特，要我先把好瓷盘收起来吗？"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -1298,7 +1298,7 @@ msgstr "啊，是合金的。我还以为是银色糖珠呢。"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS"
 msgid "Just a pinch. Let the bitter note come through at the end."
-msgstr "只撒一小撮。等客人咽下这一口，再让那点苦味出来。"
+msgstr "撒一小撮就好，咽下去时尝到一丝苦味就够了。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP"
@@ -1308,12 +1308,12 @@ msgstr "这点醋刚好收住蜜的甜，还尝得出鲤鱼的鲜。"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "Tender fish, a bite of leg meat... voilà, two textures on one fork."
-msgstr "嫩鱼排配一口腿肉……妙，一叉子两种口感。"
+msgstr "鱼排嫩，腿肉有嚼头。妙，一叉子下去，两种口感都有了！"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED"
 msgid "There's enough clear flesh in one leaf for a jug of punch."
-msgstr "光一片叶子里的透明果肉，就够我调一大壶果汁了。"
+msgstr "一片芦荟能刮出这么多透亮的叶肉，够调一大壶果汁了。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -1328,17 +1328,17 @@ msgstr "想想看，这大萝卜切出来的薄片，得有多漂亮！"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "My thumb sank right in. A radish ought to snap."
-msgstr "拇指一按就陷下去了。好萝卜该是一掰就脆响的。"
+msgstr "拇指一按就陷下去了。新鲜萝卜掰开，那可是咔嚓一声。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER"
-msgid "A standing order! No more planning supper around an empty shelf."
-msgstr "能长期订货了！这下不必每回站在空货架前现改晚餐的菜单了。"
+msgid "A few oincs to keep this in stock? That'll save me changing the menu!"
+msgstr "花点咕噜币，请店家下回还进这种货，我就不用临时改菜单了。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "Wouldn't a slice of lemon make a fine little sail?"
-msgstr "切片柠檬给它当小帆，岂不正好？"
+msgstr "切一片柠檬给这艘小船当帆，正合适！"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.DUMBBELL_IRON"
@@ -1347,8 +1347,8 @@ msgstr "举上几回，以后端汤锅也该觉得轻了。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "I'll gladly follow that breeze through the fog. Especially if it smells of supper."
-msgstr "我乐意跟着这阵风穿过雾去，尤其是风里还有晚饭香的时候。"
+msgid "The robot's fan will keep us moving through the fog. If only that breeze smelled of supper!"
+msgstr "有机器人身上的风扇帮忙，我们在雾里也能走得快些。要是风里再带点饭香就好了！"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -1358,12 +1358,12 @@ msgstr "啊，花粉滤掉了！总算又闻得到晚饭的香气。"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "First a home for this sapling, then we can talk tubers."
-msgstr "先给树苗安个家，块茎的事以后再说。"
+msgstr "先找块地把树苗栽好，再惦记吃块茎的事吧。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING_ITEM"
-msgid "That's a nettle seed. Let me put down the pepper mill."
-msgstr "是颗荨麻籽。容我先把胡椒磨放下。"
+msgid "A nettle seed! I nearly put it through the pepper mill."
+msgstr "哎，这是荨麻籽！我差点当胡椒粒给磨了。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
@@ -1372,8 +1372,8 @@ msgstr "根扎稳了。等结了块茎我再来。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Even tubers have their season. Patience, chef."
-msgstr "块茎也有自己的时令。当厨子的得有点耐心。"
+msgid "Even tubers have their season. The little tree's in no hurry, and neither is my pot."
+msgstr "块茎也讲时令。眼下小树还不肯长，我的锅倒不急着用。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -1383,7 +1383,7 @@ msgstr "要栽这棵树，我会先试试沙漠里的土。"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Such tender green tips on my little nettle."
-msgstr "我的小荨麻冒出了多嫩的绿尖儿呀。"
+msgstr "看看这棵荨麻苗，刚冒出来的叶尖多嫩！"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
@@ -1393,52 +1393,52 @@ msgstr "得等冬天过去，菜单上才有鲜荨麻。"
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "The missing ingredient is rainforest soil."
-msgstr "还差一味料。得添雨林里的土。"
+msgstr "我知道少了哪味料了！这棵荨麻得种在雨林的土里。"
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "A drink for the nettle before I fill the pot."
-msgstr "装锅里的水之前，先给荨麻浇上一瓢。"
+msgstr "锅里一会儿再添水，先给这棵荨麻浇一瓢。"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.VORTEXEYE"
 msgid "A moonstone eye, wide as mine on opening night."
-msgstr "月岩的眼睛，瞪得跟我首演那晚一样圆。"
+msgstr "首演那晚，我的眼睛也瞪得跟这只石眼一样圆！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SEEDOFRUIN"
 msgid "From such a speck the fallen halls shall rise again!"
-msgstr "这么小一粒种子，竟能让倒塌的殿堂再度耸立！"
+msgstr "这么小一粒种子，就能让倒塌的遗迹重新立起来！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Where are the shields? Thou hast given the hats a whole wall!"
-msgstr "盾牌在何处？汝竟舍得给帽子整整一面墙！"
+msgstr "店家，盾牌呢？帽子倒是挂了整整一面墙！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Where are the shields? Thou hast given the hats a whole wall!"
-msgstr "盾牌在何处？汝竟舍得给帽子整整一面墙！"
+msgstr "店家，盾牌呢？帽子倒是挂了整整一面墙！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY"
 msgid "I take my seat. Raise the curtain on another realm!"
-msgstr "吾已就座。为下一个国度揭幕吧！"
+msgstr "我坐好了！为下一个世界拉开大幕吧！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_KIT"
 msgid "My throne lies in pieces and the overture has begun!"
-msgstr "序曲已响，我的宝座却还散着架呢！"
+msgstr "开场的乐声都响了，我的宝座怎么还是一堆零件？"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Come, shadow! My arm against thy tentacle!"
-msgstr "来，暗影！用你的触手跟我扳一局腕子！"
+msgstr "来，暗影！伸出触手，跟我扳手腕！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "A clap of thunder where this little shot strikes!"
-msgstr "小小一弹，落处便是一声惊雷！"
+msgstr "好一颗小弹丸！打中敌人，炸得比雷还响！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -1448,12 +1448,12 @@ msgstr "弹弓也有一只小铁拳了。"
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SPICE_LOTUS"
 msgid "Bitter on the tongue. Let pollen and venom try me now!"
-msgstr "舌根发苦。花粉与毒液，尽管来试试！"
+msgstr "这调料真苦。花粉、毒液，有本事就一起上！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SWEETANDSOURCARP"
-msgid "A coat of honey becomes this river beast!"
-msgstr "这尾河中猛兽，披上蜜汁倒很气派！"
+msgid "A coat of honey! Even the carp wears golden armor to the feast!"
+msgstr "这条鲤鱼浇上了蜂蜜，倒像披了身金甲！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -1463,12 +1463,12 @@ msgstr "好一盘鱼肉，连配菜也是腿肉！"
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED"
 msgid "Blades as broad as shields! Alas, all leaf."
-msgstr "叶刃宽如盾牌！可惜终究是叶子。"
+msgstr "这叶子长得跟盾牌一样宽！可惜啊，再大也是菜。"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "A fallen heap of slime. The aloe's saga ends."
-msgstr "芦荟瘫作一滩烂泥。此篇唱罢。"
+msgstr "芦荟都烂成泥了。这就是它的最后一幕！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED"
@@ -1478,77 +1478,77 @@ msgstr "哪位勇士从土里拔出了这块红巨石？"
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "At last, a radish with a fearsome battle stench."
-msgstr "总算有一颗萝卜能凭气味退敌了。"
+msgstr "这萝卜都不用扔，光是臭味就能把敌人熏跑！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER"
 msgid "My coin, the mayor's seal. Refill this shelf in kind!"
-msgstr "猪币在此，镇长有令。照原样补满这排货架！"
+msgstr "镇长有令，咕噜币我出！店家，下回还得进这种货！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "A ship fit for the Pig King's tub! What shall he bid?"
-msgstr "此船正配猪王的浴盆！陛下肯出什么价？"
+msgstr "这小船放在猪王的澡盆里正好！陛下肯出什么价？"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.DUMBBELL_IRON"
 msgid "Up, iron! My spear arm could use the exercise."
-msgstr "铁疙瘩，起！正好练练我执矛的手。"
+msgstr "铁疙瘩，起！正好练练我拿战矛的胳膊。"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "A wind for the whole company! March on through the mist!"
-msgstr "风为全队开道！穿过迷雾，继续进军！"
+msgid "Stay close to our iron warrior, comrades! With that fan, no mist shall slow our march!"
+msgstr "战友们，跟紧装了风扇的机器人！我们在雾里也能大步前进！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "A fine sieve. No pollen shall spoil my high note!"
-msgstr "好一面细筛。这下花粉休想搅了我的高音！"
+msgstr "有这层滤网挡着，花粉休想害我唱高音时打喷嚏！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "Where shall I set thee down, wee bearer of tubers?"
-msgstr "小小的块茎树啊，吾当把你栽在何处？"
+msgstr "块茎树苗啊，我该把你栽在哪儿呢？"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "A sting yet slumbers in this tiny seed."
-msgstr "这粒小小的种子里，蜇人的本事还在沉睡。"
+msgstr "别小看这粒荨麻籽，长大了可会蜇人！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Stand fast, sapling! Thy roots hold firm."
-msgstr "小树，站稳了！你的根已牢牢扎下。"
+msgstr "站稳了，小树！好，根扎得够牢！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Thy season has yet to make its entrance."
-msgstr "属于你的时节还没登场。"
+msgid "Not your season yet, little tree. When the warmth returns, the stage is yours!"
+msgstr "小树，还没到你登场的季节。等天暖了，再长个痛快！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "Volcanic earth would suit thy roots."
-msgstr "火山的大地才衬得上你的根。"
+msgstr "这块地不适合你，小树。到火山上去扎根吧！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "A little crest of green! The nettle lives."
-msgstr "一小簇绿缨！荨麻还精神着呢。"
+msgstr "看这棵荨麻苗，头顶那几片绿叶多精神！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Bide thy time. Even winter must yield."
-msgstr "静候时机。寒冬终须退场。"
+msgstr "等冬天退场，这棵荨麻就能接着长了！"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "Back to thy rainforest soil, little nettle."
-msgstr "小荨麻，回你的雨林土里去吧。"
+msgstr "小荨麻，给你换个阵地！咱们去雨林里扎根。"
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "A drink for the parched little warrior!"
-msgstr "来点水，给这位口渴的小勇士！"
+msgstr "土都干了。给这位小勇士浇点水！"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.VORTEXEYE"
@@ -1558,17 +1558,17 @@ msgstr "唯一的观众是月岩雕的。难怪冷场。"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SEEDOFRUIN"
 msgid "I clear the ruins, and this puts them back. Typical."
-msgstr "我清了一遍遗迹，它又给我恢复原样。果然如此。"
+msgstr "我才清完整座遗迹，一颗种子就能把它变回原样。真体贴。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three salesrooms, and I can still hear the same pig."
-msgstr "整整三间铺面，走到哪儿都听得见那头猪。"
+msgstr "这店有三间屋。躲进哪一间，都听得见那头猪的嗓门。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three salesrooms, and I can still hear the same pig."
-msgstr "整整三间铺面，走到哪儿都听得见那头猪。"
+msgstr "这店有三间屋。躲进哪一间，都听得见那头猪的嗓门。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY"
@@ -1583,12 +1583,12 @@ msgstr "还得自己装。我的助手呢？"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "A tentacle on cue. Who taught the boy that trick?"
-msgstr "触手应声登场。谁教那孩子这一手的？"
+msgstr "触手倒是准时登场了。谁教沃尔特这一手的？"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "It announces every hit with an explosion. Rather ruins a discreet exit."
-msgstr "打中一发就要炸上一声。叫我怎么悄悄退场？"
+msgstr "一打中就炸。这么大动静，我还怎么悄悄退场？"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -1603,27 +1603,27 @@ msgstr "苦了点。为了演出时不打喷嚏，更难咽的我也吃过。"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SWEETANDSOURCARP"
 msgid "Whoever arranged those fins understands the value of an entrance."
-msgstr "瞧这鱼鳍摆的姿势。掌勺的倒懂得怎样亮相。"
+msgstr "鱼鳍这么一摆，连条鲤鱼上桌都像主角登场。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "The fish was quite presentable before someone tucked those legs in."
-msgstr "那些腿塞进去之前，这条鱼的卖相还算体面。"
+msgstr "这鱼原本卖相不错。谁非要往鱼肚子里塞腿？"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED"
-msgid "One leaf would stock a gentleman's washstand for a year."
-msgstr "这么一片叶子，够一位绅士在盥洗台上用一年。"
+msgid "One leaf would keep me in aftershave for a year."
+msgstr "每天刮完胡子抹一点，这片芦荟够我用一年。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "It's seeping through my handkerchief."
-msgstr "这汁都渗过我的手帕了。"
+msgstr "这烂芦荟的汁都把我的手帕浸透了。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED"
 msgid "A radish that requires a carving knife. Fetch the good silver."
-msgstr "吃个萝卜还得动用切肉刀。把好银器拿来。"
+msgstr "吃个萝卜还得用切肉刀。拿我那把银柄的来。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
@@ -1632,13 +1632,13 @@ msgstr "我在隔壁房间就闻到这萝卜的味儿了。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER"
-msgid "A signature, a modest fee, and even a pig will keep a promise."
-msgstr "签个名，付笔小钱，连猪也会信守约定。"
+msgid "A signature and a modest fee. Surely even a pig can restock the same item."
+msgstr "字我签，钱我付。猪老板，卖完了还进这种货，记住了吧？"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "His Majesty collects toy boats? I may yet turn a profit."
-msgstr "陛下收藏玩具船？看来我还有得赚。"
+msgstr "猪王陛下还收玩具船？看来我还有得赚。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.DUMBBELL_IRON"
@@ -1648,7 +1648,7 @@ msgstr "这种重活自然有影子代劳。西装袖子可不便宜。"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "I'll walk beside the automaton. It parts the fog quite neatly."
-msgstr "我跟着机器人走。它把雾分开的手法倒挺利落。"
+msgstr "这机器人吹开雾的本事不错。我就走它旁边吧。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -1663,7 +1663,7 @@ msgstr "根须都钩住我袖口了。来个人挖个坑。"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Nettle seeds. I shall sow them without removing my gloves."
-msgstr "荨麻籽。容我戴着手套播种。"
+msgstr "种荨麻籽？那我这副手套就不摘了。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
@@ -1683,7 +1683,7 @@ msgstr "我认得这种树。换块沙漠土试试。"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Already an excellent reason to wear gloves."
-msgstr "这么小一株绿苗，已经值得我戴手套了。"
+msgstr "苗才这么点大就扎手了。幸好我戴了手套。"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
@@ -1693,7 +1693,7 @@ msgstr "它要歇一整个冬天。我倒也能体谅。"
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "It wants rainforest turf. Naturally, I brought a nettle and left the forest."
-msgstr "它要雨林地皮。当然，我只带了荨麻，没带雨林。"
+msgstr "荨麻得种在雨林土里。怎么，还指望我把整片雨林搬来？"
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
@@ -1707,8 +1707,8 @@ msgstr "它只有一只眼睛？它要是愿意，可以跟我们借几只呀。
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN"
-msgid "Can the ants tell we started their whole hill over?"
-msgstr "要是我们让整个蚁丘从头来过，蚂蚁们会发现吗？"
+msgid "If we use this seed to put the anthill back the way it was, will the ants notice?"
+msgstr "我们用这颗种子把蚁丘变回原样，蚂蚁们会发现吗？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_SHOP"
@@ -1732,8 +1732,8 @@ msgstr "你来拼椅子，我们帮你拿着零件！"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "It's waving a shadow tentacle! Um, should we wave back?"
-msgstr "它在挥那条影子触手！呃，我们要不要挥手呀？"
+msgid "That shadow tentacle's waving at us! Um, should we wave back?"
+msgstr "那条暗影触手在跟我们招手！呃，我们也挥挥手吗？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -1747,8 +1747,8 @@ msgstr "这颗金属丸跟我们兜里别的弹丸碰在一起，叮当响。"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SPICE_LOTUS"
-msgid "If we both hold our noses, who's going to hold the spoon?"
-msgstr "要是我们俩都捏着鼻子，谁来拿勺子呀？"
+msgid "It's so bitter! If we both hold our noses, who's going to hold the spoon?"
+msgstr "这么苦，我们俩都想捏着鼻子吃。那谁来拿勺子呀？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SWEETANDSOURCARP"
@@ -1768,7 +1768,7 @@ msgstr "我们能躲在这片芦荟叶后面。你看得见我们的脚吗？"
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "We tried to lift a leaf and the rotten bit came off on us."
-msgstr "我们就想抬起一片叶子，烂掉的地方全黏在身上了。"
+msgstr "呀！才掀起一片叶子，烂芦荟就糊了我们一身！"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED"
@@ -1782,13 +1782,13 @@ msgstr "我们的萝卜球烂了。这下轮到苍蝇玩了。"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER"
-msgid "Here are our oincs. Could you get the same one for our friend, please?"
-msgstr "这是我们的猪币。可以请你再进个一样的，给我们的朋友吗？"
+msgid "Here are our oincs. Could you stock another one, please? We'd like one for our friend too!"
+msgstr "咕噜币给您！卖完了再摆个一样的，好吗？我们想给朋友也买一个。"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "We promised the Pig King a trade. Just one more sail around the tub?"
-msgstr "我们答应拿船跟猪王换东西了。能再绕澡盆航行一圈吗？"
+msgstr "我们答应拿小船跟猪王换东西了。能先让它在澡盆里再漂一圈吗？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.DUMBBELL_IRON"
@@ -1808,7 +1808,7 @@ msgstr "看滤网上沾了多少花粉！差点儿全进我们鼻子了！"
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "We'll carry the little tree. Can you dig a hole for its roots?"
-msgstr "我们来抱小树。你能帮它的根挖个坑吗？"
+msgstr "我们抱住树苗，你帮忙挖个坑，好吗？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING_ITEM"
@@ -1818,17 +1818,17 @@ msgstr "小心那些荨麻籽。已经有一颗掉进我们的毛毛里找不着
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Look, it's standing up all by itself! The roots must be holding on."
-msgstr "看，它自己站住了！一定是根在底下抓牢了。"
+msgstr "看，不用我们扶也站得住了！根已经扎进土里啦！"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "We keep checking for new leaves. Is it the right season yet?"
-msgstr "我们老跑来看有没有新叶子。该长叶子的季节到了吗？"
+msgid "Our little tree has a growing season too? We'll come visit when it's warm!"
+msgstr "小树也要等自己的季节呀？等天暖了，我们再来看你！"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "Maybe it likes the stripy sand. We can take it there!"
-msgstr "它会不会喜欢有花纹的沙地？我们带它去吧！"
+msgstr "它会不会喜欢那片彩绘沙地呀？我们带它去试试吧！"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.GENERIC"
@@ -1837,28 +1837,28 @@ msgstr "你好呀，小绿苗！你还是荨麻籽的时候我们就认识你啦
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
-msgid "We'll visit after winter. Maybe you'll be taller than our boots!"
-msgstr "我们过完冬再来看你。说不定你能长过我们的靴子呢！"
+msgid "Once winter's over you can grow again. Will you get taller than our boots?"
+msgstr "等冬天过了，你就能接着长啦。以后会不会比我们的靴子还高呀？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
-msgid "Oh! We took you too far from the rainforest. Let's get you the right dirt."
-msgstr "哎呀！我们把你带得离雨林太远了。去给你找那里的土吧。"
+msgid "Oops, wrong dirt! Shall we get you some from the rainforest, little nettle?"
+msgstr "哎呀，土弄错了！小荨麻，我们给你换点雨林里的土，好不好？"
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Let's give the roots another drink. We can carry the can together."
-msgstr "再给根喝点儿水吧。我们可以一起提水壶。"
+msgstr "土都干啦！我们一起去提水壶，再给小苗浇点水吧。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.VORTEXEYE"
-msgid "They carved it an eye, but no lid to rest it."
-msgstr "他们为它刻了眼睛，却没刻眼皮让它歇一歇。"
+msgid "A stone eye with no lid. It can never close, even for a moment."
+msgstr "这只石眼连眼皮都没刻。想闭一会儿也闭不上。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN"
-msgid "A whole ruin may begin again. How small its second chance is."
-msgstr "整座遗迹都能重来。它的第二次机会，竟只有一粒种子大。"
+msgid "One little seed, and the ruins get a second chance. I envy them."
+msgstr "只要这么一粒种子，整座遗迹就能恢复原样。真让人羡慕。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_SHOP"
@@ -1873,12 +1873,12 @@ msgstr "整整三间屋子，装的都是主人舍得卖掉的东西。"
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY"
 msgid "Another world is only a seat away. Come along, Abigail."
-msgstr "坐下便是另一个世界。一起走吧，阿比盖尔。"
+msgstr "坐上这把椅子，就能去另一个世界。一起走吧，阿比盖尔。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT"
 msgid "I found the pieces of a chair. Our departure can wait."
-msgstr "找到的只是一把椅子的零件。我们得晚些启程了。"
+msgstr "椅子还没拼好。看来我们得晚点再走了。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -1888,7 +1888,7 @@ msgstr "一条触手在暗处摸索。也许它寂寞了。"
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Such a quiet little pellet, until it strikes and bursts."
-msgstr "这样安静的一颗小弹丸，一撞上什么就会炸开。"
+msgstr "这颗弹丸在手里安安静静的。一打中东西，就会炸开。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -1897,8 +1897,8 @@ msgstr "这颗金属弹大概感觉不到疼。我倒可怜挨打的那个。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS"
-msgid "The flowers tried to cheer me. Their pollen made me cry. Pass the little jar."
-msgstr "花儿想逗我高兴，花粉倒弄得我眼泪直流。把那小罐递给我吧。"
+msgid "The flowers tried to cheer me. Their pollen made me cry. Pass the bitter herbs."
+msgstr "花儿想逗我高兴，花粉倒惹得我直掉眼泪。给我一点儿苦香料吧。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP"
@@ -1907,13 +1907,13 @@ msgstr "舌尖的蜜味先散了，酸味还在。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "The fish and its borrowed legs share one plate now."
-msgstr "鱼和它借来的两条腿，如今同在一个盘子里。"
+msgid "They gave the fish a pair of legs. It still didn't get away."
+msgstr "这条鱼倒是配上了两条腿。可惜还是没能逃出餐盘。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED"
 msgid "There's enough balm in one leaf for a ward of patients."
-msgstr "一片芦荟叶里的汁，就够抹遍一病房的伤口。"
+msgstr "这么大一片芦荟叶，挤出的汁够一屋子伤员用了。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -1923,21 +1923,21 @@ msgstr "那么多能疗伤的汁液，却没能救下芦荟自己。"
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED"
 msgid "So much of it grew where no one could see."
-msgstr "这么大一个萝卜，长大的时候竟无人看见。"
+msgstr "这萝卜在地下长了这么大，一直没人看见。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "It still wears its red skin. Underneath, it's gone quite soft."
-msgstr "那层红皮还在，底下早已烂软了。"
+msgstr "那层红皮看着还好，可轻轻一按就塌了。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER"
 msgid "A few oincs, and the shopkeeper replaces what's missing. How simple."
-msgstr "给几个猪币，店主便把缺的那件货补回来。真容易啊。"
+msgstr "给店主几枚咕噜币，卖掉的货就能照原样补回来。真容易啊。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
-msgid "Abigail always blew the wind for our little ships. I only had to hold the sail."
+msgid "Abigail used to puff out her cheeks and blow on our little boats. I only had to hold the sail."
 msgstr "从前我们玩小船，总是阿比盖尔鼓着腮帮子吹风。我只要扶好帆就行。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.DUMBBELL_IRON
@@ -1948,7 +1948,7 @@ msgstr "至少手里这块铁，我随时都能放下。"
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Walk beside me. The fan leaves us a narrow path through the fog."
-msgstr "挨着我走吧。风扇在雾里给我们留了条窄路。"
+msgstr "和我一起走吧。靠近风扇，雾就挡不住我们的路了。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -1958,12 +1958,12 @@ msgstr "滤网上积的花粉，像一层细灰。"
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "Its roots hang loose over my fingers. I should find it a home."
-msgstr "它的根须垂在我指间。该替它找个安身处了。"
+msgstr "小树的根搭在我手上。给你找块土，安个家吧。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "A handful of seeds, each with a little sting in its future."
-msgstr "一捧荨麻籽，每一粒将来都要扎人。"
+msgstr "一捧荨麻籽。等长出叶子，每一棵都会扎手。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
@@ -1972,18 +1972,18 @@ msgstr "树苗扎下根了。总算有一样东西打算留下。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "I'll mark the changing seasons by this bare little stem."
-msgstr "我会守着这根光秃秃的枝条，数到它肯长的那个季节。"
+msgid "It's not your season for new leaves yet. I'll wait with you, little tree."
+msgstr "现在还不是你长新叶的时候。小树，我陪你等。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "Its roots would sooner settle in desert sand."
-msgstr "它的根情愿在沙漠的沙子里安家。"
+msgstr "这棵树苗更喜欢沙漠里的土。给它换个地方吧。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "A little green against all that dark earth."
-msgstr "一片暗土，衬着一点新绿。"
+msgstr "这么黑的土里，冒出了一点绿。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
@@ -1993,7 +1993,7 @@ msgstr "睡过这个冬天吧，小荨麻。我会来看你的。"
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "A piece of rainforest floor might ease its homesickness."
-msgstr "一小片雨林的泥土，或许能解它的乡愁。"
+msgstr "小荨麻大概想家了。给它换块雨林的地皮吧。"
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
@@ -2003,27 +2003,27 @@ msgstr "土一碰就碎了。我去给你取点水。"
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.VORTEXEYE"
 msgid "A second pair of eyes for the cockpit. Well, half a pair."
-msgstr "驾驶舱里多个帮忙瞭望的也好。就是这位只带了一只眼。"
+msgstr "让这块月岩帮我看航线，我就多了一双眼睛。哦，半双。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN"
 msgid "This puts the ruins back? Good. I missed a turn back there."
-msgstr "这能让遗迹恢复原样？好啊，上回有个岔路我没走。"
+msgstr "这颗种子能让遗迹恢复原样？好啊，上回有条岔路我还没走过。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms of supplies. I brought one bag. Swell."
-msgstr "三间屋子的补给。我就带了一个包。妙啊。"
+msgstr "三间屋子都堆满了货，我偏偏只带了一个包。妙啊。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms of supplies. I brought one bag. Swell."
-msgstr "三间屋子的补给。我就带了一个包。妙啊。"
+msgstr "三间屋子都堆满了货，我偏偏只带了一个包。妙啊。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY"
 msgid "A front-row seat to a whole new world. Dibs!"
-msgstr "去新世界还是头排座。这位子我占了！"
+msgstr "去新世界，还能坐头排？这位子我占了！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_KIT"
@@ -2038,7 +2038,7 @@ msgstr "能揣兜里的暗影触手。行，给它单腾个兜。"
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "It pops on impact. I can score that shot by ear."
-msgstr "一打中就炸响。这回我光凭耳朵就能记分。"
+msgstr "听见炸响，我就知道这一发打中了！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -2047,8 +2047,8 @@ msgstr "实心合金。找着凹坑就知道它落哪儿了。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SPICE_LOTUS"
-msgid "A pinch weighs less than a spare handkerchief. Into the pack it goes."
-msgstr "这一撮总比多带条擦鼻涕的手绢轻。装包！"
+msgid "A pinch keeps the pollen off and weighs less than a spare handkerchief. Into the pack it goes."
+msgstr "一小撮就能挡花粉，还比备用手绢轻。带上！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SWEETANDSOURCARP"
@@ -2073,17 +2073,17 @@ msgstr "我的大芦荟烂成汤了。谁带汤勺了？"
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED"
 msgid "That radish would make great ballast. Edible ballast!"
-msgstr "这水萝卜能给气球当压舱物。饿了还能吃！"
+msgstr "这大萝卜够沉，挂在气球底下能当沙袋。饿了还能吃！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "That stink went right through the canvas. Next radish rides outside."
-msgstr "这臭味都透过帆布了。下个萝卜挂包外头。"
+msgstr "隔着帆布包都闻得到萝卜的臭味。下回我把它挂包外头。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER"
 msgid "Here's my fee. Same supplies for the return trip, please."
-msgstr "猪币给你。等我返程，麻烦照样再进一批。"
+msgstr "咕噜币给你。照这批再进点货，我返程时来拿。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -2097,13 +2097,13 @@ msgstr "我倒是举得动。我的气球恐怕有意见。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "Fog bank ahead. Mind if I tuck in behind that lovely tailwind?"
-msgstr "前方有雾。借你这股顺风跟一程，不介意吧？"
+msgid "Fog bank ahead. Stay close to the fan. With that tailwind we'll still be on time."
+msgstr "前面雾大，咱们靠风扇近点儿。有这股顺风，照样能准时到！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "Pollen in the filter! I usually find it with my nose."
-msgstr "滤网上有花粉！以往都是我的鼻子先发现。"
+msgstr "滤网上全是花粉。搁在平时，我早打喷嚏了！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -2122,8 +2122,8 @@ msgstr "扎下根了。我在地图上给你标个点。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Right spot, wrong season. I'll swing back when it's warmer."
-msgstr "地方找对了，季节还早。等暖和点我再绕回来。"
+msgid "Flew in a bit early. I'll swing back around when it's growing season."
+msgstr "看来我飞早了。等到了小树肯长个儿的季节，我再绕回来。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -2138,22 +2138,22 @@ msgstr "冒绿芽了。摘了风镜我都看得见。"
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Grounded for the winter, huh? I'll check in after the thaw."
-msgstr "整个冬天都得停飞啊？等解冻我再来看你。"
+msgstr "冬天停长，就跟我停飞一样。等开春我再来看你！"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "Rainforest soil. That's where I'd drop this one off."
-msgstr "换我就送它去雨林，在那儿的泥地里落脚。"
+msgstr "下一站，雨林。那儿的土才适合这株荨麻。"
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Still dry? Good thing I packed water for two."
-msgstr "还干着？幸好我带了两人份的水。"
+msgstr "土还干着？我带了两人份的水，正好分你一点。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.VORTEXEYE"
 msgid "A moon rock idol. The sculptor took particular care over the iris."
-msgstr "一尊月岩偶像。雕刻者在虹膜上格外下了功夫。"
+msgstr "月岩雕成的眼睛。瞧，连虹膜的纹路都刻出来了。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN"
@@ -2173,37 +2173,37 @@ msgstr "看来他们已经把商品分了类。要是肯给各间屋子也挂个
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY"
 msgid "One need only sit down to visit another world. How very civilised."
-msgstr "坐下便可造访另一个世界。真是体面的出行方式。"
+msgstr "坐下来就能去另一个世界。这趟旅程倒是从容得很。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT"
 msgid "All the parts of a travelling chair, including, I trust, the seat."
-msgstr "旅行椅的部件都在这里。想必座板也在吧。"
+msgstr "旅行椅的零件都在这儿。让我看看，椅面也装进来了吧？"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "The pellet appears to summon a tentacle made of shadow."
-msgstr "这枚弹丸似乎能唤出一条暗影构成的触手。"
+msgstr "这颗弹丸似乎能召来一条暗影触手。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "The charge is released on impact. Mind where you aim, dear."
-msgstr "击中时能量便会爆开。亲爱的，留神你瞄的是哪儿。"
+msgstr "打中就会炸开。亲爱的，瞄准时可要当心。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "A solid alloy pellet. It ought to hold its shape nicely."
-msgstr "实心合金弹丸。想来不容易变形。"
+msgstr "实心合金做的弹丸，应该不容易变形。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS"
 msgid "Hum. The nectar does little to disguise that distinctly bitter finish."
-msgstr "唔，加了花蜜，回味里的那股苦也还是藏不住。"
+msgstr "唔，放了花蜜，咽下去还是有点苦。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP"
 msgid "A fork along the backbone first, dear. Carp have rather a lot of fine bones."
-msgstr "亲爱的，先用叉子顺着脊骨剖开。鲤鱼的细刺可不少。"
+msgstr "亲爱的，先用叉子沿着鱼脊拨开鱼肉。鲤鱼的细刺可不少。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -2213,7 +2213,7 @@ msgstr "鱼肉倒是好认。至于这两条腿，得凑近些瞧。"
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED"
 msgid "A splendid succulent. Imagine how much water just one leaf holds."
-msgstr "好一株多肉植物。想想看，单这一片叶子就能储多少水。"
+msgstr "好一株多肉植物。单是一片叶子，就能存下不少水。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -2227,13 +2227,13 @@ msgstr "哎呀，光这条主根就能装满一只菜篮子。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
-msgid "A decaying brassica has a most distinctive odour."
-msgstr "十字花科蔬菜腐烂时的气味，实在好认。"
+msgid "Radishes and cabbages are related. One can smell the family resemblance."
+msgstr "水萝卜和卷心菜是一家。闻闻，烂了也是一个味儿。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER"
 msgid "The mayor permits repeat orders, provided one supplies the oincs."
-msgstr "据镇长的批令，付上猪币，便可请店家再进同样的货。"
+msgstr "镇长准了。付上咕噜币，就能请店家再进同样的货。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -2243,12 +2243,12 @@ msgstr "看来猪王连模型船也收藏。"
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.DUMBBELL_IRON"
 msgid "Equal masses on either end keep the grip nicely balanced."
-msgstr "两端的钢块等重，握在中间就很平稳。"
+msgstr "两头的钢块一样重，握在正中间就稳当了。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "The moving air keeps the fog from slowing anyone near WX."
-msgstr "空气一流通，WX 身边的人便能在雾里照常行走。"
+msgstr "风扇吹开了雾。走在机器人身边的人也能照常赶路。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -2258,12 +2258,12 @@ msgstr "细小的花粉颗粒都留在了滤网上。"
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "A young tuber tree. I'd best get those roots back into soil."
-msgstr "一株年幼的块茎树。得尽快让这些根重新入土。"
+msgstr "是棵块茎树苗，得趁早把露在外面的根种回土里。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Nettle seeds. An envelope would keep them together nicely."
-msgstr "荨麻籽。拿个信封盛着，就不会撒了。"
+msgstr "荨麻籽这么小，用个信封装着就不会撒了。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
@@ -2293,7 +2293,7 @@ msgstr "这株荨麻入冬就会休眠，很正常。"
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "Rainforest soil would better suit this specimen."
-msgstr "对这株荨麻来说，雨林的土壤更合适。"
+msgstr "这株荨麻更适合种在雨林里。"
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
@@ -2303,62 +2303,62 @@ msgstr "土又干了。请再浇一点水。"
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.VORTEXEYE"
 msgid "WHO TAUGHT THE MOON ROCK TO STARE? 'TIS RUDE!"
-msgstr "何人教月岩瞪眼的？无礼！"
+msgstr "谁教这块月岩瞪人的？真没规矩！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN"
 msgid "UP, OLD RUIN WALLS! THIS LITTLE SEED COMMANDS IT!"
-msgstr "遗迹的老墙墙，起身！小种子有令！"
+msgstr "小种子一声令下，遗迹的墙又站起来啦！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_SHOP"
 msgid "THREE ROOMS O' WARES! WHERE BE THE SWEETIES?"
-msgstr "三屋子货！糖糖在何处？"
+msgstr "三间屋子全是货！哪间卖糖呀？"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "THREE ROOMS O' WARES! WHERE BE THE SWEETIES?"
-msgstr "三屋子货！糖糖在何处？"
+msgstr "三间屋子全是货！哪间卖糖呀？"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY"
 msgid "GOOD CHAIR, BEAR MINE BOTTOM TO YONDER WORLD!"
-msgstr "好椅子，载着吾的小屁股去别的世界！"
+msgstr "椅子听令！带本公主去另一个世界！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_KIT"
 msgid "WILBA HATH ORDERED A CHAIR. WHO HATH ORDERED ALL THESE STICKS?"
-msgstr "威尔巴要的是椅子。何人竟要了这么多木棍棍？"
+msgstr "威尔巴订的可是椅子！谁给我送来一堆木条？"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "YON SHADOW HATH A WIGGLY ARM!"
-msgstr "那团影子竟长了条扭扭胳膊！"
+msgstr "那团影子长胳膊啦！还会扭呢！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "ONE HIT AND OUT COMETH THE BOOM!"
-msgstr "打中一下，轰隆就蹦出来啦！"
+msgstr "一打中就炸开，轰！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "CLINK! A PEA IN SHINING ARMOUR!"
-msgstr "叮！好一颗披亮甲的小豆豆！"
+msgstr "叮！好像一颗穿了盔甲的豌豆！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SPICE_LOTUS"
 msgid "BITTER! POLLEN AND VENOM, BEGONE!"
-msgstr "苦煞吾也！花粉、毒液，统统退下！"
+msgstr "好苦！花粉、毒液，统统退下！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SWEETANDSOURCARP"
 msgid "THE CARP DOTH WEAR ITS HONEY. NOW SO DOTH WILBA."
-msgstr "鲤鱼披蜜袍，威尔巴也沾了一身！"
+msgstr "这条鱼穿了件蜂蜜袍子！咦，我的蹄子上也沾了蜜！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "WHAT LEG DOTH HIDE IN MINE FISH? COME FORTH!"
-msgstr "何方小腿藏在吾的鱼肚里？出来！"
+msgstr "鱼排里怎么藏着条腿？出来见本公主！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED"
@@ -2368,22 +2368,22 @@ msgstr "一片叶子就遮得住一整位公主！"
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "ALAS, BIG LEAF! THOU HAST GONE ALL SQUELCHY."
-msgstr "大叶叶，哀哉！汝烂得噗叽响。"
+msgstr "可惜了这么大的芦荟叶，一捏就烂成泥了！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED"
 msgid "YON RADISH NEEDS A BIGGER CROWN THAN MINE!"
-msgstr "这水萝卜得戴顶比吾的还大的王冠！"
+msgstr "我的王冠太小啦，这颗水萝卜根本戴不上！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "THY ROSY CHEEKS HATH CAVED IN. POO!"
-msgstr "汝的红脸蛋都瘪了。好臭！"
+msgstr "水萝卜，你的红脸蛋都瘪啦。好臭！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER"
 msgid "TAKE THESE OINCS, GOOD PIG. MORE OF THE VERY SAME!"
-msgstr "好猪猪，收下猪币！再进一批，要一模一样的！"
+msgstr "掌柜的，收下咕噜币！下回还进这种货，本公主喜欢！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -2393,52 +2393,52 @@ msgstr "皇家船队在此！只缺一群很小很小的猪水手。"
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.DUMBBELL_IRON"
 msgid "MINE HOOFS SAY THIS IRON MAY STAY ON THE FLOOR."
-msgstr "吾的蹄蹄说，这块铁还是留在地上吧。"
+msgstr "我的蹄子说啦，这块铁还是放地上好！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "PUFF AWAY THE FOG! MINE FRIENDS WOULD MARCH!"
-msgstr "吹开雾雾！吾的小伙伴们要大步走啦！"
+msgstr "风扇，把雾吹开！让我的朋友们也能大步走过去！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "CATCH YON POLLEN ERE IT TICKLETH MINE SNOUT!"
-msgstr "速速捉住花粉，休挠吾的鼻吻！"
+msgstr "滤网，快拦住花粉！本公主的鼻子怕痒！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "A TREE SO WEE IT FITS 'TWIXT MINE HOOFS!"
-msgstr "小树苗，吾用两只蹄蹄就能捧住！"
+msgstr "好小的树苗呀！我用两只蹄子就能捧住！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "THOU ART TOO WEE TO STING YET, LITTLE SEED."
-msgstr "小籽籽，汝还小，扎不了吾。"
+msgstr "小荨麻籽，你还没长刺，扎不着我！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "ITS ROOTY TOES DOTH GRIP THE EARTH!"
-msgstr "根须小脚趾，牢牢抓住地了！"
+msgstr "瞧，小树根像脚趾头一样，紧紧抓住了泥土！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "NOT THY CUE, LITTLE TREE. WAIT FOR THY SEASON!"
-msgstr "小树苗，还没轮到汝登场！等时节到了再来！"
+msgid "NOT YET THY SEASON, LITTLE TREE. WILBA GIVETH THEE A HOLIDAY!"
+msgstr "小树，现在还不是你长高的时候。本公主准你放个假！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "WOULDST THOU LIKE A BED O' PAINTED SAND?"
-msgstr "给汝铺张彩绘沙床，可好？"
+msgstr "这里的土不合你心意？那就把你种在彩绘沙地上！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "LOOK! A WEE GREEN CROWN FOR THE DIRT!"
-msgstr "看呀！泥巴戴上了嫩绿的小王冠！"
+msgstr "荨麻冒芽啦！瞧，泥巴也戴上小绿王冠了！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "LET WINTER FINISH SPEAKING, THEN GROW!"
-msgstr "待冬天把台词念完，汝再长！"
+msgstr "冬天还没退场呢。小荨麻，等过了冬再长！"
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -2448,7 +2448,7 @@ msgstr "这株小荨麻想搬去雨林的泥地里。"
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "ANOTHER DRINK FOR THE LITTLE GREEN LADY!"
-msgstr "给这位绿裙小姑娘再斟一杯水！"
+msgstr "小荨麻渴啦！快给这位绿裙小姑娘再倒点水！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.VORTEXEYE"
@@ -2458,32 +2458,32 @@ msgstr "嘿，它瞳孔里映着我的火苗。眼珠子，别动！"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SEEDOFRUIN"
 msgid "I wreck the ruins, this puts 'em back. I like this seed."
-msgstr "我把遗迹砸了，它又给拼回去。这种子我喜欢。"
+msgstr "有这颗种子，遗迹砸坏了也能变回原样。嘿，我喜欢！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms! Bet the pigs keep the good stuff in the last one."
-msgstr "三间屋子！我赌那些猪把好东西都藏在最后一间。"
+msgstr "三间屋子！我敢打赌，那帮猪把好东西都藏在最里头了。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms! Bet the pigs keep the good stuff in the last one."
-msgstr "三间屋子！我赌那些猪把好东西都藏在最后一间。"
+msgstr "三间屋子！我敢打赌，那帮猪把好东西都藏在最里头了。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY"
 msgid "Dibs on the flying chair! Later, world!"
-msgstr "飞椅我先坐！回见啦，旧世界！"
+msgstr "飞椅我先坐！我去别的世界兜风啦，回见！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_KIT"
 msgid "Poke me with that chair leg again and see what happens."
-msgstr "椅子腿，你有本事再扎我一下试试。"
+msgstr "喂，拼椅子的时候看着点！你再拿椅子腿戳我一下试试！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Keep those shadow tentacles on YOUR end of the slingshot."
-msgstr "让那些影子触手待在你弹弓那头，离我远点。"
+msgstr "把弹弓拿远点！别让那些暗影触手伸到我这边来。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -2497,13 +2497,13 @@ msgstr "这颗金属弹打在头盔上，准能砸出个漂亮的坑。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SPICE_LOTUS"
-msgid "Bitter! Next time that pretty little flower can keep its opinion to itself."
-msgstr "呸，真苦！那朵小花看着挺乖，怎么一张嘴这么不讨喜。"
+msgid "Blech! How does a cute little flower taste that bitter? If it didn't keep poison and pollen off my back, I'd pass!"
+msgstr "这么好看的花，怎么这么苦？要不是能防毒、挡花粉，我才不吃！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SWEETANDSOURCARP"
 msgid "First the honey, then the sour kicks in. Sneaky fish."
-msgstr "先是蜂蜜甜，然后一下酸上来。这鱼还挺会偷袭。"
+msgstr "刚尝到蜂蜜味……嘶，好酸！这鱼还挺会偷袭。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -2518,7 +2518,7 @@ msgstr "才掰一片叶子，黏糊糊的汁就沾到我胳膊肘了。"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "The whole aloe's leaking. Ugh, my boots!"
-msgstr "整棵烂芦荟都在淌水。噫，我的靴子！"
+msgstr "烂芦荟还在往外淌汁。啧，都流我靴子上了！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED"
@@ -2533,7 +2533,7 @@ msgstr "我戳了下萝卜，手指直接穿过去了。呕。"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER"
 msgid "Here's my oincs. Same thing back on that shelf, got it?"
-msgstr "猪币给你。架上还摆这件货，听见没？"
+msgstr "咕噜币给你。卖光了还进这种货，听见没？"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -2548,12 +2548,12 @@ msgstr "用这么大块铁，就为了让自己胳膊酸？"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Hey, wind-up! Keep that fan close. I'm sick of slogging through fog."
-msgstr "发条脑袋，带着风扇靠近点！我受够了在雾里磨蹭。"
+msgstr "喂，铁皮脑袋，带着风扇靠近点！我可不想在雾里一步一挪。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "Heh. Let the filter get a noseful of pollen for once."
-msgstr "嘿，这回也让滤芯尝尝鼻子里塞满花粉的滋味。"
+msgstr "嘿，这回让花粉去堵滤网，别堵我的鼻子！"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -2563,7 +2563,7 @@ msgstr "小树苗挠得我手腕发痒。你还是进土里吧。"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "All that sting packed into these itty-bitty seeds?"
-msgstr "以后那么扎人，现在就这么几颗小籽？"
+msgstr "就这几颗小籽，能长出那么扎人的荨麻？"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
@@ -2572,13 +2572,13 @@ msgstr "我拽了一下。嗯，根扎牢了。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Oh, it's waiting for the hot season? Now there's a tree I get."
-msgstr "哦，它在等天热？这棵树可算跟我想到一块儿了。"
+msgid "Wrong season for this tree. It likes summer, though. Heh, me too."
+msgstr "嫌现在季节不对？行啊，小树，我也盼着夏天呢。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "Picky roots. How about some nice volcanic dirt?"
-msgstr "这根还挺挑。给你来点火山土怎么样？"
+msgstr "树根还挑土？给你换点火山土怎么样？"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.GENERIC"
@@ -2588,7 +2588,7 @@ msgstr "嘿，长绿叶了！试试看扎不扎人。"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "It's sitting winter out. Scoot over, nettle."
-msgstr "它打算躲完整个冬天。荨麻，给我也腾个地儿。"
+msgstr "过完冬才肯长？行啊，小荨麻，我也想躲个冬天。"
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -2598,7 +2598,7 @@ msgstr "你要雨林那种土？早说嘛。"
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Even I think that's too dry. Where'd I leave the watering can?"
-msgstr "连我都觉得干过头了。我把水壶搁哪儿了？"
+msgstr "连我都觉得这土太干了。我把浇水壶搁哪儿了？"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.VORTEXEYE"
@@ -2613,12 +2613,12 @@ msgstr "靠它就能重修整座遗迹？得，我的加班费泡汤了。"
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms of stock. Bet those pigs do some heavy liftin'."
-msgstr "三间屋子都得上货。这些猪伙计没少搬重物吧。"
+msgstr "三间屋的货都得搬进来。猪伙计们没少出力啊。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms of stock. Bet those pigs do some heavy liftin'."
-msgstr "三间屋子都得上货。这些猪伙计没少搬重物吧。"
+msgstr "三间屋的货都得搬进来。猪伙计们没少出力啊。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY"
@@ -2633,7 +2633,7 @@ msgstr "先把零件摆开。谁也不想装完还剩颗螺丝。"
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Hard hats, gang! Those shadow arms don't watch where they swing."
-msgstr "伙计们，安全帽戴好！那几条影子触手可不看底下有没有人。"
+msgstr "伙计们，戴好安全帽！那几条暗影触手甩起来可不看下面有没有人。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -2658,12 +2658,12 @@ msgstr "面包递一下。这鱼盘里的蜜汁我可得蘸干净。"
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "Hey, whoever packed those legs into the fish owes me a bigger fork."
-msgstr "嘿，谁往鱼排里塞了两条腿？给我换把大叉子！"
+msgstr "嘿，谁往鱼肚子里塞了两条腿？这下得换把大叉子了！"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED"
 msgid "One leaf's enough to patch up a whole shift's worth of scraped elbows."
-msgstr "这么大一片芦荟叶，全班工友蹭破了胳膊肘都够敷。"
+msgstr "谁干活时蹭破了皮就来抹点。光这片芦荟叶就够咱们全班用！"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -2673,12 +2673,12 @@ msgstr "拿个桶来。这大芦荟烂得我都捧不住了。"
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED"
 msgid "Lunch is on me. Who wants the other half of my radish?"
-msgstr "午饭我请。谁来分掉我那半个大萝卜？"
+msgstr "午饭我请。这大萝卜我吃一半，另一半谁要？"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "Anybody got a shovel? This radish is past the knife stage."
-msgstr "谁有铲子？这萝卜早就烂得用不上菜刀了。"
+msgstr "谁有铲子？这萝卜烂成泥了，哪还用得上菜刀。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER"
@@ -2688,17 +2688,17 @@ msgstr "备件架就该这么管。用掉最后一个，照样再订一个。"
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "Nice little hull. Let's see what the Pig King pays for workmanship."
-msgstr "这小船的船身做得不错。瞧瞧这手艺在猪王那儿值多少。"
+msgstr "这小船做得挺扎实。去问问猪王，这手艺值多少钱？"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON"
 msgid "Feels like hauling steel at work. At least this one's got a handle."
-msgstr "跟上班搬钢料一个分量。好歹这个有把手。"
+msgstr "跟我上班搬的钢料一样沉。好在这个带把手。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Stick with WX. That fan cuts us a path through the fog."
-msgstr "跟紧 WX。那台风扇能在雾里给大伙儿吹开条路。"
+msgstr "跟紧机器人！有它那台风扇开路，大伙儿就好走多了。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -2713,12 +2713,12 @@ msgstr "帮我把这棵小树扶正。我去拿铲子。"
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Hold out your hand. There's a whole patch of nettles in these few specks."
-msgstr "手摊开。别看就这几小粒，种出来够长一片的。"
+msgstr "手摊开。别看荨麻籽就这么几粒，能种出一大片呢。"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "That's got a good grip on the ground. Nice work, roots."
-msgstr "抓地抓得够牢。根扎得漂亮！"
+msgstr "嘿，小树扎根了，抓得还挺牢！"
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
@@ -2753,7 +2753,7 @@ msgstr "又干啦？把浇水壶递我。"
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.VORTEXEYE"
 msgid "Is moon rock watching? Wolfgang better stick chest out."
-msgstr "月亮石在看吗？沃尔夫冈得把胸挺起来。"
+msgstr "那只石眼在看沃尔夫冈？那得把胸挺起来！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SEEDOFRUIN"
@@ -2763,12 +2763,12 @@ msgstr "小种子能重建整个蚁丘？换沃尔夫冈来，得挖坏好几把
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms of shopping? Good thing you brought man with big arms!"
-msgstr "要买三间屋子的货？幸好你们带上了膀子粗的！"
+msgstr "三间屋子都要逛？尽管买，沃尔夫冈帮你们扛！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms of shopping? Good thing you brought man with big arms!"
-msgstr "要买三间屋子的货？幸好你们带上了膀子粗的！"
+msgstr "三间屋子都要逛？尽管买，沃尔夫冈帮你们扛！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY"
@@ -2778,7 +2778,7 @@ msgstr "椅子扛着沃尔夫冈去另一个世界？平常都是沃尔夫冈扛
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_KIT"
 msgid "Big pieces go here. Who has little screws?"
-msgstr "大件放这儿。小螺丝在谁那儿？"
+msgstr "椅子的大零件放这儿。谁拿着那几颗小螺丝？"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -2793,17 +2793,17 @@ msgstr "小弹丸一打中就炸响。咚！像马戏团的大鼓！"
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Squeeze with whole fist. Metal ball stays round!"
-msgstr "整只拳头使劲捏。铁丸还是圆的！"
+msgstr "好硬的合金弹！使这么大劲儿都捏不扁！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SPICE_LOTUS"
-msgid "Wolfgang take little pinch. Ha! Why only tongue feel small now?"
-msgstr "沃尔夫冈只尝一小撮。嚯！怎么舌头苦得缩成一小团了？"
+msgid "Wolfgang only takes tiny pinch. Oof! So bitter it makes tongue curl!"
+msgstr "沃尔夫冈只尝了一小撮。嚯！舌头都苦得打卷了！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SWEETANDSOURCARP"
 msgid "Is sweet fish. Oof! Sour part makes whole face pucker."
-msgstr "是甜鱼。嚯！酸的那口让整张脸都皱起来了。"
+msgstr "第一口是甜的。嚯！第二口酸得整张脸都皱起来了！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -2818,12 +2818,12 @@ msgstr "看！芦荟叶比大力士的腰带还宽。"
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "Wolfgang lifts aloe. Only handful of mush comes up."
-msgstr "沃尔夫冈一提芦荟。手里只剩一把烂泥。"
+msgstr "这么大的芦荟，伸手一提，就只捞到一把烂叶子！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED"
-msgid "Will cut radish into plates. Big plates!"
-msgstr "把萝卜切成盘子那么大的片。大盘子！"
+msgid "One slice of radish fills whole plate. Big plate!"
+msgstr "这萝卜，切一片就能铺满一个盘子。大盘子！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
@@ -2832,12 +2832,12 @@ msgstr "萝卜滚不动了。推一下就烂成一摊。"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER"
-msgid "Little paper do all the talking? Good. Wolfgang carry crates."
-msgstr "小纸片替沃尔夫冈谈生意？好。沃尔夫冈负责扛箱子。"
+msgid "Here's mayor's note and oincs. Order more of same, pig friend! Wolfgang carry crates."
+msgstr "镇长的条子和咕噜币都给你。再进一批同样的货，箱子我来扛！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
-msgid "Wolfgang can carry whole ship on one finger. Is good trick from back row!"
+msgid "Wolfgang can carry whole ship on one finger. Folks in back row cannot see how small it is!"
 msgstr "沃尔夫冈一根手指就能托起整艘船。后排的看不出船有多小！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON
@@ -2848,12 +2848,12 @@ msgstr "好粗的铁把手。来，换左手再举一百下！"
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Walk beside fan, friends! Even in fog we take big steps."
-msgstr "朋友们，贴着风扇走！有雾也能迈大步。"
+msgstr "朋友们，跟紧装了风扇的机器人！雾再大也能迈开步子走！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
-msgid "Pollen gets stuck in little screen. Strongman saves big sneeze."
-msgstr "花粉粘在小滤网上。大力士省下一个大喷嚏。"
+msgid "Ah... ah... where did big sneeze go? Little screen caught the pollen!"
+msgstr "啊……啊……咦，没打出喷嚏？小滤网把花粉全挡住了！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -2868,12 +2868,12 @@ msgstr "粗手指，小荨麻籽。要一粒一粒仔细数。"
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Good grip on ground, little tree!"
-msgstr "小树，地面抓得牢！"
+msgstr "根扎得真牢！小树，好力气！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Rest between seasons, grow when heat comes back."
-msgstr "歇一季吧，等热天来了再长个子。"
+msgid "Rest now, little tree! Summer is good season to grow big."
+msgstr "这季节不长个？先歇歇，小树！夏天可是长个子的好时候。"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -2897,8 +2897,8 @@ msgstr "得用雨林的土。沃尔夫冈去扛！"
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
-msgid "Is thirsty! Who needs watering can carried?"
-msgstr "渴坏了！谁要我帮忙提水壶？"
+msgid "Little nettle is thirsty! Fill watering can right up. Wolfgang can lift it!"
+msgstr "小荨麻渴坏了。把浇水壶装满，沃尔夫冈提得动！"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.VORTEXEYE"
@@ -2907,18 +2907,18 @@ msgstr "活像木头上的节疤。它老这么瞅我，我可不自在。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SEEDOFRUIN"
-msgid "Wish my woodpile grew back like those ruins."
-msgstr "要是我的柴堆也能像那片遗迹一样长回来就好了。"
+msgid "This seed brings the ruins back? Wish it'd work on my woodpile."
+msgstr "这籽能让遗迹恢复原样？要是对我的柴堆也管用就好了。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_SHOP"
 msgid "Three rooms of shelves. Somebody did a lot of sawing."
-msgstr "三间屋的货架。这得锯多少木头啊。"
+msgstr "三间屋子都摆满了货架，这得锯多少木头啊！"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "Three rooms of shelves. Somebody did a lot of sawing."
-msgstr "三间屋的货架。这得锯多少木头啊。"
+msgstr "三间屋子都摆满了货架，这得锯多少木头啊！"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY"
@@ -2928,7 +2928,7 @@ msgstr "在这儿坐下，到另一个世界起身。省脚力。"
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_KIT"
 msgid "Easy, Luce. Those chair legs are already cut to size."
-msgstr "悠着点，露西。这几条椅子腿已经锯到尺寸了。"
+msgstr "露西，不用再锯了。这几条椅子腿长短正合适。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_SHADOW"
@@ -2938,7 +2938,7 @@ msgstr "那根触手在我兜里直扭。"
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "She'll go bang when she hits. Heads up, eh?"
-msgstr "这玩意儿碰上东西就炸。都当心点啊。"
+msgstr "这颗弹丸打中东西就炸。都当心点啊。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_ALLOY"
@@ -2947,8 +2947,8 @@ msgstr "实心金属的。这小家伙还挺压手。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SPICE_LOTUS"
-msgid "Pass me some for the stew, Lucy. Hate to sneeze halfway through a swing."
-msgstr "露西，把它递过来，我往炖菜里加点。我可不想斧子抡到一半打喷嚏。"
+msgid "A pinch of this herb for my stew, Lucy. Hate to sneeze halfway through a swing."
+msgstr "露西，炖菜里得加点半边莲。斧子抡到一半，我可不想打喷嚏。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SWEETANDSOURCARP"
@@ -2958,7 +2958,7 @@ msgstr "鱼吃完了，一半的蜂蜜还挂在胡子上呢。"
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "I'll take the fish. Those legs look a little too birdy."
-msgstr "鱼归我。那两条腿怎么看着像鸟腿呢。"
+msgstr "鱼归我。那两条腿怎么看着像鸟腿呢？"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED"
@@ -2968,7 +2968,7 @@ msgstr "这么大一片叶子，芦荟汁够灌满我的水壶。"
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "Grabbed a leaf. Came away with a fistful of mush."
-msgstr "伸手抓了片叶子，抓回来一把烂泥。"
+msgstr "伸手拽了片叶子，糊了一手烂芦荟。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED"
@@ -2978,17 +2978,17 @@ msgstr "削这萝卜的皮，我得先找个树墩坐下。"
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "Rolled it over. Should've left the smelly side down."
-msgstr "刚把它翻了个面。早知道就让臭的那面朝下了。"
+msgstr "早知道就不翻这烂萝卜了。臭的那面本来朝下呢。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER"
 msgid "Here you go, shopkeep. Same goods next time, eh?"
-msgstr "老板，猪币给你。下回还进一样的货啊。"
+msgstr "老板，咕噜币给你。下回还进这种货啊。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "One piece of wood, from bow to stern. Somebody spent a good winter on this."
-msgstr "从船头到船尾，是一整块木头削的。这人的冬天可没闲着。"
+msgstr "这小船从头到尾都是一整块木头削的。这人的冬天可没闲着。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.DUMBBELL_IRON"
@@ -2997,8 +2997,8 @@ msgstr "跟湿木头一般沉。好在这玩意儿有个把手。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "Hear that hum, Lucy? Stick with it and we'll be home through the fog by supper."
-msgstr "露西，听见那嗡嗡声没？跟上它，穿过这片雾还能赶回去吃晚饭。"
+msgid "Hear that fan, Lucy? Stick with the robot and we'll be home through the fog by supper."
+msgstr "听见风扇响没，露西？跟紧机器人，雾再大咱也能赶回去吃晚饭。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
@@ -3013,22 +3013,22 @@ msgstr "小树苗，再等等。我给你找块地儿。"
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Careful with that nettle seed. There's a hole in my pocket."
-msgstr "这颗荨麻籽得拿好，我的兜漏了个洞。"
+msgstr "这颗荨麻籽得攥紧了，我兜上有个洞。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Roots have a good grip now."
-msgstr "这下树根可抓牢了。"
+msgstr "这棵树苗算是扎稳根了。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "No rings to count till its growing season comes round."
-msgstr "生长的时节还没到呢，先别惦记着数年轮。"
+msgid "Bit early to count rings, Lucy. It's not the growing season yet."
+msgstr "还没到这树苗长个儿的季节呢。露西，现在惦记数年轮可早了点。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "I'd try that patch of desert dirt."
-msgstr "我看挪到那片沙漠地上试试。"
+msgstr "这地儿不合适。我看把树苗挪到沙漠里种吧。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.GENERIC"
@@ -3047,8 +3047,8 @@ msgstr "这棵荨麻该栽在雨林的地上。"
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
-msgid "Got a drop left in my canteen for you."
-msgstr "水壶里还剩一口水，给你了。"
+msgid "Soil's dry. Got a drop left in my canteen for this nettle."
+msgstr "土都干了。我壶里还剩一口水，给这棵荨麻浇上吧。"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.VORTEXEYE"
@@ -3073,7 +3073,7 @@ msgstr "满满三舱货，这帮猪一件都不肯白给。"
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY"
 msgid "Set course fer another world! Me pegs could use the sit-down."
-msgstr "朝另一个世界启航！俺这双木腿正好坐着歇歇。"
+msgstr "坐着就能朝另一个世界启航？正好让俺这双木腿歇歇！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_KIT"
@@ -3083,17 +3083,17 @@ msgstr "把零件递来。这把上天的椅子得俺亲手装。"
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "A wee kraken arm, black as the deep."
-msgstr "好一条小海怪腕子，黑得跟深海似的。"
+msgstr "这条触手黑得跟深海似的。哪只小海怪掉的？"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_INFUSED"
 msgid "Bursts on the first hit. Wee thing's got a cannon's temper!"
-msgstr "碰着就炸。小不点儿倒长了副大炮脾气！"
+msgstr "打中就炸，这小家伙脾气跟大炮一样冲！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Fine alloy shot. Rings true against me coin."
-msgstr "好合金弹。拿俺的金币一磕，听这脆响。"
+msgstr "拿俺的咕噜币敲敲这合金弹。听，多脆！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SPICE_LOTUS"
@@ -3108,7 +3108,7 @@ msgstr "好甜的鲤鱼！盘底那点蜜也给俺刮干净。"
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "A leg below decks in me fish. Stowaway!"
-msgstr "鱼肚舱里藏了条腿。偷渡的！"
+msgstr "鱼肚子里藏着条腿。嘿，逮着个偷渡的！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED"
@@ -3118,7 +3118,7 @@ msgstr "这芦荟叶一张开，俺的主帆都显小了。"
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "Leakin' green slop all over me deck. Overboard wi' ye!"
-msgstr "烂绿汁淌了俺一甲板。给俺扔下船！"
+msgstr "绿汁淌得满甲板都是。快把这烂芦荟扔下船！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.RADISH_OVERSIZED"
@@ -3132,8 +3132,8 @@ msgstr "就烂了一个萝卜，俺爬到桅顶都闻得见。"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER"
-msgid "Mind the mayor's seal, lad. Same cargo next time I make port."
-msgstr "小子，镇长这枚印可得认。下回俺靠港，还要这批货。"
+msgid "The mayor's seal an' me oincs, lad. Same cargo next time I make port."
+msgstr "掌柜的，镇长盖了章，咕噜币俺也付了。下回靠港，俺还要这种货！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -3143,22 +3143,22 @@ msgstr "这小船拿去跟猪王换，比拿来运货赚得多。"
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.DUMBBELL_IRON"
 msgid "Heave! That much iron'll put a bend in me pegs."
-msgstr "起！这么老沉的铁，俺的木腿都得压弯。"
+msgstr "嘿哟！这铁疙瘩沉得快把俺的木腿压弯了！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Close up, mates! In this fan's breeze the fog can't slow us."
-msgstr "伙计们，靠拢！跟着这股风走，再大的雾也拖不慢咱们。"
+msgstr "伙计们，靠拢！跟着风扇走，雾再大也耽误不了咱们赶路！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "Catches pollen like herrin' in a net."
-msgstr "捞花粉跟网鲱鱼一样，一粒粒全兜住了。"
+msgstr "俺的渔网捞鲱鱼，这张滤网捞花粉。一粒也跑不了！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "A wee tuber mast wi' the roots still danglin'."
-msgstr "好一根块茎小桅杆，根还在下头晃悠呢。"
+msgstr "这树苗活像根小桅杆，底下还拖着几条根呢。"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING_ITEM"
@@ -3168,32 +3168,32 @@ msgstr "荨麻籽，得攥住。一阵风就能给它刮下船。"
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Roots holdin' fast. Who taught ye to drop anchor?"
-msgstr "这根扎得够牢。谁教的抛锚功夫？"
+msgstr "根扎得这么牢。小树苗，你跟哪位船长学的抛锚？"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Too soon to sail, sprout. Wait fer a warm wind."
-msgstr "小树苗，启航还早些。等暖风来吧。"
+msgid "She waits fer her growin' season, same as I wait fer a fair wind."
+msgstr "小树也得等季节，就跟俺出港要等顺风一样。"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "She wants a sandy berth. Steer fer the painted dunes."
-msgstr "它想泊在沙地上。朝彩绘沙地转舵！"
+msgstr "树苗在这儿长不大。转舵，送它去彩绘沙地！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Flyin' her first green pennant, she is."
-msgstr "瞧，它把第一面小绿旗升起来了。"
+msgstr "看见那片嫩叶没？小苗升绿旗啦！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Moored fer the winter. She'll sail after the thaw."
-msgstr "它是泊在这儿过冬呢。解了冻再开船。"
+msgstr "小荨麻抛锚过冬喽。等开春再接着长！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "Wrong port. Fetch her some rainforest soil."
-msgstr "靠错港了。给它弄点雨林的土来。"
+msgstr "靠错港了，伙计。这株荨麻得种在雨林的土里！"
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
@@ -3203,12 +3203,12 @@ msgstr "干得跟船上的硬饼一样。伙计，再来一瓢水。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.VORTEXEYE"
 msgid "Moon rock has eye. Hello in there!"
-msgstr "月亮石有眼睛。里面的，你好！"
+msgstr "月岩上有只眼睛。你好！里面有人吗？"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN"
 msgid "Stone rooms grow back? Funny seed."
-msgstr "石头房间会长回来？怪种子。"
+msgstr "这颗种子能让石头房子长回来？真怪。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_SHOP"
@@ -3223,17 +3223,17 @@ msgstr "三间屋。间间都有小猪味。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY"
 msgid "Sit here. Wake up under new sky?"
-msgstr "坐这儿。睁开眼，换片天？"
+msgstr "坐上去。一睁眼，就到另一个世界了？"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT"
 msgid "Sitting thing in pieces. Needs help."
-msgstr "坐坐架，还是一块块的。得帮它拼好。"
+msgstr "椅子还散着呢。来，帮你拼好。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Dark wiggly arms inside?"
-msgstr "里面有黑黑的扭扭手？"
+msgstr "里面有条黑触手？好像动了一下。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -3248,17 +3248,17 @@ msgstr "铁豆豆。咬不动。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SPICE_LOTUS"
 msgid "Bitter leaf dust. Keeps sneezy dust and poison away."
-msgstr "苦叶粉。赶跑喷嚏粉，还有毒。"
+msgstr "苦苦的叶子粉。吃了不怕花粉，也不怕毒。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SWEETANDSOURCARP"
 msgid "Buzz Juice on Glub Glub. Smells sour too."
-msgstr "咕噜鱼沾了嗡嗡蜜。闻着还有点酸。"
+msgstr "小鱼身上沾了蜂蜜。闻着还有点酸。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET"
 msgid "Glub Glub outside. Little leg inside."
-msgstr "外面咕噜鱼。里面一条小腿。"
+msgstr "外面是鱼。鱼肚子里藏了条腿。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED"
@@ -3273,22 +3273,22 @@ msgstr "叶子烂开了。只剩一摊水。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED"
 msgid "Can't fit arms around red root."
-msgstr "两只手，抱不住红根根。"
+msgstr "好大的萝卜。两只手都抱不过来。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "Red friend going soft. Dirt can have a turn."
-msgstr "红朋友软了。轮到泥土吃了。"
+msgstr "萝卜软了。泥土，这回给你吃。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER"
-msgid "Piggy put same thing back. Shelf grows it again?"
-msgstr "猪猪又放了个一样的。是架子长出来的？"
+msgid "Give piggy oincs. Shelf grows same thing again?"
+msgstr "给小猪咕噜币。货架上又会长出一样的东西？"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
 msgid "Baby Floaty. Big piggy trade for it?"
-msgstr "小不点漂漂船。大猪猪肯换吗？"
+msgstr "好小的船。猪王肯拿东西换吗？"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.DUMBBELL_IRON"
@@ -3298,12 +3298,12 @@ msgstr "好沉。枝条都垂下来了。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "Robot blows. Friends can walk through fog!"
-msgstr "铁皮朋友吹吹风。大家能在雾里走啦！"
+msgstr "铁皮朋友把雾吹开了。跟紧它，好走多了！"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "Robot nose catches flower dust."
-msgstr "铁皮鼻子，能兜住花粉。"
+msgstr "铁皮鼻子把花粉兜住了。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -3313,17 +3313,17 @@ msgstr "小树，根露在外面了。来，先抓住我。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Prickly friend's babies. Still in seed coats."
-msgstr "刺刺朋友的宝宝。还裹着种皮。"
+msgstr "荨麻籽。小荨麻还在壳里睡呢。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Roots holding dirt. Happy here."
-msgstr "根抱住泥土了。这里开心。"
+msgstr "根抱紧了泥土。小树喜欢这儿。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
 msgid "Waiting for warm growing days."
-msgstr "等暖暖的日子。到时再长。"
+msgstr "小树别急。等季节暖和了再长。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -3333,12 +3333,12 @@ msgstr "根想要沙漠土。去找找。"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Hello, little green pokers!"
-msgstr "嫩绿的小刺刺，你们好！"
+msgstr "绿叶子，带小刺。你好呀，小荨麻！"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Sleeping through winter. Shh."
-msgstr "冬天要睡觉。嘘。"
+msgstr "嘘，小荨麻睡了。过完冬再长。"
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -3348,17 +3348,17 @@ msgstr "想雨林的泥土了，朋友？"
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "Leaves drooping. Bringing water!"
-msgstr "叶子耷拉了。拿水来！"
+msgstr "叶子耷拉了。渴了吧？我去拿水！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.VORTEXEYE"
 msgid "I gave the moon rock a wink. It owes me one."
-msgstr "我冲月岩眨了下眼。它还欠我一下。"
+msgstr "我冲月岩眨了下眼。嘿，该你眨啦！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN"
 msgid "What sprouts in the ruins? The ruins again!"
-msgstr "遗迹里能长出什么？还是遗迹呀！"
+msgstr "猜猜这颗种子能让什么长回来？整座遗迹！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_SHOP"
@@ -3373,17 +3373,17 @@ msgstr "一家店，三间房！你猜我往哪间藏？"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY"
 msgid "I'll sit quite still and let the world skip out from under me."
-msgstr "我坐着不动，让脚下的世界自己跳走。"
+msgstr "我坐着不动也能换个世界。嘿，这回轮到世界蹦啦！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT"
 msgid "A heap for a leap! Now where did I put the seat?"
-msgstr "一堆零碎，拼好就飞！咦，椅面呢？"
+msgstr "拼好这堆零件就能出发啦。咦，我把椅面搁哪儿了？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Lend me a hand? A tentacle will do."
-msgstr "借只手呀？有条触手也凑合。"
+msgstr "谁来搭把手？哦，触手也行！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -3393,17 +3393,17 @@ msgstr "轻轻一碰，砰！弹丸炸开花！"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "A little metal pea. Watch your teeth, hyuyu!"
-msgstr "小小金属豆，当心崩了牙，嘿嘿！"
+msgstr "像颗豌豆吧？嘿嘿，这颗可是金属的，当心牙！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SPICE_LOTUS"
 msgid "Shoo, pollen! Shoo, venom! Pah, who'll shoo the bitter taste?"
-msgstr "赶走了花粉，赶走了毒。呸，这苦味谁来赶？"
+msgstr "躲得过花粉，躲得过毒，怎么就躲不过这口苦味？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SWEETANDSOURCARP"
-msgid "A carp in a pool of honey. Where do the bees go to swim?"
-msgstr "鲤鱼游进蜜里头，蜜蜂又该上哪儿游？"
+msgid "Honey, then vinegar. Who turned my grin into a pucker?"
+msgstr "先尝到蜜，再尝到醋。嘿，谁把我的笑脸变成了酸脸？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -3413,7 +3413,7 @@ msgstr "这鱼还带条腿！莫非是自己走上桌的？"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED"
 msgid "Squeeze that leaf and I'll be slick from horn to heel."
-msgstr "挤挤这叶子，我能从角尖滑到脚跟。"
+msgstr "这叶子一挤，流出来的汁够我从角尖抹到蹄子！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
@@ -3423,27 +3423,27 @@ msgstr "黏汁流一地，我的蹄子要打滑！"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED"
 msgid "Hold it to my face. How's that for a clown nose?"
-msgstr "往脸上一举。哪位小丑有我这般大的红鼻子？"
+msgstr "把这萝卜往鼻子上一比，哪个小丑的红鼻头有我的大？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
 msgid "I tried to pinch it. It oozed right through my claws!"
-msgstr "才想偷个萝卜，它就从爪缝里溜走啦！"
+msgstr "本想顺走个萝卜，谁知一捏就烂成泥，全从爪缝里漏啦！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER"
 msgid "An oinc for an encore! The same goods, if you please."
-msgstr "猪币打赏，再来一场！劳驾，还是刚才那件货。"
+msgstr "拿好咕噜币，掌柜的！这件货卖完，劳驾再变一件上架！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
-msgid "A pinch, a lift, and the ship's adrift! I didn't even wet my claws."
-msgstr "两指一捏，顺手一提，小船又能漂，爪子还没湿！"
+msgid "Off to trade with the Pig King! Two claws to carry my ship, and both will stay dry!"
+msgstr "拎着小船找猪王换宝贝去喽！两根指头就提得动，连爪子都不用沾水！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.DUMBBELL_IRON"
 msgid "My, this iron plays a very heavy tune. Thud."
-msgstr "哎呀，这铁家伙的调子可真沉。咚。"
+msgstr "听听这铁家伙落地唱什么调。咚！就会这一声？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
@@ -3453,7 +3453,7 @@ msgstr "跟着铁皮伙计跑，浓雾也绊不着脚！"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "All that pollen, and the tin nose won't give me one little sneeze?"
-msgstr "花粉来这么多，铁鼻子连个小喷嚏都不肯打给我听？"
+msgstr "这么多花粉都让铁鼻子拦住啦？嘿，连个喷嚏也听不着！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -3463,7 +3463,7 @@ msgstr "根须挠得我爪心好痒。"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "Do nettles practice stinging inside these little shells?"
-msgstr "荨麻还躲在种壳里，就开始练习扎人啦？"
+msgstr "荨麻籽还没发芽呢，就在壳里练习扎人啦？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
@@ -3473,22 +3473,22 @@ msgstr "根抓得真牢。这场拔河就让小树赢吧。"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
 msgid "Still waiting for the warm season to make its entrance, I see."
-msgstr "哦，还在等暖和的时节登场呢。"
+msgstr "小树要等暖和的季节才肯长。好大的架子呀！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "My hooves vote for painted sand. Do the roots agree?"
-msgstr "我的蹄子挑了彩绘沙地。根须可同意？"
+msgstr "我喜欢踩彩绘沙地。小树，你也想去那儿扎根吧？"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Such a small green sprig to play so sharp a trick!"
-msgstr "小小一枝绿，扎人倒有戏！"
+msgstr "小荨麻才冒头就会恶作剧啦。哎哟，扎到我了！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "Dream up some mischief till winter's done."
-msgstr "等冬天过去吧，梦里先想几个坏点子。"
+msgstr "小荨麻，过完冬再长吧。梦里先想想下回扎谁！"
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -3498,7 +3498,7 @@ msgstr "要我给你捎块雨林地皮来吗？"
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "A drink for the nettle! I'll pour at the end that can't sting."
-msgstr "给荨麻来杯水！我往不扎人的那头倒。"
+msgstr "来，给你的根浇点水。扎人的那头可别凑过来！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.VORTEXEYE
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.VORTEXEYE"
@@ -3508,7 +3508,7 @@ msgstr "长得像鱼眼睛。我把它转过来，给它看看池塘。"
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN"
 msgid "It brings whole anthill back? Even the bitey ones?"
-msgstr "它能把整座蚁丘变回来？咬人的那些也回来？"
+msgstr "这颗种子能把整座蚁丘变回来？连那些咬人的蚂蚁也回来？"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_SHOP"
@@ -3533,7 +3533,7 @@ msgstr "这要怎么坐？椅子还是一块一块的呢！"
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "Hide a tentacle in there? Good swamp trick!"
-msgstr "里面藏了条触手？这招有我们沼泽的味道！"
+msgstr "弹丸里藏了条触手？嘿嘿，我们沼泽就爱玩这招！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -3543,12 +3543,12 @@ msgstr "打中就炸。别往鱼塘瞄！"
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "Clink! Bet that one could dent a Pigfolk helmet."
-msgstr "铛！这个准能把猪人的头盔砸个坑。"
+msgstr "铛！这一发准能在猪人的头盔上砸出个坑！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SPICE_LOTUS"
-msgid "Flower on outside. Grumpy face on inside. Look, it gave me one!"
-msgstr "外头是朵花，里头藏着一张苦瓜脸。你看，长我脸上啦！"
+msgid "Keeps flower dust and poison away? Me try... bleh! So bitter! Look at my face!"
+msgstr "能挡花粉，还能防毒？我尝尝……呸，苦得我脸都皱起来啦！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SWEETANDSOURCARP"
@@ -3593,7 +3593,7 @@ msgstr "猪王就知道看船。船底下游来游去的小鱼才好看呢！"
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.DUMBBELL_IRON
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.DUMBBELL_IRON"
 msgid "Can lift it! Just... need other claw too."
-msgstr "能举起来！就是……得把另一只爪子也搭上。"
+msgstr "我举得动！等一下……我得用两只爪子。"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
@@ -3602,28 +3602,28 @@ msgstr "跟紧铁皮人！雾再大，咱也走得快！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
-msgid "Flower dust stuck in there? Let Ironfolk keep it."
-msgstr "花粉卡在里面啦？就让铁皮人留着吧。"
+msgid "Ironfolk's filter caught all the flower dust! Don't shake it on me!"
+msgstr "花粉都卡在铁皮人的滤网上啦！嘿，别往我这儿抖！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
 msgid "Me hold little tree steady. You dig!"
-msgstr "我扶好小树，你来挖！"
+msgstr "我扶好小树，你来挖坑！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "These grow into nettles? Me want whole patch!"
-msgstr "这些籽能长荨麻？我要种满一大片！"
+msgstr "这些籽能长出荨麻？我要种满一大片！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "Look! Roots grabbing on all by themselves!"
-msgstr "看呀！它的根自己抓牢地了！"
+msgstr "看，小树扎根了！这回不用我扶啦！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Me come check when hot season here. Tree better grow then!"
-msgstr "等天热了我再来看。到时候小树可得长呀！"
+msgid "Little tree not growing this season? Fine! We see who taller when it grows again!"
+msgstr "现在不长个儿？好，我等你能长的时候再来比谁高！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
@@ -3633,7 +3633,7 @@ msgstr "想要彩绘沙地？小树真挑。"
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "Two green leaves! Me can count the next ones too."
-msgstr "两片绿叶！等长新的，我还会往下数。"
+msgstr "两片绿叶啦！再长一片就是三片，我会数！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
@@ -3643,7 +3643,7 @@ msgstr "荨麻嫌冬天冷。我等得起。"
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
 msgid "Rainforest dirt! Me know that smell. Need some here."
-msgstr "雨林土！那味儿我认得。这儿得铺点。"
+msgstr "荨麻喜欢雨林的土。我认得那味儿，去挖点来！"
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
@@ -3658,17 +3658,17 @@ msgstr "一只不眨的石眼。总算遇到瞪眼的对手了"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN"
 msgid "A RESET BUTTON FOR RUINS. EVEN THE ANTS HAVE ONE"
-msgstr "遗迹有重置键。连蚂蚁都有"
+msgstr "遗迹可以重置。连蚁丘都有重置键"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_SHOP
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_SHOP"
 msgid "THREE ROOMS TO EXTRACT COINS FROM ONE CUSTOMER"
-msgstr "对付一名顾客，竟要用三间屋子榨取硬币"
+msgstr "开了三间铺面，就为了赚我几枚咕噜币"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.PIG_SHOP_SKYWORTHY"
 msgid "THREE ROOMS TO EXTRACT COINS FROM ONE CUSTOMER"
-msgstr "对付一名顾客，竟要用三间屋子榨取硬币"
+msgstr "开了三间铺面，就为了赚我几枚咕噜币"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY"
@@ -3678,12 +3678,12 @@ msgstr "坐着就能离开这个世界。很好"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT"
 msgid "SOME ASSEMBLY BETWEEN ME AND A BETTER WORLD"
-msgstr "我和一个更好的世界之间就差几道组装工序"
+msgstr "把椅子装好，就能换个更好的世界。值得"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_SHADOW
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_SHADOW"
 msgid "PORTABLE SHADOW TENTACLES. NOW I CAN SWAT THINGS FROM OVER HERE"
-msgstr "便携式暗影触手。站在这儿也能抽到那边了"
+msgstr "便携式暗影触手。现在隔着老远也能抽它们一下"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_INFUSED"
@@ -3693,17 +3693,17 @@ msgstr "先撞击，再爆炸。我赞成这个顺序"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_ALLOY
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_ALLOY"
 msgid "SOLID ALLOY. THE TARGET CAN SUPPLY THE DENT"
-msgstr "实心合金。凹痕就留给靶子吧"
+msgstr "实心合金。挨砸的靶子才会凹下去"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SPICE_LOTUS
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SPICE_LOTUS"
-msgid "THE FLOWER PRODUCES ITS OWN BUG FIX. IT MAY CONTINUE TO EXIST"
-msgstr "此花自带故障修复程序。准许继续生长"
+msgid "A FLOWER THAT FIXES HAY FEVER. IT MAY CONTINUE TO EXIST"
+msgstr "用花治花粉症。批准这朵花继续生长"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SWEETANDSOURCARP
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SWEETANDSOURCARP"
 msgid "THE CARP IS LEAKING HONEY. AN IMPROVEMENT"
-msgstr "鲤鱼在漏蜂蜜。改良得不错"
+msgstr "鲤鱼在漏蜂蜜。比漏别的强"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET"
@@ -3718,7 +3718,7 @@ msgstr "巨型叶片。主要成分是水。离我远点"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED_ROTTEN
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
 msgid "THE ALOE CONTAINER HAS FAILED. NOW IT LEAKS"
-msgstr "芦荟外壳失效。开始渗漏"
+msgstr "外壳烂穿。芦荟开始漏水"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED"
@@ -3733,7 +3733,7 @@ msgstr "萝卜跟微生物较量了一场。输了"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER"
 msgid "INSERT OINCS. PIG REPEATS LAST ORDER"
-msgstr "投入猪币。商贩重复上次的订单"
+msgstr "投入咕噜币。猪店主会再进同样的货"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SUNKEN_BOAT_TRINKET_2
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
@@ -3748,12 +3748,12 @@ msgstr "没有升级槽？肉袋们，慢慢举铁吧"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
 msgid "STAY IN MY DRAFT IF YOU WANT TO KEEP UP IN THE FOG"
-msgstr "想在雾里跟上我，就待在我的风里"
+msgstr "跟紧我的风扇。进了雾你们也能跟上"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
 msgid "POLLEN DENIED ENTRY. SNEEZE ELSEWHERE"
-msgstr "花粉禁止入内。去别处打喷嚏"
+msgstr "花粉一律拦下。要打喷嚏去别处"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
@@ -3763,12 +3763,12 @@ msgstr "便携式树木。安装时根部朝下"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING_ITEM
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING_ITEM"
 msgid "NETTLES IN THEIR MOST COMPACT FORMAT"
-msgstr "荨麻的最紧凑格式"
+msgstr "整株荨麻，压缩成了一颗籽"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
 msgid "ROOT CONNECTION ESTABLISHED"
-msgstr "根部连接已建立"
+msgstr "树根已接入地面"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
@@ -3778,17 +3778,17 @@ msgstr "生长暂停。天暖了再叫我"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
 msgid "GROUND INCOMPATIBLE. TRY DESERT SAND"
-msgstr "地面不兼容。试试沙漠里的沙子"
+msgstr "土壤不兼容。换沙漠地皮"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.GENERIC
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.GENERIC"
 msgid "TINY GREEN STINGING APPARATUS COMING ONLINE"
-msgstr "小型绿色蜇刺装置启动中"
+msgstr "小绿叶已长出。扎人功能启动中"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
 msgid "WINTER HAS SUSPENDED NETTLE PRODUCTION"
-msgstr "冬季已暂停荨麻生产"
+msgstr "冬季来临。荨麻暂停生长"
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
@@ -3798,5 +3798,5 @@ msgstr "此型号需要雨林地皮"
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
 msgid "IT DEMANDS WATER. I NOMINATE SOMEONE ELSE"
-msgstr "它要求加水。我提名别人"
+msgstr "荨麻缺水。浇水任务交给别人"
 

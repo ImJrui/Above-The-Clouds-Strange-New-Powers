@@ -182,7 +182,7 @@ configuration_options={ --模组变量配置
 
 	{
 		name = "ENABLE_ACQUIRE_VEGETABLES",
-		hover = en_zh({en = "Allow the food shopkeeper to buy crops for Oincs.", zh = "允许食品店老板收购作物并支付呼噜币，关闭时停用额外收购。"}),
+		hover = en_zh({en = "Allow the food shopkeeper to buy crops for Oincs.", zh = "开启后，食品店老板会用咕噜币收购作物。"}),
 		label = en_zh({en = "Food Shop Buys Crops", zh = "食品店老板收购作物"}),
 		options = {
 			{description = "YES", data = true},
