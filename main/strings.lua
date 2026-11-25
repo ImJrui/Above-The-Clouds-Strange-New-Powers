@@ -96,15 +96,13 @@ ToolUtil.MergeTable(STRINGS, import("common"), true)
 
 local IsTheFrontEnd = rawget(_G, "TheFrontEnd") and rawget(_G, "IsInFrontEnd") and IsInFrontEnd()
 if not IsTheFrontEnd then
-    -- add character speech
-    for _, character in pairs(speech) do
-        ToolUtil.MergeTable(STRINGS.CHARACTERS[string.upper(character)], import(character))
-		--ToPOFile("STRINGS.CHARACTERS."..string.upper(character), import(character))
-    end
-
-    for _, character in pairs(newspeech) do
-        STRINGS.CHARACTERS[string.upper(character)] = import(character)
-		--ToPOFile("STRINGS.CHARACTERS."..string.upper(character), import(character))
+    -- Keep the original speech tables (including other mods' lines) and replace only our keys.
+    for _, characters in ipairs({ speech, newspeech }) do
+        for _, character in ipairs(characters) do
+            local key = string.upper(character)
+            STRINGS.CHARACTERS[key] = STRINGS.CHARACTERS[key] or {}
+            ToolUtil.MergeTable(STRINGS.CHARACTERS[key], import(character), true)
+        end
     end
 end
 

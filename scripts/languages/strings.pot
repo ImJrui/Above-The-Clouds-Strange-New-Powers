@@ -86,41 +86,6 @@ msgctxt "STRINGS.CITY_PIG_SOW_ALREADY_HAVE_SEEDS"
 msgid "YE STRAIN IS ALREADY CULTIVATED"
 msgstr ""
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
-msgid "The soil is too dry, it needs more moisture to grow."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC"
-msgid "Ah, a nettle sprout. Best not to touch it barehanded."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
-msgid "I need to plant this in the right place."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
-msgid "Ah, perhaps it's not yet the season for blooming."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
-msgid "A tiny tuber sprout,waiting to grow."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
-msgid "I need to plant this in the right place."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
-msgid "Ah, perhaps it's not yet the season for blooming."
-msgstr ""
-
 #. STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE
 msgctxt "STRINGS.CITY_PIG_STOREOWNER_ACCEPT_ITEM_STALE"
 msgid "Hmm... this is a bit past its prime. I'll still take it, but for a reduced price."
@@ -326,6 +291,11 @@ msgctxt "STRINGS.NAMES.ALOE_OVERSIZED_WAXED"
 msgid "Waxed Giant Aloe Plant"
 msgstr ""
 
+#. STRINGS.NAMES.VORTEXEYE
+msgctxt "STRINGS.NAMES.VORTEXEYE"
+msgid "Vortex Eye"
+msgstr ""
+
 #. STRINGS.NAMES.SEEDOFRUIN
 msgctxt "STRINGS.NAMES.SEEDOFRUIN"
 msgid "Seed of Ruin"
@@ -526,903 +496,3303 @@ msgctxt "STRINGS.RECIPE_DESC.SLINGSHOTAMMO_INFUSED"
 msgid "Contains a mysterious energy that explodes when it hits."
 msgstr ""
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED"
-msgid "It looks radishing."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "There is a feeling of evil"
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP"
-msgid "Affordable and diverse in product range"
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED"
-msgid "Scientifical and nutritional."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
-msgid "A tiny tuber sprout,waiting to grow."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY"
-msgid "Looks like an exit-ing ride!"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.VORTEXEYE"
+msgid "I walked all the way around it. Now which of us was the observer?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEEDOFRUIN"
-msgid "I'm sure this has a lot of science in it!"
+msgid "Most seeds want a flowerpot. This one wants the mouth of a ruin."
 msgstr ""
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT"
-msgid "Looks like an exit-ing ride!"
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
-msgid "It's rotten."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM"
-msgid "A tiny tuber sprout,waiting to grow."
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_SHOP"
+msgid "My pockets held considerably more money on the way in."
 msgstr ""
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.PIG_SHOP_SKYWORTHY"
-msgid "Affordable and diverse in product range"
+msgid "My pockets held considerably more money on the way in."
 msgstr ""
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS"
-msgid "This smells bitter"
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY"
+msgid "If I sit perfectly still, does the world do the traveling?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
-msgid "The Queen gave this gift to the King."
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SKYWORTHY_KIT"
+msgid "I recognize the seat. That still leaves rather a lot of pieces."
 msgstr ""
 
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER"
-msgid "I'll pay them to never run out of stock!"
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP"
-msgid "Weeeeeeee T_T"
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
-msgid "It's rotten."
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Is that just... frogs stuffed inside a fish?"
-msgstr ""
-
-#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "Its material originates from an advanced civilization."
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "I could swear its shadow just curled up."
 msgstr ""
 
 #. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_INFUSED
 msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "It was made by Stark Industries"
+msgid "For the impact test, I'll need a target. And earplugs."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "It put a dent in my workbench. The pellet looks fine."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SPICE_LOTUS"
+msgid "My nose says it's medicine. My tongue seconds the motion."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SWEETANDSOURCARP"
+msgid "Sweet on the first bite, sour on the second. Better repeat the experiment."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "I'm fairly sure those legs didn't come with the fish."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED"
+msgid "One leaf would fill my biggest beaker with gel!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "My biggest beaker couldn't hold that smell."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED"
+msgid "I can see why it needed the WHOLE garden bed."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "When the skin's the only solid part, I think I'll skip the taste test."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SHOPLOCKER"
+msgid "Same shelf, same goods. At last, a variable I can control!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "It floats! Now to see what it fetches from the Pig King."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.DUMBBELL_IRON"
+msgid "Gravity seems to be in excellent working order."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "A little fan can move a surprising amount of fog."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "The pollen stays on that side, my nose stays on this side."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Roots below, shoot above. I think I know which end to plant."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Such little seeds for a plant with such big opinions about being touched."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "It's put down roots. I'll mark its height right here."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "No change since my last measurement. I'll try again in a warmer season."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Time for a soil experiment. Let's try a patch of sand."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Two new leaves! I can count them from here, thank you."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Winter seems to have put my nettle experiment on ice."
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Where did I find the grown ones? Right, the rainforest!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Crumbly soil, droopy leaves. Just add water!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.VORTEXEYE"
+msgid "An ocular instrument carved from moon rock! Where is its focal point?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SEEDOFRUIN"
-msgid "A prehistorical recombinator!"
+msgid "The entire ruin, reproducible from a single specimen? I must see the second one."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_SHOP"
+msgid "A pity they display the merchandise but give no tours of the factory."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "A pity they display the merchandise but give no tours of the factory."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY"
-msgid "Another innovation that runs on dark fuel!"
-msgstr ""
-
-#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER"
-msgid "Never again will I have to scrounge through stock!"
+msgid "A stationary vehicle! I should like to take a reading at both ends of the journey."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SKYWORTHY_KIT"
-msgid "Another innovation that runs on dark fuel!"
+msgid "Excellent, it comes disassembled! I can examine the mechanism at my leisure."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Does the pellet carry the appendage or merely summon it?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "A percussion test! Quite prudent to observe this one through my goggles."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "I should retrieve a spent specimen and examine the deformation."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SPICE_LOTUS"
+msgid "If I could isolate the active ingredient, I might dispense with the bitterness."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SWEETANDSOURCARP"
+msgid "A remarkable glaze. If only it adhered less firmly to my notebook."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "A transverse slice should establish precisely what the cook put inside."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED"
+msgid "Remarkable fluid pressure. One incision ought to yield a generous sample."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "The tissue has liquefied. Luckily, I brought a specimen jar."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED"
+msgid "How many ordinary radishes went into that much root? I'll need my scales."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "Even the core is soft. How quickly did the decay travel inward?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SHOPLOCKER"
+msgid "Excellent. I can order the very same specimen again if anything happens to the first."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "An ideal scale model. I wonder if the Pig King would lend me a testing tank."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.DUMBBELL_IRON"
+msgid "With its mass established, this would make an admirable counterweight."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Forced convection! Now, how far from the rotor does the fog close in again?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "I should inspect the pollen trapped in the filter under magnification."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A viable cutting, with its own compact reserve of starch."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Such minute seeds. I nearly polished them off my lenses!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "New growth at the tip. My transplant appears to have taken."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Growth appears seasonal. I'll leave a marker and return when it's warm."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "An unsuitable substrate. Let's repeat the trial in sandy soil."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Already producing those fine hairs. Where is my hand lens?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "No measurable growth since winter set in. An intriguing pause."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "I must have overlooked something in the rainforest soil. Back it goes."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WAGSTAFF.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Wilted already? I'll increase the water supply and take fresh readings."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.VORTEXEYE"
+msgid "Hey, moon rock. Kinda weird having you watch me nap."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SEEDOFRUIN"
-msgid "Take a chill pill, like this seed chilling inside, ya know?"
+msgid "This seed starts the whole anthill over? That's a lot of digging, dude."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_SHOP"
+msgid "There's gotta be somewhere to put my feet up in a shop this big."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "There's gotta be somewhere to put my feet up in a shop this big."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY"
-msgid "Sweet ride!"
-msgstr ""
-
-#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER"
-msgid "I'm too lazy to riffle through shops, ya know?"
+msgid "I can visit another world sitting down? Scoot over."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SKYWORTHY_KIT"
-msgid "Sweet ride!"
+msgid "Aw. I was kinda hoping the chair part came put together."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED"
-msgid "Little plant that came from the ground."
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Hey, little shadow arm. Personal space, okay?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "This is my best ammo"
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Pops when it hits. There goes my quiet afternoon."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "It was made by Stark Industries"
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Smooth little lump of metal. Nice weight in my palm."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED"
-msgid "Low cost medicine."
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SPICE_LOTUS"
+msgid "One little pinch, buddy. I'd like to be able to taste the rest of my lunch."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Uh... Maybe Woby wants some"
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SWEETANDSOURCARP"
+msgid "Pass me the bit of carp with the honey on it."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY"
-msgid "A real haunted ride!"
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "A leg tucked in my fish fillet. Sweet, I only need one fork."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED"
+msgid "I could paddle that aloe leaf right past the break."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Aw, mush. My foot went straight through the leaf."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED"
+msgid "I can roll this radish home, right? Rolling I can do."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "It rolled halfway home, then... splat. Poor radish."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SHOPLOCKER"
+msgid "Here's some oincs. Save me a trip and restock that same one?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Let's give it one good wave before the big guy puts it on a shelf."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.DUMBBELL_IRON"
+msgid "Heavy. I liked it better when the ground was holding it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Walk with me. This little breeze keeps the fog off both of us."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Let the filter catch the pollen. I'll just smell the flowers."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Let's get those roots outta my hands and into some dirt, buddy."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Hey, little nettle seed. You don't sting yet, do you?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Your roots look comfy down there. Guess you're staying."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Missed your season? We can hang out till it comes around."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Bet you'd dig the swirls in that painted sand."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Hey, a little green leaf. Mind if I sit by you?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Sleep right through winter, little dude. I'd do it too."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Rainforest dirt. That's more your scene, huh?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WALANI.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Another splash? Yeah, I got you."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.VORTEXEYE"
+msgid "And when the last camper looked away... Hey, who turned it to face me?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SEEDOFRUIN"
-msgid "Spooky!"
+msgid "If this grows the ruins back, I'll have to draw my map in pencil."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER"
-msgid "I'm the mayor! When I say stock this, you gotta stock this!"
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Woby sniffed out the shop. Now she wants to sniff all three rooms."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "I adore the metallic clang it makes upon impact."
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Woby sniffed out the shop. Now she wants to sniff all three rooms."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY"
+msgid "A whole new world and I don't even have to get up?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SKYWORTHY_KIT"
-msgid "A real haunted ride!"
+msgid "Chair assembly seems like a funny way to start an expedition."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY"
-msgid "This is one of those gatekeeper-thingamajigs, isn't it?"
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "My ammo's waving at me. Hi, little tentacle!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED"
-msgid "Radishing"
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "First the ping, then the pop! That's how I know I hit it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Same size as a pebble. Way heavier in my ammo pouch."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SPICE_LOTUS"
+msgid "I'd put it in the first aid tin. Bit of a surprise if you mistake it for cocoa."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SWEETANDSOURCARP"
+msgid "With this in my belly I bet I could beat Woby through the fog. Ready, girl?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "I'm counting legs on a fish. This is already a good campfire story."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED"
+msgid "I could camp in the shade of that aloe leaf!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Woby, leave it! I know rolling in it looks fun."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED"
+msgid "If we hollowed this radish out, would it float?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "It looked solid. Then my boot went right through it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SHOPLOCKER"
+msgid "I'll mark this shelf on our supply list. Same stop on the way back, Woby!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "You could practice all six knots on this! Well, maybe if you had smaller fingers."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.DUMBBELL_IRON"
+msgid "One rep! That's counting when I picked it up."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Fog drill! Stick with the robot and nobody falls behind."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "It catches pollen! My sleeve was getting pretty gross."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "I'll carry the little tree. Somebody else bring the shovel!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "One nettle seed. Better give it a pocket of its own."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Look, it stays upright even when I let go!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Better mark the spot so we can check back in its growing season."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Let's try that painted sand. I can find it on the map!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Green leaves already! I'll sketch them before they get bigger."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "It's taking the winter off. I wish we did that at school."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "I know where I've seen these! On the rainforest floor!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WALTER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Hang on, I packed water! Knew I'd need it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.VORTEXEYE"
+msgid "I turned that stone eye to face the wall. Or was that the last one?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SEEDOFRUIN"
-msgid "T-They are inside, aren't they?"
+msgid "Even that stair I broke on the way out? Oh, I do hope it remembers that stair."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER"
-msgid "I don't have time to search through your stock."
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms. I've been through four. Oh, that's the entrance again."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED"
-msgid "A-a-aloe, but giant."
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms. I've been through four. Oh, that's the entrance again."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY"
+msgid "A seat to the next world? I'll take it. My feet are killing me."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SKYWORTHY_KIT"
-msgid "This is one of those gatekeeper-thingamajigs, isn't it?"
+msgid "Where did I set the seat? Ah. I'm sitting on it."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS"
-msgid "This is a kind of medicine"
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Was that my shadow? Mine doesn't usually have tentacles."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY"
-msgid "Any good restaurants in there?"
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "It'll burst the instant it hits. I'll stand over here, then."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED"
-msgid "I'm thinking a nice summer salad..."
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Lovely alloy. A pity to sling it away when I could use it for parts."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP"
-msgid "I learned to cook this dish in Jinan, China"
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SPICE_LOTUS"
+msgid "That stopped a sneeze just as I was setting the minute hand. I'll take two."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SWEETANDSOURCARP"
+msgid "Honey on the carp! I'll lick the fork before the vinegar catches up."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Two legs with my fish? I'm rather glad I met it after it was cooked."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED"
+msgid "If I'd known it got this big, I'd have picked the aloe yesterday."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Oh dear. I could smell that aloe long before I found it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED"
+msgid "If I hollowed out that radish, I could fit all my watches inside."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "I put a finger through the radish. That answers the freshness question."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SHOPLOCKER"
+msgid "I'll pay the oincs now. I'd like this same item on my next visit."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "The Pig King will take this little boat? And here I've been dusting it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.DUMBBELL_IRON"
+msgid "I could've lifted that steel weight yesterday. I was younger yesterday."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Walk beside WX and the fog won't delay us. I call the left side."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "A pollen filter! Ever tried setting a watch in mid-sneeze?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "I should plant this little tuber tree while I remember why I'm carrying it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Nettle seeds. Which pocket did I promise myself I'd keep them in?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Good, it's taken root. That's one less thing to come back for."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "I'm early. The little tree's waiting for the warm season."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Of course. The tuber trees I remember grew in painted sand."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "New green leaves already? I must have been away longer than I thought."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "After winter, then. I wish all my appointments were this easy to move."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Rainforest turf! Why do I remember these things after I've planted them?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WANDA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "I watered it tomorrow, didn't I? Where's the can?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.VORTEXEYE"
+msgid "Even carved in stone, I know that look. Too much salt?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SEEDOFRUIN"
-msgid "Ruins are a little like gourmet food, don't you think?"
+msgid "A whole ruin from one seed? And I thought my sourdough starter was lively."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER"
-msgid "Perchance they may finally stock what I need, non?"
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms to shop in. Now, where did I smell cinnamon?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED"
-msgid "Perhaps there's a drink I put this into."
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms to shop in. Now, where did I smell cinnamon?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY"
+msgid "A seat for one. I hope there's room for my pot in the next world."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SKYWORTHY_KIT"
-msgid "Any good restaurants in there?"
+msgid "These pieces make a chair? I'd welcome a recipe."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "My ally is a god among men."
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "That tentacle should stay well away from my calamari."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY"
-msgid "Outward to adventure!"
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "It bursts on impact. Walter, shall I move the good china?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER"
-msgid "By Wotan's Decree!"
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Ah, solid alloy. I'd hoped they were silver sugar pearls."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "What fun is a battle without hand to hand combat?"
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SPICE_LOTUS"
+msgid "Just a pinch. Let the bitter note come through at the end."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SWEETANDSOURCARP"
+msgid "The vinegar cuts the honey just enough to let the carp shine."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Tender fish, a bite of leg meat... voilà, two textures on one fork."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED"
+msgid "There's enough clear flesh in one leaf for a jug of punch."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "That sour smell has gone right through the aloe."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED"
+msgid "Imagine the paper-thin rounds I could slice from this!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "My thumb sank right in. A radish ought to snap."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SHOPLOCKER"
+msgid "A standing order! No more planning supper around an empty shelf."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Wouldn't a slice of lemon make a fine little sail?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.DUMBBELL_IRON"
+msgid "After a few lifts, even my stockpot should feel light."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "I'll gladly follow that breeze through the fog. Especially if it smells of supper."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Ah, a pollen filter! I can smell dinner again."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "First a home for this sapling, then we can talk tubers."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "That's a nettle seed. Let me put down the pepper mill."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "The roots have taken. I'll come back for the tubers."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Even tubers have their season. Patience, chef."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "I'd start with desert soil for this one."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Such tender green tips on my little nettle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Fresh nettles are off the menu till winter's over."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "The missing ingredient is rainforest soil."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "A drink for the nettle before I fill the pot."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.VORTEXEYE"
+msgid "A moonstone eye, wide as mine on opening night."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SEEDOFRUIN"
-msgid "The seed of Hoddmimir's Holt."
+msgid "From such a speck the fallen halls shall rise again!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "What fun is a battle without hand to hand combat?"
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Where are the shields? Thou hast given the hats a whole wall!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "What fun is a battle without hand to hand combat?"
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Where are the shields? Thou hast given the hats a whole wall!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY"
+msgid "I take my seat. Raise the curtain on another realm!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SKYWORTHY_KIT"
-msgid "Outward to adventure!"
+msgid "My throne lies in pieces and the overture has begun!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "At the end of the day, it's still frog."
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Come, shadow! My arm against thy tentacle!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY"
-msgid "An exit but not a way out."
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "A clap of thunder where this little shot strikes!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED"
-msgid "A reddish radish."
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "A wee iron fist for the sling."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SPICE_LOTUS"
+msgid "Bitter on the tongue. Let pollen and venom try me now!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SWEETANDSOURCARP"
+msgid "A coat of honey becomes this river beast!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "A feast of fish, garnished with more meat!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED"
+msgid "Blades as broad as shields! Alas, all leaf."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "A fallen heap of slime. The aloe's saga ends."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED"
+msgid "Who heaved this red boulder from the earth?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "At last, a radish with a fearsome battle stench."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SHOPLOCKER"
+msgid "My coin, the mayor's seal. Refill this shelf in kind!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "A ship fit for the Pig King's tub! What shall he bid?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.DUMBBELL_IRON"
+msgid "Up, iron! My spear arm could use the exercise."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "A wind for the whole company! March on through the mist!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "A fine sieve. No pollen shall spoil my high note!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Where shall I set thee down, wee bearer of tubers?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "A sting yet slumbers in this tiny seed."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Stand fast, sapling! Thy roots hold firm."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Thy season has yet to make its entrance."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Volcanic earth would suit thy roots."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "A little crest of green! The nettle lives."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Bide thy time. Even winter must yield."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Back to thy rainforest soil, little nettle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "A drink for the parched little warrior!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.VORTEXEYE"
+msgid "An audience of one, carved in moon rock. What a chilly reception."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SEEDOFRUIN"
-msgid "To think, it all started with this."
+msgid "I clear the ruins, and this puts them back. Typical."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER"
-msgid "Urgh. Maybe these cursed swine will finally sell what I need."
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three salesrooms, and I can still hear the same pig."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED"
-msgid "I should eat it."
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three salesrooms, and I can still hear the same pig."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY"
+msgid "I should like to see where this chair goes before I sit in it."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SKYWORTHY_KIT"
-msgid "An exit but not a way out."
+msgid "Some assembly required. Where's my assistant?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Thanks Warly!"
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "A tentacle on cue. Who taught the boy that trick?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY"
-msgid "That leads somewhere else."
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "It announces every hit with an explosion. Rather ruins a discreet exit."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED"
-msgid "These are kinda spicy."
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "A well-cast alloy shot. Nicely balanced, too."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SPICE_LOTUS"
+msgid "A little bitter. I've swallowed worse for the sake of an uninterrupted performance."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SWEETANDSOURCARP"
+msgid "Whoever arranged those fins understands the value of an entrance."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "The fish was quite presentable before someone tucked those legs in."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED"
+msgid "One leaf would stock a gentleman's washstand for a year."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "It's seeping through my handkerchief."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED"
+msgid "A radish that requires a carving knife. Fetch the good silver."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "I could smell that radish from the next room."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SHOPLOCKER"
+msgid "A signature, a modest fee, and even a pig will keep a promise."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "His Majesty collects toy boats? I may yet turn a profit."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.DUMBBELL_IRON"
+msgid "I leave the heavy lifting to my shadows. Suit sleeves are expensive."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "I'll walk beside the automaton. It parts the fog quite neatly."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "A fine pollen filter. I'd like one for my dressing room."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Its roots are catching in my cuff. Someone dig a hole."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Nettle seeds. I shall sow them without removing my gloves."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "The roots have taken. I can dismiss the gardener."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "It prefers a warmer season. So do I."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "I recognize the type. Try a patch of desert soil."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Already an excellent reason to wear gloves."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "I can scarcely blame it for taking the winter off."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "It wants rainforest turf. Naturally, I brought a nettle and left the forest."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "The nettle is wilting. Where did I put the watering can?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.VORTEXEYE"
+msgid "Just the one eye? It can borrow some of ours if it likes."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SEEDOFRUIN"
-msgid "This seed is REALLY spooky."
+msgid "Can the ants tell we started their whole hill over?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER"
-msgid "Please sell more of these, pretty please?"
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Could we look at the high shelves too? We promise not to climb on anything!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED"
-msgid "I bet this is good for us!"
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Could we look at the high shelves too? We promise not to climb on anything!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY"
+msgid "If we sit really still, do we get up in a whole other world?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SKYWORTHY_KIT"
-msgid "That leads somewhere else."
+msgid "We can hold all the chair bits while you fit them together!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED"
-msgid "The color of my blood."
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "It's waving a shadow tentacle! Um, should we wave back?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED"
-msgid "It dies so that others may live."
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "First it hits, THEN it pops. We can do the sound effects!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS"
-msgid "It's bitter, just like my heart..."
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "That metal ball goes clink against all the others in our pocket."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY"
-msgid "Shall I leave this mortal coil?"
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SPICE_LOTUS"
+msgid "If we both hold our noses, who's going to hold the spoon?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP"
-msgid "Can sweetness make me happy?"
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SWEETANDSOURCARP"
+msgid "We licked the honey off the carp. Ooh, the rest is sour!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "If our fish has two legs, does it need two little shoes?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED"
+msgid "We could hide behind that aloe leaf. Can you see our feet?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "We tried to lift a leaf and the rotten bit came off on us."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED"
+msgid "Can we roll this radish home? You give it a push and we'll steer!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "There goes our radish ball. The flies can have their turn now."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SHOPLOCKER"
+msgid "Here are our oincs. Could you get the same one for our friend, please?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "We promised the Pig King a trade. Just one more sail around the tub?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.DUMBBELL_IRON"
+msgid "We've got plenty of arms. How many does it take to lift this?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Stay in the fan's breeze! Then we can all race through the fog!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Look at all the pollen on the filter! That could've been in our nose!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "We'll carry the little tree. Can you dig a hole for its roots?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Careful with the nettle seeds. We lost one in our fur already."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Look, it's standing up all by itself! The roots must be holding on."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "We keep checking for new leaves. Is it the right season yet?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Maybe it likes the stripy sand. We can take it there!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Hi, little green nettle! We remember when you were a seed."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "We'll visit after winter. Maybe you'll be taller than our boots!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Oh! We took you too far from the rainforest. Let's get you the right dirt."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Let's give the roots another drink. We can carry the can together."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.VORTEXEYE"
+msgid "They carved it an eye, but no lid to rest it."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SEEDOFRUIN"
-msgid "Is this the seed of my demise?"
+msgid "A whole ruin may begin again. How small its second chance is."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER"
-msgid "My kingdom for that in stock..."
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms of things their owners could bear to part with."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "It's actually... really good..."
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms of things their owners could bear to part with."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY"
+msgid "Another world is only a seat away. Come along, Abigail."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SKYWORTHY_KIT"
-msgid "Shall I leave this mortal coil?"
+msgid "I found the pieces of a chair. Our departure can wait."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "A tentacle feeling about in the dark. Perhaps it's lonely."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Such a quiet little pellet, until it strikes and bursts."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "The metal will scarcely feel the blow. I pity what it hits."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SPICE_LOTUS"
+msgid "The flowers tried to cheer me. Their pollen made me cry. Pass the little jar."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SWEETANDSOURCARP"
+msgid "The honey on my tongue fades before the sour does."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "The fish and its borrowed legs share one plate now."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED"
+msgid "There's enough balm in one leaf for a ward of patients."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "All that healing sap, and nothing to save the aloe itself."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED"
+msgid "So much of it grew where no one could see."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "It still wears its red skin. Underneath, it's gone quite soft."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SHOPLOCKER"
+msgid "A few oincs, and the shopkeeper replaces what's missing. How simple."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Abigail always blew the wind for our little ships. I only had to hold the sail."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.DUMBBELL_IRON"
+msgid "At least I can set this weight down."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Walk beside me. The fan leaves us a narrow path through the fog."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Flower dust settles on the filter like ashes."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Its roots hang loose over my fingers. I should find it a home."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "A handful of seeds, each with a little sting in its future."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Its roots have taken hold. Something here means to stay."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "I'll mark the changing seasons by this bare little stem."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Its roots would sooner settle in desert sand."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "A little green against all that dark earth."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Sleep through the winter, little nettle. I'll look in on you."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "A piece of rainforest floor might ease its homesickness."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "The soil crumbles at a touch. I'll fetch you some water."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.VORTEXEYE"
+msgid "A second pair of eyes for the cockpit. Well, half a pair."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SEEDOFRUIN"
-msgid "Is this what took out my wings?"
+msgid "This puts the ruins back? Good. I missed a turn back there."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms of supplies. I brought one bag. Swell."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms of supplies. I brought one bag. Swell."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY"
-msgid "Does it actually fly?!"
-msgstr ""
-
-#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER"
-msgid "I'll be needing that, like, more, really soon."
+msgid "A front-row seat to a whole new world. Dibs!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SKYWORTHY_KIT"
-msgid "Does it actually fly?!"
+msgid "I see the seat. Any of these bits a seat belt?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED"
-msgid "Of the Brassicaceae family, I believe."
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "A pocket-sized shadow tentacle. It can have its own pocket."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED"
-msgid "Aloe. A plant with many uses."
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "It pops on impact. I can score that shot by ear."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS"
-msgid "Be beneficial to physical health"
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Solid alloy. I'll know where it landed by the dent."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY"
-msgid "An egress."
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SPICE_LOTUS"
+msgid "A pinch weighs less than a spare handkerchief. Into the pack it goes."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP"
-msgid "No, it's too sweet"
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SWEETANDSOURCARP"
+msgid "Next time I'll unfold my map before I get honeyed carp on my fingers."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Found a leg in my fillet. Did my dinner walk here?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.ALOE_OVERSIZED"
+msgid "Measured it twice. Yep, the leaf's longer than my arm."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "My giant aloe's gone to soup. Anybody pack a ladle?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED"
+msgid "That radish would make great ballast. Edible ballast!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "That stink went right through the canvas. Next radish rides outside."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SHOPLOCKER"
+msgid "Here's my fee. Same supplies for the return trip, please."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "The Pig King buys boats? Good. This one's short on legroom."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.DUMBBELL_IRON"
+msgid "I can lift it. My balloon might have other ideas."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Fog bank ahead. Mind if I tuck in behind that lovely tailwind?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Pollen in the filter! I usually find it with my nose."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A passenger with roots. Let's find you a landing spot."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "One nettle seed. I've lost bigger things in these pockets."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Roots down. I'll mark the spot on my map."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Right spot, wrong season. I'll swing back when it's warmer."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "I'll try the desert. Plenty of sand for those roots."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Green shoots. I can spot those without my goggles."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Grounded for the winter, huh? I'll check in after the thaw."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Rainforest soil. That's where I'd drop this one off."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WHEELER.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Still dry? Good thing I packed water for two."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.VORTEXEYE"
+msgid "A moon rock idol. The sculptor took particular care over the iris."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SEEDOFRUIN"
-msgid "The cycle is like a droplet, forming a ring, or perhaps a spiral, into a line. Or so the myths say."
+msgid "It restores whole ruins. Quite a lot of history to fit in a seed."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER"
-msgid "A decree to commission an item."
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_SHOP"
+msgid "I see they've classified the wares. Now if only they'd label the rooms."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "I'll happily volunteer to taste-test."
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "I see they've classified the wares. Now if only they'd label the rooms."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY"
+msgid "One need only sit down to visit another world. How very civilised."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SKYWORTHY_KIT"
-msgid "An egress."
+msgid "All the parts of a travelling chair, including, I trust, the seat."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "The pellet appears to summon a tentacle made of shadow."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "The charge is released on impact. Mind where you aim, dear."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "A solid alloy pellet. It ought to hold its shape nicely."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SPICE_LOTUS"
+msgid "Hum. The nectar does little to disguise that distinctly bitter finish."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SWEETANDSOURCARP"
+msgid "A fork along the backbone first, dear. Carp have rather a lot of fine bones."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "The fish is easy to identify. The legs require a closer look."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED"
+msgid "A splendid succulent. Imagine how much water just one leaf holds."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "The leaf has rotted right through to the gel."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED"
+msgid "My word. That taproot alone could fill a market basket."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "A decaying brassica has a most distinctive odour."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SHOPLOCKER"
+msgid "The mayor permits repeat orders, provided one supplies the oincs."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "The Pig King's collection evidently extends to model boats."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.DUMBBELL_IRON"
+msgid "Equal masses on either end keep the grip nicely balanced."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "The moving air keeps the fog from slowing anyone near WX."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "The fine grains of pollen are caught in the filter."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A young tuber tree. I'd best get those roots back into soil."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Nettle seeds. An envelope would keep them together nicely."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "The roots have taken hold. I'll leave them undisturbed."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Healthy, merely dormant. Growth will resume in a warmer season."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "I'd try the painted sands. This soil doesn't suit its roots."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Such tender green leaves on this young nettle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Winter dormancy is quite normal for this nettle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Rainforest soil would better suit this specimen."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "The soil has dried out again. A little more water, please."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.VORTEXEYE"
+msgid "WHO TAUGHT THE MOON ROCK TO STARE? 'TIS RUDE!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SEEDOFRUIN"
-msgid "WILBA BRINGE'TH BACK THE PAST!"
+msgid "UP, OLD RUIN WALLS! THIS LITTLE SEED COMMANDS IT!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_SHOP"
+msgid "THREE ROOMS O' WARES! WHERE BE THE SWEETIES?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "THREE ROOMS O' WARES! WHERE BE THE SWEETIES?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY"
-msgid "THAT WAY MADNESS LIES"
-msgstr ""
-
-#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER"
-msgid "STOCK THESE, WILBA BESEECHETH THEE!"
+msgid "GOOD CHAIR, BEAR MINE BOTTOM TO YONDER WORLD!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SKYWORTHY_KIT"
-msgid "THAT WAY MADNESS LIES"
+msgid "WILBA HATH ORDERED A CHAIR. WHO HATH ORDERED ALL THESE STICKS?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED"
-msgid "Like little balls of fire."
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "YON SHADOW HATH A WIGGLY ARM!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "Ever considered making your ammo a little more flammable?"
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "ONE HIT AND OUT COMETH THE BOOM!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "Ever considered making your ammo a little more flammable?"
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "CLINK! A PEA IN SHINING ARMOUR!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED"
-msgid "Gross. It's all gooey inside."
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SPICE_LOTUS"
+msgid "BITTER! POLLEN AND VENOM, BEGONE!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Woah, that's a ton of frogs."
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SWEETANDSOURCARP"
+msgid "THE CARP DOTH WEAR ITS HONEY. NOW SO DOTH WILBA."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY"
-msgid "I should step out of here."
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "WHAT LEG DOTH HIDE IN MINE FISH? COME FORTH!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED"
+msgid "ONE LEAF CAN SHADE A WHOLE PRINCESS!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "ALAS, BIG LEAF! THOU HAST GONE ALL SQUELCHY."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED"
+msgid "YON RADISH NEEDS A BIGGER CROWN THAN MINE!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "THY ROSY CHEEKS HATH CAVED IN. POO!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SHOPLOCKER"
+msgid "TAKE THESE OINCS, GOOD PIG. MORE OF THE VERY SAME!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "A ROYAL FLEET! 'TIS SHORT BUT A CREW OF VERY LITTLE PIGS."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.DUMBBELL_IRON"
+msgid "MINE HOOFS SAY THIS IRON MAY STAY ON THE FLOOR."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "PUFF AWAY THE FOG! MINE FRIENDS WOULD MARCH!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "CATCH YON POLLEN ERE IT TICKLETH MINE SNOUT!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A TREE SO WEE IT FITS 'TWIXT MINE HOOFS!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "THOU ART TOO WEE TO STING YET, LITTLE SEED."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "ITS ROOTY TOES DOTH GRIP THE EARTH!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "NOT THY CUE, LITTLE TREE. WAIT FOR THY SEASON!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "WOULDST THOU LIKE A BED O' PAINTED SAND?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "LOOK! A WEE GREEN CROWN FOR THE DIRT!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "LET WINTER FINISH SPEAKING, THEN GROW!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "YON NETTLE WOULD DWELL IN RAINFOREST SOIL."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WILBA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "ANOTHER DRINK FOR THE LITTLE GREEN LADY!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.VORTEXEYE"
+msgid "Hey, I can see my flame in its pupil. Hold still, eyeball!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SEEDOFRUIN"
-msgid "This seed makes me want to do a fiery step-dance!"
+msgid "I wreck the ruins, this puts 'em back. I like this seed."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER"
-msgid "I need more of these! To step! Hurry up and stock more, you jerk!"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms! Bet the pigs keep the good stuff in the last one."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "Ever considered making your ammo a little more flammable?"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms! Bet the pigs keep the good stuff in the last one."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY"
+msgid "Dibs on the flying chair! Later, world!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SKYWORTHY_KIT"
-msgid "I should step out of here."
+msgid "Poke me with that chair leg again and see what happens."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Is that just... frogs stuffed inside a fish?"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Keep those shadow tentacles on YOUR end of the slingshot."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY"
-msgid "Looks like an exit-ing ride!"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "It goes bang when it hits? Gimme two."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SHOPLOCKER"
-msgid "I'll pay them to never run out of stock!"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Bet that metal pellet puts a sweet dent in a helmet."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "Shots to be slinged."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SPICE_LOTUS"
+msgid "Bitter! Next time that pretty little flower can keep its opinion to itself."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SEEDOFRUIN
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SEEDOFRUIN"
-msgid "I'm sure this has a lot of science in it!"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SWEETANDSOURCARP"
+msgid "First the honey, then the sour kicks in. Sneaky fish."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "Shots to be slinged."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Hey, who snuck a pair of legs into my fish?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "Shots to be slinged."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED"
+msgid "One leaf and I'm up to my elbows in goo."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY_KIT
-msgctxt "STRINGS.CHARACTERS.WILSON.DESCRIBE.SKYWORTHY_KIT"
-msgid "Looks like an exit-ing ride!"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "The whole aloe's leaking. Ugh, my boots!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON"
-msgid "Awful fancy for something you just pick up and put down over and over."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED"
+msgid "That much radish oughta make my nose smoke."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED"
-msgid "Radish-ical!"
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "I poked the radish. My finger went right through. Bleh."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "Hem. Handmade, irregular shapes."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SHOPLOCKER"
+msgid "Here's my oincs. Same thing back on that shelf, got it?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "Hem. Handmade, irregular shapes."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Bernie, captain the boat. I'll handle the lighthouse!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED"
-msgid "Aloe's good for everything."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.DUMBBELL_IRON"
+msgid "That's a lot of iron just to make your arm hurt."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Mmm! Love Warly's dishes."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Hey, wind-up! Keep that fan close. I'm sick of slogging through fog."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY"
-msgid "The bossman would love this..."
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Heh. Let the filter get a noseful of pollen for once."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "This little tree keeps tickling my wrist. Dirt for you."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "All that sting packed into these itty-bitty seeds?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "I gave it a tug. Yep, those roots are in."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Oh, it's waiting for the hot season? Now there's a tree I get."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Picky roots. How about some nice volcanic dirt?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Hey, a green leaf! Let's see if it stings yet."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "It's sitting winter out. Scoot over, nettle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "You want rainforest dirt? You could've said so sooner."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Even I think that's too dry. Where'd I leave the watering can?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.VORTEXEYE"
+msgid "Who carved that eye? I'd hate to have it for a shift boss."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SEEDOFRUIN"
-msgid "Those eggheads ought to take a crack at it."
+msgid "Rebuild a whole ruin with that? There goes my overtime."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER"
-msgid "Those swine betta' be more efficient at givin' me what I want!"
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms of stock. Bet those pigs do some heavy liftin'."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "Hem. Handmade, irregular shapes."
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms of stock. Bet those pigs do some heavy liftin'."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY"
+msgid "Sit tight, gang. This chair's headed clean outta this world."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SKYWORTHY_KIT"
-msgid "The bossman would love this..."
+msgid "Lay the parts out first. Nobody likes a spare screw at the end."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON"
-msgid "Is Iron! Like Wolfgang's Muscles."
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Hard hats, gang! Those shadow arms don't watch where they swing."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED"
-msgid "Is spicy."
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Goes bang when it hits. Goggles on, gang."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW"
-msgid "Is little bits of junk"
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Good solid alloy. You can feel the heft of it."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_INFUSED
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_INFUSED"
-msgid "Is little bits of junk"
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SPICE_LOTUS"
+msgid "Try sneezing with a mouthful of nails. Yep, I'll keep a pinch of this handy."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED"
-msgid "Wolfgang eat everything."
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SWEETANDSOURCARP"
+msgid "Pass the bread. I'm moppin' up that honey sauce."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Food will make Wolfgang very strong!"
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Hey, whoever packed those legs into the fish owes me a bigger fork."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY"
-msgid "Is fun flying machines."
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED"
+msgid "One leaf's enough to patch up a whole shift's worth of scraped elbows."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Grab a bucket. That big aloe's coming apart in my hands."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED"
+msgid "Lunch is on me. Who wants the other half of my radish?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "Anybody got a shovel? This radish is past the knife stage."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SHOPLOCKER"
+msgid "Now that's how you stock a spare-parts shelf. Use the last one, order another."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Nice little hull. Let's see what the Pig King pays for workmanship."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.DUMBBELL_IRON"
+msgid "Feels like hauling steel at work. At least this one's got a handle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Stick with WX. That fan cuts us a path through the fog."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Now that's a filter! Catches the pollen before it hits your nose."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Hold the little tree upright for me. I'll get the shovel."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Hold out your hand. There's a whole patch of nettles in these few specks."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "That's got a good grip on the ground. Nice work, roots."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "No point rushin' it. This one's waiting on warmer weather."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Let's move it. I've seen 'em take in that painted sand."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Look at those little green leaves. Hands off, though!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Guess the nettles are takin' the winter off."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Wrong patch for this job. Get me some rainforest turf."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Dry again? Pass me the watering can."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.VORTEXEYE"
+msgid "Is moon rock watching? Wolfgang better stick chest out."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SEEDOFRUIN"
-msgid "Wolfgang does not like spooky seed."
+msgid "Little seed can rebuild whole anthill? Would take Wolfgang many shovels."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER"
-msgid "Wolfgang wants more of that item, please."
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms of shopping? Good thing you brought man with big arms!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY
-msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY"
-msgid "Is little bits of junk"
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms of shopping? Good thing you brought man with big arms!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY"
+msgid "Chair carries Wolfgang to next world? Usually Wolfgang carries chair."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SKYWORTHY_KIT"
-msgid "Is fun flying machines."
+msgid "Big pieces go here. Who has little screws?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "I'm not one to turn my nose up at a meal."
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Shadow is growing long arms. No, Wolfgang will not wrestle it."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY"
-msgid "It goes somewhere else."
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Tiny shot hits, then BOOM! Like big circus drum."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED"
-msgid "Kinda tiny, aren't they?"
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Squeeze with whole fist. Metal ball stays round!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SPICE_LOTUS"
+msgid "Wolfgang take little pinch. Ha! Why only tongue feel small now?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SWEETANDSOURCARP"
+msgid "Is sweet fish. Oof! Sour part makes whole face pucker."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Fish comes with two legs. Is very good day for hungry strongman."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED"
+msgid "Look! Aloe leaf is wider than strongman's belt."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Wolfgang lifts aloe. Only handful of mush comes up."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED"
+msgid "Will cut radish into plates. Big plates!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "Cannot roll this radish now. One push and it goes splat."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SHOPLOCKER"
+msgid "Little paper do all the talking? Good. Wolfgang carry crates."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Wolfgang can carry whole ship on one finger. Is good trick from back row!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.DUMBBELL_IRON"
+msgid "Good thick iron handle. Now, hundred more with left hand!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Walk beside fan, friends! Even in fog we take big steps."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Pollen gets stuck in little screen. Strongman saves big sneeze."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Can carry whole tree in one hand. For now."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Big fingers, tiny nettle seeds. Must count very carefully."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Good grip on ground, little tree!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Rest between seasons, grow when heat comes back."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Will find you good sandy ground, like in desert."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Two green leaves up like tiny fists. Ready!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Little nettle takes winter off. Training starts after."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Need rainforest ground. Wolfgang can carry some!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Is thirsty! Who needs watering can carried?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.VORTEXEYE"
+msgid "Looks like a knot in a log. Still don't like it eyeballin' me."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SEEDOFRUIN"
-msgid "Hey, Lucy, this looks like the beginning again?"
+msgid "Wish my woodpile grew back like those ruins."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER"
-msgid "Will be needin' more of these soon, shopkeep."
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms of shelves. Somebody did a lot of sawing."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED"
-msgid "I hear aloe's good for you."
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms of shelves. Somebody did a lot of sawing."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY"
+msgid "Sit down here, stand up in another world. Beats walking."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SKYWORTHY_KIT"
-msgid "It goes somewhere else."
+msgid "Easy, Luce. Those chair legs are already cut to size."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "That tentacle's wriggling in my pocket."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "She'll go bang when she hits. Heads up, eh?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Solid metal. Feel the heft of that little fella."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SPICE_LOTUS"
+msgid "Pass me some for the stew, Lucy. Hate to sneeze halfway through a swing."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SWEETANDSOURCARP"
+msgid "Fish is gone. Still got half the honey in my beard."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "I'll take the fish. Those legs look a little too birdy."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED"
+msgid "One leaf'd fill my canteen with aloe juice."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Grabbed a leaf. Came away with a fistful of mush."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED"
+msgid "Might want a stump to sit on while I peel this one."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "Rolled it over. Should've left the smelly side down."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SHOPLOCKER"
+msgid "Here you go, shopkeep. Same goods next time, eh?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "One piece of wood, from bow to stern. Somebody spent a good winter on this."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.DUMBBELL_IRON"
+msgid "Heavy as a wet log. At least this one's got a handle."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Hear that hum, Lucy? Stick with it and we'll be home through the fog by supper."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Catches the pollen before it gets into my whiskers."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Hang on, little tree. I'll find you a patch of ground."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Careful with that nettle seed. There's a hole in my pocket."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Roots have a good grip now."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "No rings to count till its growing season comes round."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "I'd try that patch of desert dirt."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Little green leaves. Better mind where I put my boots."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Winter's for splittin' wood. That nettle can wait it out."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "This nettle belongs on rainforest turf."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Got a drop left in my canteen for you."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.VORTEXEYE"
+msgid "One eye on me gold. Face the wall, moon rock."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SEEDOFRUIN"
-msgid "Yarr! A mythic seed!"
+msgid "This puts the old ruins back in shipshape? Fetch me loot sack!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three holds full o' cargo, an' the pigs charge fer every bit."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three holds full o' cargo, an' the pigs charge fer every bit."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY"
-msgid "'tis not a boat, but ye c'n sail it."
-msgstr ""
-
-#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER"
-msgid "Yarr! I'll be plunderin' all your stock!"
+msgid "Set course fer another world! Me pegs could use the sit-down."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SKYWORTHY_KIT"
-msgid "'tis not a boat, but ye c'n sail it."
+msgid "Pass me the fittings. This sky chair won't rig herself."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "Yum yums!"
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "A wee kraken arm, black as the deep."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY"
-msgid "Where to?"
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Bursts on the first hit. Wee thing's got a cannon's temper!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED"
-msgid "Red Balls For Belly"
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Fine alloy shot. Rings true against me coin."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SPICE_LOTUS"
+msgid "Bitter as bilge. Stow some fer pollen an' venom."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SWEETANDSOURCARP"
+msgid "Sweet carp! Scrape that last dab o' honey off me plate."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "A leg below decks in me fish. Stowaway!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED"
+msgid "That aloe leaf'd put me mainsail to shame."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Leakin' green slop all over me deck. Overboard wi' ye!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.RADISH_OVERSIZED"
+msgid "Feed a whole watch off that one radish."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "One rotten radish an' I can smell it from the masthead."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SHOPLOCKER"
+msgid "Mind the mayor's seal, lad. Same cargo next time I make port."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "She'll fetch more from the Pig King than she will in freight."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.DUMBBELL_IRON"
+msgid "Heave! That much iron'll put a bend in me pegs."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Close up, mates! In this fan's breeze the fog can't slow us."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Catches pollen like herrin' in a net."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A wee tuber mast wi' the roots still danglin'."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Nettle seed. One gust an' she'll be overboard."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Roots holdin' fast. Who taught ye to drop anchor?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Too soon to sail, sprout. Wait fer a warm wind."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "She wants a sandy berth. Steer fer the painted dunes."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Flyin' her first green pennant, she is."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Moored fer the winter. She'll sail after the thaw."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Wrong port. Fetch her some rainforest soil."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WOODLEGS.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Dry as ship's biscuit. Another dipper o' water, mate."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.VORTEXEYE"
+msgid "Moon rock has eye. Hello in there!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SEEDOFRUIN"
-msgid "Glowy seed"
+msgid "Stone rooms grow back? Funny seed."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER"
-msgid "Sell more."
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms. Pig smell in all three."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED"
-msgid "Clumpy Friend"
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms. Pig smell in all three."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY"
+msgid "Sit here. Wake up under new sky?"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SKYWORTHY_KIT"
-msgid "Where to?"
+msgid "Sitting thing in pieces. Needs help."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "I'd rather have a nice fresh soul."
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Dark wiggly arms inside?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY"
-msgid "Hyuyu, it's a hop, skip, and jump from here!"
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Bumps into thing. Bursts like pod!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED"
-msgid "Red! Like me!"
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Metal pea. Too hard to chew."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SPICE_LOTUS"
+msgid "Bitter leaf dust. Keeps sneezy dust and poison away."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SWEETANDSOURCARP"
+msgid "Buzz Juice on Glub Glub. Smells sour too."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Glub Glub outside. Little leg inside."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED"
+msgid "So much drink in one leaf!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Leaf split. Just a puddle now."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED"
+msgid "Can't fit arms around red root."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "Red friend going soft. Dirt can have a turn."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SHOPLOCKER"
+msgid "Piggy put same thing back. Shelf grows it again?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Baby Floaty. Big piggy trade for it?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.DUMBBELL_IRON"
+msgid "Heavy. Makes branches droop."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Robot blows. Friends can walk through fog!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Robot nose catches flower dust."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Little tree. Roots hanging out. Here, hold on."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Prickly friend's babies. Still in seed coats."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Roots holding dirt. Happy here."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Waiting for warm growing days."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Roots want desert dirt. Can find some."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Hello, little green pokers!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Sleeping through winter. Shh."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Miss the rainforest dirt, friend?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Leaves drooping. Bringing water!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.VORTEXEYE"
+msgid "I gave the moon rock a wink. It owes me one."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SEEDOFRUIN"
-msgid "Hyuyuyu, time for the past to make a little hop here!"
+msgid "What sprouts in the ruins? The ruins again!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER"
-msgid "Hyuyu! These little piggies better sell what I want, or I'll blow their house down!"
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Three rooms to a shop! Guess which one I'm hiding in?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED"
-msgid "Gooey."
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Three rooms to a shop! Guess which one I'm hiding in?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY"
+msgid "I'll sit quite still and let the world skip out from under me."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SKYWORTHY_KIT"
-msgid "Hyuyu, it's a hop, skip, and jump from here!"
+msgid "A heap for a leap! Now where did I put the seat?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "........."
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Lend me a hand? A tentacle will do."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY"
-msgid "Machine to wee-folk land, florp!"
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "One little knock and POP goes the shot!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED"
-msgid "Ball of num nums!"
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "A little metal pea. Watch your teeth, hyuyu!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SPICE_LOTUS"
+msgid "Shoo, pollen! Shoo, venom! Pah, who'll shoo the bitter taste?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SWEETANDSOURCARP"
+msgid "A carp in a pool of honey. Where do the bees go to swim?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "A fish with a leg! Did it walk to the table?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED"
+msgid "Squeeze that leaf and I'll be slick from horn to heel."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "The goo got loose. There go my hooves!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED"
+msgid "Hold it to my face. How's that for a clown nose?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "I tried to pinch it. It oozed right through my claws!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SHOPLOCKER"
+msgid "An oinc for an encore! The same goods, if you please."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "A pinch, a lift, and the ship's adrift! I didn't even wet my claws."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.DUMBBELL_IRON"
+msgid "My, this iron plays a very heavy tune. Thud."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Trot beside the tin one. Even the fog can't trip us!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "All that pollen, and the tin nose won't give me one little sneeze?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Its roots are tickling the palm of my paw."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "Do nettles practice stinging inside these little shells?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Those roots hold tight. I'll let the little tree win at tug."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Still waiting for the warm season to make its entrance, I see."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "My hooves vote for painted sand. Do the roots agree?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Such a small green sprig to play so sharp a trick!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Dream up some mischief till winter's done."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Shall I fetch you a patch of rainforest floor?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "A drink for the nettle! I'll pour at the end that can't sting."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.VORTEXEYE"
+msgid "Look like fishy eye. Me turn it so it can see pond."
 msgstr ""
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SEEDOFRUIN"
-msgid "Wee-nowna lady knows what it do?"
+msgid "It brings whole anthill back? Even the bitey ones?"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SHOPLOCKER"
-msgid "Gimme more of that, piggie!"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_SHOP"
+msgid "Pigfolk need three rooms to sell stuff? Bet one just for snacks."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED"
-msgid "Green plant, florp."
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "Pigfolk need three rooms to sell stuff? Bet one just for snacks."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY"
+msgid "Me get first ride! Maybe next world got bigger swamp!"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SKYWORTHY_KIT"
-msgid "Machine to wee-folk land, florp!"
+msgid "How me sit on that? Chair still in pieces!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
-msgid "PARTICULATE OBLITERATOR"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "Hide a tentacle in there? Good swamp trick!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED"
-msgid "RED SPHERICAL BALLS OF ENERGY"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "Goes bang when it hits. Aim away from pond!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED"
-msgid "GREEN ENERGY ACQUIRED"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "Clink! Bet that one could dent a Pigfolk helmet."
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET"
-msgid "MY MINION IS VERY USEFUL"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SPICE_LOTUS"
+msgid "Flower on outside. Grumpy face on inside. Look, it gave me one!"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY"
-msgid "EXIT PORT"
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SWEETANDSOURCARP"
+msgid "Who poured honey on fishy? Honey goes on carrots!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "Fishy had fins already! Who stuffed a leg in there?!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED"
+msgid "One leaf each. Biggest one for whoever grew it!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "Poor aloe. Tried to pick it up. Got green mush."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED"
+msgid "Me carry leaves. You push radish. We share!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "Who let good radish go squishy? We coulda fed whole village!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SHOPLOCKER"
+msgid "Here, piggy. Same veggies on shelf next time. Promise?"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "Silly pig king only want boat. Best part is fishies swimming underneath!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.DUMBBELL_IRON"
+msgid "Can lift it! Just... need other claw too."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "Stay with Ironfolk! Fog can't slow us now!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "Flower dust stuck in there? Let Ironfolk keep it."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "Me hold little tree steady. You dig!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "These grow into nettles? Me want whole patch!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "Look! Roots grabbing on all by themselves!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "Me come check when hot season here. Tree better grow then!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "Want painted sand? Picky little tree."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "Two green leaves! Me can count the next ones too."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "Winter too cold for nettle. Me can wait."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "Rainforest dirt! Me know that smell. Need some here."
+msgstr ""
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "Back in a bit, nettle! Getting you a whole bucket!"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.VORTEXEYE
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.VORTEXEYE"
+msgid "AN UNBLINKING STONE EYE. FINALLY, A WORTHY OPPONENT"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SEEDOFRUIN"
-msgid "PREHISTORICAL RECOMBINATOR"
+msgid "A RESET BUTTON FOR RUINS. EVEN THE ANTS HAVE ONE"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
-msgid "EVEN THE WATER MIST CANNOT HARM ME"
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_SHOP
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_SHOP"
+msgid "THREE ROOMS TO EXTRACT COINS FROM ONE CUSTOMER"
 msgstr ""
 
-#. STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER
-msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER"
-msgid "FUNCTION SELL_MORE_MEATSACK()"
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.PIG_SHOP_SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.PIG_SHOP_SKYWORTHY"
+msgid "THREE ROOMS TO EXTRACT COINS FROM ONE CUSTOMER"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY"
+msgid "I CAN LEAVE THIS WORLD WITHOUT STANDING UP. EXCELLENT"
 msgstr ""
 
 #. STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT
 msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SKYWORTHY_KIT"
-msgid "EXIT PORT"
+msgid "SOME ASSEMBLY BETWEEN ME AND A BETTER WORLD"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_SHADOW
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_SHADOW"
+msgid "PORTABLE SHADOW TENTACLES. NOW I CAN SWAT THINGS FROM OVER HERE"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_INFUSED
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_INFUSED"
+msgid "IMPACT FOLLOWED BY A BOOM. I APPROVE OF THE SEQUENCE"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_ALLOY
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SLINGSHOTAMMO_ALLOY"
+msgid "SOLID ALLOY. THE TARGET CAN SUPPLY THE DENT"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SPICE_LOTUS
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SPICE_LOTUS"
+msgid "THE FLOWER PRODUCES ITS OWN BUG FIX. IT MAY CONTINUE TO EXIST"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SWEETANDSOURCARP
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SWEETANDSOURCARP"
+msgid "THE CARP IS LEAKING HONEY. AN IMPROVEMENT"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FROGFISHBOWL_HAMLET"
+msgid "SOMEONE FITTED LEGS TO MY FISH"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED"
+msgid "GIANT LEAVES. MOSTLY WATER. KEEP YOUR DISTANCE"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.ALOE_OVERSIZED_ROTTEN"
+msgid "THE ALOE CONTAINER HAS FAILED. NOW IT LEAKS"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED"
+msgid "A ROOT THE SIZE OF MY HEAD. STILL NO PROCESSOR"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED_ROTTEN
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.RADISH_OVERSIZED_ROTTEN"
+msgid "THE RADISH HAS LOST AN ARGUMENT WITH MICROBES"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SHOPLOCKER"
+msgid "INSERT OINCS. PIG REPEATS LAST ORDER"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.SUNKEN_BOAT_TRINKET_2
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.SUNKEN_BOAT_TRINKET_2"
+msgid "THE PIG KING PAYS FOR A BOAT EVEN HE CAN'T BOARD"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.DUMBBELL_IRON
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.DUMBBELL_IRON"
+msgid "NO UPGRADE SLOTS? ENJOY LIFTING STEEL, FLESHLINGS"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FAN"
+msgid "STAY IN MY DRAFT IF YOU WANT TO KEEP UP IN THE FOG"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.WX78MODULE_PORKLANDREBALANCE_FILTER"
+msgid "POLLEN DENIED ENTRY. SNEEZE ELSEWHERE"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING_ITEM"
+msgid "A PORTABLE TREE. INSTALL ROOT END FIRST"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING_ITEM
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING_ITEM"
+msgid "NETTLES IN THEIR MOST COMPACT FORMAT"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.GENERIC"
+msgid "ROOT CONNECTION ESTABLISHED"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_SEASON"
+msgid "GROWTH PAUSED. WAKE ME WHEN IT GETS WARM"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TUBER_TREE_SAPLING.WRONG_TILE"
+msgid "GROUND INCOMPATIBLE. TRY DESERT SAND"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.GENERIC
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.GENERIC"
+msgid "TINY GREEN STINGING APPARATUS COMING ONLINE"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_SEASON"
+msgid "WINTER HAS SUSPENDED NETTLE PRODUCTION"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TILE
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TILE"
+msgid "THIS MODEL REQUIRES RAINFOREST TURF"
+msgstr ""
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.NETTLE_SAPLING.WRONG_TOODRY"
+msgid "IT DEMANDS WATER. I NOMINATE SOMEONE ELSE"
 msgstr ""
 

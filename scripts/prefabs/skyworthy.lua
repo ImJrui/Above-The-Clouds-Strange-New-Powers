@@ -189,7 +189,6 @@ local function item_fn()
     inst.components.deployable:SetDeployMode(DEPLOYMODE.CUSTOM)
 
     inst:AddComponent("inspectable")
-    inst.components.inspectable.nameoverride = "skyworthy"
     inst.components.inspectable.GetStatus = GetStatus
 
     inst:AddComponent("inventoryitem")

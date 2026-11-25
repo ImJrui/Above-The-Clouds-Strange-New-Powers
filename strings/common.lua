@@ -9,6 +9,7 @@ return {
 		PORKLANDREBALANCE_WALTERAIMEDSHOT = en_zh({EN = "Aim At", CN = "瞄准"}),
 	},
 	NAMES = {
+		VORTEXEYE = en_zh({EN = "Vortex Eye", CN = "漩涡之眼"}),
 		WX78MODULE_PORKLANDREBALANCE_FAN = en_zh({EN = "Convection Circuit", CN = "对流电路"}),
 		WX78MODULE_PORKLANDREBALANCE_FILTER = en_zh({EN = "Purifying Circuit", CN = "净化电路"}),
 		SEEDOFRUIN = en_zh({EN = "Seed of Ruin", CN = "遗迹种子"}),
@@ -136,43 +137,4 @@ return {
 		},
 		SUNKEN_BOAT_TRINKET_2 = en_zh({EN = "In this junk pile, lies the treasure of the Pig King!", CN = "在这堆垃圾里，竟藏着猪王的珍宝！"}),
 	},
-	CHARACTERS = {
-		GENERIC = {
-			DESCRIBE = {
-				TUBER_TREE_SAPLING = {
-					GENERIC = en_zh({EN = "A tiny tuber sprout,waiting to grow.", CN = "一株小小的块茎嫩芽，等待着生长。"}),
-					WRONG_SEASON = en_zh({EN = "Ah, perhaps it's not yet the season for blooming.", CN = "啊，或许还没到开花的季节。"}),
-					WRONG_TILE = en_zh({EN = "I need to plant this in the right place.", CN = "我得把它种在对的地方。"}),
-				},
-				NETTLE_SAPLING = {
-					GENERIC = en_zh({EN = "Ah, a nettle sprout. Best not to touch it barehanded.", CN = "啊，是荨麻的幼苗。最好别空手去碰它。"}),
-					WRONG_SEASON = en_zh({EN = "Ah, perhaps it's not yet the season for blooming.", CN = "啊，或许还没到开花的季节。"}),
-					WRONG_TILE = en_zh({EN = "I need to plant this in the right place.", CN = "我得把它种在对的地方。"}),
-					WRONG_TOODRY = en_zh({EN = "The soil is too dry, it needs more moisture to grow.", CN = "这土壤太干燥了，需要更多水分才能生长。"}),
-				},
-			},
-		},
-	},
 }
-
---[[
-STRINGS.ACTIONS.PORKLANDREBALANCE_REPICK = "Reincarnate"
-
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.VORTEXEYE = "I..I don't feel so good.."
-STRINGS.CHARACTERS.WILSON.DESCRIBE.VORTEXEYE = "A familiar presence?"
-STRINGS.CHARACTERS.WILLOW.DESCRIBE.VORTEXEYE = "It's cold..too cold..."
-STRINGS.CHARACTERS.WENDY.DESCRIBE.VORTEXEYE = "Will this take me to Abigail?"
-STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.VORTEXEYE = "Wolfgang does not like spooky eye."
-STRINGS.CHARACTERS.WX78.DESCRIBE.VORTEXEYE = "ERROR: CANNOT PERCEIVE THROUGH THE BEYOND."
-STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.VORTEXEYE = "This trinket somehow reminds me of the post-Vedic myths of Samsara."
-STRINGS.CHARACTERS.WOODIE.DESCRIBE.VORTEXEYE = "It looks cold, eh, Lucy?"
-STRINGS.CHARACTERS.WAXWELL.DESCRIBE.VORTEXEYE = "No doubt the work of Them."
-STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.VORTEXEYE = "The maw of Hel."
-STRINGS.CHARACTERS.WEBBER.DESCRIBE.VORTEXEYE = "It's so cold inside!"
-STRINGS.CHARACTERS.WARLY.DESCRIBE.VORTEXEYE = "Maman..."
-STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.VORTEXEYE = "So cold."
-STRINGS.CHARACTERS.WINONA.DESCRIBE.VORTEXEYE = "C-charlie? Are you there?"
-STRINGS.CHARACTERS.WORTOX.DESCRIBE.VORTEXEYE = "Hyuyu! To another adventure!"
-STRINGS.CHARACTERS.WALTER.DESCRIBE.VORTEXEYE = "Yeeeep. It's cursed."
-STRINGS.CHARACTERS.WURT.DESCRIBE.VORTEXEYE = "Feel weeeeeeeeeeeeak..."
-STRINGS.CHARACTERS.WANDA.DESCRIBE.VORTEXEYE = "It's time for Them to take me, isn't it?"]]--

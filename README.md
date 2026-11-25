@@ -90,7 +90,9 @@
 
 ## 文本维护
 
-公共文本写在 `strings/common.lua`，通用检查语写在 `strings/generic.lua`，角色文本写在对应角色文件中，沿用双语格式：
+Wilson 的台词写在 `strings/generic.lua`，同时供缺少专属台词的角色回退使用。各角色的性格、说话习惯和原台词出处见[角色检查台词写作参考](strings/voice-guide.md)。
+
+公共文本写在 `strings/common.lua`，其他角色台词写在对应的角色文件中，沿用双语格式：
 
 ```lua
 en_zh({EN = "English text", CN = "中文文本"})

@@ -887,7 +887,6 @@ local function MakeVeggie(name, has_seeds)
         inst.components.heavyobstaclephysics:SetRadius(OVERSIZED_PHYSICS_RADIUS)
 
         inst:AddComponent("inspectable")
-		inst.components.inspectable.nameoverride = "VEGGIE_OVERSIZED_ROTTEN"
 
         inst:AddComponent("workable")
         inst.components.workable:SetWorkAction(ACTIONS.HAMMER)
