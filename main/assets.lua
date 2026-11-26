@@ -36,6 +36,7 @@ Assets = {
 	Asset("ANIM", "anim/new_cook_pot_food.zip"),
 	
 	Asset("ANIM", "anim/plrebalance_royalseal.zip"),
+	Asset("ANIM", "anim/plreb_oinc_piggy_bank.zip"),
 	Asset("ANIM", "anim/sea_trinkets.zip"),
 	Asset("ANIM", "anim/tuber_tree_sapling.zip"),
 	Asset("ANIM", "anim/nettle_sapling.zip"),

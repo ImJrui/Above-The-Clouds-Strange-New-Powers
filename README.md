@@ -48,6 +48,7 @@
 | `art/tubertree_sapling/` | 块茎树苗的分层美术源稿、Spriter 工程、原生动画导出、资源回读预览，以及随机起始帧和生长链路的离线检查；运行时资源已接入，说明见该目录 README。 |
 | `art/sweetandsourcarp_scallion/` | 糖醋鲤鱼原盘明暗、盘沿笔触与鱼腹酱汁接触细修、放大四成的自然散落葱花和不规则酱汁的分层源稿、Spriter 工程及原生资源回读预览；使用原单帧 idle，说明见该目录 README。 |
 | `anim/` | Klei 动画资源 ZIP，内含动画、构建和纹理等二进制资源。 |
+| `anim/plreb_oinc_piggy_bank.zip` | 咕噜币存钱罐。动画库与构建名均为 `plreb_oinc_piggy_bank`，包含 `idle`（待机）、`deposit`（投币）、`shake`（摇晃）。Spriter 分层工程和回读动图位于本地 `art/oinc_piggy_bank/`。 |
 | `images/hud/` | 物品与 HUD 图集纹理和 XML 的 UV 索引，块茎树苗与荨麻籽图标并入 `plrebalance_inventoryimages`；`.xml.bak` 是保留的备份文件。 |
 | `preview.xml`、`preview.tex` | 模组列表图标的图集定义与纹理。 |
 | `mod.manifest` | 模组二进制清单文件，不作为源码编辑。 |
